@@ -1,10 +1,9 @@
-import type { DlssGame, HltbInfo } from "../types";
+import type { DlssGame } from "../types";
 import { getFrameGenLevel } from "../types";
 
 interface Props {
   filtered: DlssGame[];
   total: number;
-  hltb: Record<string, HltbInfo>;
 }
 
 export function StatsBar({ filtered, total }: Props) {

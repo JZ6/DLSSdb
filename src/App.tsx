@@ -40,18 +40,18 @@ export default function App() {
     return () => document.removeEventListener("keydown", handler);
   }, []);
 
-  // Fix sticky thead position after top-bar renders
+  // Sync sticky thead position with top-bar height via ResizeObserver
   useEffect(() => {
-    const fix = () => {
-      const h = document.getElementById("topbar")?.offsetHeight ?? 0;
-      document.querySelectorAll<HTMLElement>("thead th").forEach((th) => {
-        th.style.top = `${h}px`;
-      });
+    const topbar = document.getElementById("topbar");
+    if (!topbar) return;
+    const update = () => {
+      document.documentElement.style.setProperty("--topbar-h", `${topbar.offsetHeight}px`);
     };
-    requestAnimationFrame(fix);
-    window.addEventListener("resize", fix);
-    return () => window.removeEventListener("resize", fix);
-  }, [loading, filtered, visibleCols]);
+    const ro = new ResizeObserver(update);
+    ro.observe(topbar);
+    update();
+    return () => ro.disconnect();
+  }, [loading]);
 
   if (loading) {
     return (
@@ -101,7 +101,7 @@ export default function App() {
         filters={filters}
         onFilter={setFilter}
       />
-      <StatsBar filtered={filtered} total={games.length} hltb={hltb} />
+      <StatsBar filtered={filtered} total={games.length} />
     </>
   );
 }
