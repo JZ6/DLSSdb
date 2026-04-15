@@ -1,26 +1,25 @@
-import { memo } from "react";
+import { memo, useMemo } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, SortCol, SortDir, Filters } from "../types";
 import { FrameGenBadge, FeatureBadge, SteamBadge, HltbBadge } from "./Badge";
 
 export interface Column {
   key: SortCol;
   label: string;
-  width: string;
+  minWidth: string;
   tooltip: string;
 }
 
 export const COLUMNS: Column[] = [
-  { key: "name", label: "Game", width: "240px", tooltip: "Game title — click to search on Steam" },
-  { key: "framegen", label: "Frame Gen", width: "80px", tooltip: "DLSS Frame Generation multiplier — 6X (DLSS 4.5, RTX 50), 4X (DLSS 4, RTX 40/50), 2X (DLSS 3, RTX 40/50)" },
-  { key: "sr", label: "Super Res", width: "75px", tooltip: "DLSS Super Resolution — AI upscaling from lower resolution. NV-T = Transformer model (best quality)" },
-  { key: "rr", label: "Ray Recon", width: "75px", tooltip: "DLSS Ray Reconstruction — AI-enhanced ray tracing denoising for cleaner reflections and lighting" },
-  { key: "dlaa", label: "DLAA", width: "65px", tooltip: "Deep Learning Anti-Aliasing — AI anti-aliasing at native resolution (no upscaling)" },
-  { key: "rt", label: "Ray Tracing", width: "95px", tooltip: "Ray Tracing support — 'Path Tracing' = full path tracing, 'Yes' = partial ray tracing (reflections, shadows, GI)" },
-  { key: "steam", label: "Steam Rating", width: "180px", tooltip: "Steam user review rating and positive review percentage" },
-  { key: "hltb", label: "Hours to Beat", width: "140px", tooltip: "HowLongToBeat.com completion times — Main Story / Main + Extras / Completionist" },
+  { key: "name",     label: "Game",         minWidth: "160px", tooltip: "Game title — click to search on Steam" },
+  { key: "framegen", label: "Frame Gen",    minWidth: "70px",  tooltip: "DLSS Frame Generation multiplier — 6X (DLSS 4.5, RTX 50), 4X (DLSS 4, RTX 40/50), 2X (DLSS 3, RTX 40/50)" },
+  { key: "sr",       label: "Super Res",    minWidth: "70px",  tooltip: "DLSS Super Resolution — AI upscaling from lower resolution. NV-T = Transformer model (best quality)" },
+  { key: "rr",       label: "Ray Recon",    minWidth: "70px",  tooltip: "DLSS Ray Reconstruction — AI-enhanced ray tracing denoising for cleaner reflections and lighting" },
+  { key: "dlaa",     label: "DLAA",         minWidth: "60px",  tooltip: "Deep Learning Anti-Aliasing — AI anti-aliasing at native resolution (no upscaling)" },
+  { key: "rt",       label: "Ray Tracing",  minWidth: "90px",  tooltip: "Ray Tracing support — 'Path Tracing' = full path tracing, 'Yes' = partial ray tracing (reflections, shadows, GI)" },
+  { key: "steam",    label: "Steam Rating", minWidth: "180px", tooltip: "Steam user review rating and positive review percentage" },
+  { key: "hltb",     label: "Hours to Beat",minWidth: "70px",  tooltip: "HowLongToBeat.com — hover for Main / Main+Extras / Completionist breakdown" },
 ];
 
-// Filter options per column (key → options array)
 const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]>> = {
   framegen: [
     { value: "", label: "All" },
@@ -61,7 +60,6 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
   ],
 };
 
-// Map column key → filter key in Filters interface
 const COL_TO_FILTER: Partial<Record<SortCol, keyof Filters>> = {
   framegen: "framegen",
   sr: "sr",
@@ -70,15 +68,16 @@ const COL_TO_FILTER: Partial<Record<SortCol, keyof Filters>> = {
   steam: "steam",
 };
 
-const CELL_RENDERERS: Record<string, (game: DlssGame, steam?: SteamInfo, hltb?: HltbInfo) => React.JSX.Element> = {
-  name: () => <></>,
+type CellRenderer = (game: DlssGame, steam?: SteamInfo, hltb?: HltbInfo) => React.JSX.Element;
+
+const CELL_RENDERERS: Record<string, CellRenderer> = {
   framegen: (g) => <FrameGenBadge game={g} />,
-  sr: (g) => <FeatureBadge value={g["dlss super resolution"] || ""} />,
-  rr: (g) => <FeatureBadge value={g["dlss ray reconstruction"] || ""} />,
-  dlaa: (g) => <FeatureBadge value={g.dlaa || ""} />,
-  rt: (g) => <FeatureBadge value={g["ray tracing"] || ""} />,
-  steam: (_g, steam) => <SteamBadge info={steam} />,
-  hltb: (_g, _s, hltb) => <HltbBadge data={hltb} />,
+  sr:       (g) => <FeatureBadge value={g["dlss super resolution"] || ""} />,
+  rr:       (g) => <FeatureBadge value={g["dlss ray reconstruction"] || ""} />,
+  dlaa:     (g) => <FeatureBadge value={g.dlaa || ""} />,
+  rt:       (g) => <FeatureBadge value={g["ray tracing"] || ""} />,
+  steam:    (_g, steam) => <SteamBadge info={steam} />,
+  hltb:     (_g, _s, hltb) => <HltbBadge data={hltb} />,
 };
 
 interface Props {
@@ -94,20 +93,15 @@ interface Props {
 }
 
 export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibleCols, filters, onFilter }: Props) {
-  const cols = COLUMNS.filter((c) => visibleCols.has(c.key));
+  // Memoize so GameRow memo() actually prevents re-renders
+  const cols = useMemo(
+    () => COLUMNS.filter((c) => visibleCols.has(c.key)),
+    [visibleCols]
+  );
 
   return (
     <div className="table-wrap">
       <table>
-        <colgroup>
-          {cols.map((col) => {
-            const cls = col.key === "name" ? "col-name"
-              : col.key === "steam" ? "col-steam"
-              : col.key === "hltb" ? "col-hltb"
-              : "col-fixed";
-            return <col key={col.key} className={cls} />;
-          })}
-        </colgroup>
         <thead>
           <tr>
             {cols.map((col) => {
@@ -116,6 +110,7 @@ export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibl
               return (
                 <th
                   key={col.key}
+                  style={{ minWidth: col.minWidth }}
                   className={sortCol === col.key ? "sorted" : ""}
                   title={col.tooltip}
                 >
@@ -153,7 +148,13 @@ export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibl
         </thead>
         <tbody>
           {games.map((g) => (
-            <GameRow key={g.sno} game={g} hltbData={hltb[g.name]} steamInfo={steam[g.name]} visibleCols={cols} />
+            <GameRow
+              key={g.sno}
+              game={g}
+              hltbData={hltb[g.name]}
+              steamInfo={steam[g.name]}
+              cols={cols}
+            />
           ))}
         </tbody>
       </table>
@@ -162,13 +163,16 @@ export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibl
   );
 }
 
-const GameRow = memo(function GameRow({ game, hltbData, steamInfo, visibleCols }: {
-  game: DlssGame; hltbData?: HltbInfo; steamInfo?: SteamInfo; visibleCols: Column[];
+const GameRow = memo(function GameRow({ game, hltbData, steamInfo, cols }: {
+  game: DlssGame;
+  hltbData?: HltbInfo;
+  steamInfo?: SteamInfo;
+  cols: Column[];
 }) {
   const steamUrl = `https://store.steampowered.com/search/?term=${encodeURIComponent(game.name)}`;
   return (
     <tr>
-      {visibleCols.map((col) => {
+      {cols.map((col) => {
         if (col.key === "name") {
           return (
             <td key="name" className="nc">

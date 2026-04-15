@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useCallback } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, Filters, SortCol, SortDir } from "../types";
 import { getFrameGenLevel } from "../types";
 
@@ -27,11 +27,11 @@ export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, st
   const [sortCol, setSortCol] = useState<SortCol>("name");
   const [sortDir, setSortDir] = useState<SortDir>(1);
 
-  const setFilter = (key: keyof Filters, value: string) => {
+  const setFilter = useCallback((key: keyof Filters, value: string) => {
     setFilters((prev) => ({ ...prev, [key]: value }));
-  };
+  }, []);
 
-  const clearFilters = () => setFilters(EMPTY_FILTERS);
+  const clearFilters = useCallback(() => setFilters(EMPTY_FILTERS), []);
 
   const toggleSort = (col: SortCol) => {
     if (sortCol === col) {

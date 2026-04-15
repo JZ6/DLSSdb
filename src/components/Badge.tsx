@@ -50,19 +50,19 @@ export function SteamBadge({ info }: { info?: SteamInfo }) {
 }
 
 export function HltbBadge({ data }: { data?: HltbInfo }) {
-  if (!data) return <span className="empty">—</span>;
-  const parts: React.JSX.Element[] = [];
-  if (data.main) parts.push(<span key="m" className="hltb-main">{data.main}h</span>);
-  if (data.extra) parts.push(<span key="e" className="hltb-extra">{data.extra}h</span>);
-  if (data.complete) parts.push(<span key="c" className="hltb-extra">{data.complete}h</span>);
-  if (!parts.length) return <span className="empty">—</span>;
+  if (!data || (!data.main && !data.extra && !data.complete)) {
+    return <span className="empty">—</span>;
+  }
+
+  const tooltip = [
+    data.main && `Main Story: ${data.main}h`,
+    data.extra && `Main + Extras: ${data.extra}h`,
+    data.complete && `Completionist: ${data.complete}h`,
+  ].filter(Boolean).join("\n");
+
   return (
-    <div className="hltb-cell" title="Main / Main+Extra / Completionist">
-      {parts.reduce<React.JSX.Element[]>((acc, el, i) => {
-        if (i > 0) acc.push(<span key={`s${i}`} className="hltb-sep">/</span>);
-        acc.push(el);
-        return acc;
-      }, [])}
-    </div>
+    <span className="hltb-cell" title={tooltip}>
+      <span className="hltb-main">{data.main ?? "?"}h</span>
+    </span>
   );
 }
