@@ -51,14 +51,14 @@ export function SteamBadge({ info }: { info?: SteamInfo }) {
 
 export function HltbBadge({ data }: { data?: HltbInfo }) {
   if (!data) return <span className="empty">—</span>;
-  const parts: JSX.Element[] = [];
+  const parts: React.JSX.Element[] = [];
   if (data.main) parts.push(<span key="m" className="hltb-main">{data.main}h</span>);
   if (data.extra) parts.push(<span key="e" className="hltb-extra">{data.extra}h</span>);
   if (data.complete) parts.push(<span key="c" className="hltb-extra">{data.complete}h</span>);
   if (!parts.length) return <span className="empty">—</span>;
   return (
     <div className="hltb-cell" title="Main / Main+Extra / Completionist">
-      {parts.reduce<JSX.Element[]>((acc, el, i) => {
+      {parts.reduce<React.JSX.Element[]>((acc, el, i) => {
         if (i > 0) acc.push(<span key={`s${i}`} className="hltb-sep">/</span>);
         acc.push(el);
         return acc;

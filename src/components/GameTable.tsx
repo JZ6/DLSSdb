@@ -70,7 +70,7 @@ const COL_TO_FILTER: Partial<Record<SortCol, keyof Filters>> = {
   steam: "steam",
 };
 
-const CELL_RENDERERS: Record<string, (game: DlssGame, steam?: SteamInfo, hltb?: HltbInfo) => JSX.Element> = {
+const CELL_RENDERERS: Record<string, (game: DlssGame, steam?: SteamInfo, hltb?: HltbInfo) => React.JSX.Element> = {
   name: () => <></>,
   framegen: (g) => <FrameGenBadge game={g} />,
   sr: (g) => <FeatureBadge value={g["dlss super resolution"] || ""} />,
