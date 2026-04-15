@@ -48,7 +48,7 @@ export default function App() {
         th.style.top = `${h}px`;
       });
     };
-    fix();
+    requestAnimationFrame(fix);
     window.addEventListener("resize", fix);
     return () => window.removeEventListener("resize", fix);
   }, [loading, filtered, visibleCols]);
@@ -78,14 +78,17 @@ export default function App() {
     <>
       <div className="top-bar" id="topbar">
         <header>
-          <h1>DLSSdb</h1>
+          <div className="header-left">
+            <h1>DLSSdb</h1>
+            <span className="subtitle">Browse and filter NVIDIA DLSS supported games</span>
+          </div>
+          <div className="header-actions">
+            <ColumnToggle columns={COLUMNS} visible={visibleCols} onToggle={toggleCol} />
+            <button type="button" className="btn-clear" onClick={clearFilters}>
+              Clear Filters
+            </button>
+          </div>
         </header>
-        <StatsBar filtered={filtered} total={games.length} hltb={hltb}>
-          <ColumnToggle columns={COLUMNS} visible={visibleCols} onToggle={toggleCol} />
-          <button type="button" className="btn-clear" onClick={clearFilters}>
-            Clear Filters
-          </button>
-        </StatsBar>
       </div>
       <GameTable
         games={filtered}
@@ -98,6 +101,7 @@ export default function App() {
         filters={filters}
         onFilter={setFilter}
       />
+      <StatsBar filtered={filtered} total={games.length} hltb={hltb} />
     </>
   );
 }
