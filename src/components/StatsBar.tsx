@@ -7,7 +7,7 @@ interface Props {
   hltb: Record<string, HltbInfo>;
 }
 
-export function StatsBar({ filtered, total, hltb }: Props) {
+export function StatsBar({ filtered, total }: Props) {
   let c6 = 0, c4 = 0, c2 = 0;
   for (const g of filtered) {
     const level = getFrameGenLevel(g);
