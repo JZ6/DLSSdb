@@ -1,73 +1,47 @@
-# React + TypeScript + Vite
+# DLSSdb
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Browse and filter NVIDIA DLSS supported games with Steam reviews and HowLongToBeat data.
 
-Currently, two official plugins are available:
+**Live site:** [jz6.github.io/dlssdb](https://jz6.github.io/dlssdb/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- 793 games from NVIDIA's official DLSS list
+- Combined Frame Generation column (6X / 4X / 2X)
+- Steam user review ratings
+- HowLongToBeat completion times
+- Inline column header filters and sorting
+- Toggleable column visibility
+- Dark theme, responsive layout
+- Keyboard shortcut: `/` to focus search
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Data Sources
 
-## Expanding the ESLint configuration
+All data is stored as static JSON files in `public/` for easy updates:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| File | Source | How to update |
+|---|---|---|
+| `dlss-rt-games-apps-overrides.json` | [nvidia.com](https://www.nvidia.com/en-us/geforce/news/nvidia-rtx-games-engines-apps/) | Re-download from NVIDIA |
+| `steam_data.json` | Manually curated | Add entries with `{ "rating": "...", "pct": N }` |
+| `hltb_data.json` | [howlongtobeat.com](https://howlongtobeat.com/) | Run HLTB fetch script |
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Development
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Build & Deploy
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build     # outputs to dist/
+npm run preview   # preview production build locally
 ```
+
+GitHub Pages deployment is configured via the `base: '/dlssdb/'` setting in `vite.config.ts`.
+
+## Tech Stack
+
+- Vite + React + TypeScript
+- No external UI libraries

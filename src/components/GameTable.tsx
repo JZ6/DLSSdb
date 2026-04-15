@@ -99,6 +99,15 @@ export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibl
   return (
     <div className="table-wrap">
       <table>
+        <colgroup>
+          {cols.map((col) => {
+            const cls = col.key === "name" ? "col-name"
+              : col.key === "steam" ? "col-steam"
+              : col.key === "hltb" ? "col-hltb"
+              : "col-fixed";
+            return <col key={col.key} className={cls} />;
+          })}
+        </colgroup>
         <thead>
           <tr>
             {cols.map((col) => {
@@ -107,7 +116,6 @@ export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibl
               return (
                 <th
                   key={col.key}
-                  style={col.key === "name" || col.key === "steam" ? { minWidth: col.width } : { width: col.width }}
                   className={sortCol === col.key ? "sorted" : ""}
                   title={col.tooltip}
                 >
