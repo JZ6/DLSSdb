@@ -7,7 +7,7 @@
     "rating": "Overwhelmingly Positive",
     "pct": 98
   },
-  "God of War Ragnar\u00f6k": {
+  "God of War Ragnarök": {
     "rating": "Overwhelmingly Positive",
     "pct": 96
   },
@@ -350,5 +350,29 @@
   "Redfall": {
     "rating": "Mostly Negative",
     "pct": 40
+  },
+  "Wrench": {
+    "rating": "Very Positive",
+    "pct": 86
+  },
+  "Rise of the Tomb Raider": {
+    "rating": "Very Positive",
+    "pct": 94
+  },
+  "Monster Hunter Rise": {
+    "rating": "Very Positive",
+    "pct": 83
+  },
+  "Frozen Flame": {
+    "rating": "Mixed",
+    "pct": 63
+  },
+  "Torque Drift 2": {
+    "rating": "Mixed",
+    "pct": 66
+  },
+  "Soulslinger: Envoy of Death": {
+    "rating": "Mixed",
+    "pct": 65
   }
 }
