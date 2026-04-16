@@ -65,13 +65,10 @@ export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, st
       // Steam filter
       if (filters.steam) {
         const sr = STEAM_ORDER[steam[g.name]?.rating] ?? -1;
-        if (filters.steam === "op" && sr !== 5) return false;
-        if (filters.steam === "vp" && sr !== 4) return false;
-        if (filters.steam === "mp" && sr !== 3) return false;
-        if (filters.steam === "mix" && sr !== 2) return false;
-        if (filters.steam === "neg" && (sr < 0 || sr > 2)) return false;
+        if (filters.steam === "op+" && sr < 5) return false;
         if (filters.steam === "vp+" && sr < 4) return false;
         if (filters.steam === "mp+" && sr < 3) return false;
+        if (filters.steam === "neg" && (sr < 0 || sr > 2)) return false;
         if (filters.steam === "unk" && sr !== -1) return false;
       }
 

@@ -62,7 +62,7 @@ export function HltbBadge({ data }: { data?: HltbInfo }) {
   ].filter(Boolean).join("\n");
 
   return (
-    <span className="hltb-cell" title={tooltip}>
+    <span className="hltb-cell" data-tip={tooltip}>
       <span className="hltb-main">{fmt(displayHours)}h</span>
     </span>
   );

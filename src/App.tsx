@@ -40,43 +40,40 @@ export default function App() {
     return () => document.removeEventListener("keydown", handler);
   }, []);
 
-  // Sync sticky thead position with top-bar height via ResizeObserver
-  useEffect(() => {
-    const topbar = document.getElementById("topbar");
-    if (!topbar) return;
-    const update = () => {
-      document.documentElement.style.setProperty("--topbar-h", `${topbar.offsetHeight}px`);
-    };
-    const ro = new ResizeObserver(update);
-    ro.observe(topbar);
-    update();
-    return () => ro.disconnect();
-  }, [loading]);
-
   if (loading) {
     return (
-      <div className="loading">
-        <span className="spinner" />
-        Loading game data…
-      </div>
+      <>
+        <div className="top-bar">
+          <header><div className="header-left"><h1>DLSSdb</h1></div></header>
+        </div>
+        <div className="loading">
+          <span className="spinner" />
+          Loading game data…
+        </div>
+        <StatsBar filtered={[]} total={0} />
+      </>
     );
   }
 
   if (error) {
     return (
-      <div className="error-page">
-        <h2>Failed to load game data</h2>
-        <p>
-          Make sure <code>dlss-rt-games-apps-overrides.json</code> is in the <code>public/</code> folder.
-        </p>
-        <p className="error-detail">{error}</p>
-      </div>
+      <>
+        <div className="top-bar">
+          <header><div className="header-left"><h1>DLSSdb</h1></div></header>
+        </div>
+        <div className="error-page">
+          <h2>Failed to load game data</h2>
+          <p>Make sure <code>dlss-rt-games-apps-overrides.json</code> is in the <code>public/</code> folder.</p>
+          <p className="error-detail">{error}</p>
+        </div>
+        <StatsBar filtered={[]} total={0} />
+      </>
     );
   }
 
   return (
     <>
-      <div className="top-bar" id="topbar">
+      <div className="top-bar">
         <header>
           <div className="header-left">
             <h1>DLSSdb</h1>
