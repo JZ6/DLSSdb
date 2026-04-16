@@ -62,7 +62,7 @@ thead th:first-child, td:first-child { padding-left: var(--pad); }
 thead th:last-child, td:last-child { padding-right: var(--pad); }
 table { width: 100%; border-collapse: collapse; table-layout: auto; }
 thead th { background: var(--bg2); padding: 6px 12px 8px; text-align: center; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-dim); position: sticky; top: var(--topbar-h); border-bottom: 2px solid var(--green-dim); box-shadow: 0 -4px 0 4px var(--bg2); user-select: none; white-space: nowrap; z-index: 10; vertical-align: top; width: 1%; }
-thead th:first-child { width: auto; text-align: left; }
+thead th:first-child { width: auto; }
 thead th.sorted { color: var(--green); }
 .th-label { cursor: pointer; padding: 2px 0 4px; }
 .th-label:hover { color: var(--text); }
@@ -75,7 +75,7 @@ tbody tr { border-bottom: 1px solid var(--border); transition: background 0.1s; 
 tbody tr:nth-child(even) { background: var(--bg-row-alt); }
 tbody tr:hover { background: #1a2200; }
 td { padding: 8px 12px; vertical-align: middle; white-space: nowrap; text-align: center; }
-td.nc { font-weight: 500; overflow: hidden; text-overflow: ellipsis; max-width: 0; text-align: left; }
+td.nc { font-weight: 500; overflow: hidden; text-overflow: ellipsis; max-width: 0; }
 td.nc a { color: var(--text); text-decoration: none; transition: color 0.1s; }
 td.nc a:hover { color: var(--green); }
 
