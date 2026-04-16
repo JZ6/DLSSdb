@@ -48,7 +48,7 @@ export function useFilters(
   hltb: Record<string, HltbInfo>,
   steam: Record<string, SteamInfo>,
   metacritic: Record<string, MetacriticInfo> = {},
-  upscaling: Record<string, UpscalingInfo> = {},
+  _upscaling: Record<string, UpscalingInfo> = {},
 ) {
   const [filters, setFilters] = useState<Filters>(loadFilters);
   const [sortCol, setSortCol] = useState<SortCol>(() => loadSort().col);
