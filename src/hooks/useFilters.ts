@@ -1,6 +1,6 @@
 import { useState, useMemo, useCallback } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, Filters, SortCol, SortDir } from "../types";
-import { getFrameGenLevel } from "../types";
+import { getFrameGenLevel, getHltbHours } from "../types";
 
 const FT_ORDER: Record<string, number> = { "NV, T": 2, Yes: 1, "": 0 };
 const RT_ORDER: Record<string, number> = { "Path Tracing": 2, Yes: 1, "": 0 };
@@ -13,7 +13,7 @@ const STEAM_ORDER: Record<string, number> = {
   "Very Negative": 0,
 };
 
-const EMPTY_FILTERS: Filters = { search: "", framegen: "", sr: "", rr: "", rt: "", steam: "" };
+const EMPTY_FILTERS: Filters = { search: "", framegen: "", sr: "", rr: "", rt: "", steam: "", hltb: "" };
 
 function fmatch(val: string, filt: string): boolean {
   if (!filt) return true;
@@ -48,7 +48,7 @@ export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, st
     let result = games.filter((g) => {
       if (q && !g.name.toLowerCase().includes(q)) return false;
 
-      // Frame Gen filter (combined MFG + FG)
+      // Frame Gen filter
       if (filters.framegen) {
         const level = getFrameGenLevel(g);
         if (filters.framegen === "6x" && level !== 3) return false;
@@ -62,6 +62,7 @@ export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, st
       if (!fmatch(g["dlss ray reconstruction"] || "", filters.rr)) return false;
       if (!fmatch(g["ray tracing"] || "", filters.rt)) return false;
 
+      // Steam filter
       if (filters.steam) {
         const sr = STEAM_ORDER[steam[g.name]?.rating] ?? -1;
         if (filters.steam === "op" && sr !== 5) return false;
@@ -74,12 +75,27 @@ export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, st
         if (filters.steam === "unk" && sr !== -1) return false;
       }
 
+      // HLTB filter
+      if (filters.hltb) {
+        const hours = getHltbHours(hltb[g.name]);
+        if (filters.hltb === "u10" && (hours === undefined || hours >= 10)) return false;
+        if (filters.hltb === "u25" && (hours === undefined || hours >= 25)) return false;
+        if (filters.hltb === "u50" && (hours === undefined || hours >= 50)) return false;
+        if (filters.hltb === "50+" && (hours === undefined || hours < 50)) return false;
+        if (filters.hltb === "any" && hours === undefined) return false;
+        if (filters.hltb === "unk" && hours !== undefined) return false;
+      }
+
       return true;
     });
 
     result.sort((a, b) => {
       const av = getSortVal(a, sortCol, hltb, steam);
       const bv = getSortVal(b, sortCol, hltb, steam);
+      // null values always sort last regardless of direction
+      if (av === null && bv === null) return 0;
+      if (av === null) return 1;
+      if (bv === null) return -1;
       if (typeof av === "number" && typeof bv === "number") return (av - bv) * sortDir;
       return String(av).localeCompare(String(bv)) * sortDir;
     });
@@ -90,7 +106,7 @@ export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, st
   return { filtered, filters, setFilter, clearFilters, sortCol, sortDir, toggleSort };
 }
 
-function getSortVal(g: DlssGame, col: SortCol, hltb: Record<string, HltbInfo>, steam: Record<string, SteamInfo>): string | number {
+function getSortVal(g: DlssGame, col: SortCol, hltb: Record<string, HltbInfo>, steam: Record<string, SteamInfo>): string | number | null {
   switch (col) {
     case "name":
       return g.name.toLowerCase();
@@ -104,10 +120,12 @@ function getSortVal(g: DlssGame, col: SortCol, hltb: Record<string, HltbInfo>, s
       return FT_ORDER[g.dlaa || ""] ?? 0;
     case "rt":
       return RT_ORDER[g["ray tracing"] || ""] ?? 0;
-    case "steam":
-      return STEAM_ORDER[steam[g.name]?.rating] ?? -1;
+    case "steam": {
+      const v = STEAM_ORDER[steam[g.name]?.rating];
+      return v !== undefined ? v : null;
+    }
     case "hltb":
-      return hltb[g.name]?.main ?? 9999;
+      return getHltbHours(hltb[g.name]) ?? null;
     default:
       return "";
   }

@@ -42,6 +42,12 @@ export interface Filters {
   rr: string;
   rt: string;
   steam: string;
+  hltb: string;
+}
+
+/** Returns the best available hours value (main > extra > complete), or undefined */
+export function getHltbHours(info?: HltbInfo): number | undefined {
+  return info?.main ?? info?.extra ?? info?.complete;
 }
 
 export type SortCol = "name" | "framegen" | "sr" | "rr" | "dlaa" | "rt" | "steam" | "hltb";
