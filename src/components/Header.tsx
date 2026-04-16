@@ -16,7 +16,7 @@ export function Header({ columns, visibleCols, onToggleCol, onClearFilters }: Pr
       <header>
         <div className="header-left">
           <h1>DLSSdb</h1>
-          {showActions && <span className="subtitle">Every DLSS game. Reviews. Playtime. All in one place.</span>}
+          <span className="subtitle">Every DLSS game. Reviews. Playtime. All in one place.</span>
         </div>
         {showActions && (
           <div className="header-actions">

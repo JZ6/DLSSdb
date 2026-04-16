@@ -21,14 +21,18 @@ export function useGameData(): GameData {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    const controller = new AbortController();
+    const { signal } = controller;
+
     const fetchJson = <T,>(url: string, required = false): Promise<T> =>
-      fetch(url).then((r) => {
+      fetch(url, { signal }).then((r) => {
         if (!r.ok) {
           if (required) throw new Error(`Failed to load ${url}`);
           return {} as T;
         }
         return r.json() as Promise<T>;
       }).catch((err) => {
+        if (err.name === "AbortError") throw err;
         if (required) throw err;
         return {} as T;
       });
@@ -42,6 +46,7 @@ export function useGameData(): GameData {
       fetchJson<Record<string, UpscalingInfo>>(`${base}upscaling_data.json`),
     ])
       .then(([dlss, hltbData, steamData, metacriticData, upscalingData]) => {
+        if (signal.aborted) return;
         const filtered = dlss.data
           .filter((e) => e.type === "Game")
           .map((e) => ({ ...e, name: String(e.name) }));
@@ -53,9 +58,12 @@ export function useGameData(): GameData {
         setLoading(false);
       })
       .catch((err) => {
+        if (err.name === "AbortError") return;
         setError(err.message);
         setLoading(false);
       });
+
+    return () => controller.abort();
   }, []);
 
   return { games, hltb, steam, metacritic, upscaling, loading, error };

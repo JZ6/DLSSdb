@@ -17,14 +17,19 @@ export interface DlssData {
 }
 
 export interface SteamInfo {
-  rating: SteamRating;
-  pct: number;
+  rating?: SteamRating;
+  pct?: number;
+  total?: number;
+  not_on_steam?: boolean;
+  appid?: number;
+  image?: string;
 }
 
 export interface HltbInfo {
   main?: number;
   extra?: number;
   complete?: number;
+  hltb_id?: number;
 }
 
 export interface MetacriticInfo {
@@ -32,25 +37,29 @@ export interface MetacriticInfo {
 }
 
 export interface UpscalingInfo {
-  fsr?: boolean;
-  xess?: boolean;
+  fsr_version?: string;
+  xess_version?: string;
 }
 
 export type SteamRating =
   | "Overwhelmingly Positive"
   | "Very Positive"
+  | "Positive"
   | "Mostly Positive"
   | "Mixed"
   | "Mostly Negative"
+  | "Negative"
   | "Very Negative";
 
 export interface Filters {
   search: string;
   framegen: string;
   dlssver: string;
+  dlaa: string;
   sr: string;
   rr: string;
   rt: string;
+  upscaling: string;
   steam: string;
   metacritic: string;
   hltb: string;
@@ -92,6 +101,7 @@ export function getDlssVersion(g: DlssGame): string {
   return "1";
 }
 
+/** Numeric sort order for DLSS version strings (higher = newer) */
 const DLSS_VER_ORDER: Record<string, number> = { "4.5": 5, "4": 4, "3.5": 3, "3": 2, "2": 1, "1": 0 };
 
 export function getDlssVersionOrder(g: DlssGame): number {
