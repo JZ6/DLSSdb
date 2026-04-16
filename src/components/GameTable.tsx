@@ -115,8 +115,8 @@ export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibl
                 >
                   <div className="th-label" onClick={() => onSort(col.key)}>
                     <span className="si">
-                      <span className={sortCol === col.key && sortDir === 1 ? "si-on" : "si-off"}>▲</span>
-                      <span className={sortCol === col.key && sortDir === -1 ? "si-on" : "si-off"}>▼</span>
+                      <span className={`si-up ${sortCol === col.key && sortDir === 1 ? "si-on" : "si-off"}`} />
+                      <span className={`si-down ${sortCol === col.key && sortDir === -1 ? "si-on" : "si-off"}`} />
                     </span>
                     {col.label}
                     <span
