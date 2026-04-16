@@ -114,10 +114,10 @@ export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibl
                   className={sortCol === col.key ? "sorted" : ""}
                 >
                   <div className="th-label" onClick={() => onSort(col.key)}>
-                    {col.label}{" "}
                     <span className="si">
                       {sortCol === col.key ? (sortDir === 1 ? "▲" : "▼") : "↕"}
                     </span>
+                    {col.label}
                     <span
                       className="th-info"
                       data-tip={col.tooltip}

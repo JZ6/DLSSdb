@@ -6,13 +6,18 @@ import { GameTable, COLUMNS } from "./components/GameTable";
 import { ColumnToggle } from "./components/ColumnToggle";
 import type { SortCol } from "./types";
 
-const DEFAULT_VISIBLE = new Set<SortCol>(["name", "framegen", "steam", "hltb"]);
+function getDefaultCols(): Set<SortCol> {
+  const w = window.innerWidth;
+  if (w < 768) return new Set(["name", "framegen", "steam"]);
+  if (w < 1200) return new Set(["name", "framegen", "steam", "hltb"]);
+  return new Set(["name", "framegen", "rt", "steam", "hltb"]);
+}
 
 export default function App() {
   const { games, hltb, steam, loading, error } = useGameData();
   const { filtered, filters, setFilter, clearFilters, sortCol, sortDir, toggleSort } =
     useFilters(games, hltb, steam);
-  const [visibleCols, setVisibleCols] = useState<Set<SortCol>>(DEFAULT_VISIBLE);
+  const [visibleCols, setVisibleCols] = useState<Set<SortCol>>(getDefaultCols);
 
   const toggleCol = useCallback((key: SortCol) => {
     if (key === "name") return;
