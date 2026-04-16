@@ -57,7 +57,7 @@ select { cursor: pointer; }
 .stats-bar .sep { color: var(--border); }
 
 /* Table — full width, padding on first/last columns */
-.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.table-wrap { overflow-x: clip; }
 thead th:first-child, td:first-child { padding-left: var(--pad); }
 thead th:last-child, td:last-child { padding-right: var(--pad); }
 table { width: 100%; border-collapse: collapse; table-layout: auto; }
