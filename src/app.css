@@ -61,7 +61,7 @@ select { cursor: pointer; }
 .stats-bar .sep { color: var(--border); }
 
 /* Table — scrolls independently, sticky header + pinned first column */
-.table-wrap { flex: 1; overflow: auto; min-height: 0; }
+.table-wrap { flex: 1; overflow-y: auto; overflow-x: clip; min-height: 0; }
 thead th:first-child, td:first-child { padding-left: var(--pad); }
 thead th:last-child, td:last-child { padding-right: var(--pad); }
 table { width: 100%; border-collapse: collapse; table-layout: auto; }
@@ -91,9 +91,9 @@ tbody tr:hover td:first-child { background: #1a2200; }
 .th-label { cursor: pointer; padding: 2px 0 4px; display: flex; align-items: center; }
 .th-label:hover { color: var(--text); }
 .th-label:hover .si-off { opacity: 0.5; }
-thead th .si { margin-right: 4px; display: inline-flex; flex-direction: column; align-items: center; vertical-align: middle; line-height: 0.85; gap: 1px; }
-.si-on  { font-size: 8px; color: var(--green); }
-.si-off { font-size: 8px; color: var(--text-dim); opacity: 0.3; }
+thead th .si { margin-right: 4px; display: inline-flex; flex-direction: column; align-items: center; vertical-align: middle; line-height: 0.7; gap: 0; }
+.si-on  { font-size: 6px; color: var(--green); }
+.si-off { font-size: 6px; color: var(--text-dim); opacity: 0.25; }
 .th-filter-input, .th-filter-select { background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: 3px 5px; border-radius: 4px; font-size: 12px; outline: none; transition: border-color 0.15s; display: block; width: 100%; }
 .th-filter-input:focus, .th-filter-select:focus { border-color: var(--green); }
 .th-filter-select { cursor: pointer; }
