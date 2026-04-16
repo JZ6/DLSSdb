@@ -112,13 +112,18 @@ export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibl
                   key={col.key}
                   style={{ minWidth: col.minWidth }}
                   className={sortCol === col.key ? "sorted" : ""}
-                  data-tip={col.tooltip}
                 >
                   <div className="th-label" onClick={() => onSort(col.key)}>
                     {col.label}{" "}
                     <span className="si">
                       {sortCol === col.key ? (sortDir === 1 ? "▲" : "▼") : "↕"}
                     </span>
+                    <span
+                      className="th-info"
+                      data-tip={col.tooltip}
+                      tabIndex={0}
+                      onClick={(e) => e.stopPropagation()}
+                    >ⓘ</span>
                   </div>
                   {col.key === "name" ? (
                     <input
