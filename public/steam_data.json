@@ -2754,5 +2754,61 @@
   "Yakuza Kiwami 3 & Dark Ties": {
     "rating": "Mixed",
     "pct": 61
+  },
+  "Alien: Rogue Incursion - Part One: Evolved Edition": {
+    "rating": "Very Positive",
+    "pct": 84
+  },
+  "Call of Duty: Warzone (2020)": {
+    "rating": "Mostly Negative",
+    "pct": 31
+  },
+  "Call of Duty: Warzone (2022)": {
+    "rating": "Mostly Negative",
+    "pct": 31
+  },
+  "Delta Force: Black Hawk Down Campaign": {
+    "rating": "Mixed",
+    "pct": 58
+  },
+  "Desynced: Autonomous Colony Simulator": {
+    "rating": "Very Positive",
+    "pct": 80
+  },
+  "Eldegarde (Formerly 'Legacy: Steel & Sorcery')": {
+    "rating": "Mixed",
+    "pct": 62
+  },
+  "Evil Dead: The Game": {
+    "rating": "Very Positive",
+    "pct": 80
+  },
+  "Honkai: Star Rail": {
+    "rating": "Mostly Positive",
+    "pct": 73
+  },
+  "MechWarrior 5: Mercenaries": {
+    "rating": "Very Positive",
+    "pct": 85
+  },
+  "RuneScape: Dragonwilds": {
+    "rating": "Very Positive",
+    "pct": 81
+  },
+  "SlavicPunk: Oldtimer": {
+    "rating": "Mixed",
+    "pct": 66
+  },
+  "System Shock (2023)": {
+    "rating": "Very Positive",
+    "pct": 91
+  },
+  "The Backrooms: Lost Tape": {
+    "rating": "Mixed",
+    "pct": 64
+  },
+  "Truck Mechanic: Dangerous Paths - Prologue": {
+    "rating": "Mixed",
+    "pct": 69
   }
 }

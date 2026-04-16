@@ -95,9 +95,9 @@ def update_dlss():
 
 # --- Steam ---
 
-def steam_search(name: str) -> "int | None":
-    """Search Steam for a game and return its App ID."""
-    url = f"https://store.steampowered.com/api/storesearch/?term={urllib.parse.quote(name)}&l=english&cc=US"
+def _steam_search_term(term: str) -> "int | None":
+    """Search Steam for a single term and return best App ID."""
+    url = f"https://store.steampowered.com/api/storesearch/?term={urllib.parse.quote(term)}&l=english&cc=US"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "DLSSdb/1.0"})
         with urllib.request.urlopen(req, timeout=10) as resp:
@@ -107,12 +107,42 @@ def steam_search(name: str) -> "int | None":
                 return None
             # Try exact match first
             for item in items:
-                if item.get("name", "").lower() == name.lower():
+                if item.get("name", "").lower() == term.lower():
                     return item["id"]
             # Fall back to first result
             return items[0]["id"]
     except Exception:
         return None
+
+
+def steam_search(name: str) -> "int | None":
+    """Search Steam with fallback strategies for name mismatches."""
+    import re
+    # Try exact name first
+    result = _steam_search_term(name)
+    if result:
+        return result
+    # Try without parenthetical suffixes: "System Shock (2023)" -> "System Shock"
+    stripped = re.sub(r"\s*\(.*?\)\s*$", "", name).strip()
+    if stripped != name:
+        result = _steam_search_term(stripped)
+        if result:
+            return result
+    # Try without subtitle after colon/dash: "Alien: Rogue Incursion - Part One" -> "Alien Rogue Incursion"
+    simplified = re.sub(r"[:\-–—]", " ", name)
+    simplified = re.sub(r"\s+", " ", simplified).strip()
+    if simplified != name:
+        result = _steam_search_term(simplified)
+        if result:
+            return result
+    # Try just the first part before colon: "Desynced: Autonomous Colony Simulator" -> "Desynced"
+    if ":" in name:
+        first_part = name.split(":")[0].strip()
+        if len(first_part) > 3:
+            result = _steam_search_term(first_part)
+            if result:
+                return result
+    return None
 
 
 def steam_reviews(app_id: int) -> "dict | None":
