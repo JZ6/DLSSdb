@@ -6,7 +6,13 @@ import { GameTable, COLUMNS } from "./components/GameTable";
 import { ColumnToggle } from "./components/ColumnToggle";
 import type { SortCol } from "./types";
 
+const LS_COLS = "dlssdb-columns";
+
 function getDefaultCols(): Set<SortCol> {
+  try {
+    const saved = localStorage.getItem(LS_COLS);
+    if (saved) return new Set(JSON.parse(saved));
+  } catch { /* ignore */ }
   const w = window.innerWidth;
   if (w < 768) return new Set(["name", "framegen", "steam"]);
   if (w < 1200) return new Set(["name", "framegen", "steam", "hltb"]);
@@ -18,6 +24,11 @@ export default function App() {
   const { filtered, filters, setFilter, clearFilters, sortCol, sortDir, toggleSort } =
     useFilters(games, hltb, steam);
   const [visibleCols, setVisibleCols] = useState<Set<SortCol>>(getDefaultCols);
+
+  // Persist columns to localStorage
+  useEffect(() => {
+    localStorage.setItem(LS_COLS, JSON.stringify([...visibleCols]));
+  }, [visibleCols]);
 
   const toggleCol = useCallback((key: SortCol) => {
     if (key === "name") return;
