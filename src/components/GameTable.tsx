@@ -61,11 +61,9 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
   hltb: [
     { value: "", label: "All" },
     { value: "u10", label: "< 10h" },
-    { value: "u24", label: "< 24h" },
     { value: "u60", label: "< 60h" },
     { value: "u100", label: "< 100h" },
     { value: "100+", label: "100h+" },
-    { value: "any", label: "Has data" },
     { value: "unk", label: "Unknown" },
   ],
 };

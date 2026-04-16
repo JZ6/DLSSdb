@@ -79,11 +79,9 @@ export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, st
       if (filters.hltb) {
         const hours = getHltbHours(hltb[g.name]);
         if (filters.hltb === "u10"  && (hours === undefined || hours >= 10))  return false;
-        if (filters.hltb === "u24"  && (hours === undefined || hours >= 24))  return false;
         if (filters.hltb === "u60"  && (hours === undefined || hours >= 60))  return false;
         if (filters.hltb === "u100" && (hours === undefined || hours >= 100)) return false;
         if (filters.hltb === "100+" && (hours === undefined || hours < 100))  return false;
-        if (filters.hltb === "any"  && hours === undefined) return false;
         if (filters.hltb === "unk"  && hours !== undefined) return false;
       }
 
