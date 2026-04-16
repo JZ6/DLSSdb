@@ -88,11 +88,12 @@ td:first-child { position: sticky; left: 0; background: var(--bg); z-index: 5; b
 tbody tr:nth-child(even) td:first-child { background: var(--bg-row-alt); }
 tbody tr:hover td:first-child { background: #1a2200; }
 
-.th-label { cursor: pointer; padding: 2px 0 4px; }
+.th-label { cursor: pointer; padding: 2px 0 4px; display: flex; align-items: center; }
 .th-label:hover { color: var(--text); }
-thead th .si { margin-right: 3px; opacity: 0.4; font-size: 9px; display: inline-flex; flex-direction: column; vertical-align: middle; line-height: 1; }
-thead th.sorted .si { opacity: 1; }
-.si-both { display: flex; flex-direction: column; align-items: center; font-size: 7px; line-height: 1.1; }
+.th-label:hover .si-off { opacity: 0.5; }
+thead th .si { margin-right: 4px; display: inline-flex; flex-direction: column; align-items: center; vertical-align: middle; line-height: 0.85; gap: 1px; }
+.si-on  { font-size: 8px; color: var(--green); }
+.si-off { font-size: 8px; color: var(--text-dim); opacity: 0.3; }
 .th-filter-input, .th-filter-select { background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: 3px 5px; border-radius: 4px; font-size: 12px; outline: none; transition: border-color 0.15s; display: block; width: 100%; }
 .th-filter-input:focus, .th-filter-select:focus { border-color: var(--green); }
 .th-filter-select { cursor: pointer; }
