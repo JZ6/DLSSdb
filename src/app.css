@@ -131,7 +131,7 @@ td.nc a:hover { color: var(--green); }
 .empty { color: #444; }
 .no-results { text-align: center; padding: 60px; color: var(--text-dim); font-size: 14px; }
 
-/* CSS tooltips — instant, no browser delay */
+/* CSS tooltips — instant, no browser delay, works on mobile via focus */
 [data-tip] { position: relative; }
 [data-tip]::after {
   content: attr(data-tip);
@@ -148,17 +148,32 @@ td.nc a:hover { color: var(--green); }
   font-weight: 400;
   text-transform: none;
   letter-spacing: 0;
-  white-space: pre;
+  white-space: pre-wrap;
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.12s;
   z-index: 500;
   box-shadow: 0 4px 12px rgba(0,0,0,0.6);
   max-width: 280px;
-  white-space: pre-wrap;
   text-align: left;
+  min-width: 160px;
 }
-[data-tip]:hover::after { opacity: 1; }
+[data-tip]:hover::after,
+[data-tip]:focus::after { opacity: 1; }
+
+/* Info icon in column headers */
+.th-info {
+  margin-left: 4px;
+  font-size: 9px;
+  color: var(--text-dim);
+  opacity: 0.5;
+  cursor: help;
+  outline: none;
+  border-radius: 50%;
+  transition: opacity 0.15s;
+  vertical-align: middle;
+}
+.th-info:hover, .th-info:focus { opacity: 1; color: var(--green); }
 
 /* Responsive */
 @media (max-width: 768px) {
