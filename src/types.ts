@@ -12,7 +12,7 @@ export interface DlssGame {
 }
 
 export interface DlssData {
-  columns: unknown;
+  columns: Record<string, Record<string, unknown>>;
   data: DlssGame[];
 }
 

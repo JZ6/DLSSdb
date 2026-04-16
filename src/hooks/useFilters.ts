@@ -2,7 +2,7 @@ import { useState, useMemo, useCallback, useEffect } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo, Filters, SortCol, SortDir } from "../types";
 import { getFrameGenLevel, getDlssVersionOrder, getHltbHours } from "../types";
 
-const FT_ORDER: Record<string, number> = { "NV, T": 2, Yes: 1, "": 0 };
+const FEATURE_ORDER: Record<string, number> = { "NV, T": 2, Yes: 1, "": 0 };
 const RT_ORDER: Record<string, number> = { "Path Tracing": 2, Yes: 1, "": 0 };
 const STEAM_ORDER: Record<string, number> = {
   "Overwhelmingly Positive": 5,
@@ -51,17 +51,11 @@ export function useFilters(
   _upscaling: Record<string, UpscalingInfo> = {},
 ) {
   const [filters, setFilters] = useState<Filters>(loadFilters);
-  const [sortCol, setSortCol] = useState<SortCol>(() => loadSort().col);
-  const [sortDir, setSortDir] = useState<SortDir>(() => loadSort().dir);
+  const [sort, setSort] = useState<{ col: SortCol; dir: SortDir }>(loadSort);
 
-  // Persist filters and sort to localStorage
-  useEffect(() => {
-    localStorage.setItem(LS_FILTERS, JSON.stringify(filters));
-  }, [filters]);
-
-  useEffect(() => {
-    localStorage.setItem(LS_SORT, JSON.stringify({ col: sortCol, dir: sortDir }));
-  }, [sortCol, sortDir]);
+  // Persist to localStorage
+  useEffect(() => { localStorage.setItem(LS_FILTERS, JSON.stringify(filters)); }, [filters]);
+  useEffect(() => { localStorage.setItem(LS_SORT, JSON.stringify(sort)); }, [sort]);
 
   const setFilter = useCallback((key: keyof Filters, value: string) => {
     setFilters((prev) => ({ ...prev, [key]: value }));
@@ -69,14 +63,15 @@ export function useFilters(
 
   const clearFilters = useCallback(() => setFilters(EMPTY_FILTERS), []);
 
-  const toggleSort = (col: SortCol) => {
-    if (sortCol === col) {
-      setSortDir((d) => (d === 1 ? -1 : 1) as SortDir);
-    } else {
-      setSortCol(col);
-      setSortDir(1);
-    }
-  };
+  const toggleSort = useCallback((col: SortCol) => {
+    setSort((prev) => prev.col === col
+      ? { col, dir: (prev.dir === 1 ? -1 : 1) as SortDir }
+      : { col, dir: 1 }
+    );
+  }, []);
+
+  const sortCol = sort.col;
+  const sortDir = sort.dir;
 
   const filtered = useMemo(() => {
     const q = filters.search.toLowerCase();
@@ -169,11 +164,11 @@ function getSortVal(
     case "framegen":
       return getFrameGenLevel(g);
     case "sr":
-      return FT_ORDER[g["dlss super resolution"] || ""] ?? 0;
+      return FEATURE_ORDER[g["dlss super resolution"] || ""] ?? 0;
     case "rr":
-      return FT_ORDER[g["dlss ray reconstruction"] || ""] ?? 0;
+      return FEATURE_ORDER[g["dlss ray reconstruction"] || ""] ?? 0;
     case "dlaa":
-      return FT_ORDER[g.dlaa || ""] ?? 0;
+      return FEATURE_ORDER[g.dlaa || ""] ?? 0;
     case "rt":
       return RT_ORDER[g["ray tracing"] || ""] ?? 0;
     case "upscaling":
