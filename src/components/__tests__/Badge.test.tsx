@@ -82,9 +82,9 @@ describe('HltbBadge', () => {
   it('shows tooltip with full breakdown', () => {
     const { container } = render(<HltbBadge data={{ main: 10, extra: 20, complete: 40 }} />)
     const cell = container.querySelector('.hltb-cell')
-    expect(cell?.getAttribute('title')).toContain('Main Story: 10h')
-    expect(cell?.getAttribute('title')).toContain('Main + Extras: 20h')
-    expect(cell?.getAttribute('title')).toContain('Completionist: 40h')
+    expect(cell?.getAttribute('data-tip')).toContain('Main Story: 10h')
+    expect(cell?.getAttribute('data-tip')).toContain('Main + Extras: 20h')
+    expect(cell?.getAttribute('data-tip')).toContain('Completionist: 40h')
   })
 
   it('shows dash for no data', () => {
