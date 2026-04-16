@@ -1,353 +1,2365 @@
 {
-  "A Plague Tale: Requiem": {
-    "score": 82
+  "7 Days To Die": {
+    "score": 47,
+    "source": "metacritic",
+    "metacritic_slug": "7-days-to-die"
   },
-  "Ad Infinitum": {
-    "score": 68
+  "A Plague Tale: Requiem": {
+    "score": 82,
+    "source": "steam",
+    "appid": 1182900
+  },
+  "A Quiet Place: The Road Ahead": {
+    "score": 67,
+    "source": "metacritic",
+    "metacritic_slug": "a-quiet-place-the-road-ahead"
+  },
+  "A.I.L.A": {
+    "score": 70,
+    "source": "metacritic",
+    "metacritic_slug": "aila"
+  },
+  "AEW: Fight Forever": {
+    "score": 64,
+    "source": "metacritic",
+    "metacritic_slug": "aew-fight-forever"
   },
   "AI Limit": {
-    "score": 75
+    "score": 75,
+    "source": "steam",
+    "appid": 2407270
   },
   "AMID EVIL": {
-    "score": 85
+    "score": 85,
+    "source": "steam",
+    "appid": 673130
+  },
+  "ARC Raiders": {
+    "score": 86,
+    "source": "metacritic",
+    "metacritic_slug": "arc-raiders"
+  },
+  "AWAY: The Survival Series": {
+    "score": 54,
+    "source": "metacritic",
+    "metacritic_slug": "away-the-survival-series"
+  },
+  "Achilles: Legends Untold": {
+    "score": 67,
+    "source": "metacritic",
+    "metacritic_slug": "achilles-legends-untold"
+  },
+  "Ad Infinitum": {
+    "score": 68,
+    "source": "steam",
+    "appid": 1234430
+  },
+  "Akimbot": {
+    "score": 65,
+    "source": "metacritic",
+    "metacritic_slug": "akimbot"
+  },
+  "Alan Wake Remastered": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "alan-wake-remastered"
+  },
+  "Alone In The Dark": {
+    "score": 63,
+    "source": "metacritic",
+    "metacritic_slug": "alone-in-the-dark"
+  },
+  "Ambulance Life: A Paramedic Simulator": {
+    "score": 44,
+    "source": "metacritic",
+    "metacritic_slug": "ambulance-life-a-paramedic-simulator"
   },
   "Anno 117: Pax Romana": {
-    "score": 84
+    "score": 84,
+    "source": "steam",
+    "appid": 3274580
+  },
+  "Anthem": {
+    "score": 59,
+    "source": "metacritic",
+    "metacritic_slug": "anthem"
+  },
+  "Arcadegeddon": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "arcadegeddon"
+  },
+  "Arknights: Endfield": {
+    "score": 78,
+    "source": "metacritic",
+    "metacritic_slug": "arknights-endfield"
+  },
+  "Assassin's Creed Mirage": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "assassins-creed-mirage"
+  },
+  "Assassin's Creed Shadows": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "assassins-creed-shadows"
   },
   "Assetto Corsa Competizione": {
-    "score": 77
+    "score": 77,
+    "source": "steam",
+    "appid": 805550
   },
   "Atomic Heart": {
-    "score": 76
+    "score": 76,
+    "source": "steam",
+    "appid": 668580
   },
-  "Back 4 Blood": {
-    "score": 77
+  "Avatar: Frontiers of Pandora": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "avatar-frontiers-of-pandora"
   },
-  "Baldur's Gate 3": {
-    "score": 96
-  },
-  "Battlefield 6": {
-    "score": 82
+  "Avowed": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "avowed"
   },
   "BLACKTAIL": {
-    "score": 80
+    "score": 80,
+    "source": "steam",
+    "appid": 1532690
+  },
+  "Back 4 Blood": {
+    "score": 77,
+    "source": "steam",
+    "appid": 924970
+  },
+  "Baldur's Gate 3": {
+    "score": 96,
+    "source": "steam",
+    "appid": 1086940
+  },
+  "Banishers: Ghosts of New Eden": {
+    "score": 78,
+    "source": "metacritic",
+    "metacritic_slug": "banishers-ghosts-of-new-eden"
+  },
+  "Batora: Lost Haven": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "batora-lost-haven"
+  },
+  "Battlefield 2042": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "battlefield-2042"
+  },
+  "Battlefield 6": {
+    "score": 82,
+    "source": "steam",
+    "appid": 2807960
+  },
+  "Battlefield V": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "battlefield-v"
+  },
+  "Bears In Space": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "bears-in-space"
   },
   "Bleak Faith: Forsaken": {
-    "score": 63
+    "score": 63,
+    "source": "steam",
+    "appid": 1173220
+  },
+  "Blind Fate: Edo no Yami": {
+    "score": 54,
+    "source": "metacritic",
+    "metacritic_slug": "blind-fate-edo-no-yami"
   },
   "Borderlands 4": {
-    "score": 81
+    "score": 81,
+    "source": "steam",
+    "appid": 1285190
+  },
+  "Boti: Byteland Overclocked": {
+    "score": 63,
+    "source": "metacritic",
+    "metacritic_slug": "boti-byteland-overclocked"
+  },
+  "Bright Memory": {
+    "score": 55,
+    "source": "metacritic",
+    "metacritic_slug": "bright-memory"
+  },
+  "Bright Memory: Infinite": {
+    "score": 67,
+    "source": "metacritic",
+    "metacritic_slug": "bright-memory-infinite"
+  },
+  "Broken Pieces": {
+    "score": 66,
+    "source": "metacritic",
+    "metacritic_slug": "broken-pieces"
   },
   "Brothers: A Tale of Two Sons Remake": {
-    "score": 79
+    "score": 79,
+    "source": "steam",
+    "appid": 2153350
+  },
+  "Bus Simulator 21": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "bus-simulator-21"
+  },
+  "CODE VEIN II": {
+    "score": 70,
+    "source": "metacritic",
+    "metacritic_slug": "code-vein-ii"
+  },
+  "Call of Duty: Black Ops 6": {
+    "score": 82,
+    "source": "metacritic",
+    "metacritic_slug": "call-of-duty-black-ops-6"
+  },
+  "Call of Duty: Black Ops 7": {
+    "score": 65,
+    "source": "metacritic",
+    "metacritic_slug": "call-of-duty-black-ops-7"
+  },
+  "Call of Duty: Black Ops Cold War": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "call-of-duty-black-ops-cold-war"
+  },
+  "Call of Duty: Modern Warfare": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "call-of-duty-modern-warfare"
+  },
+  "Call of Duty: Modern Warfare II": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "call-of-duty-modern-warfare-ii"
+  },
+  "Call of Duty: Modern Warfare III": {
+    "score": 56,
+    "source": "metacritic",
+    "metacritic_slug": "call-of-duty-modern-warfare-iii"
+  },
+  "Call of Duty: Vanguard": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "call-of-duty-vanguard"
+  },
+  "Call of Duty: Warzone (2020)": {
+    "score": 91,
+    "source": "metacritic",
+    "metacritic_slug": "call-of-duty-warzone-2020"
+  },
+  "Call of Duty: Warzone (2022)": {
+    "score": 91,
+    "source": "metacritic",
+    "metacritic_slug": "call-of-duty-warzone-2022"
+  },
+  "Capes": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "capes"
+  },
+  "Carmageddon: Rogue Shift": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "carmageddon-rogue-shift"
   },
   "Chernobylite": {
-    "score": 75
+    "score": 75,
+    "source": "steam",
+    "appid": 1016800
+  },
+  "Chip ‘n Clawz vs. The Brainioids": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "chip-n-clawz-vs-the-brainioids"
   },
   "Chivalry 2": {
-    "score": 82
+    "score": 82,
+    "source": "steam",
+    "appid": 1824220
+  },
+  "Choo-Choo Charles": {
+    "score": 56,
+    "source": "metacritic",
+    "metacritic_slug": "choo-choo-charles"
   },
   "Chorus": {
-    "score": 76
+    "score": 76,
+    "source": "steam",
+    "appid": 1153640
+  },
+  "Cities: Skylines II": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "cities-skylines-ii"
   },
   "Clair Obscur: Expedition 33": {
-    "score": 91
+    "score": 91,
+    "source": "steam",
+    "appid": 1903340
   },
   "Commandos: Origins": {
-    "score": 71
+    "score": 71,
+    "source": "steam",
+    "appid": 1479730
+  },
+  "Control": {
+    "score": 82,
+    "source": "metacritic",
+    "metacritic_slug": "control"
+  },
+  "Crime Boss: Rockay City": {
+    "score": 52,
+    "source": "metacritic",
+    "metacritic_slug": "crime-boss-rockay-city"
+  },
+  "Crimson Desert": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "crimson-desert"
+  },
+  "Cronos: The New Dawn": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "cronos-the-new-dawn"
+  },
+  "Crossout": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "crossout"
+  },
+  "Crysis Remastered": {
+    "score": 66,
+    "source": "metacritic",
+    "metacritic_slug": "crysis-remastered"
+  },
+  "Cthulhu: The Cosmic Abyss": {
+    "score": 66,
+    "source": "metacritic",
+    "metacritic_slug": "cthulhu-the-cosmic-abyss"
   },
   "Cyberpunk 2077": {
-    "score": 86
-  },
-  "Dead Rising Deluxe Remaster": {
-    "score": 79
-  },
-  "Dead Space": {
-    "score": 87
-  },
-  "Deadlink": {
-    "score": 80
-  },
-  "Dead Take": {
-    "score": 76
-  },
-  "Death Stranding Director's Cut": {
-    "score": 85
-  },
-  "Deathloop": {
-    "score": 87
-  },
-  "Deep Rock Galactic": {
-    "score": 85
-  },
-  "Deliver Us The Moon": {
-    "score": 68
-  },
-  "Die By The Blade": {
-    "score": 53
-  },
-  "DiRT 5": {
-    "score": 72
-  },
-  "Dolmen": {
-    "score": 55
+    "score": 86,
+    "source": "steam",
+    "appid": 1091500
   },
   "DOOM Eternal": {
-    "score": 88
+    "score": 88,
+    "source": "steam",
+    "appid": 782330
   },
-  "Dragon's Dogma 2": {
-    "score": 88
+  "DOOM: The Dark Ages": {
+    "score": 83,
+    "source": "metacritic",
+    "metacritic_slug": "doom-the-dark-ages"
   },
   "DYNASTY WARRIORS: ORIGINS": {
-    "score": 84
+    "score": 84,
+    "source": "steam",
+    "appid": 2384580
+  },
+  "Dakar Desert Rally": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "dakar-desert-rally"
+  },
+  "Daydream: Forgotten Sorrow": {
+    "score": 61,
+    "source": "metacritic",
+    "metacritic_slug": "daydream-forgotten-sorrow"
+  },
+  "Daymare: 1994 Sandcastle": {
+    "score": 65,
+    "source": "metacritic",
+    "metacritic_slug": "daymare-1994-sandcastle"
+  },
+  "Dead Rising Deluxe Remaster": {
+    "score": 79,
+    "source": "steam",
+    "appid": 2527390
+  },
+  "Dead Space": {
+    "score": 87,
+    "source": "steam",
+    "appid": 1693980
+  },
+  "Dead Take": {
+    "score": 76,
+    "source": "steam",
+    "appid": 3352690
+  },
+  "Deadlink": {
+    "score": 80,
+    "source": "steam",
+    "appid": 1676130
+  },
+  "Death Relives": {
+    "score": 55,
+    "source": "metacritic",
+    "metacritic_slug": "death-relives"
+  },
+  "Death Stranding": {
+    "score": 86,
+    "source": "epic"
+  },
+  "Death Stranding 2: On The Beach": {
+    "score": 89,
+    "source": "metacritic",
+    "metacritic_slug": "death-stranding-2-on-the-beach"
+  },
+  "Death Stranding Director's Cut": {
+    "score": 85,
+    "source": "steam",
+    "appid": 1850570
+  },
+  "DeathSprint 66": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "deathsprint-66"
+  },
+  "Deathloop": {
+    "score": 87,
+    "source": "steam",
+    "appid": 1252330
+  },
+  "Deceit 2": {
+    "score": 48,
+    "source": "metacritic",
+    "metacritic_slug": "deceit-2"
+  },
+  "Deceive Inc.": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "deceive-inc"
+  },
+  "Deep Rock Galactic": {
+    "score": 85,
+    "source": "steam",
+    "appid": 548430
+  },
+  "Deliver Us Mars": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "deliver-us-mars"
+  },
+  "Deliver Us The Moon": {
+    "score": 68,
+    "source": "steam",
+    "appid": 428660
+  },
+  "Delta Force": {
+    "score": 61,
+    "source": "metacritic",
+    "metacritic_slug": "delta-force"
+  },
+  "Delta Force: Black Hawk Down Campaign": {
+    "score": 61,
+    "source": "metacritic",
+    "metacritic_slug": "delta-force-black-hawk-down-campaign"
+  },
+  "Destroy All Humans! 2 - Reprobed": {
+    "score": 67,
+    "source": "metacritic",
+    "metacritic_slug": "destroy-all-humans-2-reprobed"
+  },
+  "DiRT 5": {
+    "score": 72,
+    "source": "steam",
+    "appid": 1038250
+  },
+  "Diablo II: Resurrected": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "diablo-ii-resurrected"
+  },
+  "Diablo IV": {
+    "score": 86,
+    "source": "metacritic",
+    "metacritic_slug": "diablo-iv"
+  },
+  "Die By The Blade": {
+    "score": 53,
+    "source": "steam",
+    "appid": 1154670
+  },
+  "Dolmen": {
+    "score": 55,
+    "source": "steam",
+    "appid": 831050
+  },
+  "Dragon Age: The Veilguard": {
+    "score": 82,
+    "source": "metacritic",
+    "metacritic_slug": "dragon-age-the-veilguard"
+  },
+  "Dragon's Dogma 2": {
+    "score": 88,
+    "source": "steam",
+    "appid": 2054970
+  },
+  "Dragonkin: The Banished": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "dragonkin-the-banished"
+  },
+  "Dune: Awakening": {
+    "score": 78,
+    "source": "metacritic",
+    "metacritic_slug": "dune-awakening"
+  },
+  "Dying Light 2 Stay Human": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "dying-light-2-stay-human"
+  },
+  "Dying Light: The Beast": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "dying-light-the-beast"
   },
   "EA Sports WRC": {
-    "score": 80
-  },
-  "Elden Ring": {
-    "score": 94
+    "score": 80,
+    "source": "steam",
+    "appid": 1849250
   },
   "EVE Online": {
-    "score": 88
+    "score": 88,
+    "source": "steam",
+    "appid": 8500
+  },
+  "EVOTINCTION": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "evotinction"
+  },
+  "Echo Point Nova": {
+    "score": 85,
+    "source": "metacritic",
+    "metacritic_slug": "echo-point-nova"
+  },
+  "Echoes of the End: Enhanced Edition": {
+    "score": 66,
+    "source": "metacritic",
+    "metacritic_slug": "echoes-of-the-end-enhanced-edition"
+  },
+  "Edge of Eternity": {
+    "score": 60,
+    "source": "metacritic",
+    "metacritic_slug": "edge-of-eternity"
+  },
+  "Elden Ring": {
+    "score": 94,
+    "source": "steam",
+    "appid": 1245620
+  },
+  "Empire of the Ants": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "empire-of-the-ants"
+  },
+  "Empyreal": {
+    "score": 65,
+    "source": "metacritic",
+    "metacritic_slug": "empyreal"
+  },
+  "Enotria: The Last Song": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "enotria-the-last-song"
+  },
+  "Escape From Tarkov": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "escape-from-tarkov"
+  },
+  "Eternal Strands": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "eternal-strands"
+  },
+  "Europa Universalis V": {
+    "score": 85,
+    "source": "metacritic",
+    "metacritic_slug": "europa-universalis-v"
   },
   "Everspace 2": {
-    "score": 81
+    "score": 81,
+    "source": "steam",
+    "appid": 1128920
+  },
+  "Evil Dead: The Game": {
+    "score": 76,
+    "source": "epic"
+  },
+  "Evil West": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "evil-west"
   },
   "F.I.S.T.: Forged In Shadow Torch": {
-    "score": 81
+    "score": 81,
+    "source": "steam",
+    "appid": 1330470
+  },
+  "F1 2020": {
+    "score": 86,
+    "source": "metacritic",
+    "metacritic_slug": "f1-2020"
+  },
+  "F1 2021": {
+    "score": 84,
+    "source": "metacritic",
+    "metacritic_slug": "f1-2021"
+  },
+  "F1 22": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "f1-22"
+  },
+  "F1 23": {
+    "score": 82,
+    "source": "metacritic",
+    "metacritic_slug": "f1-23"
   },
   "F1 24": {
-    "score": 72
+    "score": 72,
+    "source": "steam",
+    "appid": 2488620
+  },
+  "F1 25": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "f1-25"
   },
   "F1 Manager 2023": {
-    "score": 79
+    "score": 79,
+    "source": "steam",
+    "appid": 2287220
   },
   "F1 Manager 2024": {
-    "score": 81
+    "score": 81,
+    "source": "steam",
+    "appid": 2591280
+  },
+  "FBC: Firebreak": {
+    "score": 64,
+    "source": "metacritic",
+    "metacritic_slug": "fbc-firebreak"
+  },
+  "FINAL FANTASY VII REBIRTH": {
+    "score": 92,
+    "source": "metacritic",
+    "metacritic_slug": "final-fantasy-vii-rebirth"
   },
   "FINAL FANTASY XIV Online": {
-    "score": 83
+    "score": 83,
+    "source": "steam",
+    "appid": 39210
+  },
+  "FINAL FANTASY XV": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "final-fantasy-xv"
+  },
+  "FINAL FANTASY XVI": {
+    "score": 87,
+    "source": "metacritic",
+    "metacritic_slug": "final-fantasy-xvi"
+  },
+  "Far Cry 6": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "far-cry-6"
+  },
+  "Faraday Protocol": {
+    "score": 70,
+    "source": "metacritic",
+    "metacritic_slug": "faraday-protocol"
+  },
+  "Farming Simulator 22": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "farming-simulator-22"
+  },
+  "Farming Simulator 25": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "farming-simulator-25"
+  },
+  "Firefighting Simulator - The Squad": {
+    "score": 60,
+    "source": "metacritic",
+    "metacritic_slug": "firefighting-simulator-the-squad"
+  },
+  "Firefighting Simulator: Ignite": {
+    "score": 60,
+    "source": "metacritic",
+    "metacritic_slug": "firefighting-simulator-ignite"
+  },
+  "Firmament": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "firmament"
+  },
+  "Five Nights At Freddy’s: Security Breach": {
+    "score": 64,
+    "source": "metacritic",
+    "metacritic_slug": "five-nights-at-freddys-security-breach"
+  },
+  "Flintlock: The Siege of Dawn": {
+    "score": 70,
+    "source": "metacritic",
+    "metacritic_slug": "flintlock-the-siege-of-dawn"
+  },
+  "Fobia - St. Dinfna Hotel": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "fobia-st-dinfna-hotel"
+  },
+  "Forever Skies": {
+    "score": 66,
+    "source": "metacritic",
+    "metacritic_slug": "forever-skies"
+  },
+  "Forgive Me Father 2": {
+    "score": 83,
+    "source": "metacritic",
+    "metacritic_slug": "forgive-me-father-2"
+  },
+  "Forspoken": {
+    "score": 64,
+    "source": "metacritic",
+    "metacritic_slug": "forspoken"
+  },
+  "Fort Solis": {
+    "score": 60,
+    "source": "metacritic",
+    "metacritic_slug": "fort-solis"
+  },
+  "Fortnite": {
+    "score": 78,
+    "source": "metacritic",
+    "metacritic_slug": "fortnite"
+  },
+  "Forza Horizon 5": {
+    "score": 92,
+    "source": "metacritic",
+    "metacritic_slug": "forza-horizon-5"
+  },
+  "Forza Motorsport": {
+    "score": 84,
+    "source": "metacritic",
+    "metacritic_slug": "forza-motorsport"
+  },
+  "FragPunk": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "fragpunk"
+  },
+  "Frostpunk 2": {
+    "score": 85,
+    "source": "metacritic",
+    "metacritic_slug": "frostpunk-2"
+  },
+  "Frozenheim": {
+    "score": 67,
+    "source": "metacritic",
+    "metacritic_slug": "frozenheim"
+  },
+  "Funko Fusion": {
+    "score": 54,
+    "source": "metacritic",
+    "metacritic_slug": "funko-fusion"
+  },
+  "GODBREAKERS": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "godbreakers"
+  },
+  "Game of Thrones: Kingsroad": {
+    "score": 57,
+    "source": "metacritic",
+    "metacritic_slug": "game-of-thrones-kingsroad"
+  },
+  "Gangs of Sherwood": {
+    "score": 49,
+    "source": "metacritic",
+    "metacritic_slug": "gangs-of-sherwood"
+  },
+  "Gears of War: Reloaded": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "gears-of-war-reloaded"
+  },
+  "Ghost of Tsushima Director’s Cut": {
+    "score": 87,
+    "source": "metacritic",
+    "metacritic_slug": "ghost-of-tsushima-directors-cut"
+  },
+  "Ghostbusters: Spirits Unleashed": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "ghostbusters-spirits-unleashed"
+  },
+  "Ghostrunner": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "ghostrunner"
+  },
+  "Ghostrunner 2": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "ghostrunner-2"
+  },
+  "Ghostwire: Tokyo": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "ghostwire-tokyo"
+  },
+  "Goat Simulator: Remastered": {
+    "score": 65,
+    "source": "metacritic",
+    "metacritic_slug": "goat-simulator-remastered"
+  },
+  "God of War": {
+    "score": 94,
+    "source": "metacritic",
+    "metacritic_slug": "god-of-war"
   },
   "God of War Ragnarök": {
-    "score": 90
+    "score": 90,
+    "source": "steam",
+    "appid": 2322010
+  },
+  "Godfall": {
+    "score": 59,
+    "source": "epic"
+  },
+  "Gord": {
+    "score": 59,
+    "source": "metacritic",
+    "metacritic_slug": "gord"
+  },
+  "Gori: Cuddly Carnage": {
+    "score": 78,
+    "source": "metacritic",
+    "metacritic_slug": "gori-cuddly-carnage"
+  },
+  "Gotham Knights": {
+    "score": 67,
+    "source": "metacritic",
+    "metacritic_slug": "gotham-knights"
+  },
+  "Grand Theft Auto III - The Definitive Edition": {
+    "score": 97,
+    "source": "metacritic",
+    "metacritic_slug": "grand-theft-auto-iii-the-definitive-edition"
+  },
+  "GreedFall II: The Dying World": {
+    "score": 65,
+    "source": "metacritic",
+    "metacritic_slug": "greedfall-ii-the-dying-world"
+  },
+  "Gripper": {
+    "score": 58,
+    "source": "metacritic",
+    "metacritic_slug": "gripper"
+  },
+  "Gungrave G.O.R.E": {
+    "score": 57,
+    "source": "metacritic",
+    "metacritic_slug": "gungrave-gore"
+  },
+  "HOT WHEELS UNLEASHED": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "hot-wheels-unleashed"
+  },
+  "HOT WHEELS UNLEASHED 2 - Turbocharged": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "hot-wheels-unleashed-2-turbocharged"
+  },
+  "Halo Infinite": {
+    "score": 87,
+    "source": "metacritic",
+    "metacritic_slug": "halo-infinite"
+  },
+  "Hell Is Us": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "hell-is-us"
+  },
+  "Hell Pie": {
+    "score": 78,
+    "source": "metacritic",
+    "metacritic_slug": "hell-pie"
+  },
+  "Hellblade II Enhanced: Senua's Saga": {
+    "score": 84,
+    "source": "metacritic",
+    "metacritic_slug": "hellblade-ii-enhanced-senuas-saga"
+  },
+  "Hellblade: Senua's Sacrifice": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "hellblade-senuas-sacrifice"
+  },
+  "Hello Neighbor 2": {
+    "score": 59,
+    "source": "metacritic",
+    "metacritic_slug": "hello-neighbor-2"
   },
   "Hi-Fi RUSH": {
-    "score": 90
+    "score": 90,
+    "source": "steam",
+    "appid": 1817230
+  },
+  "High On Life": {
+    "score": 67,
+    "source": "metacritic",
+    "metacritic_slug": "high-on-life"
+  },
+  "High On Life 2": {
+    "score": 71,
+    "source": "metacritic",
+    "metacritic_slug": "high-on-life-2"
+  },
+  "Highguard": {
+    "score": 63,
+    "source": "metacritic",
+    "metacritic_slug": "highguard"
   },
   "Hogwarts Legacy": {
-    "score": 83
+    "score": 83,
+    "source": "steam",
+    "appid": 990080
+  },
+  "Homeworld 3": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "homeworld-3"
+  },
+  "Honkai: Star Rail": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "honkai-star-rail"
+  },
+  "Horizon Forbidden West Complete Edition": {
+    "score": 89,
+    "source": "metacritic",
+    "metacritic_slug": "horizon-forbidden-west-complete-edition"
+  },
+  "Horizon Zero Dawn Complete Edition": {
+    "score": 84,
+    "source": "metacritic",
+    "metacritic_slug": "horizon-zero-dawn-complete-edition"
+  },
+  "Horizon Zero Dawn Remastered": {
+    "score": 85,
+    "source": "metacritic",
+    "metacritic_slug": "horizon-zero-dawn-remastered"
+  },
+  "Hunt: Showdown 1896": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "hunt-showdown-1896"
+  },
+  "ICARUS": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "icarus"
+  },
+  "INDIKA": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "indika"
+  },
+  "INDUSTRIA": {
+    "score": 67,
+    "source": "metacritic",
+    "metacritic_slug": "industria"
+  },
+  "Immortals of Aveum": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "immortals-of-aveum"
+  },
+  "Indiana Jones and the Great Circle": {
+    "score": 86,
+    "source": "metacritic",
+    "metacritic_slug": "indiana-jones-and-the-great-circle"
+  },
+  "Infinity Nikki": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "infinity-nikki"
+  },
+  "Into the Dead: Our Darkest Days": {
+    "score": 84,
+    "source": "metacritic",
+    "metacritic_slug": "into-the-dead-our-darkest-days"
+  },
+  "Into the Radius VR": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "into-the-radius-vr"
+  },
+  "JDM: Japanese Drift Master": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "jdm-japanese-drift-master"
+  },
+  "Jagged Alliance 3": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "jagged-alliance-3"
+  },
+  "John Carpenter's Toxic Commando": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "john-carpenters-toxic-commando"
+  },
+  "Jotunnslayer: Hordes of Hel": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "jotunnslayer-hordes-of-hel"
+  },
+  "Judgment": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "judgment"
   },
   "Jurassic World Evolution 2": {
-    "score": 76
+    "score": 76,
+    "source": "steam",
+    "appid": 1244460
   },
   "Jurassic World Evolution 3": {
-    "score": 81
+    "score": 81,
+    "source": "steam",
+    "appid": 2958130
   },
-  "Land of the Vikings": {
-    "score": 76
+  "Jusant": {
+    "score": 85,
+    "source": "metacritic",
+    "metacritic_slug": "jusant"
   },
-  "Last Train Home": {
-    "score": 80
+  "KARMA: The Dark World": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "karma-the-dark-world"
+  },
+  "Keeper": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "keeper"
+  },
+  "Kena: Bridge of Spirits": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "kena-bridge-of-spirits"
+  },
+  "Killer Klowns from Outer Space: The Game": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "killer-klowns-from-outer-space-the-game"
+  },
+  "Killing Floor 3": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "killing-floor-3"
+  },
+  "Kingdom Come: Deliverance II": {
+    "score": 89,
+    "source": "metacritic",
+    "metacritic_slug": "kingdom-come-deliverance-ii"
+  },
+  "Kunitsu-Gami: Path of the Goddess": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "kunitsu-gami-path-of-the-goddess"
   },
   "LEGO Builder's Journey": {
-    "score": 79
+    "score": 79,
+    "source": "steam",
+    "appid": 1544360
+  },
+  "LEGO Horizon Adventures": {
+    "score": 70,
+    "source": "metacritic",
+    "metacritic_slug": "lego-horizon-adventures"
+  },
+  "Land of the Vikings": {
+    "score": 76,
+    "source": "steam",
+    "appid": 1981570
+  },
+  "Last Train Home": {
+    "score": 80,
+    "source": "steam",
+    "appid": 1469610
+  },
+  "Layers of Fear": {
+    "score": 72,
+    "source": "epic"
+  },
+  "Lemnis Gate": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "lemnis-gate"
+  },
+  "Lies of P": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "lies-of-p"
+  },
+  "Life Is Strange: True Colors": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "life-is-strange-true-colors"
+  },
+  "Like A Dragon Gaiden: The Man Who Erased His Name": {
+    "score": 78,
+    "source": "metacritic",
+    "metacritic_slug": "like-a-dragon-gaiden-the-man-who-erased-his-name"
+  },
+  "Like A Dragon: Ishin!": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "like-a-dragon-ishin"
   },
   "Like a Dragon: Infinite Wealth": {
-    "score": 89
+    "score": 89,
+    "source": "steam",
+    "appid": 2072450
   },
   "Like a Dragon: Pirate Yakuza in Hawaii": {
-    "score": 81
+    "score": 81,
+    "source": "steam",
+    "appid": 3061810
   },
   "Little Nightmares II": {
-    "score": 83
+    "score": 83,
+    "source": "steam",
+    "appid": 860510
+  },
+  "Little Nightmares III": {
+    "score": 71,
+    "source": "metacritic",
+    "metacritic_slug": "little-nightmares-iii"
+  },
+  "Loopmancer": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "loopmancer"
   },
   "Lords of the Fallen": {
-    "score": 75
+    "score": 75,
+    "source": "steam",
+    "appid": 1501750
+  },
+  "Lost Judgment": {
+    "score": 82,
+    "source": "metacritic",
+    "metacritic_slug": "lost-judgment"
+  },
+  "Lost Records: Bloom & Rage": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "lost-records-bloom-rage"
+  },
+  "Lost Soul Aside": {
+    "score": 62,
+    "source": "metacritic",
+    "metacritic_slug": "lost-soul-aside"
   },
   "Lumote: The Mastermote Chronicles": {
-    "score": 81
+    "score": 81,
+    "source": "steam",
+    "appid": 791240
   },
   "Luto": {
-    "score": 83
+    "score": 83,
+    "source": "steam",
+    "appid": 1729740
+  },
+  "METAL GEAR SOLID Δ: SNAKE EATER": {
+    "score": 94,
+    "source": "metacritic",
+    "metacritic_slug": "metal-gear-solid-snake-eater"
   },
   "Mafia: The Old Country": {
-    "score": 73
+    "score": 73,
+    "source": "steam",
+    "appid": 1941540
+  },
+  "Mandragora: Whispers of the Witch Tree": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "mandragora-whispers-of-the-witch-tree"
+  },
+  "Marathon": {
+    "score": 82,
+    "source": "metacritic",
+    "metacritic_slug": "marathon"
   },
   "Martha Is Dead": {
-    "score": 73
+    "score": 73,
+    "source": "steam",
+    "appid": 515960
+  },
+  "Marvel Rivals": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "marvel-rivals"
+  },
+  "Marvel's Avengers": {
+    "score": 67,
+    "source": "metacritic",
+    "metacritic_slug": "marvels-avengers"
   },
   "Marvel's Guardians of the Galaxy": {
-    "score": 78
+    "score": 78,
+    "source": "steam",
+    "appid": 1088850
+  },
+  "Marvel's Midnight Suns": {
+    "score": 83,
+    "source": "metacritic",
+    "metacritic_slug": "marvels-midnight-suns"
+  },
+  "Marvel's Spider-Man 2": {
+    "score": 90,
+    "source": "metacritic",
+    "metacritic_slug": "marvels-spider-man-2"
+  },
+  "Marvel's Spider-Man Remastered": {
+    "score": 87,
+    "source": "metacritic",
+    "metacritic_slug": "marvels-spider-man-remastered"
+  },
+  "Marvel's Spider-Man: Miles Morales": {
+    "score": 85,
+    "source": "metacritic",
+    "metacritic_slug": "marvels-spider-man-miles-morales"
   },
   "MechWarrior 5: Clans": {
-    "score": 73
+    "score": 73,
+    "source": "steam",
+    "appid": 784080
   },
   "MechWarrior 5: Mercenaries": {
-    "score": 73
+    "score": 73,
+    "source": "steam",
+    "appid": 784080
+  },
+  "Mecha BREAK": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "mecha-break"
+  },
+  "Metal Eden": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "metal-eden"
   },
   "Metro Exodus": {
-    "score": 85
+    "score": 85,
+    "source": "steam",
+    "appid": 412020
   },
   "Microsoft Flight Simulator (2020) 40th Anniversary Edition": {
-    "score": 91
+    "score": 91,
+    "source": "steam",
+    "appid": 1250410
+  },
+  "Microsoft Flight Simulator 2024": {
+    "score": 78,
+    "source": "metacritic",
+    "metacritic_slug": "microsoft-flight-simulator-2024"
+  },
+  "MindsEye": {
+    "score": 39,
+    "source": "metacritic",
+    "metacritic_slug": "mindseye"
+  },
+  "Monster Energy Supercross - The Official Videogame 6": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "monster-energy-supercross-the-official-videogame-6"
   },
   "Monster Hunter Rise": {
-    "score": 86
+    "score": 86,
+    "source": "steam",
+    "appid": 1446780
   },
   "Monster Hunter Stories 3: Twisted Reflection": {
-    "score": 87
+    "score": 87,
+    "source": "steam",
+    "appid": 2852190
+  },
+  "Monster Hunter Wilds": {
+    "score": 88,
+    "source": "metacritic",
+    "metacritic_slug": "monster-hunter-wilds"
   },
   "Monster Hunter World": {
-    "score": 88
+    "score": 88,
+    "source": "steam",
+    "appid": 582010
   },
   "Mortal Kombat 1": {
-    "score": 82
+    "score": 82,
+    "source": "steam",
+    "appid": 1971870
+  },
+  "Mortal Shell": {
+    "score": 76,
+    "source": "epic"
+  },
+  "Mother Machine": {
+    "score": 65,
+    "source": "metacritic",
+    "metacritic_slug": "mother-machine"
+  },
+  "MotoGP 24": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "motogp-24"
   },
   "Mount & Blade II: Bannerlord": {
-    "score": 77
+    "score": 77,
+    "source": "steam",
+    "appid": 261550
   },
   "My Time At Sandrock": {
-    "score": 80
+    "score": 80,
+    "source": "steam",
+    "appid": 1084600
   },
   "Myst": {
-    "score": 78
+    "score": 78,
+    "source": "steam",
+    "appid": 1255560
+  },
+  "NARAKA: BLADEPOINT": {
+    "score": 71,
+    "source": "metacritic",
+    "metacritic_slug": "naraka-bladepoint"
+  },
+  "NBA 2K6": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "nba-2k6"
   },
   "NINJA GAIDEN 2 Black": {
-    "score": 81
+    "score": 81,
+    "source": "steam",
+    "appid": 3287520
+  },
+  "NINJA GAIDEN 4": {
+    "score": 82,
+    "source": "metacritic",
+    "metacritic_slug": "ninja-gaiden-4"
+  },
+  "NORSE: Oath of Blood": {
+    "score": 70,
+    "source": "metacritic",
+    "metacritic_slug": "norse-oath-of-blood"
+  },
+  "Necromunda: Hired Gun": {
+    "score": 62,
+    "source": "metacritic",
+    "metacritic_slug": "necromunda-hired-gun"
+  },
+  "Need For Speed Unbound": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "need-for-speed-unbound"
+  },
+  "New World: Aeternum": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "new-world-aeternum"
   },
   "Nioh 2 The Complete Edition": {
-    "score": 86
+    "score": 86,
+    "source": "steam",
+    "appid": 1325200
   },
   "Nioh 3": {
-    "score": 85
+    "score": 85,
+    "source": "steam",
+    "appid": 3681010
   },
   "No Man's Sky": {
-    "score": 61
+    "score": 61,
+    "source": "steam",
+    "appid": 275850
   },
-  "Paradise Killer": {
-    "score": 81
+  "Nobody Wants To Die": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "nobody-wants-to-die"
+  },
+  "Observer: System Redux": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "observer-system-redux"
+  },
+  "Once Alive": {
+    "score": 63,
+    "source": "metacritic",
+    "metacritic_slug": "once-alive"
+  },
+  "Once Human": {
+    "score": 71,
+    "source": "metacritic",
+    "metacritic_slug": "once-human"
+  },
+  "Orcs Must Die! Deathtrap": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "orcs-must-die-deathtrap"
+  },
+  "Outcast - A New Beginning": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "outcast-a-new-beginning"
+  },
+  "Outpost: Infinity Siege": {
+    "score": 55,
+    "source": "metacritic",
+    "metacritic_slug": "outpost-infinity-siege"
+  },
+  "Outriders": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "outriders"
+  },
+  "Overwatch 2": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "overwatch-2"
   },
   "PAYDAY 3": {
-    "score": 66
+    "score": 66,
+    "source": "steam",
+    "appid": 1272080
+  },
+  "PC Building Simulator 2": {
+    "score": 82,
+    "source": "metacritic",
+    "metacritic_slug": "pc-building-simulator-2"
   },
   "PERISH": {
-    "score": 62
+    "score": 62,
+    "source": "steam",
+    "appid": 1016360
+  },
+  "PRAGMATA": {
+    "score": 86,
+    "source": "metacritic",
+    "metacritic_slug": "pragmata"
+  },
+  "Pacific Drive": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "pacific-drive"
+  },
+  "Paradise Killer": {
+    "score": 81,
+    "source": "steam",
+    "appid": 1160220
+  },
+  "Party Animals": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "party-animals"
+  },
+  "Pinball FX": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "pinball-fx"
   },
   "Planet Coaster 2": {
-    "score": 76
+    "score": 76,
+    "source": "steam",
+    "appid": 2688950
   },
   "PlanetSide 2": {
-    "score": 84
+    "score": 84,
+    "source": "steam",
+    "appid": 218230
+  },
+  "Poker Club": {
+    "score": 50,
+    "source": "metacritic",
+    "metacritic_slug": "poker-club"
+  },
+  "Portal with RTX": {
+    "score": 89,
+    "source": "metacritic",
+    "metacritic_slug": "portal-with-rtx"
+  },
+  "Portal: Prelude RTX": {
+    "score": 90,
+    "source": "metacritic",
+    "metacritic_slug": "portal-prelude-rtx"
+  },
+  "Postal 4: No Regerts": {
+    "score": 31,
+    "source": "metacritic",
+    "metacritic_slug": "postal-4-no-regerts"
+  },
+  "Project Motor Racing": {
+    "score": 58,
+    "source": "metacritic",
+    "metacritic_slug": "project-motor-racing"
   },
   "Pumpkin Jack": {
-    "score": 71
+    "score": 71,
+    "source": "steam",
+    "appid": 1186640
   },
-  "Raji: An Ancient Epic": {
-    "score": 70
+  "Q.U.B.E. 10th Anniversary": {
+    "score": 85,
+    "source": "metacritic",
+    "metacritic_slug": "qube-10th-anniversary"
   },
   "REANIMAL": {
-    "score": 81
+    "score": 81,
+    "source": "steam",
+    "appid": 2129530
+  },
+  "REMATCH": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "rematch"
+  },
+  "REVEIL": {
+    "score": 70,
+    "source": "metacritic",
+    "metacritic_slug": "reveil"
+  },
+  "RIPOUT": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "ripout"
+  },
+  "Raji: An Ancient Epic": {
+    "score": 70,
+    "source": "steam",
+    "appid": 730390
+  },
+  "Ratchet & Clank: Rift Apart": {
+    "score": 88,
+    "source": "metacritic",
+    "metacritic_slug": "ratchet-clank-rift-apart"
+  },
+  "Ready or Not": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "ready-or-not"
+  },
+  "Red Dead Redemption": {
+    "score": 95,
+    "source": "metacritic",
+    "metacritic_slug": "red-dead-redemption"
   },
   "Red Dead Redemption 2": {
-    "score": 93
+    "score": 93,
+    "source": "steam",
+    "appid": 1174180
+  },
+  "Redfall": {
+    "score": 56,
+    "source": "metacritic",
+    "metacritic_slug": "redfall"
   },
   "Redout: Space Assault": {
-    "score": 65
+    "score": 65,
+    "source": "steam",
+    "appid": 886060
+  },
+  "Remnant II": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "remnant-ii"
   },
   "Resident Evil 2": {
-    "score": 89
+    "score": 89,
+    "source": "steam",
+    "appid": 883710
   },
   "Resident Evil 3": {
-    "score": 77
+    "score": 77,
+    "source": "steam",
+    "appid": 952060
   },
   "Resident Evil 7": {
-    "score": 83
+    "score": 83,
+    "source": "steam",
+    "appid": 418370
   },
   "Resident Evil Requiem": {
-    "score": 92
+    "score": 92,
+    "source": "steam",
+    "appid": 3764200
   },
   "Resident Evil Village": {
-    "score": 83
+    "score": 83,
+    "source": "steam",
+    "appid": 1196590
+  },
+  "Returnal": {
+    "score": 86,
+    "source": "metacritic",
+    "metacritic_slug": "returnal"
+  },
+  "Revenge of the Savage Planet": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "revenge-of-the-savage-planet"
   },
   "Rise of the Ronin": {
-    "score": 73
+    "score": 73,
+    "source": "steam",
+    "appid": 1340990
   },
   "Rise of the Tomb Raider": {
-    "score": 86
+    "score": 86,
+    "source": "steam",
+    "appid": 391220
   },
   "Riven": {
-    "score": 86
+    "score": 86,
+    "source": "steam",
+    "appid": 1712350
+  },
+  "RoadCraft": {
+    "score": 78,
+    "source": "metacritic",
+    "metacritic_slug": "roadcraft"
+  },
+  "RoboCop: Rogue City": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "robocop-rogue-city"
+  },
+  "RoboCop: Rogue City - Unfinished Business": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "robocop-rogue-city-unfinished-business"
+  },
+  "Romancelvania": {
+    "score": 64,
+    "source": "metacritic",
+    "metacritic_slug": "romancelvania"
+  },
+  "Romeo Is A Dead Man": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "romeo-is-a-dead-man"
   },
   "Rune Factory: Guardians of Azuma": {
-    "score": 80
+    "score": 80,
+    "source": "steam",
+    "appid": 2864560
+  },
+  "Rune II": {
+    "score": 50,
+    "source": "metacritic",
+    "metacritic_slug": "rune-ii"
   },
   "Rust": {
-    "score": 69
+    "score": 69,
+    "source": "steam",
+    "appid": 252490
   },
-  "Satisfactory": {
-    "score": 91
+  "S.T.A.L.K.E.R. 2: Heart of Chornobyl": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "stalker-2-heart-of-chornobyl"
+  },
+  "S.T.A.L.K.E.R.: Call of Prypiat": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "stalker-call-of-prypiat"
+  },
+  "S.T.A.L.K.E.R.: Clear Sky": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "stalker-clear-sky"
+  },
+  "S.T.A.L.K.E.R.: Shadow of Chornobyl": {
+    "score": 82,
+    "source": "metacritic",
+    "metacritic_slug": "stalker-shadow-of-chornobyl"
   },
   "SEASON: A Letter To The Future": {
-    "score": 80
+    "score": 80,
+    "source": "steam",
+    "appid": 695330
   },
-  "Shadow of the Tomb Raider": {
-    "score": 77
+  "SILENT HILL 2": {
+    "score": 86,
+    "source": "metacritic",
+    "metacritic_slug": "silent-hill-2"
+  },
+  "SILENT HILL f": {
+    "score": 86,
+    "source": "metacritic",
+    "metacritic_slug": "silent-hill-f"
+  },
+  "SPRAWL": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "sprawl"
+  },
+  "SYNCED": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "synced"
+  },
+  "Sackboy: A Big Adventure": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "sackboy-a-big-adventure"
+  },
+  "Saints Row": {
+    "score": 61,
+    "source": "metacritic",
+    "metacritic_slug": "saints-row"
+  },
+  "Samson": {
+    "score": 51,
+    "source": "metacritic",
+    "metacritic_slug": "samson"
+  },
+  "Satisfactory": {
+    "score": 91,
+    "source": "steam",
+    "appid": 526870
+  },
+  "Scathe": {
+    "score": 61,
+    "source": "metacritic",
+    "metacritic_slug": "scathe"
+  },
+  "Screamer": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "screamer"
+  },
+  "Sengoku Dynasty": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "sengoku-dynasty"
+  },
+  "Severed Steel": {
+    "score": 73,
+    "source": "epic"
   },
   "Shadow Warrior 3": {
-    "score": 71
+    "score": 71,
+    "source": "steam",
+    "appid": 1036890
+  },
+  "Shadow of the Tomb Raider": {
+    "score": 77,
+    "source": "steam",
+    "appid": 750920
+  },
+  "Shadows of Doubt": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "shadows-of-doubt"
+  },
+  "Sherlock Holmes The Awakened": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "sherlock-holmes-the-awakened"
   },
   "Showgunners": {
-    "score": 75
+    "score": 75,
+    "source": "steam",
+    "appid": 1155330
   },
   "Sifu": {
-    "score": 81
+    "score": 81,
+    "source": "steam",
+    "appid": 2138710
+  },
+  "Sker Ritual": {
+    "score": 55,
+    "source": "metacritic",
+    "metacritic_slug": "sker-ritual"
+  },
+  "Skull and Bones": {
+    "score": 59,
+    "source": "metacritic",
+    "metacritic_slug": "skull-and-bones"
   },
   "Slender: The Arrival": {
-    "score": 65
+    "score": 65,
+    "source": "steam",
+    "appid": 252330
+  },
+  "Smalland: Survive the Wilds": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "smalland-survive-the-wilds"
+  },
+  "Someday You'll Return: Director's Cut": {
+    "score": 66,
+    "source": "metacritic",
+    "metacritic_slug": "someday-youll-return-directors-cut"
+  },
+  "Sons Of The Forest": {
+    "score": 86,
+    "source": "metacritic",
+    "metacritic_slug": "sons-of-the-forest"
+  },
+  "Soulstice": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "soulstice"
+  },
+  "South of Midnight": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "south-of-midnight"
+  },
+  "Spectre Divide": {
+    "score": 57,
+    "source": "metacritic",
+    "metacritic_slug": "spectre-divide"
+  },
+  "Spirit of the North 2": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "spirit-of-the-north-2"
+  },
+  "Splitgate: Arena Reloaded": {
+    "score": 71,
+    "source": "metacritic",
+    "metacritic_slug": "splitgate-arena-reloaded"
+  },
+  "SpongeBob SquarePants: Titans of the Tide": {
+    "score": 79,
+    "source": "steam",
+    "appid": 2479650
+  },
+  "Star Trek: Voyager - Across The Unknown": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "star-trek-voyager-across-the-unknown"
+  },
+  "Star Wars Jedi: Survivor": {
+    "score": 85,
+    "source": "metacritic",
+    "metacritic_slug": "star-wars-jedi-survivor"
+  },
+  "Star Wars Outlaws": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "star-wars-outlaws"
+  },
+  "Starfield": {
+    "score": 83,
+    "source": "metacritic",
+    "metacritic_slug": "starfield"
+  },
+  "Starship Troopers: Extermination": {
+    "score": 61,
+    "source": "metacritic",
+    "metacritic_slug": "starship-troopers-extermination"
+  },
+  "Steel Seed": {
+    "score": 65,
+    "source": "metacritic",
+    "metacritic_slug": "steel-seed"
+  },
+  "Steelrising": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "steelrising"
+  },
+  "Stellar Blade": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "stellar-blade"
+  },
+  "Still Wakes The Deep": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "still-wakes-the-deep"
+  },
+  "Stormgate": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "stormgate"
+  },
+  "Stranded: Alien Dawn": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "stranded-alien-dawn"
+  },
+  "Stranger of Paradise Final Fantasy Origin": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "stranger-of-paradise-final-fantasy-origin"
+  },
+  "Strayed Lights": {
+    "score": 70,
+    "source": "metacritic",
+    "metacritic_slug": "strayed-lights"
+  },
+  "Styx: Blades of Greed": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "styx-blades-of-greed"
+  },
+  "Suicide Squad: Kill The Justice League": {
+    "score": 60,
+    "source": "metacritic",
+    "metacritic_slug": "suicide-squad-kill-the-justice-league"
+  },
+  "Sumerian Six": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "sumerian-six"
+  },
+  "Supraland": {
+    "score": 85,
+    "source": "epic"
+  },
+  "Sword and Fairy 7": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "sword-and-fairy-7"
+  },
+  "Swords of Legends Online": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "swords-of-legends-online"
+  },
+  "TEKKEN 8": {
+    "score": 90,
+    "source": "metacritic",
+    "metacritic_slug": "tekken-8"
+  },
+  "THE FINALS": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "the-finals"
+  },
+  "THRONE AND LIBERTY": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "throne-and-liberty"
+  },
+  "Tainted Grail: The Fall of Avalon": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "tainted-grail-the-fall-of-avalon"
+  },
+  "Tchia": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "tchia"
+  },
+  "Tempest Rising": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "tempest-rising"
+  },
+  "Test Drive Unlimited Solar Crown": {
+    "score": 53,
+    "source": "metacritic",
+    "metacritic_slug": "test-drive-unlimited-solar-crown"
+  },
+  "Testament: The Order of High-Human": {
+    "score": 40,
+    "source": "metacritic",
+    "metacritic_slug": "testament-the-order-of-high-human"
   },
   "The Alters": {
-    "score": 85
+    "score": 85,
+    "source": "steam",
+    "appid": 1601570
+  },
+  "The Ascent": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "the-ascent"
+  },
+  "The Callisto Protocol": {
+    "score": 69,
+    "source": "metacritic",
+    "metacritic_slug": "the-callisto-protocol"
+  },
+  "The Casting of Frank Stone": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "the-casting-of-frank-stone"
+  },
+  "The Chant": {
+    "score": 68,
+    "source": "metacritic",
+    "metacritic_slug": "the-chant"
+  },
+  "The Cycle: Frontier": {
+    "score": 59,
+    "source": "metacritic",
+    "metacritic_slug": "the-cycle-frontier"
+  },
+  "The Elder Scrolls IV: Oblivion Remastered": {
+    "score": 80,
+    "source": "metacritic",
+    "metacritic_slug": "the-elder-scrolls-iv-oblivion-remastered"
+  },
+  "The Elder Scrolls Online": {
+    "score": 71,
+    "source": "metacritic",
+    "metacritic_slug": "the-elder-scrolls-online"
+  },
+  "The Fabled Woods": {
+    "score": 47,
+    "source": "metacritic",
+    "metacritic_slug": "the-fabled-woods"
+  },
+  "The First Berserker: Khazan": {
+    "score": 78,
+    "source": "metacritic",
+    "metacritic_slug": "the-first-berserker-khazan"
+  },
+  "The First Descendant": {
+    "score": 57,
+    "source": "metacritic",
+    "metacritic_slug": "the-first-descendant"
+  },
+  "The Inquisitor": {
+    "score": 58,
+    "source": "metacritic",
+    "metacritic_slug": "the-inquisitor"
+  },
+  "The Invincible": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "the-invincible"
+  },
+  "The Lamplighters League": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "the-lamplighters-league"
+  },
+  "The Last Oricru": {
+    "score": 54,
+    "source": "metacritic",
+    "metacritic_slug": "the-last-oricru"
+  },
+  "The Last of Us Part I": {
+    "score": 89,
+    "source": "metacritic",
+    "metacritic_slug": "the-last-of-us-part-i"
+  },
+  "The Last of Us Part II Remastered": {
+    "score": 90,
+    "source": "metacritic",
+    "metacritic_slug": "the-last-of-us-part-ii-remastered"
+  },
+  "The Legend of Heroes: Trails Through Daybreak": {
+    "score": 84,
+    "source": "metacritic",
+    "metacritic_slug": "the-legend-of-heroes-trails-through-daybreak"
+  },
+  "The Legend of Heroes: Trails Through Daybreak II": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "the-legend-of-heroes-trails-through-daybreak-ii"
+  },
+  "The Lord of the Rings: Gollum": {
+    "score": 33,
+    "source": "metacritic",
+    "metacritic_slug": "the-lord-of-the-rings-gollum"
+  },
+  "The Lord of the Rings: Return to Moria": {
+    "score": 59,
+    "source": "metacritic",
+    "metacritic_slug": "the-lord-of-the-rings-return-to-moria"
+  },
+  "The Medium": {
+    "score": 71,
+    "source": "metacritic",
+    "metacritic_slug": "the-medium"
+  },
+  "The Midnight Walk": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "the-midnight-walk"
+  },
+  "The Outer Worlds 2": {
+    "score": 82,
+    "source": "metacritic",
+    "metacritic_slug": "the-outer-worlds-2"
+  },
+  "The Outlast Trials": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "the-outlast-trials"
+  },
+  "The Persistence": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "the-persistence"
+  },
+  "The Riftbreaker": {
+    "score": 83,
+    "source": "metacritic",
+    "metacritic_slug": "the-riftbreaker"
   },
   "The Talos Principle 2": {
-    "score": 88
+    "score": 88,
+    "source": "steam",
+    "appid": 835960
+  },
+  "The Talos Principle: Reawakened": {
+    "score": 89,
+    "source": "metacritic",
+    "metacritic_slug": "the-talos-principle-reawakened"
+  },
+  "The Texas Chain Saw Massacre": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "the-texas-chain-saw-massacre"
+  },
+  "The Thaumaturge": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "the-thaumaturge"
   },
   "The Valiant": {
-    "score": 73
+    "score": 73,
+    "source": "steam",
+    "appid": 959860
   },
   "The Witcher 3: Wild Hunt": {
-    "score": 93
+    "score": 93,
+    "source": "steam",
+    "appid": 292030
+  },
+  "Togges": {
+    "score": 70,
+    "source": "metacritic",
+    "metacritic_slug": "togges"
+  },
+  "Tom Clancy's Rainbow Six Extraction": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "tom-clancys-rainbow-six-extraction"
+  },
+  "Tom Clancy's Rainbow Six Siege": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "tom-clancys-rainbow-six-siege"
+  },
+  "Tower of Fantasy": {
+    "score": 65,
+    "source": "metacritic",
+    "metacritic_slug": "tower-of-fantasy"
   },
   "Trepang2": {
-    "score": 79
+    "score": 79,
+    "source": "steam",
+    "appid": 1164940
+  },
+  "Uncharted: Legacy of Thieves Collection": {
+    "score": 87,
+    "source": "metacritic",
+    "metacritic_slug": "uncharted-legacy-of-thieves-collection"
+  },
+  "Until Dawn": {
+    "score": 70,
+    "source": "metacritic",
+    "metacritic_slug": "until-dawn"
+  },
+  "Valkyrie Elysium": {
+    "score": 65,
+    "source": "metacritic",
+    "metacritic_slug": "valkyrie-elysium"
+  },
+  "Vampire: The Masquerade - Bloodlines 2": {
+    "score": 62,
+    "source": "metacritic",
+    "metacritic_slug": "vampire-the-masquerade-bloodlines-2"
+  },
+  "Vampire: The Masquerade - Swansong": {
+    "score": 66,
+    "source": "metacritic",
+    "metacritic_slug": "vampire-the-masquerade-swansong"
+  },
+  "Virtua Fighter 5 R.E.V.O.": {
+    "score": 75,
+    "source": "metacritic",
+    "metacritic_slug": "virtua-fighter-5-revo"
   },
   "Void Crew": {
-    "score": 80
+    "score": 80,
+    "source": "steam",
+    "appid": 1063420
   },
   "Voidtrain": {
-    "score": 82
+    "score": 82,
+    "source": "steam",
+    "appid": 1159690
   },
-  "Warframe": {
-    "score": 69
-  },
-  "War Thunder": {
-    "score": 81
-  },
-  "Warhammer 40,000: Space Marine 2": {
-    "score": 82
-  },
-  "Warhammer: Vermintide 2": {
-    "score": 82
-  },
-  "Welcome to ParadiZe": {
-    "score": 71
-  },
-  "Wo Long: Fallen Dynasty": {
-    "score": 79
-  },
-  "Wolfenstein: Youngblood": {
-    "score": 69
+  "WILD HEARTS": {
+    "score": 79,
+    "source": "metacritic",
+    "metacritic_slug": "wild-hearts"
   },
   "WUCHANG: Fallen Feathers": {
-    "score": 77
+    "score": 77,
+    "source": "steam",
+    "appid": 2277560
+  },
+  "Wanted: Dead": {
+    "score": 58,
+    "source": "metacritic",
+    "metacritic_slug": "wanted-dead"
+  },
+  "War Thunder": {
+    "score": 81,
+    "source": "steam",
+    "appid": 236390
+  },
+  "Warframe": {
+    "score": 69,
+    "source": "steam",
+    "appid": 230410
+  },
+  "Warhammer 40,000: Darktide": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "warhammer-40000-darktide"
+  },
+  "Warhammer 40,000: Space Marine 2": {
+    "score": 82,
+    "source": "steam",
+    "appid": 2183900
+  },
+  "Warhammer 40,000: Speed Freeks": {
+    "score": 66,
+    "source": "metacritic",
+    "metacritic_slug": "warhammer-40000-speed-freeks"
+  },
+  "Warhammer Age of Sigmar: Realms of Ruin": {
+    "score": 67,
+    "source": "metacritic",
+    "metacritic_slug": "warhammer-age-of-sigmar-realms-of-ruin"
+  },
+  "Warhammer: Vermintide 2": {
+    "score": 82,
+    "source": "steam",
+    "appid": 552500
+  },
+  "Watch Dogs: Legion": {
+    "score": 76,
+    "source": "metacritic",
+    "metacritic_slug": "watch-dogs-legion"
+  },
+  "Way of the Hunter": {
+    "score": 65,
+    "source": "metacritic",
+    "metacritic_slug": "way-of-the-hunter"
+  },
+  "Wayfinder": {
+    "score": 73,
+    "source": "metacritic",
+    "metacritic_slug": "wayfinder"
+  },
+  "Welcome to ParadiZe": {
+    "score": 71,
+    "source": "steam",
+    "appid": 1519090
+  },
+  "Where Winds Meet": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "where-winds-meet"
+  },
+  "Wildgate": {
+    "score": 72,
+    "source": "metacritic",
+    "metacritic_slug": "wildgate"
+  },
+  "Wo Long: Fallen Dynasty": {
+    "score": 79,
+    "source": "steam",
+    "appid": 1448440
+  },
+  "Wolfenstein: Youngblood": {
+    "score": 69,
+    "source": "steam",
+    "appid": 1056960
+  },
+  "World of Warcraft: Shadowlands": {
+    "score": 83,
+    "source": "metacritic",
+    "metacritic_slug": "world-of-warcraft-shadowlands"
+  },
+  "Wreckreation": {
+    "score": 62,
+    "source": "metacritic",
+    "metacritic_slug": "wreckreation"
+  },
+  "Wuthering Waves": {
+    "score": 71,
+    "source": "metacritic",
+    "metacritic_slug": "wuthering-waves"
+  },
+  "X4: Foundations": {
+    "score": 59,
+    "source": "metacritic",
+    "metacritic_slug": "x4-foundations"
+  },
+  "Xuan-Yuan Sword VII": {
+    "score": 71,
+    "source": "metacritic",
+    "metacritic_slug": "xuan-yuan-sword-vii"
+  },
+  "Yakuza Kiwami 2": {
+    "score": 85,
+    "source": "metacritic",
+    "metacritic_slug": "yakuza-kiwami-2"
+  },
+  "Yakuza Kiwami 3 & Dark Ties": {
+    "score": 74,
+    "source": "metacritic",
+    "metacritic_slug": "yakuza-kiwami-3-dark-ties"
+  },
+  "Zenless Zone Zero": {
+    "score": 77,
+    "source": "metacritic",
+    "metacritic_slug": "zenless-zone-zero"
+  },
+  "Black Myth: Wukong": {
+    "score": 81,
+    "source": "metacritic",
+    "metacritic_slug": "black-myth-wukong"
   }
 }

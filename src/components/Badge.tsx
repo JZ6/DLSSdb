@@ -1,5 +1,5 @@
 import type { DlssGame, SteamRating, SteamInfo, HltbInfo, MetacriticInfo, UpscalingInfo } from "../types";
-import { getFrameGenLabel, getDlssVersion } from "../types";
+import { getFrameGenLabel, getDlssVersion, getHltbHours } from "../types";
 
 const FG_STYLES: Record<string, string> = {
   "6X": "b6x",
@@ -18,9 +18,11 @@ const FEATURE_STYLES: Record<string, { cls: string; label: string }> = {
 const STEAM_STYLES: Record<SteamRating, string> = {
   "Overwhelmingly Positive": "sop",
   "Very Positive": "svp",
+  Positive: "sps",
   "Mostly Positive": "smp",
   Mixed: "smx",
   "Mostly Negative": "smn",
+  Negative: "svn",
   "Very Negative": "svn",
 };
 
@@ -55,13 +57,22 @@ export function FeatureBadge({ value }: { value: string }) {
   return <span className="badge byes">{value}</span>;
 }
 
+function fmtCount(n: number): string {
+  if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
+  if (n >= 1000) return `${(n / 1000).toFixed(1)}K`;
+  return String(n);
+}
+
 export function SteamBadge({ info }: { info?: SteamInfo }) {
   if (!info) return <span className="empty">—</span>;
+  if (info.not_on_steam) return <span className="empty">Not On Steam</span>;
+  if (!info.rating) return <span className="empty">—</span>;
   const cls = STEAM_STYLES[info.rating] ?? "smx";
+  const tip = info.total ? `${fmtCount(info.total)} reviews` : undefined;
   return (
-    <div className="sc">
+    <div className="sc" data-tip={tip} tabIndex={tip ? 0 : undefined}>
       <span className={`badge ${cls}`}>{info.rating}</span>
-      <span className="sp">{info.pct}%</span>
+      {info.pct !== undefined && <span className="sp">{info.pct}%</span>}
     </div>
   );
 }
@@ -75,20 +86,29 @@ export function MetacriticBadge({ info }: { info?: MetacriticInfo }) {
 
 export function UpscalingBadge({ info }: { info?: UpscalingInfo }) {
   if (!info) return <span className="empty">—</span>;
-  const parts: string[] = [];
-  if (info.fsr) parts.push("FSR");
-  if (info.xess) parts.push("XeSS");
+  const parts: { label: string; cls: string; tip: string }[] = [];
+  if (info.fsr_version) parts.push({ label: "FSR", cls: "bfsr", tip: info.fsr_version });
+  if (info.xess_version) parts.push({ label: "XeSS", cls: "bxess", tip: info.xess_version });
   if (!parts.length) return <span className="empty">—</span>;
   return (
     <span className="upscaling-badges">
-      {parts.map((p) => <span key={p} className="badge byes">{p}</span>)}
+      {parts.map((p) => <span key={p.label} className={`badge ${p.cls}`} data-tip={p.tip} tabIndex={0}>{p.label}</span>)}
     </span>
   );
 }
 
+function hltbColor(hours: number): string {
+  // Green (short) → Yellow (medium) → Red (long)
+  // 0h = green, 100h = yellow, 200h+ = red
+  const t = Math.min(hours / 200, 1);
+  const r = Math.round(t < 0.5 ? t * 2 * 220 : 220);
+  const g = Math.round(t < 0.5 ? 220 : (1 - (t - 0.5) * 2) * 220);
+  return `rgb(${r}, ${g}, 68)`;
+}
+
 export function HltbBadge({ data }: { data?: HltbInfo }) {
-  const displayHours = data?.main ?? data?.extra ?? data?.complete;
-  if (!displayHours) return <span className="empty">—</span>;
+  const displayHours = getHltbHours(data);
+  if (displayHours === undefined) return <span className="empty">—</span>;
 
   const tooltip = [
     data?.main && `Main Story: ${fmt(data.main)}h`,
@@ -98,7 +118,7 @@ export function HltbBadge({ data }: { data?: HltbInfo }) {
 
   return (
     <span className="hltb-cell" data-tip={tooltip}>
-      <span className="hltb-main">{fmt(displayHours)}h</span>
+      <span className="hltb-main" style={{ color: hltbColor(displayHours) }}>{fmt(displayHours)}h</span>
     </span>
   );
 }

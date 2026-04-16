@@ -1,36 +1,11 @@
 {
-  "Cyberpunk 2077": {
-    "main": 26.01,
-    "extra": 63.07,
-    "complete": 108.33
+  "171": {
+    "hltb_id": 121247
   },
-  "Hogwarts Legacy": {
-    "main": 26.7,
-    "extra": 45.23,
-    "complete": 71.99
-  },
-  "SILENT HILL 2": {
-    "main": 16.04,
-    "extra": 18.57,
-    "complete": 32.23
-  },
-  "Monster Hunter Rise": {
-    "main": 23.24,
-    "extra": 82.61,
-    "complete": 181.41
-  },
-  "Rise of the Tomb Raider": {
-    "main": 13.31,
-    "extra": 21.86,
-    "complete": 35.36
-  },
-  "Frozen Flame": {
-    "extra": 56.0
-  },
-  "Soulslinger: Envoy of Death": {
-    "main": 7.9,
-    "extra": 12.58,
-    "complete": 16.5
+  "7 Days To Die": {
+    "main": 53.24,
+    "extra": 112.25,
+    "complete": 284.57
   },
   "A Plague Tale: Requiem": {
     "main": 17.01,
@@ -42,73 +17,86 @@
     "extra": 10.37,
     "complete": 13.79
   },
-  "7 Days To Die": {
-    "main": 53.24,
-    "extra": 112.25,
-    "complete": 284.57
-  },
   "A.I.L.A": {
     "main": 9.19,
     "extra": 11.55,
     "complete": 14.61
-  },
-  "Achilles: Legends Untold": {
-    "main": 10.06,
-    "extra": 15.67,
-    "complete": 25.41
-  },
-  "AI Limit": {
-    "main": 18.25,
-    "extra": 23.45,
-    "complete": 31.11
-  },
-  "Ad Infinitum": {
-    "main": 7.03,
-    "extra": 8.22,
-    "complete": 11.86
   },
   "AEW: Fight Forever": {
     "main": 4.0,
     "extra": 10.45,
     "complete": 22.36
   },
-  "Alan Wake Remastered": {
-    "main": 10.31,
-    "extra": 14.19,
-    "complete": 25.43
-  },
-  "Alan Wake 2": {
-    "main": 19.09,
-    "extra": 26.08,
-    "complete": 32.16
-  },
-  "Akimbot": {
-    "main": 8.9,
-    "extra": 9.44,
-    "complete": 11.64
-  },
-  "Alone In The Dark": {
-    "main": 7.68,
-    "extra": 10.62,
-    "complete": 19.93
+  "AI Limit": {
+    "main": 18.25,
+    "extra": 23.45,
+    "complete": 31.11
   },
   "AMID EVIL": {
     "main": 8.32,
     "extra": 10.89,
     "complete": 13.11
   },
+  "ARC Raiders": {
+    "main": 44.15,
+    "extra": 94.53,
+    "complete": 198.46
+  },
+  "ARK: Survival Ascended": {
+    "main": 336.69,
+    "extra": 525.06,
+    "complete": 725.0
+  },
+  "AWAY: The Survival Series": {
+    "main": 4.48,
+    "extra": 4.49,
+    "complete": 14.92
+  },
+  "Achilles: Legends Untold": {
+    "main": 10.06,
+    "extra": 15.67,
+    "complete": 25.41
+  },
+  "Ad Infinitum": {
+    "main": 7.03,
+    "extra": 8.22,
+    "complete": 11.86
+  },
+  "AirportSim": {
+    "hltb_id": 150542
+  },
+  "Akimbot": {
+    "main": 8.9,
+    "extra": 9.44,
+    "complete": 11.64
+  },
+  "Alan Wake 2": {
+    "main": 19.09,
+    "extra": 26.08,
+    "complete": 32.16
+  },
+  "Alan Wake Remastered": {
+    "main": 10.31,
+    "extra": 14.19,
+    "complete": 25.43
+  },
+  "Alone In The Dark": {
+    "main": 7.68,
+    "extra": 10.62,
+    "complete": 19.93
+  },
   "Ambulance Life: A Paramedic Simulator": {
     "main": 1.62
-  },
-  "Anthem": {
-    "main": 14.27,
-    "extra": 28.35,
-    "complete": 58.98
   },
   "Anno 117: Pax Romana": {
     "main": 9.95,
     "extra": 25.19,
     "complete": 63.77
+  },
+  "Anthem": {
+    "main": 14.27,
+    "extra": 28.35,
+    "complete": 58.98
   },
   "Arcadegeddon": {
     "main": 5.92,
@@ -117,11 +105,6 @@
   },
   "Arena Breakout: Infinite": {
     "main": 6.0
-  },
-  "ARK: Survival Ascended": {
-    "main": 336.69,
-    "extra": 525.06,
-    "complete": 725.0
   },
   "Arknights: Endfield": {
     "main": 33.34,
@@ -133,28 +116,23 @@
     "extra": 15.18,
     "complete": 20.0
   },
-  "ARC Raiders": {
-    "main": 44.15,
-    "extra": 94.53,
-    "complete": 198.46
-  },
-  "Assetto Corsa EVO": {
-    "complete": 364.0
-  },
   "Assassin's Creed Mirage": {
     "main": 16.06,
     "extra": 22.83,
     "complete": 30.75
+  },
+  "Assassin's Creed Shadows": {
+    "main": 35.45,
+    "extra": 64.9,
+    "complete": 98.51
   },
   "Assetto Corsa Competizione": {
     "main": 13.43,
     "extra": 99.28,
     "complete": 336.25
   },
-  "Assassin's Creed Shadows": {
-    "main": 35.45,
-    "extra": 64.9,
-    "complete": 98.51
+  "Assetto Corsa EVO": {
+    "complete": 364.0
   },
   "Atomic Heart": {
     "main": 16.21,
@@ -171,60 +149,60 @@
     "extra": 47.5,
     "complete": 68.18
   },
-  "AWAY: The Survival Series": {
-    "main": 4.48,
-    "extra": 4.49,
-    "complete": 14.92
+  "BEAST: False Prophet": {
+    "extra": 40.0
+  },
+  "BLACKTAIL": {
+    "main": 8.17,
+    "extra": 15.56,
+    "complete": 22.55
   },
   "Back 4 Blood": {
     "main": 12.03,
     "extra": 23.3,
     "complete": 98.86
   },
+  "Backrooms Rec.": {
+    "main": 2.95
+  },
   "Backrooms: Escape Together": {
     "main": 2.74,
     "extra": 2.89,
     "complete": 6.1
+  },
+  "Bakemono": {
+    "main": 8.28,
+    "complete": 9.48
   },
   "Baldur's Gate 3": {
     "main": 72.85,
     "extra": 115.91,
     "complete": 179.98
   },
-  "Backrooms Rec.": {
-    "main": 2.95
-  },
-  "Bakemono": {
-    "main": 8.28,
-    "complete": 9.48
-  },
   "Banishers: Ghosts of New Eden": {
     "main": 22.86,
     "extra": 45.42,
     "complete": 61.63
-  },
-  "Battlefield V": {
-    "main": 6.25,
-    "extra": 9.9,
-    "complete": 36.19
-  },
-  "Battlefield 2042": {
-    "main": 42.66,
-    "extra": 127.53,
-    "complete": 134.99
   },
   "Batora: Lost Haven": {
     "main": 6.89,
     "extra": 9.19,
     "complete": 11.05
   },
-  "BEAST: False Prophet": {
-    "extra": 40.0
+  "Battlefield 2042": {
+    "main": 42.66,
+    "extra": 127.53,
+    "complete": 134.99
   },
   "Battlefield 6": {
     "main": 6.01,
     "extra": 11.17,
     "complete": 23.18
+  },
+  "Battlefield V": {
+    "main": 6.25,
+    "extra": 9.9,
+    "complete": 36.19
   },
   "Bears In Space": {
     "main": 12.15,
@@ -241,36 +219,31 @@
     "extra": 9.17,
     "complete": 16.73
   },
-  "BLACKTAIL": {
-    "main": 8.17,
-    "extra": 15.56,
-    "complete": 22.55
-  },
-  "Black Myth: Wukong": {
-    "main": 38.18,
-    "extra": 48.37,
-    "complete": 67.4
-  },
   "Bleak Faith: Forsaken": {
     "main": 22.21,
     "extra": 27.79,
     "complete": 42.71
+  },
+  "Blind Fate: Edo no Yami": {
+    "main": 9.84,
+    "extra": 13.53
+  },
+  "Blood Bowl 3": {
+    "main": 15.66,
+    "complete": 19.0
+  },
+  "Bodycam": {
+    "complete": 12.0
   },
   "Borderlands 4": {
     "main": 30.04,
     "extra": 50.22,
     "complete": 109.07
   },
-  "Blood Bowl 3": {
-    "main": 15.66,
-    "complete": 19.0
-  },
-  "Blind Fate: Edo no Yami": {
-    "main": 9.84,
-    "extra": 13.53
-  },
-  "Bodycam": {
-    "complete": 12.0
+  "Boti: Byteland Overclocked": {
+    "main": 4.04,
+    "extra": 6.18,
+    "complete": 10.0
   },
   "Bright Memory": {
     "main": 0.83,
@@ -282,20 +255,10 @@
     "extra": 2.69,
     "complete": 6.11
   },
-  "Boti: Byteland Overclocked": {
-    "main": 4.04,
-    "extra": 6.18,
-    "complete": 10.0
-  },
   "Broken Pieces": {
     "main": 7.48,
     "extra": 9.47,
     "complete": 11.75
-  },
-  "Call of Duty: Black Ops 6": {
-    "main": 8.51,
-    "extra": 11.24,
-    "complete": 39.67
   },
   "Brothers: A Tale of Two Sons Remake": {
     "main": 3.19,
@@ -307,6 +270,19 @@
     "extra": 26.0,
     "complete": 51.5
   },
+  "CODE VEIN II": {
+    "main": 33.45,
+    "extra": 46.0,
+    "complete": 48.4
+  },
+  "CRSED F.O.A.D": {
+    "main": 1.39
+  },
+  "Call of Duty: Black Ops 6": {
+    "main": 8.51,
+    "extra": 11.24,
+    "complete": 39.67
+  },
   "Call of Duty: Black Ops 7": {
     "main": 5.26,
     "extra": 13.72,
@@ -317,31 +293,43 @@
     "extra": 7.02,
     "complete": 18.81
   },
-  "Call of Duty: Vanguard": {
-    "main": 6.15,
-    "extra": 8.84,
-    "complete": 27.91
-  },
   "Call of Duty: Modern Warfare": {
     "main": 6.16,
     "extra": 8.91,
     "complete": 15.08
-  },
-  "Call of Duty: Modern Warfare III": {
-    "main": 5.31,
-    "extra": 7.53,
-    "complete": 18.76
   },
   "Call of Duty: Modern Warfare II": {
     "main": 8.11,
     "extra": 11.46,
     "complete": 27.12
   },
-  "Carmageddon: Rogue Shift": {
-    "main": 4.74
+  "Call of Duty: Modern Warfare III": {
+    "main": 5.31,
+    "extra": 7.53,
+    "complete": 18.76
+  },
+  "Call of Duty: Vanguard": {
+    "main": 6.15,
+    "extra": 8.84,
+    "complete": 27.91
+  },
+  "Call of Duty: Warzone (2020)": {
+    "hltb_id": 75852,
+    "main": 49.07,
+    "extra": 139.83,
+    "complete": 355.77
+  },
+  "Call of Duty: Warzone (2022)": {
+    "hltb_id": 75852,
+    "main": 49.07,
+    "extra": 139.83,
+    "complete": 355.77
   },
   "Capes": {
     "extra": 25.78
+  },
+  "Carmageddon: Rogue Shift": {
+    "main": 4.74
   },
   "Chained Backrooms": {
     "main": 1.27
@@ -351,50 +339,45 @@
     "extra": 21.05,
     "complete": 23.89
   },
-  "Choo-Choo Charles": {
-    "main": 2.23,
-    "extra": 3.06,
-    "complete": 3.7
-  },
   "Chivalry 2": {
     "main": 13.55,
     "extra": 43.26,
     "complete": 70.58
+  },
+  "Choo-Choo Charles": {
+    "main": 2.23,
+    "extra": 3.06,
+    "complete": 3.7
   },
   "Chorus": {
     "main": 13.32,
     "extra": 18.07,
     "complete": 22.29
   },
-  "Clair Obscur: Expedition 33": {
-    "main": 29.19,
-    "extra": 45.56,
-    "complete": 67.98
+  "Cions of Vega": {
+    "main": 0.97,
+    "complete": 1.3
   },
   "Cities: Skylines II": {
     "main": 29.52,
     "extra": 55.29,
     "complete": 101.2
   },
-  "Cions of Vega": {
-    "main": 0.97,
-    "complete": 1.3
+  "Clair Obscur: Expedition 33": {
+    "main": 29.19,
+    "extra": 45.56,
+    "complete": 67.98
   },
-  "Conqueror's Blade": {
-    "main": 552.93
-  },
-  "CODE VEIN II": {
-    "main": 33.45,
-    "extra": 46.0,
-    "complete": 48.4
+  "Code Alkonost: Awakening of Evil": {
+    "extra": 2.75
   },
   "Commandos: Origins": {
     "main": 33.36,
     "extra": 57.9,
     "complete": 89.98
   },
-  "Code Alkonost: Awakening of Evil": {
-    "extra": 2.75
+  "Conqueror's Blade": {
+    "main": 552.93
   },
   "Control": {
     "main": 11.7,
@@ -406,33 +389,61 @@
     "extra": 19.08,
     "complete": 53.72
   },
-  "Cronos: The New Dawn": {
-    "main": 14.61,
-    "extra": 18.64,
-    "complete": 28.16
-  },
   "Crimson Desert": {
     "main": 59.99,
     "extra": 88.82,
     "complete": 200.25
   },
-  "Crysis 3 Remastered": {
-    "main": 6.63,
-    "extra": 8.28,
-    "complete": 12.52
+  "Cronos: The New Dawn": {
+    "main": 14.61,
+    "extra": 18.64,
+    "complete": 28.16
   },
   "Crysis 2 Remastered": {
     "main": 9.03,
     "extra": 12.01,
     "complete": 14.41
   },
+  "Crysis 3 Remastered": {
+    "main": 6.63,
+    "extra": 8.28,
+    "complete": 12.52
+  },
   "Crysis Remastered": {
     "main": 9.23,
     "extra": 11.43,
     "complete": 11.85
   },
-  "CRSED F.O.A.D": {
-    "main": 1.39
+  "Cyberpunk 2077": {
+    "main": 26.01,
+    "extra": 63.07,
+    "complete": 108.33
+  },
+  "DAVY x JONES": {
+    "main": 4.0
+  },
+  "DESORDRE: A Puzzle Game Adventure": {
+    "main": 2.26,
+    "complete": 2.71
+  },
+  "DON'T SCREAM": {
+    "main": 0.59,
+    "complete": 1.33
+  },
+  "DOOM Eternal": {
+    "main": 14.38,
+    "extra": 20.55,
+    "complete": 29.41
+  },
+  "DOOM: The Dark Ages": {
+    "main": 14.21,
+    "extra": 19.16,
+    "complete": 24.49
+  },
+  "DYNASTY WARRIORS: ORIGINS": {
+    "main": 33.56,
+    "extra": 45.38,
+    "complete": 90.42
   },
   "Dakar Desert Rally": {
     "main": 19.33,
@@ -447,54 +458,43 @@
     "extra": 4.36,
     "complete": 4.91
   },
-  "DAVY x JONES": {
-    "main": 4.0
-  },
   "Daymare: 1994 Sandcastle": {
     "main": 7.37,
     "extra": 9.47,
     "complete": 10.55
-  },
-  "Dead Signal": {
-    "main": 21.5,
-    "complete": 37.5
-  },
-  "Deadlock": {
-    "main": 20.63,
-    "extra": 46.45
   },
   "Dead Rising Deluxe Remaster": {
     "main": 9.97,
     "extra": 13.13,
     "complete": 23.54
   },
+  "Dead Signal": {
+    "main": 21.5,
+    "complete": 37.5
+  },
   "Dead Space": {
     "main": 12.12,
     "extra": 16.1,
     "complete": 29.55
-  },
-  "Deadlink": {
-    "main": 7.91,
-    "extra": 14.97,
-    "complete": 25.47
-  },
-  "Deadzone: Rogue": {
-    "main": 7.23,
-    "extra": 21.04,
-    "complete": 81.54
   },
   "Dead Take": {
     "main": 4.08,
     "extra": 4.58,
     "complete": 6.11
   },
-  "Death Stranding Director's Cut": {
-    "main": 38.06,
-    "extra": 59.18,
-    "complete": 111.59
+  "Deadlink": {
+    "main": 7.91,
+    "extra": 14.97,
+    "complete": 25.47
   },
-  "DeathSprint 66": {
-    "main": 2.0
+  "Deadlock": {
+    "main": 20.63,
+    "extra": 46.45
+  },
+  "Deadzone: Rogue": {
+    "main": 7.23,
+    "extra": 21.04,
+    "complete": 81.54
   },
   "Death Relives": {
     "main": 2.0
@@ -509,46 +509,54 @@
     "extra": 63.23,
     "complete": 115.75
   },
-  "Deceive Inc.": {
-    "main": 10.05,
-    "complete": 70.37
+  "Death Stranding Director's Cut": {
+    "main": 38.06,
+    "extra": 59.18,
+    "complete": 111.59
+  },
+  "DeathSprint 66": {
+    "main": 2.0
   },
   "Deathloop": {
     "main": 16.38,
     "extra": 24.47,
     "complete": 36.03
   },
+  "Deceive Inc.": {
+    "main": 10.05,
+    "complete": 70.37
+  },
   "Deep Rock Galactic": {
     "main": 44.58,
     "extra": 138.89,
     "complete": 493.61
-  },
-  "Deliver Us The Moon": {
-    "main": 5.14,
-    "extra": 6.14,
-    "complete": 8.15
   },
   "Deliver Us Mars": {
     "main": 8.18,
     "extra": 9.24,
     "complete": 11.03
   },
+  "Deliver Us The Moon": {
+    "main": 5.14,
+    "extra": 6.14,
+    "complete": 8.15
+  },
   "Delta Force": {
     "main": 5.72
-  },
-  "Destroy All Humans! 2 - Reprobed": {
-    "main": 10.92,
-    "extra": 17.42,
-    "complete": 25.0
   },
   "Demonologist": {
     "main": 15.25,
     "extra": 20.02,
     "complete": 23.17
   },
-  "DESORDRE: A Puzzle Game Adventure": {
-    "main": 2.26,
-    "complete": 2.71
+  "Destroy All Humans! 2 - Reprobed": {
+    "main": 10.92,
+    "extra": 17.42,
+    "complete": 25.0
+  },
+  "Desynced: Autonomous Colony Simulator": {
+    "hltb_id": 143825,
+    "extra": 69.0
   },
   "DiRT 5": {
     "main": 8.5,
@@ -570,14 +578,10 @@
     "extra": 15.8,
     "complete": 20.49
   },
-  "DOOM Eternal": {
-    "main": 14.38,
-    "extra": 20.55,
-    "complete": 29.41
-  },
-  "DON'T SCREAM": {
-    "main": 0.59,
-    "complete": 1.33
+  "Dragon Age: The Veilguard": {
+    "main": 28.17,
+    "extra": 62.21,
+    "complete": 78.4
   },
   "Dragon's Dogma 2": {
     "main": 31.07,
@@ -586,16 +590,6 @@
   },
   "Dragonkin: The Banished": {
     "main": 18.44
-  },
-  "Dragon Age: The Veilguard": {
-    "main": 28.17,
-    "extra": 62.21,
-    "complete": 78.4
-  },
-  "DOOM: The Dark Ages": {
-    "main": 14.21,
-    "extra": 19.16,
-    "complete": 24.49
   },
   "Duet Night Abyss": {
     "main": 6.19,
@@ -614,46 +608,56 @@
     "extra": 49.24,
     "complete": 102.62
   },
-  "EA Sports WRC": {
-    "main": 13.61,
-    "extra": 26.82,
-    "complete": 34.11
-  },
   "Dying Light: The Beast": {
     "main": 18.38,
     "extra": 30.75,
     "complete": 47.9
   },
-  "DYNASTY WARRIORS: ORIGINS": {
-    "main": 33.56,
-    "extra": 45.38,
-    "complete": 90.42
+  "EA Sports WRC": {
+    "main": 13.61,
+    "extra": 26.82,
+    "complete": 34.11
   },
-  "Elden Ring": {
-    "main": 60.01,
-    "extra": 101.21,
-    "complete": 135.58
+  "EMOTIONLESS: The Last Ticket": {
+    "main": 2.17
+  },
+  "EVE Online": {
+    "main": 1776.88,
+    "extra": 3177.16,
+    "complete": 5680.94
+  },
+  "EVOTINCTION": {
+    "main": 5.52,
+    "extra": 6.49
   },
   "Echo Point Nova": {
     "main": 5.24,
     "extra": 7.43,
     "complete": 11.31
   },
+  "Echoes of the End: Enhanced Edition": {
+    "hltb_id": 111173,
+    "main": 11.41,
+    "extra": 13.78,
+    "complete": 16.58
+  },
   "Edge of Eternity": {
     "main": 29.02,
     "extra": 48.2,
     "complete": 73.11
   },
-  "EMOTIONLESS: The Last Ticket": {
-    "main": 2.17
-  },
-  "Empyreal": {
-    "main": 17.98
+  "Elden Ring": {
+    "main": 60.01,
+    "extra": 101.21,
+    "complete": 135.58
   },
   "Empire of the Ants": {
     "main": 13.86,
     "extra": 20.93,
     "complete": 31.61
+  },
+  "Empyreal": {
+    "main": 17.98
   },
   "Enlisted": {
     "extra": 47.97,
@@ -669,14 +673,14 @@
     "extra": 68.74,
     "complete": 77.51
   },
+  "Escape From Naraka": {
+    "main": 2.42,
+    "complete": 7.33
+  },
   "Escape From Tarkov": {
     "main": 189.38,
     "extra": 258.53,
     "complete": 555.88
-  },
-  "Escape From Naraka": {
-    "main": 2.42,
-    "complete": 7.33
   },
   "Eternal Strands": {
     "main": 18.83,
@@ -688,29 +692,20 @@
     "extra": 147.75,
     "complete": 945.7
   },
-  "Evil West": {
-    "main": 10.75,
-    "extra": 13.32,
-    "complete": 22.37
+  "Everspace 2": {
+    "main": 28.56,
+    "extra": 47.55,
+    "complete": 68.32
   },
   "Evil Dead: The Game": {
     "main": 3.09,
     "extra": 25.79,
     "complete": 191.5
   },
-  "Everspace 2": {
-    "main": 28.56,
-    "extra": 47.55,
-    "complete": 68.32
-  },
-  "EVOTINCTION": {
-    "main": 5.52,
-    "extra": 6.49
-  },
-  "EVE Online": {
-    "main": 1776.88,
-    "extra": 3177.16,
-    "complete": 5680.94
+  "Evil West": {
+    "main": 10.75,
+    "extra": 13.32,
+    "complete": 22.37
   },
   "Exit From": {
     "main": 1.0,
@@ -727,11 +722,6 @@
     "extra": 50.59,
     "complete": 148.65
   },
-  "F1 23": {
-    "main": 9.45,
-    "extra": 31.95,
-    "complete": 74.41
-  },
   "F1 2021": {
     "main": 10.06,
     "extra": 50.37,
@@ -741,6 +731,11 @@
     "main": 23.33,
     "extra": 52.0,
     "complete": 79.19
+  },
+  "F1 23": {
+    "main": 9.45,
+    "extra": 31.95,
+    "complete": 74.41
   },
   "F1 24": {
     "main": 14.74,
@@ -752,42 +747,29 @@
     "extra": 26.04,
     "complete": 106.66
   },
-  "Faraday Protocol": {
-    "main": 4.75,
-    "extra": 5.47,
-    "complete": 7.0
-  },
-  "Far Cry 6": {
-    "main": 24.69,
-    "extra": 41.65,
-    "complete": 64.97
+  "F1 Manager 2023": {
+    "main": 35.52,
+    "extra": 88.04,
+    "complete": 100.7
   },
   "F1 Manager 2024": {
     "main": 21.1,
     "extra": 56.45,
     "complete": 92.4
   },
-  "F1 Manager 2023": {
-    "main": 35.52,
-    "extra": 88.04,
-    "complete": 100.7
-  },
-  "Farming Simulator 22": {
-    "main": 163.25,
-    "extra": 216.44,
-    "complete": 269.28
-  },
-  "Farlight 84": {
-    "main": 3.0,
-    "extra": 78.0
-  },
-  "Farming Simulator 25": {
-    "complete": 504.47
-  },
   "FBC: Firebreak": {
     "main": 3.45,
     "extra": 9.89,
     "complete": 20.91
+  },
+  "FINAL FANTASY VII REBIRTH": {
+    "main": 48.35,
+    "extra": 91.43,
+    "complete": 165.04
+  },
+  "FINAL FANTASY XIV Online": {
+    "main": 4.0,
+    "extra": 1067.0
   },
   "FINAL FANTASY XV": {
     "main": 27.87,
@@ -799,27 +781,30 @@
     "extra": 58.98,
     "complete": 82.42
   },
-  "FINAL FANTASY VII REBIRTH": {
-    "main": 48.35,
-    "extra": 91.43,
-    "complete": 165.04
+  "Far Cry 6": {
+    "main": 24.69,
+    "extra": 41.65,
+    "complete": 64.97
+  },
+  "Faraday Protocol": {
+    "main": 4.75,
+    "extra": 5.47,
+    "complete": 7.0
+  },
+  "Farlight 84": {
+    "main": 3.0,
+    "extra": 78.0
+  },
+  "Farming Simulator 22": {
+    "main": 163.25,
+    "extra": 216.44,
+    "complete": 269.28
+  },
+  "Farming Simulator 25": {
+    "complete": 504.47
   },
   "Finnish Cottage Simulator": {
     "complete": 15.0
-  },
-  "FINAL FANTASY XIV Online": {
-    "main": 4.0,
-    "extra": 1067.0
-  },
-  "Flintlock: The Siege of Dawn": {
-    "main": 8.94,
-    "extra": 15.09,
-    "complete": 21.2
-  },
-  "Firmament": {
-    "main": 8.21,
-    "extra": 8.66,
-    "complete": 9.69
   },
   "Firefighting Simulator - The Squad": {
     "main": 12.21,
@@ -829,78 +814,105 @@
   "Firefighting Simulator: Ignite": {
     "extra": 26.5
   },
-  "Forgive Me Father 2": {
-    "main": 6.13,
-    "extra": 9.19,
-    "complete": 15.64
+  "Firmament": {
+    "main": 8.21,
+    "extra": 8.66,
+    "complete": 9.69
+  },
+  "Flintlock: The Siege of Dawn": {
+    "main": 8.94,
+    "extra": 15.09,
+    "complete": 21.2
   },
   "Forever Skies": {
     "main": 24.09,
     "extra": 27.63,
     "complete": 27.65
   },
-  "Fort Solis": {
-    "main": 3.72,
-    "extra": 4.43,
-    "complete": 5.93
+  "Forgive Me Father 2": {
+    "main": 6.13,
+    "extra": 9.19,
+    "complete": 15.64
   },
   "Forspoken": {
     "main": 14.25,
     "extra": 26.25,
     "complete": 57.73
   },
-  "Forza Horizon 5": {
-    "main": 21.11,
-    "extra": 46.06,
-    "complete": 135.3
+  "Fort Solis": {
+    "main": 3.72,
+    "extra": 4.43,
+    "complete": 5.93
   },
   "Fortnite": {
     "main": 63.03,
     "extra": 158.17,
     "complete": 491.39
   },
+  "Forza Horizon 5": {
+    "main": 21.11,
+    "extra": 46.06,
+    "complete": 135.3
+  },
   "Forza Motorsport": {
     "main": 36.44,
     "extra": 91.74,
     "complete": 163.79
+  },
+  "FragPunk": {
+    "main": 1.17
   },
   "Frostpunk 2": {
     "main": 11.48,
     "extra": 21.2,
     "complete": 59.06
   },
-  "Funko Fusion": {
-    "main": 16.08,
-    "extra": 21.18,
-    "complete": 58.23
-  },
-  "Game of Thrones: Kingsroad": {
-    "extra": 100.38,
-    "complete": 243.0
+  "Frozen Flame": {
+    "extra": 56.0
   },
   "Frozenheim": {
     "extra": 30.93,
     "complete": 36.91
   },
-  "FragPunk": {
-    "main": 1.17
+  "Funko Fusion": {
+    "main": 16.08,
+    "extra": 21.18,
+    "complete": 58.23
   },
-  "Gears of War: Reloaded": {
-    "main": 7.17,
-    "extra": 8.89,
-    "complete": 23.45
+  "GODBREAKERS": {
+    "main": 2.0
+  },
+  "Game of Thrones: Kingsroad": {
+    "extra": 100.38,
+    "complete": 243.0
   },
   "Gangs of Sherwood": {
     "main": 5.17,
     "extra": 5.33,
     "complete": 5.37
   },
+  "Gears of War: Reloaded": {
+    "main": 7.17,
+    "extra": 8.89,
+    "complete": 23.45
+  },
+  "Ghost": {
+    "main": 7.09,
+    "extra": 9.23,
+    "complete": 14.33
+  },
+  "Ghost of Tsushima Director's Cut": {
+    "main": 25.09,
+    "extra": 46.22,
+    "complete": 62.42,
+    "hltb_id": 51225
+  },
   "Ghostbusters: Spirits Unleashed": {
     "main": 7.42,
     "extra": 8.0,
     "complete": 22.65
   },
-  "Ghost": {
+  "Ghostrunner": {
     "main": 7.09,
     "extra": 9.23,
     "complete": 14.33
@@ -920,48 +932,40 @@
     "extra": 7.5,
     "complete": 10.26
   },
-  "Ghostrunner": {
-    "main": 7.09,
-    "extra": 9.23,
-    "complete": 14.33
-  },
-  "Godfall": {
-    "main": 12.65,
-    "extra": 18.71,
-    "complete": 57.27
+  "God of War": {
+    "main": 20.55,
+    "extra": 32.9,
+    "complete": 51.11
   },
   "God of War Ragnarök": {
     "main": 26.53,
     "extra": 40.64,
     "complete": 55.55
   },
-  "GODBREAKERS": {
-    "main": 2.0
-  },
-  "God of War": {
-    "main": 20.55,
-    "extra": 32.9,
-    "complete": 51.11
-  },
-  "Gori: Cuddly Carnage": {
-    "main": 7.21,
-    "extra": 9.56,
-    "complete": 15.19
-  },
-  "Grand Theft Auto III - The Definitive Edition": {
-    "main": 14.12,
-    "extra": 20.37,
-    "complete": 36.43
+  "Godfall": {
+    "main": 12.65,
+    "extra": 18.71,
+    "complete": 57.27
   },
   "Gord": {
     "main": 18.28,
     "extra": 23.42,
     "complete": 23.48
   },
+  "Gori: Cuddly Carnage": {
+    "main": 7.21,
+    "extra": 9.56,
+    "complete": 15.19
+  },
   "Gotham Knights": {
     "main": 17.37,
     "extra": 27.68,
     "complete": 49.47
+  },
+  "Grand Theft Auto III - The Definitive Edition": {
+    "main": 14.12,
+    "extra": 20.37,
+    "complete": 36.43
   },
   "Grand Theft Auto V Enhanced": {
     "main": 32.05,
@@ -973,148 +977,172 @@
     "extra": 44.86,
     "complete": 71.26
   },
-  "GreedFall II: The Dying World": {
-    "extra": 52.21
-  },
   "Grand Theft Auto: Vice City - The Definitive Edition": {
     "main": 17.16,
     "extra": 23.96,
     "complete": 37.95
   },
-  "Gripper": {
-    "extra": 4.75
+  "GreedFall II: The Dying World": {
+    "extra": 52.21
   },
   "Greedland": {
     "main": 4.17
+  },
+  "Gripper": {
+    "extra": 4.75
   },
   "Gungrave G.O.R.E": {
     "main": 8.37,
     "extra": 11.74,
     "complete": 22.66
   },
-  "Half Sword": {
-    "main": 8.56,
-    "complete": 15.33
-  },
-  "Halo Infinite": {
-    "main": 11.32,
-    "extra": 19.46,
-    "complete": 29.12
-  },
-  "Hellblade: Senua's Sacrifice": {
-    "main": 7.53,
-    "extra": 8.2,
-    "complete": 9.22
-  },
-  "Hell Pie": {
-    "main": 8.36,
-    "extra": 10.42,
-    "complete": 15.96
-  },
-  "Hell Is Us": {
-    "main": 20.89,
-    "extra": 29.03,
-    "complete": 33.74
-  },
-  "Hello Neighbor 2": {
-    "main": 4.28,
-    "extra": 5.52,
-    "complete": 5.99
-  },
-  "High On Life": {
-    "main": 9.21,
-    "extra": 12.8,
-    "complete": 21.56
-  },
-  "Hi-Fi RUSH": {
-    "main": 11.21,
-    "extra": 14.09,
-    "complete": 59.92
-  },
-  "Highguard": {
-    "main": 5.81,
-    "extra": 16.12,
-    "complete": 25.51
-  },
-  "High On Life 2": {
-    "main": 11.38,
-    "extra": 15.89,
-    "complete": 29.86
-  },
-  "Homeworld 3": {
-    "main": 9.83,
-    "extra": 10.04,
-    "complete": 9.95
-  },
   "HITMAN World of Assassination": {
     "main": 25.07,
     "extra": 47.85,
     "complete": 273.47
-  },
-  "Honkai: Star Rail": {
-    "main": 25.6,
-    "extra": 92.61,
-    "complete": 214.5
-  },
-  "Horizon Zero Dawn Complete Edition": {
-    "main": 29.02,
-    "extra": 52.26,
-    "complete": 75.65
-  },
-  "Horizon Forbidden West Complete Edition": {
-    "main": 48.23,
-    "extra": 72.36,
-    "complete": 114.64
-  },
-  "Horizon Zero Dawn Remastered": {
-    "main": 29.02,
-    "extra": 52.26,
-    "complete": 75.65
-  },
-  "Hydroneer": {
-    "main": 19.47,
-    "extra": 22.3,
-    "complete": 56.0
   },
   "HOT WHEELS UNLEASHED": {
     "main": 10.33,
     "extra": 16.93,
     "complete": 35.53
   },
+  "HOT WHEELS UNLEASHED 2 - Turbocharged": {
+    "hltb_id": 129536,
+    "main": 8.96,
+    "extra": 15.53,
+    "complete": 23.14
+  },
+  "Half Sword": {
+    "main": 8.56,
+    "complete": 15.33
+  },
+  "Half-Life 2 RTX Demo": {
+    "hltb_id": 165153,
+    "main": 1.6,
+    "extra": 1.92
+  },
+  "Halo Infinite": {
+    "main": 11.32,
+    "extra": 19.46,
+    "complete": 29.12
+  },
+  "Hell Is Us": {
+    "main": 20.89,
+    "extra": 29.03,
+    "complete": 33.74
+  },
+  "Hell Pie": {
+    "main": 8.36,
+    "extra": 10.42,
+    "complete": 15.96
+  },
+  "Hellblade II Enhanced: Senua's Saga": {
+    "main": 7.1,
+    "extra": 8.08,
+    "complete": 9.33
+  },
+  "Hellblade: Senua's Sacrifice": {
+    "main": 7.53,
+    "extra": 8.2,
+    "complete": 9.22
+  },
+  "Hello Neighbor 2": {
+    "main": 4.28,
+    "extra": 5.52,
+    "complete": 5.99
+  },
+  "Hi-Fi RUSH": {
+    "main": 11.21,
+    "extra": 14.09,
+    "complete": 59.92
+  },
+  "High On Life": {
+    "main": 9.21,
+    "extra": 12.8,
+    "complete": 21.56
+  },
+  "High On Life 2": {
+    "main": 11.38,
+    "extra": 15.89,
+    "complete": 29.86
+  },
+  "Highguard": {
+    "main": 5.81,
+    "extra": 16.12,
+    "complete": 25.51
+  },
+  "Hogwarts Legacy": {
+    "main": 26.7,
+    "extra": 45.23,
+    "complete": 71.99
+  },
+  "Homeworld 3": {
+    "main": 9.83,
+    "extra": 10.04,
+    "complete": 9.95
+  },
+  "Honkai: Star Rail": {
+    "main": 25.6,
+    "extra": 92.61,
+    "complete": 214.5
+  },
+  "Horizon Forbidden West Complete Edition": {
+    "main": 48.23,
+    "extra": 72.36,
+    "complete": 114.64
+  },
+  "Horizon Zero Dawn Complete Edition": {
+    "main": 29.02,
+    "extra": 52.26,
+    "complete": 75.65
+  },
+  "Horizon Zero Dawn Remastered": {
+    "main": 29.02,
+    "extra": 52.26,
+    "complete": 75.65
+  },
   "Hunt: Showdown 1896": {
     "main": 64.62,
     "extra": 336.26,
     "complete": 577.6
   },
-  "Indiana Jones and the Great Circle": {
-    "main": 15.96,
-    "extra": 25.61,
-    "complete": 39.32
-  },
-  "Immortals of Aveum": {
-    "main": 14.24,
-    "extra": 20.39,
-    "complete": 31.63
-  },
-  "Ikonei Island: An Earthlock Adventure": {
-    "main": 8.7,
-    "extra": 19.29,
-    "complete": 20.99
+  "Hydroneer": {
+    "main": 19.47,
+    "extra": 22.3,
+    "complete": 56.0
   },
   "ICARUS": {
     "main": 28.42,
     "extra": 36.13,
     "complete": 213.7
   },
+  "INDIKA": {
+    "main": 4.09,
+    "extra": 4.52,
+    "complete": 5.0
+  },
   "INDUSTRIA": {
     "main": 3.08,
     "extra": 3.67,
     "complete": 5.59
   },
-  "INDIKA": {
-    "main": 4.09,
-    "extra": 4.52,
-    "complete": 5.0
+  "Ikonei Island: An Earthlock Adventure": {
+    "main": 8.7,
+    "extra": 19.29,
+    "complete": 20.99
+  },
+  "Immortals of Aveum": {
+    "main": 14.24,
+    "extra": 20.39,
+    "complete": 31.63
+  },
+  "InFlux Redux": {
+    "main": 5.0
+  },
+  "Indiana Jones and the Great Circle": {
+    "main": 15.96,
+    "extra": 25.61,
+    "complete": 39.32
   },
   "Industry Giant 4.0": {
     "extra": 30.0,
@@ -1125,22 +1153,15 @@
     "extra": 79.0,
     "complete": 215.22
   },
-  "inZOI": {
-    "main": 10.67,
-    "extra": 36.92
+  "Into the Dead: Our Darkest Days": {
+    "main": 7.88,
+    "extra": 9.17,
+    "complete": 11.25
   },
   "Into the Radius VR": {
     "main": 22.2,
     "extra": 34.58,
     "complete": 58.9
-  },
-  "InFlux Redux": {
-    "main": 5.0
-  },
-  "Into the Dead: Our Darkest Days": {
-    "main": 7.88,
-    "extra": 9.17,
-    "complete": 11.25
   },
   "JDM: Japanese Drift Master": {
     "main": 10.89,
@@ -1161,63 +1182,73 @@
     "extra": 10.63,
     "complete": 21.8
   },
-  "Jump Space": {
-    "main": 7.44
-  },
   "Judgment": {
     "main": 27.61,
     "extra": 46.2,
     "complete": 99.32
   },
-  "Jusant": {
-    "main": 4.52,
-    "extra": 5.82,
-    "complete": 7.91
-  },
-  "Jurassic World Evolution 3": {
-    "main": 24.86,
-    "extra": 35.66,
-    "complete": 45.81
+  "Jump Space": {
+    "main": 7.44
   },
   "Jurassic World Evolution 2": {
     "main": 5.93,
     "extra": 35.7,
     "complete": 104.57
   },
-  "KartKraft": {
-    "main": 3.2,
-    "extra": 5.67,
-    "complete": 104.0
+  "Jurassic World Evolution 3": {
+    "main": 24.86,
+    "extra": 35.66,
+    "complete": 45.81
   },
-  "Kena: Bridge of Spirits": {
-    "main": 10.27,
-    "extra": 14.43,
-    "complete": 20.67
+  "Jusant": {
+    "main": 4.52,
+    "extra": 5.82,
+    "complete": 7.91
   },
   "KARMA: The Dark World": {
     "main": 5.68,
     "extra": 6.28,
     "complete": 6.7
   },
+  "KartKraft": {
+    "main": 3.2,
+    "extra": 5.67,
+    "complete": 104.0
+  },
   "Keeper": {
     "main": 4.58,
     "extra": 5.06,
     "complete": 5.34
+  },
+  "Kena: Bridge of Spirits": {
+    "main": 10.27,
+    "extra": 14.43,
+    "complete": 20.67
   },
   "Killing Floor 3": {
     "main": 8.69,
     "extra": 23.95,
     "complete": 46.02
   },
+  "Kingdom Come: Deliverance II": {
+    "main": 54.86,
+    "extra": 98.26,
+    "complete": 142.22
+  },
   "Kunitsu-Gami: Path of the Goddess": {
     "main": 16.43,
     "extra": 21.39,
     "complete": 35.05
   },
-  "Kingdom Come: Deliverance II": {
-    "main": 54.86,
-    "extra": 98.26,
-    "complete": 142.22
+  "LEGO Builder's Journey": {
+    "main": 2.39,
+    "extra": 2.53,
+    "complete": 2.58
+  },
+  "LEGO Horizon Adventures": {
+    "main": 6.99,
+    "extra": 11.08,
+    "complete": 16.03
   },
   "Land of the Vikings": {
     "main": 10.0,
@@ -1234,156 +1265,141 @@
     "extra": 4.66,
     "complete": 11.47
   },
-  "LEGO Builder's Journey": {
-    "main": 2.39,
-    "extra": 2.53,
-    "complete": 2.58
-  },
-  "LEGO Horizon Adventures": {
-    "main": 6.99,
-    "extra": 11.08,
-    "complete": 16.03
-  },
-  "Like a Dragon: Infinite Wealth": {
-    "main": 56.95,
-    "extra": 84.08,
-    "complete": 117.99
-  },
-  "Lightyear Frontier": {
-    "main": 12.25,
-    "extra": 14.04,
-    "complete": 14.51
+  "Lies of P": {
+    "main": 28.35,
+    "extra": 36.15,
+    "complete": 58.45
   },
   "Life Is Strange: True Colors": {
     "main": 10.16,
     "extra": 12.15,
     "complete": 13.02
   },
-  "Lies of P": {
-    "main": 28.35,
-    "extra": 36.15,
-    "complete": 58.45
-  },
-  "Like a Dragon: Pirate Yakuza in Hawaii": {
-    "main": 17.2,
-    "extra": 32.44,
-    "complete": 43.41
-  },
-  "Like A Dragon: Ishin!": {
-    "main": 23.81,
-    "extra": 44.9,
-    "complete": 120.82
-  },
-  "Little Nightmares II": {
-    "main": 5.65,
-    "extra": 6.64,
-    "complete": 8.71
-  },
-  "Liminalcore": {
-    "main": 1.45,
-    "extra": 2.22,
-    "complete": 2.57
+  "Lightyear Frontier": {
+    "main": 12.25,
+    "extra": 14.04,
+    "complete": 14.51
   },
   "Like A Dragon Gaiden: The Man Who Erased His Name": {
     "main": 12.55,
     "extra": 21.66,
     "complete": 33.06
   },
-  "Lords of the Fallen": {
-    "main": 28.52,
-    "extra": 42.83,
-    "complete": 93.23
+  "Like A Dragon: Ishin!": {
+    "main": 23.81,
+    "extra": 44.9,
+    "complete": 120.82
+  },
+  "Like a Dragon: Infinite Wealth": {
+    "main": 56.95,
+    "extra": 84.08,
+    "complete": 117.99
+  },
+  "Like a Dragon: Pirate Yakuza in Hawaii": {
+    "main": 17.2,
+    "extra": 32.44,
+    "complete": 43.41
+  },
+  "Liminalcore": {
+    "main": 1.45,
+    "extra": 2.22,
+    "complete": 2.57
+  },
+  "Little Nightmares II": {
+    "main": 5.65,
+    "extra": 6.64,
+    "complete": 8.71
   },
   "Little Nightmares III": {
     "main": 5.93,
     "extra": 6.18,
     "complete": 9.87
   },
+  "Loopmancer": {
+    "main": 16.48,
+    "extra": 17.68
+  },
+  "Lords of the Fallen": {
+    "main": 28.52,
+    "extra": 42.83,
+    "complete": 93.23
+  },
   "Lost Judgment": {
     "main": 24.27,
     "extra": 53.3,
     "complete": 107.66
-  },
-  "Loopmancer": {
-    "main": 16.48,
-    "extra": 17.68
   },
   "Lost Records: Bloom & Rage": {
     "main": 11.21,
     "extra": 13.35,
     "complete": 16.62
   },
-  "Loverowind": {
-    "main": 0.42,
-    "extra": 0.48,
-    "complete": 0.59
-  },
   "Lost Soul Aside": {
     "main": 18.48,
     "extra": 22.66,
     "complete": 31.2
   },
+  "Loverowind": {
+    "main": 0.42,
+    "extra": 0.48,
+    "complete": 0.59
+  },
   "Lumote: The Mastermote Chronicles": {
     "main": 6.76,
     "extra": 7.0
+  },
+  "Lunacy: Saint Rhodes": {
+    "main": 5.54,
+    "extra": 7.9
   },
   "Luto": {
     "main": 4.57,
     "extra": 5.35,
     "complete": 7.68
   },
-  "Mandragora: Whispers of the Witch Tree": {
-    "main": 16.86,
-    "extra": 28.7,
-    "complete": 36.85
-  },
-  "Lunacy: Saint Rhodes": {
-    "main": 5.54,
-    "extra": 7.9
-  },
-  "Manor Lords": {
-    "main": 10.71,
-    "extra": 17.8,
-    "complete": 28.13
+  "METAL GEAR SOLID Δ: SNAKE EATER": {
+    "main": 12.17,
+    "extra": 15.64,
+    "complete": 25.51
   },
   "Mafia: The Old Country": {
     "main": 12.26,
     "extra": 14.31,
     "complete": 23.04
   },
-  "Martha Is Dead": {
-    "main": 6.24,
-    "extra": 7.0,
-    "complete": 8.16
+  "Mandragora: Whispers of the Witch Tree": {
+    "main": 16.86,
+    "extra": 28.7,
+    "complete": 36.85
   },
-  "Marvel's Guardians of the Galaxy": {
-    "main": 17.6,
-    "extra": 20.39,
-    "complete": 25.99
+  "Manor Lords": {
+    "main": 10.71,
+    "extra": 17.8,
+    "complete": 28.13
   },
   "Marathon": {
     "main": 14.47,
     "extra": 61.54
   },
-  "Marvel's Avengers": {
-    "main": 12.48,
-    "extra": 24.58,
-    "complete": 104.68
+  "Martha Is Dead": {
+    "main": 6.24,
+    "extra": 7.0,
+    "complete": 8.16
   },
   "Marvel Rivals": {
     "main": 14.8,
     "extra": 39.31,
     "complete": 107.71
   },
-  "Marvel's Spider-Man: Miles Morales": {
-    "main": 7.76,
-    "extra": 12.52,
-    "complete": 18.52
+  "Marvel's Avengers": {
+    "main": 12.48,
+    "extra": 24.58,
+    "complete": 104.68
   },
-  "Marvel's Spider-Man Remastered": {
-    "main": 17.91,
-    "extra": 29.24,
-    "complete": 44.79
+  "Marvel's Guardians of the Galaxy": {
+    "main": 17.6,
+    "extra": 20.39,
+    "complete": 25.99
   },
   "Marvel's Midnight Suns": {
     "main": 40.44,
@@ -1395,37 +1411,48 @@
     "extra": 23.58,
     "complete": 28.52
   },
+  "Marvel's Spider-Man Remastered": {
+    "main": 17.91,
+    "extra": 29.24,
+    "complete": 44.79
+  },
+  "Marvel's Spider-Man: Miles Morales": {
+    "main": 7.76,
+    "extra": 12.52,
+    "complete": 18.52
+  },
   "MechWarrior 5: Clans": {
     "main": 23.5,
     "extra": 33.9,
     "complete": 45.87
-  },
-  "Metal Eden": {
-    "main": 5.26,
-    "extra": 5.67,
-    "complete": 9.96
-  },
-  "Mecha BREAK": {
-    "main": 10.81
   },
   "MechWarrior 5: Mercenaries": {
     "main": 36.04,
     "extra": 57.99,
     "complete": 149.65
   },
-  "Microsoft Flight Simulator 2024": {
-    "main": 73.03,
-    "extra": 120.53
+  "Mecha BREAK": {
+    "main": 10.81
   },
-  "METAL GEAR SOLID Δ: SNAKE EATER": {
-    "main": 12.17,
-    "extra": 15.64,
-    "complete": 25.51
+  "Metal Eden": {
+    "main": 5.26,
+    "extra": 5.67,
+    "complete": 9.96
   },
   "Metro Exodus": {
     "main": 15.84,
     "extra": 23.98,
     "complete": 41.69
+  },
+  "Metro Exodus PC Enhanced Edition": {
+    "hltb_id": 46401,
+    "main": 15.84,
+    "extra": 23.98,
+    "complete": 41.69
+  },
+  "Microsoft Flight Simulator 2024": {
+    "main": 73.03,
+    "extra": 120.53
   },
   "Midnight Ghost Hunt": {
     "main": 2.19,
@@ -1440,10 +1467,20 @@
   "Monster Energy Supercross - The Official Videogame 6": {
     "main": 5.75
   },
+  "Monster Hunter Rise": {
+    "main": 23.24,
+    "extra": 82.61,
+    "complete": 181.41
+  },
   "Monster Hunter Stories 3: Twisted Reflection": {
     "main": 45.68,
     "extra": 59.16,
     "complete": 94.23
+  },
+  "Monster Hunter Wilds": {
+    "main": 18.02,
+    "extra": 43.93,
+    "complete": 112.93
   },
   "Monster Hunter World": {
     "main": 46.51,
@@ -1452,11 +1489,6 @@
   },
   "Moon Runner": {
     "extra": 2.28
-  },
-  "Monster Hunter Wilds": {
-    "main": 18.02,
-    "extra": 43.93,
-    "complete": 112.93
   },
   "Mortal Kombat 1": {
     "main": 7.03,
@@ -1468,6 +1500,13 @@
     "extra": 14.22,
     "complete": 22.98
   },
+  "Mother Machine": {
+    "main": 9.5
+  },
+  "MotoGP 24": {
+    "main": 14.57,
+    "extra": 28.93
+  },
   "Mount & Blade II: Bannerlord": {
     "main": 52.2,
     "extra": 82.47,
@@ -1477,13 +1516,6 @@
     "main": 82.8,
     "extra": 117.22,
     "complete": 160.42
-  },
-  "Mother Machine": {
-    "main": 9.5
-  },
-  "MotoGP 24": {
-    "main": 14.57,
-    "extra": 28.93
   },
   "Myst": {
     "main": 5.51,
@@ -1495,64 +1527,69 @@
     "extra": 24.96,
     "complete": 118.45
   },
-  "NBA 2K6": {
-    "main": 0.99,
-    "complete": 1.0
-  },
   "NBA 2K5": {
     "main": 8.0,
     "complete": 150.0
   },
-  "Necromunda: Hired Gun": {
-    "main": 8.14,
-    "extra": 11.92,
-    "complete": 17.67
-  },
-  "New World: Aeternum": {
-    "main": 27.5,
-    "extra": 106.5
-  },
-  "Need For Speed Unbound": {
-    "main": 23.09,
-    "extra": 30.67,
-    "complete": 50.53
-  },
-  "Necrophosis": {
-    "main": 2.95,
-    "extra": 3.08,
-    "complete": 3.13
-  },
-  "Nightingale": {
-    "main": 26.38,
-    "extra": 51.23,
-    "complete": 124.0
-  },
-  "Night Project": {
-    "main": 2.48
+  "NBA 2K6": {
+    "main": 0.99,
+    "complete": 1.0
   },
   "NINJA GAIDEN 2 Black": {
     "main": 10.06,
     "extra": 12.37,
     "complete": 79.88
   },
-  "Night of the Dead": {
-    "main": 23.25,
-    "extra": 25.82
-  },
   "NINJA GAIDEN 4": {
     "main": 11.63,
     "extra": 16.16,
     "complete": 39.16
   },
-  "Nioh 3": {
-    "main": 26.94,
-    "extra": 53.78,
-    "complete": 61.6
+  "NORSE: Oath of Blood": {
+    "main": 12.0,
+    "extra": 15.17,
+    "complete": 15.22
+  },
+  "Necromunda: Hired Gun": {
+    "main": 8.14,
+    "extra": 11.92,
+    "complete": 17.67
+  },
+  "Necrophosis": {
+    "main": 2.95,
+    "extra": 3.08,
+    "complete": 3.13
+  },
+  "Need For Speed Unbound": {
+    "main": 23.09,
+    "extra": 30.67,
+    "complete": 50.53
+  },
+  "New World: Aeternum": {
+    "main": 27.5,
+    "extra": 106.5
+  },
+  "Night Project": {
+    "main": 2.48
+  },
+  "Night of the Dead": {
+    "main": 23.25,
+    "extra": 25.82
+  },
+  "Nightingale": {
+    "main": 26.38,
+    "extra": 51.23,
+    "complete": 124.0
   },
   "Nioh 2 The Complete Edition": {
     "main": 43.68,
     "extra": 85.24,
     "complete": 146.18
+  },
+  "Nioh 3": {
+    "main": 26.94,
+    "extra": 53.78,
+    "complete": 61.6
   },
   "No Man's Sky": {
     "main": 31.72,
@@ -1577,63 +1614,71 @@
   "Oddsparks: An Automation Adventure": {
     "main": 62.5
   },
-  "NORSE: Oath of Blood": {
-    "main": 12.0,
-    "extra": 15.17,
-    "complete": 15.22
-  },
   "Once Alive": {
     "main": 1.5,
     "extra": 1.73,
     "complete": 3.0
-  },
-  "Orcs Must Die! Deathtrap": {
-    "main": 13.98,
-    "extra": 28.85,
-    "complete": 67.0
   },
   "Once Human": {
     "main": 30.0,
     "extra": 72.42,
     "complete": 265.06
   },
-  "Outerverse": {
-    "main": 55.0
+  "Orcs Must Die! Deathtrap": {
+    "main": 13.98,
+    "extra": 28.85,
+    "complete": 67.0
   },
   "Outcast - A New Beginning": {
     "main": 19.41,
     "extra": 24.61,
     "complete": 30.64
   },
+  "Outerverse": {
+    "main": 55.0
+  },
   "Outpost: Infinity Siege": {
     "main": 5.0,
     "extra": 10.0,
     "complete": 15.0
-  },
-  "Pacific Drive": {
-    "main": 21.4,
-    "extra": 32.11,
-    "complete": 49.66
   },
   "Outriders": {
     "main": 16.36,
     "extra": 35.87,
     "complete": 62.64
   },
+  "Overwatch 2": {
+    "main": 42.73,
+    "extra": 123.14,
+    "complete": 867.09
+  },
   "PANICORE": {
     "main": 8.05,
     "extra": 8.17,
     "complete": 9.98
   },
+  "PAYDAY 3": {
+    "main": 7.36,
+    "extra": 20.26,
+    "complete": 79.43
+  },
+  "PC Building Simulator 2": {
+    "main": 20.62,
+    "extra": 35.0,
+    "complete": 38.32
+  },
+  "PERISH": {
+    "complete": 9.6
+  },
+  "Pacific Drive": {
+    "main": 21.4,
+    "extra": 32.11,
+    "complete": 49.66
+  },
   "Palworld": {
     "main": 41.88,
     "extra": 76.39,
     "complete": 93.04
-  },
-  "Overwatch 2": {
-    "main": 42.73,
-    "extra": 123.14,
-    "complete": 867.09
   },
   "Paradise Killer": {
     "main": 11.57,
@@ -1650,93 +1695,70 @@
     "extra": 67.8,
     "complete": 162.0
   },
-  "PERISH": {
-    "complete": 9.6
-  },
-  "PC Building Simulator 2": {
-    "main": 20.62,
-    "extra": 35.0,
-    "complete": 38.32
-  },
-  "PAYDAY 3": {
-    "main": 7.36,
-    "extra": 20.26,
-    "complete": 79.43
-  },
-  "Planet Coaster 2": {
-    "main": 32.0,
-    "extra": 43.58,
-    "complete": 62.5
-  },
-  "Pinball FX": {
-    "main": 1.63
-  },
   "Phantasy Star Online 2 New Genesis": {
     "main": 19.14,
     "extra": 66.69,
     "complete": 785.88
+  },
+  "Pinball FX": {
+    "main": 1.63
   },
   "Pizzapocalypse": {
     "main": 0.28,
     "extra": 0.45,
     "complete": 0.62
   },
-  "Portal: Prelude RTX": {
-    "main": 3.32,
-    "extra": 4.3,
-    "complete": 4.42
-  },
-  "Portal with RTX": {
-    "main": 3.12,
-    "extra": 5.25,
-    "complete": 10.43
-  },
-  "Poker Club": {
-    "main": 1.5
-  },
-  "Pluviophile": {
-    "main": 0.61,
-    "extra": 0.59,
-    "complete": 0.74
+  "Planet Coaster 2": {
+    "main": 32.0,
+    "extra": 43.58,
+    "complete": 62.5
   },
   "PlanetSide 2": {
     "main": 27.2,
     "extra": 464.82,
     "complete": 6371.06
   },
-  "Predecessor": {
-    "main": 1.0
+  "Pluviophile": {
+    "main": 0.61,
+    "extra": 0.59,
+    "complete": 0.74
+  },
+  "Poker Club": {
+    "main": 1.5
+  },
+  "Portal with RTX": {
+    "main": 3.12,
+    "extra": 5.25,
+    "complete": 10.43
+  },
+  "Portal: Prelude RTX": {
+    "main": 3.32,
+    "extra": 4.3,
+    "complete": 4.42
   },
   "Postal 4: No Regerts": {
     "main": 11.12,
     "extra": 14.88,
     "complete": 19.9
   },
-  "Q.U.B.E. 10th Anniversary": {
-    "main": 5.25,
-    "extra": 8.19,
-    "complete": 10.15
+  "Predecessor": {
+    "main": 1.0
+  },
+  "Propnight": {
+    "main": 15.0
+  },
+  "Psycho Fear": {
+    "main": 1.0
   },
   "Pumpkin Jack": {
     "main": 4.6,
     "extra": 5.65,
     "complete": 6.49
   },
-  "Psycho Fear": {
-    "main": 1.0
-  },
-  "Propnight": {
-    "main": 15.0
-  },
-  "Raji: An Ancient Epic": {
-    "main": 5.01,
-    "extra": 5.8,
-    "complete": 6.25
-  },
-  "Ratchet & Clank: Rift Apart": {
-    "main": 11.01,
-    "extra": 14.56,
-    "complete": 18.0
+  "Q.U.B.E. 10th Anniversary": {
+    "main": 5.25,
+    "extra": 8.19,
+    "complete": 10.15
   },
   "Quake II RTX": {
     "main": 7.11,
@@ -1747,6 +1769,39 @@
     "main": 4.53,
     "extra": 5.28,
     "complete": 7.09
+  },
+  "REFICUL 666": {
+    "extra": 3.0
+  },
+  "REMATCH": {
+    "main": 13.22,
+    "extra": 30.81,
+    "complete": 48.58
+  },
+  "REVEIL": {
+    "main": 3.66,
+    "extra": 3.86,
+    "complete": 4.88
+  },
+  "RIPOUT": {
+    "main": 6.03,
+    "extra": 15.0
+  },
+  "Raji: An Ancient Epic": {
+    "main": 5.01,
+    "extra": 5.8,
+    "complete": 6.25
+  },
+  "Ranch Simulator - Build, Farm, Hunt": {
+    "hltb_id": 89349,
+    "main": 20.2,
+    "extra": 30.14,
+    "complete": 60.0
+  },
+  "Ratchet & Clank: Rift Apart": {
+    "main": 11.01,
+    "extra": 14.56,
+    "complete": 18.0
   },
   "Ready or Not": {
     "main": 16.17,
@@ -1762,31 +1817,28 @@
     "extra": 25.96,
     "complete": 46.17
   },
-  "Redfall": {
-    "main": 12.35,
-    "extra": 19.73,
-    "complete": 30.83
-  },
-  "REFICUL 666": {
-    "extra": 3.0
-  },
   "Red Dead Redemption 2": {
     "main": 50.68,
     "extra": 84.57,
     "complete": 193.9
   },
+  "Redfall": {
+    "main": 12.35,
+    "extra": 19.73,
+    "complete": 30.83
+  },
   "Redout: Space Assault": {
     "main": 6.46
-  },
-  "REMATCH": {
-    "main": 13.22,
-    "extra": 30.81,
-    "complete": 48.58
   },
   "Remnant II": {
     "main": 18.21,
     "extra": 29.09,
     "complete": 81.36
+  },
+  "Resident Evil 2": {
+    "main": 8.79,
+    "extra": 15.38,
+    "complete": 36.53
   },
   "Resident Evil 3": {
     "main": 5.99,
@@ -1798,40 +1850,25 @@
     "extra": 12.01,
     "complete": 28.52
   },
-  "Resident Evil Village": {
-    "main": 9.85,
-    "extra": 12.9,
-    "complete": 38.39
-  },
-  "Resident Evil 2": {
-    "main": 8.79,
-    "extra": 15.38,
-    "complete": 36.53
-  },
   "Resident Evil Requiem": {
     "main": 11.03,
     "extra": 13.82,
     "complete": 31.31
   },
-  "REVEIL": {
-    "main": 3.66,
-    "extra": 3.86,
-    "complete": 4.88
-  },
-  "Revenge of the Savage Planet": {
-    "main": 9.11,
-    "extra": 13.57,
-    "complete": 16.85
+  "Resident Evil Village": {
+    "main": 9.85,
+    "extra": 12.9,
+    "complete": 38.39
   },
   "Returnal": {
     "main": 19.03,
     "extra": 30.61,
     "complete": 64.04
   },
-  "Riven": {
-    "main": 9.44,
-    "extra": 12.07,
-    "complete": 13.59
+  "Revenge of the Savage Planet": {
+    "main": 9.11,
+    "extra": 13.57,
+    "complete": 16.85
   },
   "Ring of Elysium": {
     "main": 10.0,
@@ -1842,146 +1879,193 @@
     "extra": 52.53,
     "complete": 67.53
   },
-  "RIPOUT": {
-    "main": 6.03,
-    "extra": 15.0
+  "Rise of the Tomb Raider": {
+    "main": 13.31,
+    "extra": 21.86,
+    "complete": 35.36
+  },
+  "Riven": {
+    "main": 9.44,
+    "extra": 12.07,
+    "complete": 13.59
   },
   "RoadCraft": {
     "main": 115.24,
     "extra": 142.37,
     "complete": 158.87
   },
-  "RoboCop: Rogue City - Unfinished Business": {
-    "main": 7.79,
-    "extra": 10.33,
-    "complete": 11.13
-  },
   "RoboCop: Rogue City": {
     "main": 11.86,
     "extra": 15.34,
     "complete": 16.85
   },
-  "RuneScape: Dragonwilds": {
-    "main": 20.22,
-    "extra": 23.15
-  },
-  "Rune Factory: Guardians of Azuma": {
-    "main": 40.17,
-    "extra": 59.24,
-    "complete": 87.04
-  },
-  "Romeo Is A Dead Man": {
-    "main": 12.61,
-    "extra": 15.65,
-    "complete": 28.79
+  "RoboCop: Rogue City - Unfinished Business": {
+    "main": 7.79,
+    "extra": 10.33,
+    "complete": 11.13
   },
   "Romancelvania": {
     "main": 9.37,
     "extra": 11.84,
     "complete": 17.67
   },
+  "Romeo Is A Dead Man": {
+    "main": 12.61,
+    "extra": 15.65,
+    "complete": 28.79
+  },
+  "Rune Factory: Guardians of Azuma": {
+    "main": 40.17,
+    "extra": 59.24,
+    "complete": 87.04
+  },
   "Rune II": {
     "complete": 20.0
   },
-  "Saints Row": {
-    "main": 12.6,
-    "extra": 26.96,
-    "complete": 52.32
-  },
-  "Sackboy: A Big Adventure": {
-    "main": 10.89,
-    "extra": 17.13,
-    "complete": 34.04
-  },
-  "Samson": {
-    "main": 7.42,
-    "extra": 11.73
-  },
-  "Saboteur": {
-    "main": 0.68,
-    "extra": 2.0
+  "RuneScape: Dragonwilds": {
+    "main": 20.22,
+    "extra": 23.15
   },
   "Rust": {
     "main": 29.96,
     "extra": 105.78,
     "complete": 116.68
   },
-  "Satisfactory": {
-    "main": 106.13,
-    "extra": 145.78,
-    "complete": 224.43
+  "S.T.A.L.K.E.R. 2: Heart of Chornobyl": {
+    "main": 36.16,
+    "extra": 70.08,
+    "complete": 131.73
+  },
+  "S.T.A.L.K.E.R.: Call of Prypiat": {
+    "main": 15.08,
+    "extra": 23.6,
+    "complete": 31.68
+  },
+  "S.T.A.L.K.E.R.: Clear Sky": {
+    "main": 12.97,
+    "extra": 22.43,
+    "complete": 36.5
+  },
+  "S.T.A.L.K.E.R.: Shadow of Chornobyl": {
+    "main": 15.09,
+    "extra": 24.3,
+    "complete": 41.37
   },
   "SCP: 5K": {
     "main": 5.28,
     "extra": 6.13
-  },
-  "Scavengers": {
-    "main": 10.63
-  },
-  "Sands of Aura": {
-    "main": 25.0,
-    "extra": 39.12,
-    "complete": 58.65
-  },
-  "Scathe": {
-    "main": 6.5
-  },
-  "SEASON: A Letter To The Future": {
-    "main": 6.27,
-    "extra": 7.1,
-    "complete": 8.36
-  },
-  "SCUM": {
-    "extra": 14.0,
-    "complete": 34.25
   },
   "SCP: Secret Files": {
     "main": 4.33,
     "extra": 5.18,
     "complete": 7.78
   },
+  "SCUM": {
+    "extra": 14.0,
+    "complete": 34.25
+  },
+  "SEASON: A Letter To The Future": {
+    "main": 6.27,
+    "extra": 7.1,
+    "complete": 8.36
+  },
+  "SILENT HILL 2": {
+    "main": 16.04,
+    "extra": 18.57,
+    "complete": 32.23
+  },
+  "SILENT HILL f": {
+    "main": 10.73,
+    "extra": 16.5,
+    "complete": 34.33
+  },
+  "SMITE 2": {
+    "main": 1.78
+  },
+  "SPRAWL": {
+    "main": 4.99,
+    "extra": 5.46,
+    "complete": 6.95
+  },
+  "SYNCED": {
+    "extra": 69.0
+  },
+  "Saboteur": {
+    "main": 0.68,
+    "extra": 2.0
+  },
+  "Sackboy: A Big Adventure": {
+    "main": 10.89,
+    "extra": 17.13,
+    "complete": 34.04
+  },
+  "Saints Row": {
+    "main": 12.6,
+    "extra": 26.96,
+    "complete": 52.32
+  },
+  "Samson": {
+    "main": 7.42,
+    "extra": 11.73
+  },
+  "Sands of Aura": {
+    "main": 25.0,
+    "extra": 39.12,
+    "complete": 58.65
+  },
+  "Satisfactory": {
+    "main": 106.13,
+    "extra": 145.78,
+    "complete": 224.43
+  },
+  "Scathe": {
+    "main": 6.5
+  },
+  "Scavengers": {
+    "main": 10.63
+  },
   "Screamer": {
     "main": 10.32,
     "extra": 15.48,
     "complete": 23.22
   },
-  "Shadow Warrior 3": {
-    "main": 5.58,
-    "extra": 7.04,
-    "complete": 9.27
-  },
   "Sengoku Dynasty": {
     "complete": 75.0
-  },
-  "Shadow of the Tomb Raider": {
-    "main": 12.64,
-    "extra": 23.0,
-    "complete": 38.79
   },
   "Severed Steel": {
     "main": 3.03,
     "extra": 6.25,
     "complete": 21.52
   },
+  "Shadow Warrior 3": {
+    "main": 5.58,
+    "extra": 7.04,
+    "complete": 9.27
+  },
+  "Shadow of the Tomb Raider": {
+    "main": 12.64,
+    "extra": 23.0,
+    "complete": 38.79
+  },
+  "Shadows of Doubt": {
+    "main": 23.23,
+    "extra": 37.69,
+    "complete": 58.77
+  },
   "Shatterline": {
     "main": 0.92,
     "extra": 2.02,
     "complete": 1.2
-  },
-  "Showgunners": {
-    "main": 13.83,
-    "extra": 17.7,
-    "complete": 23.34
   },
   "Sherlock Holmes The Awakened": {
     "main": 8.99,
     "extra": 10.35,
     "complete": 10.74
   },
-  "Shadows of Doubt": {
-    "main": 23.23,
-    "extra": 37.69,
-    "complete": 58.77
+  "Showgunners": {
+    "main": 13.83,
+    "extra": 17.7,
+    "complete": 23.34
   },
   "Sifu": {
     "main": 7.81,
@@ -1990,19 +2074,6 @@
   },
   "Simulakros": {
     "main": 2.5
-  },
-  "SILENT HILL f": {
-    "main": 10.73,
-    "extra": 16.5,
-    "complete": 34.33
-  },
-  "skate.": {
-    "main": 11.31,
-    "extra": 37.73,
-    "complete": 73.93
-  },
-  "SlavicPunk: Oldtimer": {
-    "main": 4.0
   },
   "Six Days in Fallujah": {
     "main": 2.25,
@@ -2019,21 +2090,18 @@
     "extra": 44.81,
     "complete": 62.41
   },
-  "SMITE 2": {
-    "main": 1.78
-  },
-  "Smalland: Survive the Wilds": {
-    "main": 28.34,
-    "extra": 32.49,
-    "complete": 38.35
+  "SlavicPunk: Oldtimer": {
+    "main": 4.0
   },
   "Slender: The Arrival": {
     "main": 2.11,
     "extra": 2.8,
     "complete": 7.82
   },
-  "Soulmask": {
-    "main": 12.0
+  "Smalland: Survive the Wilds": {
+    "main": 28.34,
+    "extra": 32.49,
+    "complete": 38.35
   },
   "Someday You'll Return: Director's Cut": {
     "extra": 13.81
@@ -2043,41 +2111,39 @@
     "extra": 25.78,
     "complete": 52.59
   },
-  "Soulstice": {
-    "main": 16.66,
-    "extra": 20.26,
-    "complete": 33.59
+  "Soulmask": {
+    "main": 12.0
   },
   "Soulmate": {
     "main": 3.2,
     "complete": 19.78
+  },
+  "Soulslinger: Envoy of Death": {
+    "main": 7.9,
+    "extra": 12.58,
+    "complete": 16.5
+  },
+  "Soulstice": {
+    "main": 16.66,
+    "extra": 20.26,
+    "complete": 33.59
   },
   "South of Midnight": {
     "main": 9.87,
     "extra": 12.25,
     "complete": 17.79
   },
+  "Spectre Divide": {
+    "complete": 18.33
+  },
   "Spirit of the North 2": {
     "main": 12.79,
     "extra": 26.1,
     "complete": 42.35
   },
-  "Spectre Divide": {
-    "complete": 18.33
-  },
-  "S.T.A.L.K.E.R.: Call of Prypiat": {
-    "main": 15.08,
-    "extra": 23.6,
-    "complete": 31.68
-  },
   "Splitgate: Arena Reloaded": {
     "main": 5.38,
     "extra": 21.0
-  },
-  "SPRAWL": {
-    "main": 4.99,
-    "extra": 5.46,
-    "complete": 6.95
   },
   "SpongeBob SquarePants: Titans of the Tide": {
     "main": 5.68,
@@ -2089,29 +2155,10 @@
     "extra": 50.0,
     "complete": 120.0
   },
-  "Starfield": {
-    "main": 23.85,
-    "extra": 74.67,
-    "complete": 148.38
-  },
-  "S.T.A.L.K.E.R.: Shadow of Chornobyl": {
-    "main": 15.09,
-    "extra": 24.3,
-    "complete": 41.37
-  },
-  "StarRupture": {
-    "main": 29.33,
-    "extra": 33.83
-  },
-  "S.T.A.L.K.E.R.: Clear Sky": {
-    "main": 12.97,
-    "extra": 22.43,
-    "complete": 36.5
-  },
-  "S.T.A.L.K.E.R. 2: Heart of Chornobyl": {
-    "main": 36.16,
-    "extra": 70.08,
-    "complete": 131.73
+  "Star Citizen": {
+    "main": 125.0,
+    "extra": 300.0,
+    "complete": 1950.0
   },
   "Star Wars Jedi: Survivor": {
     "main": 20.44,
@@ -2123,6 +2170,28 @@
     "extra": 35.68,
     "complete": 68.32
   },
+  "StarRupture": {
+    "main": 29.33,
+    "extra": 33.83
+  },
+  "Starfield": {
+    "main": 23.85,
+    "extra": 74.67,
+    "complete": 148.38
+  },
+  "Stay in the Light": {
+    "main": 0.75
+  },
+  "Steel Seed": {
+    "main": 9.37,
+    "extra": 10.44,
+    "complete": 12.23
+  },
+  "Steelrising": {
+    "main": 15.15,
+    "extra": 22.2,
+    "complete": 30.06
+  },
   "Stellar Blade": {
     "main": 22.7,
     "extra": 37.57,
@@ -2133,24 +2202,6 @@
     "extra": 5.67,
     "complete": 7.62
   },
-  "Steelrising": {
-    "main": 15.15,
-    "extra": 22.2,
-    "complete": 30.06
-  },
-  "Stay in the Light": {
-    "main": 0.75
-  },
-  "Steel Seed": {
-    "main": 9.37,
-    "extra": 10.44,
-    "complete": 12.23
-  },
-  "Stranded: Alien Dawn": {
-    "main": 21.43,
-    "extra": 41.23,
-    "complete": 79.33
-  },
   "Storage Hunter Simulator": {
     "main": 17.5,
     "extra": 29.09
@@ -2159,10 +2210,10 @@
     "main": 6.01,
     "extra": 13.9
   },
-  "Star Citizen": {
-    "main": 125.0,
-    "extra": 300.0,
-    "complete": 1950.0
+  "Stranded: Alien Dawn": {
+    "main": 21.43,
+    "extra": 41.23,
+    "complete": 79.33
   },
   "Stranger of Paradise Final Fantasy Origin": {
     "main": 17.54,
@@ -2174,14 +2225,14 @@
     "extra": 4.47,
     "complete": 6.95
   },
+  "Strinova": {
+    "main": 5.24,
+    "complete": 140.2
+  },
   "Styx: Blades of Greed": {
     "main": 14.35,
     "extra": 27.75,
     "complete": 45.27
-  },
-  "Strinova": {
-    "main": 5.24,
-    "complete": 140.2
   },
   "Subliminal": {
     "main": 3.05,
@@ -2198,6 +2249,22 @@
     "extra": 22.23,
     "complete": 31.12
   },
+  "Supermoves: World of Parkour": {
+    "hltb_id": 156442,
+    "main": 7.0,
+    "extra": 10.0,
+    "complete": 15.0
+  },
+  "Supraland": {
+    "main": 12.96,
+    "extra": 16.75,
+    "complete": 23.45
+  },
+  "Supraland Six Inches Under": {
+    "main": 8.04,
+    "extra": 11.26,
+    "complete": 16.94
+  },
   "Supraworld": {
     "main": 8.0,
     "extra": 12.0,
@@ -2208,37 +2275,45 @@
     "extra": 28.34,
     "complete": 35.96
   },
-  "Supraland Six Inches Under": {
-    "main": 8.04,
-    "extra": 11.26,
-    "complete": 16.94
+  "System Shock (2023)": {
+    "hltb_id": 74181,
+    "main": 17.25,
+    "extra": 25.07,
+    "complete": 33.32
   },
-  "Supraland": {
-    "main": 12.96,
-    "extra": 16.75,
-    "complete": 23.45
+  "TEKKEN 8": {
+    "main": 4.17,
+    "extra": 11.0,
+    "complete": 17.05
   },
-  "Tankhead": {
-    "main": 5.0,
-    "extra": 9.8
+  "THE FINALS": {
+    "main": 7.95,
+    "extra": 37.24,
+    "complete": 476.29
+  },
+  "THRONE AND LIBERTY": {
+    "main": 50.73,
+    "extra": 87.48,
+    "complete": 249.23
+  },
+  "TRAIL OUT": {
+    "main": 10.87,
+    "extra": 15.38,
+    "complete": 15.83
   },
   "Tainted Grail: The Fall of Avalon": {
     "main": 28.73,
     "extra": 53.21,
     "complete": 66.95
   },
-  "SYNCED": {
-    "extra": 69.0
+  "Tankhead": {
+    "main": 5.0,
+    "extra": 9.8
   },
   "Tchia": {
     "main": 7.53,
     "extra": 13.81,
     "complete": 22.73
-  },
-  "TEKKEN 8": {
-    "main": 4.17,
-    "extra": 11.0,
-    "complete": 17.05
   },
   "Tempest Rising": {
     "main": 17.31,
@@ -2250,11 +2325,6 @@
     "extra": 51.95,
     "complete": 88.64
   },
-  "The Ascent": {
-    "main": 11.97,
-    "extra": 18.84,
-    "complete": 26.09
-  },
   "The Alters": {
     "main": 19.47,
     "extra": 24.96,
@@ -2265,6 +2335,11 @@
     "extra": 4.0,
     "complete": 6.04
   },
+  "The Ascent": {
+    "main": 11.97,
+    "extra": 18.84,
+    "complete": 26.09
+  },
   "The Axis Unseen": {
     "extra": 38.42
   },
@@ -2273,15 +2348,20 @@
     "extra": 5.0,
     "complete": 7.0
   },
+  "The Callisto Protocol": {
+    "main": 10.1,
+    "extra": 12.07,
+    "complete": 15.69
+  },
   "The Casting of Frank Stone": {
     "main": 6.18,
     "extra": 7.52,
     "complete": 27.97
   },
-  "The Callisto Protocol": {
-    "main": 10.1,
-    "extra": 12.07,
-    "complete": 15.69
+  "The Chant": {
+    "main": 6.48,
+    "extra": 7.79,
+    "complete": 11.92
   },
   "The Cycle: Frontier": {
     "main": 5.79,
@@ -2293,40 +2373,25 @@
     "extra": 7.93,
     "complete": 11.7
   },
-  "The Chant": {
-    "main": 6.48,
-    "extra": 7.79,
-    "complete": 11.92
-  },
-  "THE FINALS": {
-    "main": 7.95,
-    "extra": 37.24,
-    "complete": 476.29
-  },
-  "The Fabled Woods": {
-    "main": 1.01,
-    "extra": 2.4,
-    "complete": 4.45
-  },
   "The Elder Scrolls IV: Oblivion Remastered": {
     "main": 17.21,
     "extra": 52.17,
     "complete": 93.76
-  },
-  "The First Berserker: Khazan": {
-    "main": 34.69,
-    "extra": 46.8,
-    "complete": 57.15
   },
   "The Elder Scrolls Online": {
     "main": 47.9,
     "extra": 207.44,
     "complete": 606.92
   },
-  "The Invincible": {
-    "main": 6.6,
-    "extra": 7.99,
-    "complete": 11.87
+  "The Fabled Woods": {
+    "main": 1.01,
+    "extra": 2.4,
+    "complete": 4.45
+  },
+  "The First Berserker: Khazan": {
+    "main": 34.69,
+    "extra": 46.8,
+    "complete": 57.15
   },
   "The First Descendant": {
     "main": 36.48,
@@ -2337,9 +2402,22 @@
     "main": 9.25,
     "extra": 11.47
   },
+  "The Invincible": {
+    "main": 6.6,
+    "extra": 7.99,
+    "complete": 11.87
+  },
   "The Killing Antidote": {
     "main": 10.0,
     "extra": 14.63
+  },
+  "The Lamplighters League": {
+    "main": 34.92,
+    "extra": 38.25,
+    "complete": 51.11
+  },
+  "The Last Caretaker": {
+    "main": 45.86
   },
   "The Last Oricru": {
     "main": 14.71,
@@ -2351,43 +2429,30 @@
     "extra": 17.95,
     "complete": 24.44
   },
-  "The Lamplighters League": {
-    "main": 34.92,
-    "extra": 38.25,
-    "complete": 51.11
-  },
-  "The Last Caretaker": {
-    "main": 45.86
-  },
   "The Last of Us Part II Remastered": {
     "main": 22.99,
     "extra": 28.51,
     "complete": 43.95
-  },
-  "The Legend of Heroes: Trails Through Daybreak II": {
-    "main": 47.12,
-    "extra": 72.87,
-    "complete": 97.97
-  },
-  "The Lord of the Rings: Return to Moria": {
-    "main": 36.13,
-    "extra": 47.2,
-    "complete": 59.12
   },
   "The Legend of Heroes: Trails Through Daybreak": {
     "main": 56.91,
     "extra": 87.96,
     "complete": 110.09
   },
+  "The Legend of Heroes: Trails Through Daybreak II": {
+    "main": 47.12,
+    "extra": 72.87,
+    "complete": 97.97
+  },
   "The Lord of the Rings: Gollum": {
     "main": 13.42,
     "extra": 17.12,
     "complete": 32.5
   },
-  "The Outlast Trials": {
-    "main": 14.35,
-    "extra": 33.13,
-    "complete": 76.51
+  "The Lord of the Rings: Return to Moria": {
+    "main": 36.13,
+    "extra": 47.2,
+    "complete": 59.12
   },
   "The Medium": {
     "main": 8.02,
@@ -2399,40 +2464,45 @@
     "extra": 6.21,
     "complete": 7.71
   },
-  "The Persistence": {
-    "main": 10.47,
-    "extra": 13.17,
-    "complete": 23.01
-  },
-  "The Sinking City Remastered": {
-    "main": 18.83,
-    "extra": 25.47,
-    "complete": 32.21
-  },
   "The Outer Worlds 2": {
     "main": 18.37,
     "extra": 43.18,
     "complete": 63.86
+  },
+  "The Outlast Trials": {
+    "main": 14.35,
+    "extra": 33.13,
+    "complete": 76.51
+  },
+  "The Persistence": {
+    "main": 10.47,
+    "extra": 13.17,
+    "complete": 23.01
   },
   "The Riftbreaker": {
     "main": 23.29,
     "extra": 34.62,
     "complete": 52.96
   },
+  "The Sinking City Remastered": {
+    "main": 18.83,
+    "extra": 25.47,
+    "complete": 32.21
+  },
   "The Talos Principle 2": {
     "main": 20.3,
     "extra": 31.1,
     "complete": 37.84
   },
-  "The Texas Chain Saw Massacre": {
-    "main": 2.02,
-    "extra": 19.43,
-    "complete": 74.76
-  },
   "The Talos Principle: Reawakened": {
     "main": 12.9,
     "extra": 20.59,
     "complete": 34.08
+  },
+  "The Texas Chain Saw Massacre": {
+    "main": 2.02,
+    "extra": 19.43,
+    "complete": 74.76
   },
   "The Thaumaturge": {
     "main": 16.0,
@@ -2447,19 +2517,6 @@
     "extra": 103.75,
     "complete": 174.4
   },
-  "THRONE AND LIBERTY": {
-    "main": 50.73,
-    "extra": 87.48,
-    "complete": 249.23
-  },
-  "Togges": {
-    "main": 4.8,
-    "complete": 37.6
-  },
-  "To Hell With It": {
-    "main": 1.45,
-    "extra": 3.0
-  },
   "Titan Quest II": {
     "main": 12.55,
     "extra": 22.09,
@@ -2470,80 +2527,86 @@
     "extra": 4.14,
     "complete": 3.88
   },
+  "To Hell With It": {
+    "main": 1.45,
+    "extra": 3.0
+  },
+  "Togges": {
+    "main": 4.8,
+    "complete": 37.6
+  },
   "Tokyo Xtreme Racer": {
     "main": 20.29,
     "extra": 22.05,
     "complete": 40.32
-  },
-  "Tower of Fantasy": {
-    "main": 83.88,
-    "extra": 124.4
   },
   "Tom Clancy's Rainbow Six Extraction": {
     "main": 13.64,
     "extra": 46.9,
     "complete": 61.15
   },
-  "Towers of Aghasba": {
-    "main": 30.0,
-    "extra": 47.1
-  },
   "Tom Clancy's Rainbow Six Siege": {
     "main": 3.32,
     "extra": 26.39,
     "complete": 153.47
   },
-  "TRAIL OUT": {
-    "main": 10.87,
-    "extra": 15.38,
-    "complete": 15.83
+  "Tower of Fantasy": {
+    "main": 83.88,
+    "extra": 124.4
+  },
+  "Towers of Aghasba": {
+    "main": 30.0,
+    "extra": 47.1
   },
   "Trepang2": {
     "main": 5.29,
     "extra": 8.29,
     "complete": 20.45
   },
-  "Uncharted: Legacy of Thieves Collection": {
-    "main": 20.53,
-    "extra": 25.39,
-    "complete": 52.46
+  "Twin Stones: The Journey of Bukka": {
+    "main": 1.09,
+    "extra": 4.3
   },
   "UBOAT": {
     "main": 46.92,
     "extra": 129.53,
     "complete": 660.37
   },
-  "Twin Stones: The Journey of Bukka": {
-    "main": 1.09,
-    "extra": 4.3
+  "Uncharted: Legacy of Thieves Collection": {
+    "main": 20.53,
+    "extra": 25.39,
+    "complete": 52.46
   },
   "Until Dawn": {
     "main": 8.02,
     "extra": 9.39,
     "complete": 18.84
   },
-  "Vampires: Bloodlord Rising": {
-    "main": 6.29
-  },
   "Valkyrie Elysium": {
     "main": 12.09,
     "extra": 19.65,
     "complete": 28.96
   },
-  "Vector Strike": {
-    "main": 2.21,
-    "extra": 3.75,
-    "complete": 16.81
+  "Vampire: The Masquerade - Bloodlines 2": {
+    "main": 15.78,
+    "extra": 25.11,
+    "complete": 34.43
   },
   "Vampire: The Masquerade - Swansong": {
     "main": 15.67,
     "extra": 22.53,
     "complete": 29.76
   },
-  "Vampire: The Masquerade - Bloodlines 2": {
-    "main": 15.78,
-    "extra": 25.11,
-    "complete": 34.43
+  "Vampires: Bloodlord Rising": {
+    "main": 6.29
+  },
+  "Vector Strike": {
+    "main": 2.21,
+    "extra": 3.75,
+    "complete": 16.81
+  },
+  "Violet": {
+    "complete": 0.7
   },
   "Virtua Fighter 5 R.E.V.O.": {
     "main": 0.4,
@@ -2558,58 +2621,69 @@
     "extra": 25.82,
     "complete": 26.88
   },
-  "Violet": {
-    "complete": 0.7
+  "WILD HEARTS": {
+    "main": 39.3,
+    "extra": 53.31,
+    "complete": 126.42
+  },
+  "WUCHANG: Fallen Feathers": {
+    "main": 30.92,
+    "extra": 36.89,
+    "complete": 48.87
+  },
+  "Wakamarina Valley, New Zealand": {
+    "main": 0.99
   },
   "Wanted: Dead": {
     "main": 7.68,
     "extra": 9.83,
     "complete": 14.28
   },
-  "Wakamarina Valley, New Zealand": {
-    "main": 0.99
+  "War Thunder": {
+    "main": 832.67,
+    "extra": 1630.35,
+    "complete": 4627.7
   },
   "Warframe": {
     "main": 113.87,
     "extra": 647.52,
     "complete": 1543.09
   },
-  "Warhaven": {
-    "main": 4.0
-  },
-  "War Thunder": {
-    "main": 832.67,
-    "extra": 1630.35,
-    "complete": 4627.7
+  "Warhammer 40,000: Darktide": {
+    "main": 28.32,
+    "extra": 67.53,
+    "complete": 214.33
   },
   "Warhammer 40,000: Space Marine 2": {
     "main": 9.49,
     "extra": 15.46,
     "complete": 66.25
   },
-  "Warhammer 40,000: Darktide": {
-    "main": 28.32,
-    "extra": 67.53,
-    "complete": 214.33
-  },
   "Warhammer Age of Sigmar: Realms of Ruin": {
     "main": 13.28,
     "extra": 15.03
-  },
-  "Watch Dogs: Legion": {
-    "main": 18.18,
-    "extra": 33.06,
-    "complete": 50.2
   },
   "Warhammer: Vermintide 2": {
     "main": 10.87,
     "extra": 28.78,
     "complete": 128.57
   },
+  "Warhaven": {
+    "main": 4.0
+  },
   "Warstride Challenges": {
     "main": 3.02,
     "extra": 6.6,
     "complete": 36.33
+  },
+  "Watch Dogs: Legion": {
+    "main": 18.18,
+    "extra": 33.06,
+    "complete": 50.2
+  },
+  "Way of the Hunter": {
+    "main": 29.62,
+    "extra": 67.43
   },
   "Wayfinder": {
     "main": 25.08,
@@ -2620,25 +2694,16 @@
     "extra": 25.21,
     "complete": 26.49
   },
-  "Whiskerwood": {
-    "main": 14.0
-  },
   "Where Winds Meet": {
     "main": 34.94,
     "extra": 69.91,
     "complete": 144.54
   },
-  "Way of the Hunter": {
-    "main": 29.62,
-    "extra": 67.43
+  "Whiskerwood": {
+    "main": 14.0
   },
   "Wildgate": {
     "main": 19.04
-  },
-  "WILD HEARTS": {
-    "main": 39.3,
-    "extra": 53.31,
-    "complete": 126.42
   },
   "Witchfire": {
     "main": 11.4,
@@ -2655,6 +2720,10 @@
     "extra": 14.71,
     "complete": 32.1
   },
+  "Workshop Simulator": {
+    "main": 10.29,
+    "complete": 14.1
+  },
   "World of Warcraft: Shadowlands": {
     "main": 90.6,
     "extra": 144.93,
@@ -2663,22 +2732,13 @@
   "Wreckfest 2": {
     "complete": 18.0
   },
-  "Workshop Simulator": {
-    "main": 10.29,
-    "complete": 14.1
+  "Wreckreation": {
+    "main": 12.0
   },
   "Wuthering Waves": {
     "main": 26.23,
     "extra": 77.63,
     "complete": 218.15
-  },
-  "Wreckreation": {
-    "main": 12.0
-  },
-  "WUCHANG: Fallen Feathers": {
-    "main": 30.92,
-    "extra": 36.89,
-    "complete": 48.87
   },
   "X4: Foundations": {
     "main": 66.42,
@@ -2690,6 +2750,11 @@
     "extra": 18.88,
     "complete": 21.73
   },
+  "Yag": {
+    "main": 8.72,
+    "extra": 10.33,
+    "complete": 14.95
+  },
   "Yakuza Kiwami 2": {
     "main": 18.49,
     "extra": 36.36,
@@ -2700,14 +2765,24 @@
     "extra": 30.92,
     "complete": 49.09
   },
-  "Yag": {
-    "main": 8.72,
-    "extra": 10.33,
-    "complete": 14.95
-  },
   "Zenless Zone Zero": {
     "main": 46.29,
     "extra": 81.92,
     "complete": 133.33
+  },
+  "inZOI": {
+    "main": 10.67,
+    "extra": 36.92
+  },
+  "skate.": {
+    "main": 11.31,
+    "extra": 37.73,
+    "complete": 73.93
+  },
+  "Black Myth: Wukong": {
+    "hltb_id": 82089,
+    "main": 38.18,
+    "extra": 48.39,
+    "complete": 67.4
   }
 }
