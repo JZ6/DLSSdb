@@ -64,7 +64,7 @@ select { cursor: pointer; }
 .table-wrap { flex: 1; overflow: auto; min-height: 0; }
 thead th:first-child, td:first-child { padding-left: var(--pad); }
 thead th:last-child, td:last-child { padding-right: var(--pad); }
-table { width: 100%; border-collapse: collapse; table-layout: auto; }
+table { width: 100%; border-collapse: collapse; table-layout: auto; overflow: clip; }
 
 /* Sticky column headers */
 thead th {
