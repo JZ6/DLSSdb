@@ -57,8 +57,8 @@ select { cursor: pointer; }
 .stats-bar .sep { color: var(--border); }
 
 /* Table — auto width, centered; each column fits its content exactly */
-.table-wrap { display: flex; justify-content: center; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-table { width: auto; border-collapse: collapse; }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { width: auto; margin: 0 auto; border-collapse: collapse; }
 thead th { background: var(--bg2); padding: 6px 16px 8px; text-align: left; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-dim); position: sticky; top: var(--topbar-h); border-bottom: 2px solid var(--green-dim); user-select: none; white-space: nowrap; z-index: 10; vertical-align: top; }
 thead th.sorted { color: var(--green); }
 .th-label { cursor: pointer; padding: 2px 0 4px; }
