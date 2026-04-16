@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, Filters, SortCol, SortDir } from "../types";
 import { getFrameGenLevel, getHltbHours } from "../types";
 
@@ -14,6 +14,27 @@ const STEAM_ORDER: Record<string, number> = {
 };
 
 const EMPTY_FILTERS: Filters = { search: "", framegen: "", sr: "", rr: "", rt: "", steam: "", hltb: "" };
+const LS_FILTERS = "dlssdb-filters";
+const LS_SORT = "dlssdb-sort";
+
+function loadFilters(): Filters {
+  try {
+    const saved = localStorage.getItem(LS_FILTERS);
+    if (saved) return { ...EMPTY_FILTERS, ...JSON.parse(saved) };
+  } catch { /* ignore */ }
+  return EMPTY_FILTERS;
+}
+
+function loadSort(): { col: SortCol; dir: SortDir } {
+  try {
+    const saved = localStorage.getItem(LS_SORT);
+    if (saved) {
+      const { col, dir } = JSON.parse(saved);
+      return { col, dir };
+    }
+  } catch { /* ignore */ }
+  return { col: "name", dir: 1 };
+}
 
 function fmatch(val: string, filt: string): boolean {
   if (!filt) return true;
@@ -23,9 +44,18 @@ function fmatch(val: string, filt: string): boolean {
 }
 
 export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, steam: Record<string, SteamInfo>) {
-  const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
-  const [sortCol, setSortCol] = useState<SortCol>("name");
-  const [sortDir, setSortDir] = useState<SortDir>(1);
+  const [filters, setFilters] = useState<Filters>(loadFilters);
+  const [sortCol, setSortCol] = useState<SortCol>(() => loadSort().col);
+  const [sortDir, setSortDir] = useState<SortDir>(() => loadSort().dir);
+
+  // Persist filters and sort to localStorage
+  useEffect(() => {
+    localStorage.setItem(LS_FILTERS, JSON.stringify(filters));
+  }, [filters]);
+
+  useEffect(() => {
+    localStorage.setItem(LS_SORT, JSON.stringify({ col: sortCol, dir: sortDir }));
+  }, [sortCol, sortDir]);
 
   const setFilter = useCallback((key: keyof Filters, value: string) => {
     setFilters((prev) => ({ ...prev, [key]: value }));
