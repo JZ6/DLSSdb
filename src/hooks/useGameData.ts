@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
-import type { DlssGame, DlssData, HltbInfo, SteamInfo } from "../types";
+import type { DlssGame, DlssData, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo } from "../types";
 
 interface GameData {
   games: DlssGame[];
   hltb: Record<string, HltbInfo>;
   steam: Record<string, SteamInfo>;
+  metacritic: Record<string, MetacriticInfo>;
+  upscaling: Record<string, UpscalingInfo>;
   loading: boolean;
   error: string | null;
 }
@@ -13,6 +15,8 @@ export function useGameData(): GameData {
   const [games, setGames] = useState<DlssGame[]>([]);
   const [hltb, setHltb] = useState<Record<string, HltbInfo>>({});
   const [steam, setSteam] = useState<Record<string, SteamInfo>>({});
+  const [metacritic, setMetacritic] = useState<Record<string, MetacriticInfo>>({});
+  const [upscaling, setUpscaling] = useState<Record<string, UpscalingInfo>>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -34,14 +38,18 @@ export function useGameData(): GameData {
       fetchJson<DlssData>(`${base}dlss-rt-games-apps-overrides.json`, true),
       fetchJson<Record<string, HltbInfo>>(`${base}hltb_data.json`),
       fetchJson<Record<string, SteamInfo>>(`${base}steam_data.json`),
+      fetchJson<Record<string, MetacriticInfo>>(`${base}metacritic_data.json`),
+      fetchJson<Record<string, UpscalingInfo>>(`${base}upscaling_data.json`),
     ])
-      .then(([dlss, hltbData, steamData]) => {
+      .then(([dlss, hltbData, steamData, metacriticData, upscalingData]) => {
         const filtered = dlss.data
           .filter((e) => e.type === "Game")
           .map((e) => ({ ...e, name: String(e.name) }));
         setGames(filtered);
         setHltb(hltbData);
         setSteam(steamData);
+        setMetacritic(metacriticData);
+        setUpscaling(upscalingData);
         setLoading(false);
       })
       .catch((err) => {
@@ -50,5 +58,5 @@ export function useGameData(): GameData {
       });
   }, []);
 
-  return { games, hltb, steam, loading, error };
+  return { games, hltb, steam, metacritic, upscaling, loading, error };
 }

@@ -1,6 +1,6 @@
 import { useState, useMemo, useCallback, useEffect } from "react";
-import type { DlssGame, HltbInfo, SteamInfo, Filters, SortCol, SortDir } from "../types";
-import { getFrameGenLevel, getHltbHours } from "../types";
+import type { DlssGame, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo, Filters, SortCol, SortDir } from "../types";
+import { getFrameGenLevel, getDlssVersionOrder, getHltbHours } from "../types";
 
 const FT_ORDER: Record<string, number> = { "NV, T": 2, Yes: 1, "": 0 };
 const RT_ORDER: Record<string, number> = { "Path Tracing": 2, Yes: 1, "": 0 };
@@ -13,7 +13,7 @@ const STEAM_ORDER: Record<string, number> = {
   "Very Negative": 0,
 };
 
-const EMPTY_FILTERS: Filters = { search: "", framegen: "", sr: "", rr: "", rt: "", steam: "", hltb: "" };
+const EMPTY_FILTERS: Filters = { search: "", framegen: "", dlssver: "", sr: "", rr: "", rt: "", steam: "", metacritic: "", hltb: "" };
 const LS_FILTERS = "dlssdb-filters";
 const LS_SORT = "dlssdb-sort";
 
@@ -43,7 +43,13 @@ function fmatch(val: string, filt: string): boolean {
   return val === filt;
 }
 
-export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, steam: Record<string, SteamInfo>) {
+export function useFilters(
+  games: DlssGame[],
+  hltb: Record<string, HltbInfo>,
+  steam: Record<string, SteamInfo>,
+  metacritic: Record<string, MetacriticInfo> = {},
+  upscaling: Record<string, UpscalingInfo> = {},
+) {
   const [filters, setFilters] = useState<Filters>(loadFilters);
   const [sortCol, setSortCol] = useState<SortCol>(() => loadSort().col);
   const [sortDir, setSortDir] = useState<SortDir>(() => loadSort().dir);
@@ -88,9 +94,27 @@ export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, st
         if (filters.framegen === "none" && level !== 0) return false;
       }
 
+      // DLSS Version filter
+      if (filters.dlssver) {
+        const ver = getDlssVersionOrder(g);
+        if (filters.dlssver === "4.5+" && ver < 5) return false;
+        if (filters.dlssver === "4+" && ver < 4) return false;
+        if (filters.dlssver === "3+" && ver < 2) return false;
+      }
+
       if (!fmatch(g["dlss super resolution"] || "", filters.sr)) return false;
       if (!fmatch(g["dlss ray reconstruction"] || "", filters.rr)) return false;
       if (!fmatch(g["ray tracing"] || "", filters.rt)) return false;
+
+      // Metacritic filter
+      if (filters.metacritic) {
+        const mc = metacritic[g.name]?.score;
+        if (mc === undefined) return false;
+        if (filters.metacritic === "90+" && mc < 90) return false;
+        if (filters.metacritic === "80+" && mc < 80) return false;
+        if (filters.metacritic === "70+" && mc < 70) return false;
+        if (filters.metacritic === "50+" && mc < 50) return false;
+      }
 
       // Steam filter
       if (filters.steam) {
@@ -116,8 +140,8 @@ export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, st
     });
 
     result.sort((a, b) => {
-      const av = getSortVal(a, sortCol, hltb, steam);
-      const bv = getSortVal(b, sortCol, hltb, steam);
+      const av = getSortVal(a, sortCol, hltb, steam, metacritic);
+      const bv = getSortVal(b, sortCol, hltb, steam, metacritic);
       // null values always sort last regardless of direction
       if (av === null && bv === null) return 0;
       if (av === null) return 1;
@@ -127,15 +151,21 @@ export function useFilters(games: DlssGame[], hltb: Record<string, HltbInfo>, st
     });
 
     return result;
-  }, [games, hltb, steam, filters, sortCol, sortDir]);
+  }, [games, hltb, steam, metacritic, filters, sortCol, sortDir]);
 
   return { filtered, filters, setFilter, clearFilters, sortCol, sortDir, toggleSort };
 }
 
-function getSortVal(g: DlssGame, col: SortCol, hltb: Record<string, HltbInfo>, steam: Record<string, SteamInfo>): string | number | null {
+function getSortVal(
+  g: DlssGame, col: SortCol,
+  hltb: Record<string, HltbInfo>, steam: Record<string, SteamInfo>,
+  metacritic: Record<string, MetacriticInfo>,
+): string | number | null {
   switch (col) {
     case "name":
       return g.name.toLowerCase();
+    case "dlssver":
+      return getDlssVersionOrder(g);
     case "framegen":
       return getFrameGenLevel(g);
     case "sr":
@@ -146,10 +176,14 @@ function getSortVal(g: DlssGame, col: SortCol, hltb: Record<string, HltbInfo>, s
       return FT_ORDER[g.dlaa || ""] ?? 0;
     case "rt":
       return RT_ORDER[g["ray tracing"] || ""] ?? 0;
+    case "upscaling":
+      return 0; // no sort for upscaling yet
     case "steam": {
       const v = STEAM_ORDER[steam[g.name]?.rating];
       return v !== undefined ? v : null;
     }
+    case "metacritic":
+      return metacritic[g.name]?.score ?? null;
     case "hltb":
       return getHltbHours(hltb[g.name]) ?? null;
     default:

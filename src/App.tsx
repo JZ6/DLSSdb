@@ -15,14 +15,14 @@ function getDefaultCols(): Set<SortCol> {
   } catch { /* ignore */ }
   const w = window.innerWidth;
   if (w < 768) return new Set(["name", "framegen", "steam"]);
-  if (w < 1200) return new Set(["name", "framegen", "steam", "hltb"]);
-  return new Set(["name", "framegen", "rt", "steam", "hltb"]);
+  if (w < 1200) return new Set(["name", "dlssver", "framegen", "steam", "hltb"]);
+  return new Set(["name", "dlssver", "framegen", "rt", "steam", "metacritic", "hltb"]);
 }
 
 export default function App() {
-  const { games, hltb, steam, loading, error } = useGameData();
+  const { games, hltb, steam, metacritic, upscaling, loading, error } = useGameData();
   const { filtered, filters, setFilter, clearFilters, sortCol, sortDir, toggleSort } =
-    useFilters(games, hltb, steam);
+    useFilters(games, hltb, steam, metacritic, upscaling);
   const [visibleCols, setVisibleCols] = useState<Set<SortCol>>(getDefaultCols);
 
   // Persist columns to localStorage
@@ -107,6 +107,8 @@ export default function App() {
         games={filtered}
         hltb={hltb}
         steam={steam}
+        metacritic={metacritic}
+        upscaling={upscaling}
         sortCol={sortCol}
         sortDir={sortDir}
         onSort={toggleSort}

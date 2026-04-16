@@ -131,6 +131,14 @@ td.nc a:hover { color: var(--green); }
 .sc { display: flex; align-items: center; gap: 5px; }
 .sp { font-size: 10px; color: var(--text-dim); }
 
+/* Metacritic */
+.mc-good  { background: #003300; color: #44dd44; border: 1px solid #226622; }
+.mc-mixed { background: #2a2000; color: #ccaa44; border: 1px solid #6a5a22; }
+.mc-bad   { background: #2a0000; color: #dd4444; border: 1px solid #6a2222; }
+
+/* Upscaling */
+.upscaling-badges { display: flex; gap: 4px; }
+
 /* HLTB */
 .hltb-cell { cursor: default; }
 .hltb-main { color: var(--green); font-weight: 600; font-size: 12px; }
