@@ -50,19 +50,18 @@ export function SteamBadge({ info }: { info?: SteamInfo }) {
 }
 
 export function HltbBadge({ data }: { data?: HltbInfo }) {
-  if (!data || (!data.main && !data.extra && !data.complete)) {
-    return <span className="empty">—</span>;
-  }
+  const displayHours = data?.main ?? data?.extra ?? data?.complete;
+  if (!displayHours) return <span className="empty">—</span>;
 
   const tooltip = [
-    data.main && `Main Story: ${data.main}h`,
-    data.extra && `Main + Extras: ${data.extra}h`,
-    data.complete && `Completionist: ${data.complete}h`,
+    data?.main && `Main Story: ${data.main}h`,
+    data?.extra && `Main + Extras: ${data.extra}h`,
+    data?.complete && `Completionist: ${data.complete}h`,
   ].filter(Boolean).join("\n");
 
   return (
     <span className="hltb-cell" title={tooltip}>
-      <span className="hltb-main">{data.main ?? "?"}h</span>
+      <span className="hltb-main">{displayHours}h</span>
     </span>
   );
 }

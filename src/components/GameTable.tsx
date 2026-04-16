@@ -58,6 +58,15 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
     { value: "mp+", label: "Mostly Positive +" },
     { value: "unk", label: "Unknown" },
   ],
+  hltb: [
+    { value: "", label: "All" },
+    { value: "u10", label: "Under 10h" },
+    { value: "u25", label: "Under 25h" },
+    { value: "u50", label: "Under 50h" },
+    { value: "50+", label: "50h+" },
+    { value: "any", label: "Has data" },
+    { value: "unk", label: "Unknown" },
+  ],
 };
 
 const COL_TO_FILTER: Partial<Record<SortCol, keyof Filters>> = {
@@ -66,6 +75,7 @@ const COL_TO_FILTER: Partial<Record<SortCol, keyof Filters>> = {
   rr: "rr",
   rt: "rt",
   steam: "steam",
+  hltb: "hltb",
 };
 
 type CellRenderer = (game: DlssGame, steam?: SteamInfo, hltb?: HltbInfo) => React.JSX.Element;
