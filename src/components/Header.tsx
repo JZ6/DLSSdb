@@ -1,0 +1,32 @@
+import type { SortCol } from "../types";
+import { ColumnToggle } from "./ColumnToggle";
+
+interface Props {
+  columns?: { key: SortCol; label: string }[];
+  visibleCols?: Set<SortCol>;
+  onToggleCol?: (key: SortCol) => void;
+  onClearFilters?: () => void;
+}
+
+export function Header({ columns, visibleCols, onToggleCol, onClearFilters }: Props) {
+  const showActions = columns && visibleCols && onToggleCol && onClearFilters;
+
+  return (
+    <div className="top-bar">
+      <header>
+        <div className="header-left">
+          <h1>DLSSdb</h1>
+          {showActions && <span className="subtitle">Every DLSS game. Reviews. Playtime. All in one place.</span>}
+        </div>
+        {showActions && (
+          <div className="header-actions">
+            <ColumnToggle columns={columns} visible={visibleCols} onToggle={onToggleCol} />
+            <button type="button" className="btn-clear" onClick={onClearFilters}>
+              Clear Filters
+            </button>
+          </div>
+        )}
+      </header>
+    </div>
+  );
+}

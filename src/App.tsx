@@ -1,9 +1,9 @@
 import { useEffect, useState, useCallback } from "react";
 import { useGameData } from "./hooks/useGameData";
 import { useFilters } from "./hooks/useFilters";
+import { Header } from "./components/Header";
 import { StatsBar } from "./components/StatsBar";
 import { GameTable, COLUMNS } from "./components/GameTable";
-import { ColumnToggle } from "./components/ColumnToggle";
 import type { SortCol } from "./types";
 
 const LS_COLS = "dlssdb-columns";
@@ -25,7 +25,6 @@ export default function App() {
     useFilters(games, hltb, steam, metacritic, upscaling);
   const [visibleCols, setVisibleCols] = useState<Set<SortCol>>(getDefaultCols);
 
-  // Persist columns to localStorage
   useEffect(() => {
     localStorage.setItem(LS_COLS, JSON.stringify([...visibleCols]));
   }, [visibleCols]);
@@ -40,7 +39,6 @@ export default function App() {
     });
   }, []);
 
-  // Keyboard shortcut: / to focus search
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       const tag = document.activeElement?.tagName;
@@ -59,13 +57,8 @@ export default function App() {
   if (loading) {
     return (
       <>
-        <div className="top-bar">
-          <header><div className="header-left"><h1>DLSSdb</h1></div></header>
-        </div>
-        <div className="loading">
-          <span className="spinner" />
-          Loading game data…
-        </div>
+        <Header />
+        <div className="loading"><span className="spinner" />Loading game data…</div>
         <StatsBar filtered={[]} total={0} />
       </>
     );
@@ -74,9 +67,7 @@ export default function App() {
   if (error) {
     return (
       <>
-        <div className="top-bar">
-          <header><div className="header-left"><h1>DLSSdb</h1></div></header>
-        </div>
+        <Header />
         <div className="error-page">
           <h2>Failed to load game data</h2>
           <p>Make sure <code>dlss-rt-games-apps-overrides.json</code> is in the <code>public/</code> folder.</p>
@@ -89,20 +80,12 @@ export default function App() {
 
   return (
     <>
-      <div className="top-bar">
-        <header>
-          <div className="header-left">
-            <h1>DLSSdb</h1>
-            <span className="subtitle">Every DLSS game. Reviews. Playtime. All in one place.</span>
-          </div>
-          <div className="header-actions">
-            <ColumnToggle columns={COLUMNS} visible={visibleCols} onToggle={toggleCol} />
-            <button type="button" className="btn-clear" onClick={clearFilters}>
-              Clear Filters
-            </button>
-          </div>
-        </header>
-      </div>
+      <Header
+        columns={COLUMNS}
+        visibleCols={visibleCols}
+        onToggleCol={toggleCol}
+        onClearFilters={clearFilters}
+      />
       <GameTable
         games={filtered}
         hltb={hltb}
