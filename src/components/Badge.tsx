@@ -1,5 +1,5 @@
-import type { DlssGame, SteamRating, SteamInfo, HltbInfo } from "../types";
-import { getFrameGenLabel } from "../types";
+import type { DlssGame, SteamRating, SteamInfo, HltbInfo, MetacriticInfo, UpscalingInfo } from "../types";
+import { getFrameGenLabel, getDlssVersion } from "../types";
 
 const FG_STYLES: Record<string, string> = {
   "6X": "b6x",
@@ -24,11 +24,28 @@ const STEAM_STYLES: Record<SteamRating, string> = {
   "Very Negative": "svn",
 };
 
+const DLSS_VER_STYLES: Record<string, string> = {
+  "4.5": "b6x",
+  "4": "b4x",
+  "3.5": "bnvt",
+  "3": "bnvu",
+  "2": "byes",
+  "1": "byes",
+};
+
+const fmt = (h: number) => Math.ceil(h);
+
 export function FrameGenBadge({ game }: { game: DlssGame }) {
   const label = getFrameGenLabel(game);
   if (!label) return <span className="empty">—</span>;
   const cls = FG_STYLES[label] ?? "byes";
   return <span className={`badge ${cls}`}>{label}</span>;
+}
+
+export function DlssVersionBadge({ game }: { game: DlssGame }) {
+  const ver = getDlssVersion(game);
+  const cls = DLSS_VER_STYLES[ver] ?? "byes";
+  return <span className={`badge ${cls}`}>{ver}</span>;
 }
 
 export function FeatureBadge({ value }: { value: string }) {
@@ -49,11 +66,29 @@ export function SteamBadge({ info }: { info?: SteamInfo }) {
   );
 }
 
+export function MetacriticBadge({ info }: { info?: MetacriticInfo }) {
+  if (!info) return <span className="empty">—</span>;
+  const s = info.score;
+  const cls = s >= 75 ? "mc-good" : s >= 50 ? "mc-mixed" : "mc-bad";
+  return <span className={`badge ${cls}`}>{s}</span>;
+}
+
+export function UpscalingBadge({ info }: { info?: UpscalingInfo }) {
+  if (!info) return <span className="empty">—</span>;
+  const parts: string[] = [];
+  if (info.fsr) parts.push("FSR");
+  if (info.xess) parts.push("XeSS");
+  if (!parts.length) return <span className="empty">—</span>;
+  return (
+    <span className="upscaling-badges">
+      {parts.map((p) => <span key={p} className="badge byes">{p}</span>)}
+    </span>
+  );
+}
+
 export function HltbBadge({ data }: { data?: HltbInfo }) {
   const displayHours = data?.main ?? data?.extra ?? data?.complete;
   if (!displayHours) return <span className="empty">—</span>;
-
-  const fmt = (h: number) => Math.ceil(h);
 
   const tooltip = [
     data?.main && `Main Story: ${fmt(data.main)}h`,

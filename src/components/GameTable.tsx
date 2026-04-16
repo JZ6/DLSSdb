@@ -1,6 +1,6 @@
 import { memo, useMemo } from "react";
-import type { DlssGame, HltbInfo, SteamInfo, SortCol, SortDir, Filters } from "../types";
-import { FrameGenBadge, FeatureBadge, SteamBadge, HltbBadge } from "./Badge";
+import type { DlssGame, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo, SortCol, SortDir, Filters } from "../types";
+import { FrameGenBadge, DlssVersionBadge, FeatureBadge, SteamBadge, MetacriticBadge, UpscalingBadge, HltbBadge } from "./Badge";
 
 export interface Column {
   key: SortCol;
@@ -10,17 +10,26 @@ export interface Column {
 }
 
 export const COLUMNS: Column[] = [
-  { key: "name",     label: "Game",         minWidth: "160px", tooltip: "Game title — click to search on Steam" },
-  { key: "framegen", label: "Frame Gen",    minWidth: "70px",  tooltip: "DLSS Frame Generation multiplier — 6X (DLSS 4.5, RTX 50), 4X (DLSS 4, RTX 40/50), 2X (DLSS 3, RTX 40/50)" },
-  { key: "sr",       label: "Super Res",    minWidth: "70px",  tooltip: "DLSS Super Resolution — AI upscaling from lower resolution. NV-T = Transformer model (best quality)" },
-  { key: "rr",       label: "Ray Recon",    minWidth: "70px",  tooltip: "DLSS Ray Reconstruction — AI-enhanced ray tracing denoising for cleaner reflections and lighting" },
-  { key: "dlaa",     label: "DLAA",         minWidth: "60px",  tooltip: "Deep Learning Anti-Aliasing — AI anti-aliasing at native resolution (no upscaling)" },
-  { key: "rt",       label: "Ray Tracing",  minWidth: "90px",  tooltip: "Ray Tracing support — 'Path Tracing' = full path tracing, 'Yes' = partial ray tracing (reflections, shadows, GI)" },
-  { key: "steam",    label: "Steam Rating", minWidth: "180px", tooltip: "Steam user review rating and positive review percentage" },
-  { key: "hltb",     label: "Hours to Beat",minWidth: "70px",  tooltip: "HowLongToBeat.com — hover for Main / Main+Extras / Completionist breakdown" },
+  { key: "name",       label: "Game",           minWidth: "160px", tooltip: "Game title — click to search on Steam" },
+  { key: "dlssver",    label: "DLSS",           minWidth: "60px",  tooltip: "Highest DLSS version supported — derived from game features (4.5 = MFG 6X, 4 = MFG 4X, 3.5 = Ray Reconstruction, 3 = Frame Gen, 2 = Super Resolution)" },
+  { key: "framegen",   label: "Frame Gen",      minWidth: "70px",  tooltip: "DLSS Frame Generation multiplier — 6X (DLSS 4.5, RTX 50), 4X (DLSS 4, RTX 40/50), 2X (DLSS 3, RTX 40/50)" },
+  { key: "sr",         label: "Super Res",      minWidth: "70px",  tooltip: "DLSS Super Resolution — AI upscaling from lower resolution. NV-T = Transformer model (best quality)" },
+  { key: "rr",         label: "Ray Recon",      minWidth: "70px",  tooltip: "DLSS Ray Reconstruction — AI-enhanced ray tracing denoising for cleaner reflections and lighting" },
+  { key: "dlaa",       label: "DLAA",           minWidth: "60px",  tooltip: "Deep Learning Anti-Aliasing — AI anti-aliasing at native resolution (no upscaling)" },
+  { key: "rt",         label: "Ray Tracing",    minWidth: "90px",  tooltip: "Ray Tracing support — 'Path Tracing' = full path tracing, 'Yes' = partial ray tracing (reflections, shadows, GI)" },
+  { key: "upscaling",  label: "Other Upscaling",minWidth: "80px",  tooltip: "Other upscaling tech supported — FSR (AMD FidelityFX), XeSS (Intel)" },
+  { key: "steam",      label: "Steam",          minWidth: "180px", tooltip: "Steam user review rating and positive review percentage" },
+  { key: "metacritic", label: "Metacritic",     minWidth: "70px",  tooltip: "Metacritic critic score — green (75+), yellow (50-74), red (<50)" },
+  { key: "hltb",       label: "Hours to Beat",  minWidth: "70px",  tooltip: "HowLongToBeat.com — hover for Main / Main+Extras / Completionist breakdown" },
 ];
 
 const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]>> = {
+  dlssver: [
+    { value: "", label: "All" },
+    { value: "4.5+", label: "4.5+" },
+    { value: "4+", label: "4+" },
+    { value: "3+", label: "3+" },
+  ],
   framegen: [
     { value: "", label: "All" },
     { value: "6x", label: "6X" },
@@ -50,6 +59,13 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
     { value: "mp+", label: "Mostly Positive +" },
     { value: "neg", label: "Negative" },
   ],
+  metacritic: [
+    { value: "", label: "All" },
+    { value: "90+", label: "90+" },
+    { value: "80+", label: "80+" },
+    { value: "70+", label: "70+" },
+    { value: "50+", label: "50+" },
+  ],
   hltb: [
     { value: "", label: "All" },
     { value: "u10", label: "< 10h" },
@@ -60,30 +76,45 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
 };
 
 const COL_TO_FILTER: Partial<Record<SortCol, keyof Filters>> = {
+  dlssver: "dlssver",
   framegen: "framegen",
   sr: "sr",
   rr: "rr",
   rt: "rt",
   steam: "steam",
+  metacritic: "metacritic",
   hltb: "hltb",
 };
 
-type CellRenderer = (game: DlssGame, steam?: SteamInfo, hltb?: HltbInfo) => React.JSX.Element;
+// Extra data passed to each row for rendering
+interface RowData {
+  steam?: SteamInfo;
+  hltb?: HltbInfo;
+  metacritic?: MetacriticInfo;
+  upscaling?: UpscalingInfo;
+}
+
+type CellRenderer = (game: DlssGame, data: RowData) => React.JSX.Element;
 
 const CELL_RENDERERS: Record<string, CellRenderer> = {
-  framegen: (g) => <FrameGenBadge game={g} />,
-  sr:       (g) => <FeatureBadge value={g["dlss super resolution"] || ""} />,
-  rr:       (g) => <FeatureBadge value={g["dlss ray reconstruction"] || ""} />,
-  dlaa:     (g) => <FeatureBadge value={g.dlaa || ""} />,
-  rt:       (g) => <FeatureBadge value={g["ray tracing"] || ""} />,
-  steam:    (_g, steam) => <SteamBadge info={steam} />,
-  hltb:     (_g, _s, hltb) => <HltbBadge data={hltb} />,
+  dlssver:    (g) => <DlssVersionBadge game={g} />,
+  framegen:   (g) => <FrameGenBadge game={g} />,
+  sr:         (g) => <FeatureBadge value={g["dlss super resolution"] || ""} />,
+  rr:         (g) => <FeatureBadge value={g["dlss ray reconstruction"] || ""} />,
+  dlaa:       (g) => <FeatureBadge value={g.dlaa || ""} />,
+  rt:         (g) => <FeatureBadge value={g["ray tracing"] || ""} />,
+  upscaling:  (_g, d) => <UpscalingBadge info={d.upscaling} />,
+  steam:      (_g, d) => <SteamBadge info={d.steam} />,
+  metacritic: (_g, d) => <MetacriticBadge info={d.metacritic} />,
+  hltb:       (_g, d) => <HltbBadge data={d.hltb} />,
 };
 
 interface Props {
   games: DlssGame[];
   hltb: Record<string, HltbInfo>;
   steam: Record<string, SteamInfo>;
+  metacritic: Record<string, MetacriticInfo>;
+  upscaling: Record<string, UpscalingInfo>;
   sortCol: SortCol;
   sortDir: SortDir;
   onSort: (col: SortCol) => void;
@@ -92,8 +123,7 @@ interface Props {
   onFilter: (key: keyof Filters, value: string) => void;
 }
 
-export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibleCols, filters, onFilter }: Props) {
-  // Memoize so GameRow memo() actually prevents re-renders
+export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, sortDir, onSort, visibleCols, filters, onFilter }: Props) {
   const cols = useMemo(
     () => COLUMNS.filter((c) => visibleCols.has(c.key)),
     [visibleCols]
@@ -157,8 +187,7 @@ export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibl
             <GameRow
               key={g.sno}
               game={g}
-              hltbData={hltb[g.name]}
-              steamInfo={steam[g.name]}
+              data={{ steam: steam[g.name], hltb: hltb[g.name], metacritic: metacritic[g.name], upscaling: upscaling[g.name] }}
               cols={cols}
             />
           ))}
@@ -169,10 +198,9 @@ export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibl
   );
 }
 
-const GameRow = memo(function GameRow({ game, hltbData, steamInfo, cols }: {
+const GameRow = memo(function GameRow({ game, data, cols }: {
   game: DlssGame;
-  hltbData?: HltbInfo;
-  steamInfo?: SteamInfo;
+  data: RowData;
   cols: Column[];
 }) {
   const steamUrl = `https://store.steampowered.com/search/?term=${encodeURIComponent(game.name)}`;
@@ -188,7 +216,7 @@ const GameRow = memo(function GameRow({ game, hltbData, steamInfo, cols }: {
             </td>
           );
         }
-        return <td key={col.key}>{CELL_RENDERERS[col.key](game, steamInfo, hltbData)}</td>;
+        return <td key={col.key}>{CELL_RENDERERS[col.key](game, data)}</td>;
       })}
     </tr>
   );
