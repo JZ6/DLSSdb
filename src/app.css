@@ -91,12 +91,14 @@ tbody tr:hover td:first-child { background: #1a2200; }
 .th-label { cursor: pointer; padding: 2px 0 4px; display: flex; align-items: center; }
 .th-label:hover { color: var(--text); }
 .th-label:hover .si-off { opacity: 0.45; }
-thead th .si { margin-right: 5px; display: inline-flex; flex-direction: column; align-items: center; gap: 1px; }
+thead th .si { margin-right: 5px; display: inline-flex; flex-direction: column; align-items: center; gap: 2px; }
 .si-up, .si-down { width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; }
 .si-up   { border-bottom: 5px solid; }
 .si-down { border-top: 5px solid; }
-.si-on  { border-color: var(--green); opacity: 1; }
-.si-off { border-color: var(--text-dim); opacity: 0.25; }
+.si-up.si-on   { border-bottom-color: var(--green); }
+.si-up.si-off  { border-bottom-color: var(--text-dim); opacity: 0.25; }
+.si-down.si-on  { border-top-color: var(--green); }
+.si-down.si-off { border-top-color: var(--text-dim); opacity: 0.25; }
 .th-filter-input, .th-filter-select { background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: 3px 5px; border-radius: 4px; font-size: 12px; outline: none; transition: border-color 0.15s; display: block; width: 100%; }
 .th-filter-input:focus, .th-filter-select:focus { border-color: var(--green); }
 .th-filter-select { cursor: pointer; }

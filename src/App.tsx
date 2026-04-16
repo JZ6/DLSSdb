@@ -93,7 +93,7 @@ export default function App() {
         <header>
           <div className="header-left">
             <h1>DLSSdb</h1>
-            <span className="subtitle">Browse and filter NVIDIA DLSS supported games</span>
+            <span className="subtitle">Every DLSS game. Reviews. Playtime. All in one place.</span>
           </div>
           <div className="header-actions">
             <ColumnToggle columns={COLUMNS} visible={visibleCols} onToggle={toggleCol} />

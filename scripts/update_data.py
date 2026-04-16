@@ -28,6 +28,7 @@ PUBLIC = ROOT / "public"
 DLSS_FILE = PUBLIC / "dlss-rt-games-apps-overrides.json"
 STEAM_FILE = PUBLIC / "steam_data.json"
 HLTB_FILE = PUBLIC / "hltb_data.json"
+METACRITIC_FILE = PUBLIC / "metacritic_data.json"
 
 # Steam review categories from their API
 STEAM_RATING_MAP = {
@@ -167,6 +168,55 @@ def steam_reviews(app_id: int) -> "dict | None":
         return None
 
 
+def steam_appdetails(app_id: int) -> "dict | None":
+    """Get Metacritic score from Steam appdetails API."""
+    url = f"https://store.steampowered.com/api/appdetails?appids={app_id}"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "DLSSdb/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read())
+            game_data = data.get(str(app_id), {}).get("data", {})
+            mc = game_data.get("metacritic", {})
+            if mc and mc.get("score"):
+                return {"score": mc["score"]}
+            return None
+    except Exception:
+        return None
+
+
+def update_metacritic(game_names: list[str], limit: int = 0):
+    """Update Metacritic scores for games missing entries."""
+    print("Updating Metacritic scores...")
+    existing = load_json(METACRITIC_FILE)
+    missing = [n for n in game_names if n not in existing]
+    print(f"  {len(existing)} existing, {len(missing)} missing")
+
+    if limit > 0:
+        missing = missing[:limit]
+    if not missing:
+        print("  All games already have Metacritic data")
+        return
+
+    print(f"  Fetching {len(missing)} games...")
+    added = 0
+    for i, name in enumerate(missing):
+        app_id = steam_search(name)
+        if app_id:
+            info = steam_appdetails(app_id)
+            if info:
+                existing[name] = info
+                added += 1
+                print(f"  [{i+1}/{len(missing)}] {name}: {info['score']}")
+            else:
+                print(f"  [{i+1}/{len(missing)}] {name}: no Metacritic score (appid={app_id})")
+        else:
+            print(f"  [{i+1}/{len(missing)}] {name}: not found on Steam")
+        time.sleep(0.5)
+
+    save_json(METACRITIC_FILE, existing)
+    print(f"  Added {added} new Metacritic entries")
+
+
 def update_steam(game_names: list[str], limit: int = 0):
     """Update Steam review data for games missing entries."""
     print("Updating Steam reviews...")
@@ -270,12 +320,13 @@ def main():
     parser.add_argument("--dlss", action="store_true", help="Update NVIDIA DLSS game list")
     parser.add_argument("--steam", action="store_true", help="Update Steam reviews")
     parser.add_argument("--hltb", action="store_true", help="Update HLTB completion times")
+    parser.add_argument("--metacritic", action="store_true", help="Update Metacritic scores (via Steam)")
     parser.add_argument("--all", action="store_true", help="Update all sources")
     parser.add_argument("--limit", type=int, default=0, help="Max games to fetch (0 = all missing)")
     parser.add_argument("--test", type=int, default=0, help="Test mode: update N random missing games")
     args = parser.parse_args()
 
-    if not any([args.dlss, args.steam, args.hltb, args.all, args.test]):
+    if not any([args.dlss, args.steam, args.hltb, args.metacritic, args.all, args.test]):
         parser.print_help()
         sys.exit(1)
 
@@ -300,6 +351,8 @@ def main():
         update_steam(test_names, limit=args.test)
         print()
         update_hltb(test_names, limit=args.test)
+        print()
+        update_metacritic(test_names, limit=args.test)
         return
 
     if args.all or args.dlss:
@@ -312,6 +365,10 @@ def main():
 
     if args.all or args.hltb:
         update_hltb(game_names, limit=args.limit)
+        print()
+
+    if args.all or args.metacritic:
+        update_metacritic(game_names, limit=args.limit)
 
 
 if __name__ == "__main__":
