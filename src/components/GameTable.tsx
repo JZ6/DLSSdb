@@ -27,36 +27,28 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
     { value: "4x", label: "4X" },
     { value: "2x", label: "2X" },
     { value: "any", label: "Any" },
-    { value: "none", label: "None" },
   ],
   sr: [
     { value: "", label: "All" },
     { value: "NV, T", label: "Transformer" },
     { value: "Yes", label: "Yes" },
-    { value: "none", label: "None" },
   ],
   rr: [
     { value: "", label: "All" },
     { value: "any", label: "Any" },
-    { value: "none", label: "None" },
   ],
   rt: [
     { value: "", label: "All" },
     { value: "Path Tracing", label: "Path Tracing" },
     { value: "Yes", label: "Yes" },
     { value: "any", label: "Any RT" },
-    { value: "none", label: "None" },
   ],
   steam: [
     { value: "", label: "All" },
-    { value: "op", label: "Overwhelmingly Positive" },
-    { value: "vp", label: "Very Positive" },
-    { value: "mp", label: "Mostly Positive" },
-    { value: "mix", label: "Mixed" },
-    { value: "neg", label: "Negative" },
+    { value: "op+", label: "Overwhelmingly Positive +" },
     { value: "vp+", label: "Very Positive +" },
     { value: "mp+", label: "Mostly Positive +" },
-    { value: "unk", label: "Unknown" },
+    { value: "neg", label: "Negative" },
   ],
   hltb: [
     { value: "", label: "All" },
@@ -64,7 +56,6 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
     { value: "u60", label: "< 60h" },
     { value: "u100", label: "< 100h" },
     { value: "100+", label: "100h+" },
-    { value: "unk", label: "Unknown" },
   ],
 };
 
@@ -121,7 +112,7 @@ export function GameTable({ games, hltb, steam, sortCol, sortDir, onSort, visibl
                   key={col.key}
                   style={{ minWidth: col.minWidth }}
                   className={sortCol === col.key ? "sorted" : ""}
-                  title={col.tooltip}
+                  data-tip={col.tooltip}
                 >
                   <div className="th-label" onClick={() => onSort(col.key)}>
                     {col.label}{" "}
