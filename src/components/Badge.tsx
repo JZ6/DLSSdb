@@ -53,15 +53,17 @@ export function HltbBadge({ data }: { data?: HltbInfo }) {
   const displayHours = data?.main ?? data?.extra ?? data?.complete;
   if (!displayHours) return <span className="empty">—</span>;
 
+  const fmt = (h: number) => Math.ceil(h);
+
   const tooltip = [
-    data?.main && `Main Story: ${data.main}h`,
-    data?.extra && `Main + Extras: ${data.extra}h`,
-    data?.complete && `Completionist: ${data.complete}h`,
+    data?.main && `Main Story: ${fmt(data.main)}h`,
+    data?.extra && `Main + Extras: ${fmt(data.extra)}h`,
+    data?.complete && `Completionist: ${fmt(data.complete)}h`,
   ].filter(Boolean).join("\n");
 
   return (
     <span className="hltb-cell" title={tooltip}>
-      <span className="hltb-main">{displayHours}h</span>
+      <span className="hltb-main">{fmt(displayHours)}h</span>
     </span>
   );
 }
