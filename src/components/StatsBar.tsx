@@ -9,9 +9,6 @@ interface Props {
 export function StatsBar({ filtered, total }: Props) {
   return (
     <div className="stats-bar">
-      <span>
-        Showing <span className="hl">{filtered.length}</span> of <span className="hl">{total}</span> games
-      </span>
       <a
         className="donate-btn"
         href="https://paypal.me/jzsix"
@@ -21,6 +18,10 @@ export function StatsBar({ filtered, total }: Props) {
         <span className="donate-tooltip">Buy me a coffee!</span>
         <img src={coffeePng} alt="Buy me a coffee" />
       </a>
+      <span>
+        Showing <span className="hl">{filtered.length}</span> of <span className="hl">{total}</span> games
+      </span>
+      <span className="copyright">&copy; JZ6</span>
     </div>
   );
 }
