@@ -1,4 +1,4 @@
-import { memo, useMemo, useState } from "react";
+import { memo, useEffect, useRef, useMemo, useState } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo, SortCol, SortDir, Filters } from "../types";
 import { FrameGenBadge, DlssVersionBadge, FeatureBadge, SteamBadge, MetacriticBadge, UpscalingBadge, HltbBadge } from "./Badge";
 import { getFrameGenLabel, getDlssVersion } from "../types";
@@ -9,6 +9,7 @@ const STEAM_FILTER_MAP: Record<string, string> = {
   "Negative": "neg", "Very Negative": "neg",
 };
 
+// @ts-expect-error kept for future click-to-filter feature
 function cellFilterValue(col: SortCol, game: DlssGame, data: RowData): [keyof Filters, string] | null {
   switch (col) {
     case "framegen": { const l = getFrameGenLabel(game); return l ? ["framegen", l.toLowerCase()] : null; }
@@ -168,8 +169,28 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, 
     [visibleCols]
   );
 
+  const wrapRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const el = wrapRef.current;
+    if (!el || window.innerWidth > 800) return;
+    let frame: number;
+    const timer = setTimeout(() => {
+      const distance = 60;
+      const duration = 800;
+      const start = performance.now();
+      function animate(now: number) {
+        const t = Math.min((now - start) / duration, 1);
+        const ease = t < 0.5 ? 2 * t * t : 1 - (-2 * t + 2) ** 2 / 2;
+        el!.scrollLeft = ease < 0.5 ? ease * 2 * distance : (1 - (ease - 0.5) * 2) * distance;
+        if (t < 1) frame = requestAnimationFrame(animate);
+      }
+      frame = requestAnimationFrame(animate);
+    }, 600);
+    return () => { clearTimeout(timer); cancelAnimationFrame(frame); };
+  }, []);
+
   return (
-    <div className="table-wrap">
+    <div className="table-wrap" ref={wrapRef}>
       <table>
         <thead>
           <tr>
@@ -199,7 +220,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, 
                     <input
                       className="th-filter-input"
                       type="text"
-                      placeholder="Search games…   Press / to focus"
+                      placeholder={window.innerWidth <= 800 ? "Search..." : "Search games (/) "}
                       value={filters.search}
                       onChange={(e) => onFilter("search", e.target.value)}
                       onClick={(e) => e.stopPropagation()}
@@ -242,6 +263,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, 
   );
 }
 
+// @ts-expect-error onFilter kept for future click-to-filter feature
 const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, cols, onFilter }: {
   game: DlssGame;
   steam?: SteamInfo;
@@ -263,18 +285,18 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
           return (
             <td key="name" className="nc">
               <a href={steamUrl} target="_blank" rel="noopener noreferrer" title={game.name}>
-                {steam?.appid && !imgErr
+                {(steam?.appid || steam?.image) && !imgErr
                   ? <img className="game-thumb" src={steam.image || `https://cdn.akamai.steamstatic.com/steam/apps/${steam.appid}/capsule_sm_120.jpg`} alt="" loading="lazy" onError={() => setImgErr(true)} />
                   : <span className="game-thumb-ph">?</span>}
-                {game.name}
+                <span className="game-name">{game.name}</span>
               </a>
             </td>
           );
         }
-        const fv = cellFilterValue(col.key, game, data);
+        // const fv = cellFilterValue(col.key, game, data);
         const renderer = CELL_RENDERERS[col.key];
         return (
-          <td key={col.key} className={fv ? "clickable" : undefined} onClick={fv ? () => onFilter(fv[0], fv[1]) : undefined}>
+          <td key={col.key}>
             {renderer ? renderer(game, data) : <span className="empty">—</span>}
           </td>
         );

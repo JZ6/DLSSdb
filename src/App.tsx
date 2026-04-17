@@ -1,5 +1,4 @@
 import { useEffect, useState, useCallback } from "react";
-import coffeePng from "./assets/coffeeDonation.png";
 import { useGameData } from "./hooks/useGameData";
 import { useFilters } from "./hooks/useFilters";
 import { Header } from "./components/Header";
@@ -102,15 +101,6 @@ export default function App() {
         onFilter={setFilter}
       />
       <StatsBar filtered={filtered} total={games.length} />
-      <a
-        className="donate-btn"
-        href="https://paypal.me/jzsix"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="donate-tooltip">Buy me a coffee!</span>
-        <img src={coffeePng} alt="Buy me a coffee" />
-      </a>
     </>
   );
 }
