@@ -70,8 +70,8 @@ export function SteamBadge({ info }: { info?: SteamInfo }) {
   const cls = STEAM_STYLES[info.rating] ?? "smx";
   const tip = info.total ? `${fmtCount(info.total)} reviews` : undefined;
   return (
-    <div className="sc" data-tip={tip} tabIndex={tip ? 0 : undefined}>
-      <span className={`badge ${cls}`}>{info.rating}</span>
+    <div className="sc">
+      <span className={`badge ${cls}`} data-tip={tip} tabIndex={tip ? 0 : undefined}>{info.rating}</span>
       {info.pct !== undefined && <span className="sp">{info.pct}%</span>}
     </div>
   );
