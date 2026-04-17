@@ -217,8 +217,9 @@ th:last-child [data-tip]::after {
 .th-info:hover, .th-info:focus { opacity: 1; color: var(--green); }
 
 /* Donate button — inline in stats bar, pushed to right */
+.copyright { position: absolute; right: 8px; font-size: 11px; color: var(--text-dim); }
 .donate-btn {
-  position: absolute; right: 8px;
+  position: absolute; left: 8px;
   width: 26px;
   text-decoration: none;
   opacity: 0.6; filter: brightness(0.6);
@@ -228,8 +229,9 @@ th:last-child [data-tip]::after {
 .donate-btn img { width: 100%; display: block; }
 .donate-tooltip {
   display: none;
-  position: absolute; bottom: 100%; right: 0;
-  background: rgba(255,255,255,0.95); color: #222;
+  position: absolute; bottom: 100%; left: 0;
+  background: var(--bg3); color: var(--text);
+  border: 1px solid var(--border);
   padding: 4px 8px; border-radius: 8px;
   font-size: 11px; text-align: center; white-space: nowrap;
   margin-bottom: 4px;
