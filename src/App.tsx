@@ -70,7 +70,7 @@ export default function App() {
         <Header />
         <div className="error-page">
           <h2>Failed to load game data</h2>
-          <p>Make sure <code>dlss-rt-games-apps-overrides.json</code> is in the <code>public/</code> folder.</p>
+          <p>Make sure <code>dlss-rt-games-apps-overrides.json</code> is in the <code>public/</code> folder and accessible.</p>
           <p className="error-detail">{error}</p>
         </div>
         <StatsBar filtered={[]} total={0} />
