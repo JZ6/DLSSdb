@@ -21,7 +21,7 @@ export function StatsBar({ filtered, total }: Props) {
       <span>
         Showing <span className="hl">{filtered.length}</span> of <span className="hl">{total}</span> games
       </span>
-      <span className="copyright">&copy; JZ6</span>
+      <span className="copyright">&copy; {new Date().getFullYear()} JZ6</span>
     </div>
   );
 }
