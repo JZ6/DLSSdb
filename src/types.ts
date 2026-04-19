@@ -68,9 +68,12 @@ export interface Filters {
 export type SortCol = "name" | "framegen" | "dlssver" | "sr" | "rr" | "dlaa" | "rt" | "steam" | "metacritic" | "upscaling" | "hltb";
 export type SortDir = 1 | -1;
 
-/** Returns the best available hours value (main > extra > complete), or undefined */
+/** Returns the average of all available HLTB hours values, or undefined */
 export function getHltbHours(info?: HltbInfo): number | undefined {
-  return info?.main ?? info?.extra ?? info?.complete;
+  if (!info) return undefined;
+  const vals = [info.main, info.extra, info.complete].filter((v): v is number => v != null);
+  if (vals.length === 0) return undefined;
+  return vals.reduce((a, b) => a + b, 0) / vals.length;
 }
 
 /** Returns the effective frame gen multiplier: 3 = 6X, 2 = 4X, 1 = 2X, 0 = none */

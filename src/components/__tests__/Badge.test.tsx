@@ -64,9 +64,9 @@ describe('SteamBadge', () => {
 })
 
 describe('HltbBadge', () => {
-  it('shows rounded hours from main', () => {
+  it('shows average of all available hours', () => {
     render(<HltbBadge data={{ main: 26.7, extra: 45.2, complete: 72 }} />)
-    expect(screen.getByText('27h')).toBeInTheDocument()
+    expect(screen.getByText('48h')).toBeInTheDocument()
   })
 
   it('rounds up to avoid 0h', () => {
@@ -74,7 +74,7 @@ describe('HltbBadge', () => {
     expect(screen.getByText('1h')).toBeInTheDocument()
   })
 
-  it('falls back to extra when main missing', () => {
+  it('uses single value when only extra present', () => {
     render(<HltbBadge data={{ extra: 15.1 }} />)
     expect(screen.getByText('16h')).toBeInTheDocument()
   })

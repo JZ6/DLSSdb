@@ -56,17 +56,17 @@ describe('getHltbHours', () => {
     expect(getHltbHours(undefined)).toBeUndefined()
   })
 
-  it('prefers main over extra and complete', () => {
+  it('averages all available values', () => {
     const h: HltbInfo = { main: 10, extra: 20, complete: 30 }
-    expect(getHltbHours(h)).toBe(10)
+    expect(getHltbHours(h)).toBeCloseTo(20)
   })
 
-  it('falls back to extra if main missing', () => {
+  it('averages two values if one missing', () => {
     const h: HltbInfo = { extra: 20, complete: 30 }
-    expect(getHltbHours(h)).toBe(20)
+    expect(getHltbHours(h)).toBeCloseTo(25)
   })
 
-  it('falls back to complete if main and extra missing', () => {
+  it('returns single value if only one present', () => {
     const h: HltbInfo = { complete: 30 }
     expect(getHltbHours(h)).toBe(30)
   })
