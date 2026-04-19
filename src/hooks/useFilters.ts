@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback, useEffect } from "react";
+import { useState, useMemo, useCallback, useEffect, startTransition } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo, Filters, SortCol, SortDir } from "../types";
 import { getFrameGenLevel, getDlssVersionOrder, getHltbHours } from "../types";
 
@@ -88,10 +88,10 @@ export function useFilters(
   useEffect(() => { localStorage.setItem(LS_SORT, JSON.stringify(sort)); }, [sort]);
 
   const setFilter = useCallback((key: keyof Filters, value: string) => {
-    setFilters((prev) => ({ ...prev, [key]: value }));
+    startTransition(() => setFilters((prev) => ({ ...prev, [key]: value })));
   }, []);
 
-  const clearFilters = useCallback(() => setFilters(EMPTY_FILTERS), []);
+  const clearFilters = useCallback(() => startTransition(() => setFilters(EMPTY_FILTERS)), []);
 
   const toggleSort = useCallback((col: SortCol) => {
     setSort((prev) => prev.col === col
