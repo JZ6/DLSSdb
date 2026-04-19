@@ -99,10 +99,11 @@ export function UpscalingBadge({ info }: { info?: UpscalingInfo }) {
 
 function hltbColor(hours: number): string {
   // Green (short) → Yellow (medium) → Red (long)
-  // 0h = green, 100h = yellow, 200h+ = red
-  const t = Math.min(hours / 200, 1);
-  const r = Math.round(t < 0.5 ? t * 2 * 220 : 220);
-  const g = Math.round(t < 0.5 ? 220 : (1 - (t - 0.5) * 2) * 220);
+  // 0h = green, 150h = yellow, 250h+ = red
+  const t = Math.min(hours / 250, 1);
+  const mid = 150 / 250; // 0.6
+  const r = Math.round(t < mid ? (t / mid) * 220 : 220);
+  const g = Math.round(t < mid ? 220 : (1 - (t - mid) / (1 - mid)) * 220);
   return `rgb(${r}, ${g}, 68)`;
 }
 
@@ -118,7 +119,7 @@ export function HltbBadge({ data }: { data?: HltbInfo }) {
 
   return (
     <span className="hltb-cell" data-tip={tooltip}>
-      <span className="hltb-main" style={{ color: hltbColor(displayHours) }}>{fmt(displayHours)}h</span>
+      <span className="hltb-main" style={{ color: hltbColor(displayHours) }}>{fmt(displayHours)} hours</span>
     </span>
   );
 }

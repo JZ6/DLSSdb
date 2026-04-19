@@ -41,7 +41,7 @@ export const COLUMNS: Column[] = [
   { key: "dlaa",       label: "DLAA",           minWidth: "60px",  tooltip: "Deep Learning Anti-Aliasing\nAI anti-aliasing at native resolution" },
   { key: "dlssver",    label: "DLSS",           minWidth: "60px",  tooltip: "DLSS Version\n4.5 = Multi Frame Gen 6X\n4 = Multi Frame Gen 4X\n3.5 = Ray Reconstruction\n3 = Frame Generation\n2 = Super Resolution" },
   { key: "framegen",   label: "Frame Gen",      minWidth: "80px",  tooltip: "DLSS Frame Generation\n6X = DLSS 4.5 (RTX 50)\n4X = DLSS 4 (RTX 40/50)\n2X = DLSS 3 (RTX 40/50)" },
-  { key: "hltb",       label: "Playtime",       minWidth: "70px",  tooltip: "Main story hours from HowLongToBeat\nHover a value for full breakdown" },
+  { key: "hltb",       label: "Playtime",       minWidth: "70px",  tooltip: "Average playtime from HowLongToBeat\n(Main Story + Extras + Completionist)\nHover a value for full breakdown" },
   { key: "metacritic", label: "Metacritic",     minWidth: "70px",  tooltip: "Metacritic critic score\nGreen = 75+\nYellow = 50–74\nRed = below 50" },
   { key: "upscaling",  label: "FSR / XeSS",     minWidth: "80px",  tooltip: "Non-DLSS upscaling support\nFSR = AMD FidelityFX\nXeSS = Intel" },
   { key: "rr",         label: "Ray Recon",      minWidth: "80px",  tooltip: "DLSS Ray Reconstruction\nAI-enhanced ray tracing denoiser\nfor cleaner reflections and lighting" },
@@ -105,10 +105,10 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
   ],
   hltb: [
     { value: "", label: "All" },
-    { value: "u10", label: "< 10h" },
-    { value: "u60", label: "< 60h" },
-    { value: "u100", label: "< 100h" },
-    { value: "100+", label: "> 100h" },
+    { value: "u10", label: "< 10 h" },
+    { value: "u60", label: "< 60 h" },
+    { value: "u100", label: "< 100 h" },
+    { value: "100+", label: "> 100 h" },
   ],
 };
 
