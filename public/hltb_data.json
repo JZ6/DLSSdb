@@ -80,6 +80,11 @@
     "extra": 14.19,
     "complete": 25.43
   },
+  "Alien: Rogue Incursion - Part One: Evolved Edition": {
+    "hltb_id": 22425,
+    "main": 0.26,
+    "complete": 0.5
+  },
   "Alone In The Dark": {
     "main": 7.68,
     "extra": 10.62,
@@ -97,6 +102,12 @@
     "main": 14.27,
     "extra": 28.35,
     "complete": 58.98
+  },
+  "Apocalypse: 2.0 Edition": {
+    "hltb_id": 523,
+    "main": 3.77,
+    "extra": 5.68,
+    "complete": 8.54
   },
   "Arcadegeddon": {
     "main": 5.92,
@@ -219,6 +230,12 @@
     "extra": 9.17,
     "complete": 16.73
   },
+  "Black Myth: Wukong": {
+    "hltb_id": 82089,
+    "main": 38.18,
+    "extra": 48.39,
+    "complete": 67.4
+  },
   "Bleak Faith: Forsaken": {
     "main": 22.21,
     "extra": 27.79,
@@ -328,6 +345,12 @@
   "Capes": {
     "extra": 25.78
   },
+  "Car Dealer Simulator: Prologue - Early Days": {
+    "hltb_id": 169860,
+    "main": 18.0,
+    "extra": 22.53,
+    "complete": 114.3
+  },
   "Carmageddon: Rogue Shift": {
     "main": 4.74
   },
@@ -413,6 +436,12 @@
     "main": 9.23,
     "extra": 11.43,
     "complete": 11.85
+  },
+  "Cthulhu: The Cosmic Abyss": {
+    "hltb_id": 164938,
+    "main": 6.59,
+    "extra": 7.0,
+    "complete": 10.69
   },
   "Cyberpunk 2077": {
     "main": 26.01,
@@ -544,6 +573,10 @@
   "Delta Force": {
     "main": 5.72
   },
+  "Delta Force: Black Hawk Down Campaign": {
+    "hltb_id": 134437,
+    "main": 5.72
+  },
   "Demonologist": {
     "main": 15.25,
     "extra": 20.02,
@@ -658,6 +691,10 @@
   },
   "Empyreal": {
     "main": 17.98
+  },
+  "Empyrion - Galactic Survival": {
+    "hltb_id": 29056,
+    "main": 59.98
   },
   "Enlisted": {
     "extra": 47.97,
@@ -824,6 +861,11 @@
     "extra": 15.09,
     "complete": 21.2
   },
+  "Fobia - St. Dinfna Hotel": {
+    "hltb_id": 69663,
+    "main": 0.33,
+    "complete": 0.88
+  },
   "Forever Skies": {
     "main": 24.09,
     "extra": 27.63,
@@ -937,7 +979,7 @@
     "extra": 32.9,
     "complete": 51.11
   },
-  "God of War Ragnarök": {
+  "God of War Ragnar\u00f6k": {
     "main": 26.53,
     "extra": 40.64,
     "complete": 55.55
@@ -1045,6 +1087,10 @@
     "main": 7.53,
     "extra": 8.2,
     "complete": 9.22
+  },
+  "Hellbreach: Vegas": {
+    "hltb_id": 99150,
+    "complete": 0.98
   },
   "Hello Neighbor 2": {
     "main": 4.28,
@@ -1265,6 +1311,10 @@
     "extra": 4.66,
     "complete": 11.47
   },
+  "Level Zero: Extraction": {
+    "hltb_id": 30699,
+    "main": 5.0
+  },
   "Lies of P": {
     "main": 28.35,
     "extra": 36.15,
@@ -1357,10 +1407,14 @@
     "extra": 5.35,
     "complete": 7.68
   },
-  "METAL GEAR SOLID Δ: SNAKE EATER": {
+  "METAL GEAR SOLID \u0394: SNAKE EATER": {
     "main": 12.17,
     "extra": 15.64,
     "complete": 25.51
+  },
+  "MONGIL: STAR DIVE": {
+    "hltb_id": 169288,
+    "complete": 36.33
   },
   "Mafia: The Old Country": {
     "main": 12.26,
@@ -1670,6 +1724,12 @@
   "PERISH": {
     "complete": 9.6
   },
+  "PRAGMATA": {
+    "main": 11.32,
+    "extra": 15.36,
+    "complete": 23.63,
+    "hltb_id": 80101
+  },
   "Pacific Drive": {
     "main": 21.4,
     "extra": 32.11,
@@ -1743,6 +1803,12 @@
   },
   "Predecessor": {
     "main": 1.0
+  },
+  "Prologue: Go Wayback!": {
+    "hltb_id": 181982,
+    "main": 1.17,
+    "extra": 1.42,
+    "complete": 1.9
   },
   "Propnight": {
     "main": 15.0
@@ -2090,6 +2156,12 @@
     "extra": 44.81,
     "complete": 62.41
   },
+  "Skye: The Misty Isle": {
+    "hltb_id": 80268,
+    "main": 0.95,
+    "extra": 1.06,
+    "complete": 1.35
+  },
   "SlavicPunk: Oldtimer": {
     "main": 4.0
   },
@@ -2160,6 +2232,12 @@
     "extra": 300.0,
     "complete": 1950.0
   },
+  "Star Trek: Voyager - Across The Unknown": {
+    "hltb_id": 9054,
+    "main": 8.03,
+    "extra": 10.59,
+    "complete": 12.07
+  },
   "Star Wars Jedi: Survivor": {
     "main": 20.44,
     "extra": 33.84,
@@ -2178,6 +2256,17 @@
     "main": 23.85,
     "extra": 74.67,
     "complete": 148.38
+  },
+  "Starship Troopers: Extermination": {
+    "hltb_id": 9176,
+    "main": 9.58,
+    "extra": 10.75,
+    "complete": 11.64
+  },
+  "Starsiege: Deadzone": {
+    "hltb_id": 9178,
+    "extra": 8.0,
+    "complete": 22.0
   },
   "Stay in the Light": {
     "main": 0.75
@@ -2367,6 +2456,12 @@
     "main": 5.79,
     "extra": 20.0,
     "complete": 1821.47
+  },
+  "The Dawn: Sniper's Way": {
+    "hltb_id": 130924,
+    "main": 12.73,
+    "extra": 32.53,
+    "complete": 79.58
   },
   "The Day Before": {
     "main": 4.63,
@@ -2582,6 +2677,12 @@
     "extra": 9.39,
     "complete": 18.84
   },
+  "VALHALL: Harbinger": {
+    "hltb_id": 31468,
+    "main": 20.56,
+    "extra": 51.63,
+    "complete": 129.69
+  },
   "Valkyrie Elysium": {
     "main": 12.09,
     "extra": 19.65,
@@ -2659,6 +2760,12 @@
     "extra": 15.46,
     "complete": 66.25
   },
+  "Warhammer 40,000: Speed Freeks": {
+    "hltb_id": 115660,
+    "main": 9.89,
+    "extra": 12.46,
+    "complete": 18.26
+  },
   "Warhammer Age of Sigmar: Realms of Ruin": {
     "main": 13.28,
     "extra": 15.03
@@ -2704,6 +2811,11 @@
   },
   "Wildgate": {
     "main": 19.04
+  },
+  "Windrose": {
+    "hltb_id": 177176,
+    "main": 20.08,
+    "extra": 60.0
   },
   "Witchfire": {
     "main": 11.4,
@@ -2778,11 +2890,5 @@
     "main": 11.31,
     "extra": 37.73,
     "complete": 73.93
-  },
-  "Black Myth: Wukong": {
-    "hltb_id": 82089,
-    "main": 38.18,
-    "extra": 48.39,
-    "complete": 67.4
   }
 }
