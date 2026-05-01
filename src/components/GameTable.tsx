@@ -1,6 +1,6 @@
 import { memo, useEffect, useRef, useMemo, useState } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo, SortCol, SortDir, Filters } from "../types";
-import { FrameGenBadge, DlssVersionBadge, FeatureBadge, SteamBadge, MetacriticBadge, UpscalingBadge, HltbBadge } from "./Badge";
+import { FrameGenBadge, DlssVersionBadge, FeatureBadge, SteamBadge, MetacriticBadge, UpscalingBadge, HltbBadge, HideBadge } from "./Badge";
 import { getFrameGenLabel, getDlssVersion } from "../types";
 
 const STEAM_FILTER_MAP: Record<string, string> = {
@@ -34,6 +34,7 @@ export interface Column {
   label: string;
   minWidth: string;
   tooltip: string;
+  icon?: React.JSX.Element;
 }
 
 export const COLUMNS: Column[] = [
@@ -48,6 +49,7 @@ export const COLUMNS: Column[] = [
   { key: "rt",         label: "Ray Tracing",    minWidth: "90px",  tooltip: "Ray Tracing support\nPath Tracing = full path tracing\nYes = partial (reflections, shadows, GI)" },
   { key: "steam",      label: "Steam Rating",   minWidth: "180px", tooltip: "Steam user review rating\nwith positive review percentage" },
   { key: "sr",         label: "Super Res",      minWidth: "70px",  tooltip: "DLSS Super Resolution\nAI upscaling from lower resolution\nNV-T = Transformer model (best)" },
+  { key: "hide",       label: "Visibility",     minWidth: "40px",  tooltip: "Toggle game visibility\nHidden games are saved in your browser", icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg> },
 ];
 
 const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]>> = {
@@ -110,6 +112,11 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
     { value: "u100", label: "< 100 h" },
     { value: "100+", label: "> 100 h" },
   ],
+  hide: [
+    { value: "", label: "Visible" },
+    { value: "hidden", label: "Hidden Only" },
+    { value: "all", label: "Show All" },
+  ],
 };
 
 const COL_TO_FILTER: Partial<Record<SortCol, keyof Filters>> = {
@@ -123,6 +130,7 @@ const COL_TO_FILTER: Partial<Record<SortCol, keyof Filters>> = {
   steam: "steam",
   metacritic: "metacritic",
   hltb: "hltb",
+  hide: "hide",
 };
 
 // Extra data passed to each row for rendering
@@ -161,9 +169,11 @@ interface Props {
   filters: Filters;
   filterCounts: Record<string, Record<string, number>>;
   onFilter: (key: keyof Filters, value: string) => void;
+  hiddenGames: Set<string>;
+  onToggleHide: (name: string) => void;
 }
 
-export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, sortDir, onSort, visibleCols, filters, filterCounts, onFilter }: Props) {
+export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, sortDir, onSort, visibleCols, filters, filterCounts, onFilter, hiddenGames, onToggleHide }: Props) {
   const cols = useMemo(
     () => COLUMNS.filter((c) => visibleCols.has(c.key)),
     [visibleCols]
@@ -208,7 +218,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, 
                       <span className={`si-up ${sortCol === col.key && sortDir === 1 ? "si-on" : "si-off"}`} />
                       <span className={`si-down ${sortCol === col.key && sortDir === -1 ? "si-on" : "si-off"}`} />
                     </span>
-                    {col.label}
+                    {col.icon || col.label}
                     <span
                       className="th-info"
                       data-tip={col.tooltip}
@@ -254,6 +264,8 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, 
               upscaling={upscaling[g.name]}
               cols={cols}
               onFilter={onFilter}
+              hidden={hiddenGames.has(g.name)}
+              onToggleHide={() => onToggleHide(g.name)}
             />
           ))}
         </tbody>
@@ -264,7 +276,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, 
 }
 
 // @ts-expect-error onFilter kept for future click-to-filter feature
-const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, cols, onFilter }: {
+const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, cols, onFilter, hidden, onToggleHide }: {
   game: DlssGame;
   steam?: SteamInfo;
   hltb?: HltbInfo;
@@ -272,6 +284,8 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
   upscaling?: UpscalingInfo;
   cols: Column[];
   onFilter: (key: keyof Filters, value: string) => void;
+  hidden: boolean;
+  onToggleHide: () => void;
 }) {
   const data: RowData = { steam, hltb, metacritic, upscaling };
   const [imgErr, setImgErr] = useState(false);
@@ -279,8 +293,15 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
     ? `https://store.steampowered.com/app/${steam.appid}`
     : `https://store.steampowered.com/search/?term=${encodeURIComponent(game.name)}`;
   return (
-    <tr>
+    <tr className={hidden ? "row-hidden" : ""}>
       {cols.map((col) => {
+        if (col.key === "hide") {
+          return (
+            <td key="hide">
+              <HideBadge hidden={hidden} onToggle={onToggleHide} />
+            </td>
+          );
+        }
         if (col.key === "name") {
           return (
             <td key="name" className="nc">
