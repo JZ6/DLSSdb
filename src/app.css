@@ -115,6 +115,7 @@ tbody tr:hover { background: #1a2200; }
 td { padding: 8px 14px; vertical-align: middle; white-space: nowrap; border-right: 1px solid var(--border); }
 td:last-child { border-right: none; }
 td.nc { font-weight: 500; }
+td:not(:first-child) { text-align: center; }
 td.clickable { cursor: pointer; }
 td.clickable:hover { background: rgba(118, 185, 0, 0.05); }
 td.nc a { color: var(--text); text-decoration: none; transition: color 0.1s; display: flex; align-items: center; gap: 6px; }
@@ -156,6 +157,14 @@ td.nc a:hover { color: var(--green); }
 /* HLTB */
 .hltb-cell { cursor: default; }
 .hltb-main { color: var(--green); font-weight: 600; font-size: 15px; }
+
+/* Hide button */
+.hide-btn { background: none; border: none; color: var(--text-dim); cursor: pointer; padding: 4px; border-radius: 4px; display: inline-flex; align-items: center; justify-content: center; transition: color 0.15s, background 0.15s; opacity: 0.4; }
+.hide-btn:hover { color: var(--text); background: var(--bg3); opacity: 1; }
+.hide-btn-hidden { color: #dd4444; opacity: 0.7; }
+.hide-btn-hidden:hover { color: #ff6666; opacity: 1; }
+tr.row-hidden td { opacity: 0.4; }
+tr.row-hidden td .hide-btn { opacity: 1; }
 
 .empty { color: #444; }
 .no-results { text-align: center; padding: 60px; color: var(--text-dim); font-size: 15px; }

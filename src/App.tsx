@@ -7,6 +7,15 @@ import { GameTable, COLUMNS } from "./components/GameTable";
 import type { SortCol } from "./types";
 
 const LS_COLS = "dlssdb-columns";
+const LS_HIDDEN = "dlssdb-hidden";
+
+function loadHidden(): Set<string> {
+  try {
+    const saved = localStorage.getItem(LS_HIDDEN);
+    if (saved) return new Set(JSON.parse(saved));
+  } catch { /* ignore */ }
+  return new Set();
+}
 
 function getDefaultCols(): Set<SortCol> {
   try {
@@ -14,20 +23,34 @@ function getDefaultCols(): Set<SortCol> {
     if (saved) return new Set(JSON.parse(saved));
   } catch { /* ignore */ }
   const w = window.innerWidth;
-  if (w < 768) return new Set(["name", "framegen", "steam"]);
-  if (w < 1200) return new Set(["name", "dlssver", "framegen", "steam", "hltb"]);
-  return new Set(["name", "dlssver", "framegen", "rt", "steam", "metacritic", "hltb"]);
+  if (w < 768) return new Set(["name", "framegen", "steam", "hide"]);
+  if (w < 1200) return new Set(["name", "dlssver", "framegen", "steam", "hltb", "hide"]);
+  return new Set(["name", "dlssver", "framegen", "rt", "steam", "metacritic", "hltb", "hide"]);
 }
 
 export default function App() {
   const { games, hltb, steam, metacritic, upscaling, loading, error } = useGameData();
+  const [hiddenGames, setHiddenGames] = useState<Set<string>>(loadHidden);
   const { filtered, filters, filterCounts, setFilter, clearFilters, sortCol, sortDir, toggleSort } =
-    useFilters(games, hltb, steam, metacritic, upscaling);
+    useFilters(games, hltb, steam, metacritic, upscaling, hiddenGames);
   const [visibleCols, setVisibleCols] = useState<Set<SortCol>>(getDefaultCols);
 
   useEffect(() => {
     localStorage.setItem(LS_COLS, JSON.stringify([...visibleCols]));
   }, [visibleCols]);
+
+  useEffect(() => {
+    localStorage.setItem(LS_HIDDEN, JSON.stringify([...hiddenGames]));
+  }, [hiddenGames]);
+
+  const toggleHide = useCallback((name: string) => {
+    setHiddenGames((prev) => {
+      const next = new Set(prev);
+      if (next.has(name)) next.delete(name);
+      else next.add(name);
+      return next;
+    });
+  }, []);
 
   const toggleCol = useCallback((key: SortCol) => {
     if (key === "name") return;
@@ -99,6 +122,8 @@ export default function App() {
         filters={filters}
         filterCounts={filterCounts}
         onFilter={setFilter}
+        hiddenGames={hiddenGames}
+        onToggleHide={toggleHide}
       />
       <StatsBar filtered={filtered} total={games.length} />
     </>
