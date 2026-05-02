@@ -38,6 +38,18 @@
     "steam": {
       "found": true,
       "appid": 1059220,
+      "rating": "Mixed",
+      "pct": 68,
+      "total": 808,
+      "release_date": "23 Apr, 2026",
+      "genres": [
+        "Action",
+        "Massively Multiplayer",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1059220/de4d1ea9256f9f8b13ea54f5d21d9f05290c215f/capsule_184x69.jpg?t=1777472253",
       "updated_at": "2026-05-01"
     },
     "hltb": {
@@ -45,8 +57,17 @@
       "hltb_id": 152061,
       "updated_at": "2026-05-01"
     },
-    "metacritic": {},
-    "pcgw": {}
+    "metacritic": {
+      "found": true,
+      "slug": "83",
+      "source": "metacritic",
+      "updated_at": "2026-05-01"
+    },
+    "pcgw": {
+      "found": true,
+      "page": "'83",
+      "updated_at": "2026-05-01"
+    }
   },
   "7 Days To Die": {
     "steam": {
@@ -3844,8 +3865,14 @@
       "appid": 870780,
       "rating": "Very Positive",
       "pct": 86,
-      "total": 59409,
+      "total": 59827,
+      "release_date": "27 Aug, 2020",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/40054b94c2e8734ad9e76787534af5ba1b034a53/capsule_184x69.jpg?t=1775822834",
+      "metacritic_url": "https://www.metacritic.com/game/pc/control?ftag=MCD-06-10aaa1f",
       "updated_at": "2026-05-01"
     },
     "hltb": {
@@ -3854,13 +3881,16 @@
       "main": 11.71,
       "extra": 19.2,
       "complete": 28.9,
+      "speed": 3.6,
+      "all_styles": 17.64,
       "updated_at": "2026-05-01"
     },
     "metacritic": {
       "found": true,
       "slug": "control",
-      "score": 82,
-      "source": "metacritic",
+      "score": 85,
+      "source": "steam",
+      "appid": 870780,
       "updated_at": "2026-05-01"
     },
     "pcgw": {
@@ -4262,7 +4292,7 @@
       "appid": 1091500,
       "rating": "Very Positive",
       "pct": 86,
-      "total": 934043,
+      "total": 934068,
       "release_date": "9 Dec, 2020",
       "genres": [
         "RPG"
@@ -11073,19 +11103,33 @@
     "steam": {
       "found": true,
       "appid": 2154070,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/a7eb1c66297a8d4347da5d8cc4e5ec61da4f004f/capsule_184x69.jpg?t=1776257204",
-      "updated_at": "2026-05-01"
+      "rating": "Mixed",
+      "pct": 52,
+      "total": 138,
+      "release_date": "29 Apr, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/a7eb1c66297a8d4347da5d8cc4e5ec61da4f004f/capsule_184x69.jpg?t=1777481710",
+      "updated_at": "2026-05-02"
     },
     "hltb": {
       "found": true,
       "hltb_id": 147422,
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-02"
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": true,
+      "slug": "industria-ii",
+      "source": "metacritic",
+      "updated_at": "2026-05-02"
+    },
     "pcgw": {
       "found": true,
       "page": "Industria_2",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-02"
     }
   },
   "Industry Giant 4.0": {
