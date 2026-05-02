@@ -1,6 +1,14 @@
 import { useState, useEffect } from "react";
 import type { DlssGame, DlssData, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo } from "../types";
 
+// Raw shape of each entry in game_data.json
+interface GameDataEntry {
+  steam?:      { found?: boolean; appid?: number; rating?: string; pct?: number; total?: number; image?: string };
+  hltb?:       { found?: boolean; hltb_id?: number; main?: number; extra?: number; complete?: number };
+  metacritic?: { found?: boolean; score?: number };
+  pcgw?:       { found?: boolean; fsr_version?: string; xess_version?: string };
+}
+
 interface GameData {
   games: DlssGame[];
   hltb: Record<string, HltbInfo>;
@@ -40,19 +48,31 @@ export function useGameData(): GameData {
     const base = import.meta.env.BASE_URL;
     Promise.all([
       fetchJson<DlssData>(`${base}dlss-rt-games-apps-overrides.json`, true),
-      fetchJson<Record<string, HltbInfo>>(`${base}hltb_data.json`),
-      fetchJson<Record<string, SteamInfo>>(`${base}steam_data.json`),
-      fetchJson<Record<string, MetacriticInfo>>(`${base}metacritic_data.json`),
-      fetchJson<Record<string, UpscalingInfo>>(`${base}upscaling_data.json`),
+      fetchJson<Record<string, GameDataEntry>>(`${base}game_data.json`, true),
     ])
-      .then(([dlss, hltbData, steamData, metacriticData, upscalingData]) => {
+      .then(([dlss, raw]) => {
         if (signal.aborted) return;
         const filtered = dlss.data
           .filter((e) => e.type === "Game")
           .map((e) => ({ ...e, name: String(e.name) }));
+
+        // Extract per-source records from unified game_data.json
+        const steamData: Record<string, SteamInfo> = {};
+        const hltbData: Record<string, HltbInfo> = {};
+        const metacriticData: Record<string, MetacriticInfo> = {};
+        const upscalingData: Record<string, UpscalingInfo> = {};
+
+        for (const [name, entry] of Object.entries(raw)) {
+          if (entry.steam?.found)      steamData[name]      = entry.steam as SteamInfo;
+          if (entry.hltb?.found)       hltbData[name]       = entry.hltb as HltbInfo;
+          if (entry.metacritic?.found && entry.metacritic.score != null)
+                                       metacriticData[name] = entry.metacritic as MetacriticInfo;
+          if (entry.pcgw?.found)       upscalingData[name]  = entry.pcgw as UpscalingInfo;
+        }
+
         setGames(filtered);
-        setHltb(hltbData);
         setSteam(steamData);
+        setHltb(hltbData);
         setMetacritic(metacriticData);
         setUpscaling(upscalingData);
         setLoading(false);
