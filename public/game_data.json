@@ -25,7 +25,7 @@
       "found": true,
       "slug": "171",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-04"
     },
     "pcgw": {
       "found": true,
@@ -61,12 +61,12 @@
       "found": true,
       "slug": "83",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-04"
     },
     "pcgw": {
       "found": true,
       "page": "'83",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-04"
     }
   },
   "7 Days To Die": {
@@ -127,9 +127,11 @@
       "found": true,
       "slug": "a-difficult-game-about-rolling-reuprise",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-04"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "A Plague Tale: Requiem": {
     "steam": {
@@ -166,7 +168,7 @@
     "pcgw": {
       "found": true,
       "page": "A_Plague_Tale:_Requiem",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-04"
     }
   },
   "A Quiet Place: The Road Ahead": {
@@ -353,7 +355,7 @@
     "pcgw": {
       "found": true,
       "page": "AEW_Fight_Forever",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-04"
     }
   },
   "AI Limit": {
@@ -409,13 +411,17 @@
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/242e64994be906369974093269d88fb40065b10a/capsule_184x69.jpg?t=1777334620",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-04"
     },
     "hltb": {
       "found": false
     },
-    "metacritic": {},
-    "pcgw": {}
+    "metacritic": {
+      "found": false
+    },
+    "pcgw": {
+      "found": false
+    }
   },
   "AirportSim": {
     "steam": {
@@ -444,7 +450,9 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Akimbot": {
     "steam": {
@@ -638,7 +646,9 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "AMID EVIL": {
     "steam": {
@@ -871,7 +881,9 @@
       "complete": 8.54,
       "updated_at": "2026-05-01"
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {}
   },
   "ARC Raiders": {
@@ -1695,7 +1707,9 @@
       "complete": 9.48,
       "updated_at": "2026-05-01"
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "Bakemono_-_Demon_Brigade_Tenmen_Unit_01",
@@ -2367,7 +2381,13 @@
       "complete": 19,
       "updated_at": "2026-05-01"
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": true,
+      "slug": "blood-bowl-iii",
+      "score": 60,
+      "source": "metacritic",
+      "updated_at": "2026-05-04"
+    },
     "pcgw": {
       "found": true,
       "page": "Blood_Bowl_3",
@@ -4834,8 +4854,12 @@
     "steam": {
       "found": true,
       "appid": 1422450,
+      "release_date": "To be announced",
+      "genres": [
+        "Action"
+      ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422450/88b400eca727f0547232b49b3e62827f07900c77/capsule_184x69.jpg?t=1769127177",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-04"
     },
     "hltb": {
       "found": true,
@@ -15355,8 +15379,14 @@
     "steam": {
       "found": true,
       "appid": 1309300,
+      "release_date": "Coming soon",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1309300/fcbd987a90e7bdc73191ffaab404b31d7c7e25e0/capsule_184x69.jpg?t=1725541123",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-04"
     },
     "hltb": {
       "found": true,

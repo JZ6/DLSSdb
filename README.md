@@ -24,27 +24,30 @@ Browse and filter NVIDIA DLSS supported games with Steam reviews, Metacritic sco
 
 All data is stored as static JSON files in `public/`:
 
-| File | Source | How to update |
-|---|---|---|
-| `dlss-rt-games-apps-overrides.json` | [NVIDIA RTX Games & Apps](https://www.nvidia.com/en-us/geforce/news/nvidia-rtx-games-engines-apps/) | `python scripts/update_data.py --dlss` |
-| `steam_data.json` | [Steam API](https://store.steampowered.com/) | `python scripts/update_data.py --steam` |
-| `hltb_data.json` | [HowLongToBeat](https://howlongtobeat.com/) | `python scripts/update_data.py --hltb` |
-| `metacritic_data.json` | [Metacritic](https://www.metacritic.com/) | `python scripts/update_data.py --metacritic` |
-| `upscaling_data.json` | [PCGamingWiki](https://www.pcgamingwiki.com/) | `python scripts/update_data.py --upscaling` |
+| File | Source |
+|---|---|
+| `dlss-rt-games-apps-overrides.json` | [NVIDIA RTX Games & Apps](https://www.nvidia.com/en-us/geforce/news/nvidia-rtx-games-engines-apps/) |
+| `game_data.json` | [Steam](https://store.steampowered.com/), [HLTB](https://howlongtobeat.com/), [Metacritic](https://www.metacritic.com/), [PCGamingWiki](https://www.pcgamingwiki.com/) |
 
-## Update Script
+## Update Scripts
 
 ```bash
-python scripts/update_data.py --all              # update all sources
-python scripts/update_data.py --dlss             # update NVIDIA DLSS list
-python scripts/update_data.py --steam            # update Steam reviews
-python scripts/update_data.py --hltb             # update HLTB times
-python scripts/update_data.py --metacritic       # update Metacritic scores
-python scripts/update_data.py --upscaling        # update FSR/XeSS data
-python scripts/update_data.py --backfill         # backfill appid + metadata
-python scripts/update_data.py --backfill-total   # backfill total review counts
-python scripts/update_data.py --steam --limit 10 # update 10 missing entries
-python scripts/update_data.py --test 6           # test with 6 random games
+# Unified updater — updates DLSS list + all sources by default
+node scripts/update.js                               # update everything
+node scripts/update.js --dlss                        # only update NVIDIA DLSS list
+node scripts/update.js --game "Cyberpunk 2077"       # update all sources for one game
+node scripts/update.js --game "Game A" --game "Game B"  # update multiple games
+node scripts/update.js --sources steam,hltb          # update specific sources only
+node scripts/update.js --retry                       # retry previously not-found games
+node scripts/update.js --refresh 30                  # re-fetch entries older than 30 days
+node scripts/update.js --backfill                    # fill in missing fields
+node scripts/update.js --limit 10                    # limit per source in batch mode
+
+# Individual source scripts
+node scripts/sources/steam.js --game "Cyberpunk 2077"
+node scripts/sources/hltb.js --game "Cyberpunk 2077"
+node scripts/sources/metacritic.js --game "Cyberpunk 2077"
+node scripts/sources/pcgw.js --game "Cyberpunk 2077"
 ```
 
 ## Development
@@ -67,7 +70,3 @@ GitHub Pages deployment is configured via the `base: '/dlssdb/'` setting in `vit
 
 - Vite + React + TypeScript
 - No external UI libraries
-
-# Todo
-rewrite update data py to node js
-split each into own update file

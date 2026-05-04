@@ -90,6 +90,7 @@ td:first-child { position: sticky; left: 0; background: var(--bg); z-index: 45; 
 td:first-child::after, thead th:first-child::after {
   content: ""; position: absolute; top: -1px; right: 0; width: 2px; height: calc(100% + 2px); background: var(--green-dim);
 }
+tbody tr { content-visibility: auto; contain-intrinsic-size: auto none auto 38px; }
 tbody tr:nth-child(even) td:first-child { background: var(--bg-row-alt); }
 tbody tr:hover td:first-child { background: #1a2200; }
 
