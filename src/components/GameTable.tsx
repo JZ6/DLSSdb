@@ -1,33 +1,6 @@
 import { memo, useEffect, useRef, useMemo, useState } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo, SortCol, SortDir, Filters } from "../types";
 import { FrameGenBadge, DlssVersionBadge, FeatureBadge, SteamBadge, MetacriticBadge, UpscalingBadge, HltbBadge, HideBadge } from "./Badge";
-import { getFrameGenLabel, getDlssVersion } from "../types";
-
-const STEAM_FILTER_MAP: Record<string, string> = {
-  "Overwhelmingly Positive": "op+", "Very Positive": "vp+", "Positive": "mp+",
-  "Mostly Positive": "mp+", "Mixed": "neg", "Mostly Negative": "neg",
-  "Negative": "neg", "Very Negative": "neg",
-};
-
-// @ts-expect-error kept for future click-to-filter feature
-function cellFilterValue(col: SortCol, game: DlssGame, data: RowData): [keyof Filters, string] | null {
-  switch (col) {
-    case "framegen": { const l = getFrameGenLabel(game); return l ? ["framegen", l.toLowerCase()] : null; }
-    case "dlssver": return ["dlssver", getDlssVersion(game) + "+"];
-    case "sr": return game["dlss super resolution"] ? ["sr", game["dlss super resolution"]] : null;
-    case "rr": return game["dlss ray reconstruction"] ? ["rr", "any"] : null;
-    case "dlaa": return game.dlaa ? ["dlaa", "any"] : null;
-    case "rt": return game["ray tracing"] ? ["rt", game["ray tracing"]] : null;
-    case "steam": return data.steam?.rating ? ["steam", STEAM_FILTER_MAP[data.steam.rating] || ""] : null;
-    case "metacritic": {
-      const s = data.metacritic?.score;
-      if (s === undefined) return null;
-      if (s >= 90) return ["metacritic", "90+"];
-      return ["metacritic", "75+"];
-    }
-    default: return null;
-  }
-}
 
 export interface Column {
   key: SortCol;
@@ -119,20 +92,6 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
   ],
 };
 
-const COL_TO_FILTER: Partial<Record<SortCol, keyof Filters>> = {
-  dlaa: "dlaa",
-  dlssver: "dlssver",
-  framegen: "framegen",
-  sr: "sr",
-  rr: "rr",
-  rt: "rt",
-  upscaling: "upscaling",
-  steam: "steam",
-  metacritic: "metacritic",
-  hltb: "hltb",
-  hide: "hide",
-};
-
 // Extra data passed to each row for rendering
 interface RowData {
   steam?: SteamInfo;
@@ -162,6 +121,7 @@ interface Props {
   steam: Record<string, SteamInfo>;
   metacritic: Record<string, MetacriticInfo>;
   upscaling: Record<string, UpscalingInfo>;
+  images: Record<string, string>;
   sortCol: SortCol;
   sortDir: SortDir;
   onSort: (col: SortCol) => void;
@@ -173,7 +133,7 @@ interface Props {
   onToggleHide: (name: string) => void;
 }
 
-export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, sortDir, onSort, visibleCols, filters, filterCounts, onFilter, hiddenGames, onToggleHide }: Props) {
+export function GameTable({ games, hltb, steam, metacritic, upscaling, images, sortCol, sortDir, onSort, visibleCols, filters, filterCounts, onFilter, hiddenGames, onToggleHide }: Props) {
   const cols = useMemo(
     () => COLUMNS.filter((c) => visibleCols.has(c.key)),
     [visibleCols]
@@ -205,7 +165,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, 
         <thead>
           <tr>
             {cols.map((col) => {
-              const filterKey = COL_TO_FILTER[col.key];
+              const filterKey = col.key as keyof Filters;
               const filterOpts = COLUMN_FILTERS[col.key];
               return (
                 <th
@@ -235,7 +195,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, 
                       onChange={(e) => onFilter("search", e.target.value)}
                       onClick={(e) => e.stopPropagation()}
                     />
-                  ) : filterKey && filterOpts ? (
+                  ) : filterOpts ? (
                     <select
                       className="th-filter-select"
                       value={filters[filterKey]}
@@ -262,10 +222,10 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, 
               hltb={hltb[g.name]}
               metacritic={metacritic[g.name]}
               upscaling={upscaling[g.name]}
+              image={images[g.name]}
               cols={cols}
-              onFilter={onFilter}
               hidden={hiddenGames.has(g.name)}
-              onToggleHide={() => onToggleHide(g.name)}
+              onToggleHide={onToggleHide}
             />
           ))}
         </tbody>
@@ -275,20 +235,20 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, sortCol, 
   );
 }
 
-// @ts-expect-error onFilter kept for future click-to-filter feature
-const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, cols, onFilter, hidden, onToggleHide }: {
+const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, image, cols, hidden, onToggleHide }: {
   game: DlssGame;
   steam?: SteamInfo;
   hltb?: HltbInfo;
   metacritic?: MetacriticInfo;
   upscaling?: UpscalingInfo;
+  image?: string;
   cols: Column[];
-  onFilter: (key: keyof Filters, value: string) => void;
   hidden: boolean;
-  onToggleHide: () => void;
+  onToggleHide: (name: string) => void;
 }) {
   const data: RowData = { steam, hltb, metacritic, upscaling };
   const [imgErr, setImgErr] = useState(false);
+  const imgSrc = steam?.image || image;
   const steamUrl = steam?.appid
     ? `https://store.steampowered.com/app/${steam.appid}`
     : `https://store.steampowered.com/search/?term=${encodeURIComponent(game.name)}`;
@@ -298,7 +258,7 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
         if (col.key === "hide") {
           return (
             <td key="hide">
-              <HideBadge hidden={hidden} onToggle={onToggleHide} />
+              <HideBadge hidden={hidden} onToggle={() => onToggleHide(game.name)} />
             </td>
           );
         }
@@ -306,15 +266,14 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
           return (
             <td key="name" className="nc">
               <a href={steamUrl} target="_blank" rel="noopener noreferrer" title={game.name}>
-                {(steam?.appid || steam?.image) && !imgErr
-                  ? <img className="game-thumb" src={steam.image || `https://cdn.akamai.steamstatic.com/steam/apps/${steam.appid}/capsule_sm_120.jpg`} alt="" loading="lazy" onError={() => setImgErr(true)} />
+                {imgSrc && !imgErr
+                  ? <img className="game-thumb" src={imgSrc} alt="" loading="lazy" onError={() => setImgErr(true)} />
                   : <span className="game-thumb-ph">?</span>}
                 <span className="game-name">{game.name}</span>
               </a>
             </td>
           );
         }
-        // const fv = cellFilterValue(col.key, game, data);
         const renderer = CELL_RENDERERS[col.key];
         return (
           <td key={col.key}>

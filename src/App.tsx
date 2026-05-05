@@ -29,7 +29,7 @@ function getDefaultCols(): Set<SortCol> {
 }
 
 export default function App() {
-  const { games, hltb, steam, metacritic, upscaling, loading, error } = useGameData();
+  const { games, hltb, steam, metacritic, upscaling, images, loading, error } = useGameData();
   const [hiddenGames, setHiddenGames] = useState<Set<string>>(loadHidden);
   const { filtered, filters, filterCounts, setFilter, clearFilters, sortCol, sortDir, toggleSort } =
     useFilters(games, hltb, steam, metacritic, upscaling, hiddenGames);
@@ -115,6 +115,7 @@ export default function App() {
         steam={steam}
         metacritic={metacritic}
         upscaling={upscaling}
+        images={images}
         sortCol={sortCol}
         sortDir={sortDir}
         onSort={toggleSort}

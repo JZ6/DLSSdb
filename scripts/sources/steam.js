@@ -13,7 +13,7 @@
  */
 
 import { Updater } from "../lib/base.js";
-import { TODAY, UA, normalizeQuotes, nameVariations, similarity } from "../lib/util.js";
+import { TODAY, UA, normalizeQuotes, nameVariations, similarity, checkRateLimit } from "../lib/util.js";
 
 const STEAM_BASE = "https://store.steampowered.com";
 
@@ -70,6 +70,7 @@ async function searchByName(rawName) {
   for (const variation of nameVariations(name)) {
     const url = `${STEAM_BASE}/api/storesearch/?term=${encodeURIComponent(variation)}&l=english&cc=US`;
     const resp = await fetch(url, { headers: { "User-Agent": UA } });
+    checkRateLimit(resp);
     if (!resp.ok) continue;
     const items = (await resp.json()).items ?? [];
     if (!items.length) continue;
@@ -93,6 +94,7 @@ async function searchByName(rawName) {
 async function fetchReviews(appid) {
   const url = `${STEAM_BASE}/appreviews/${appid}?json=1&language=all&purchase_type=all&num_per_page=0`;
   const resp = await fetch(url, { headers: { "User-Agent": UA } });
+  checkRateLimit(resp);
   if (!resp.ok) return null;
   return parseReviews(await resp.json());
 }
@@ -101,11 +103,13 @@ async function fetchReviews(appid) {
 async function fetchDetails(appid) {
   const url = `${STEAM_BASE}/api/appdetails?appids=${appid}`;
   const resp = await fetch(url, { headers: { "User-Agent": UA } });
+  checkRateLimit(resp);
   if (!resp.ok) return {};
   const json = await resp.json();
   const data = json?.[String(appid)]?.data ?? {};
   const result = {};
   if (data.release_date?.date) result.release_date = data.release_date.date;
+  if (data.metacritic?.score) result.metacritic_score = data.metacritic.score;
   if (data.metacritic?.url) result.metacritic_url = data.metacritic.url;
   if (data.genres?.length) result.genres = data.genres.map((g) => g.description);
   // Prefer v5 capsule image (higher resolution), fall back to v4
@@ -137,6 +141,7 @@ function buildSteamEntry(appid, reviews, details) {
   if (details.release_date) entry.release_date = details.release_date;
   if (details.genres?.length) entry.genres = details.genres;
   if (details.image) entry.image = details.image;
+  if (details.metacritic_score) entry.metacritic_score = details.metacritic_score;
   if (details.metacritic_url) entry.metacritic_url = details.metacritic_url;
   entry.updated_at = TODAY;
   return entry;

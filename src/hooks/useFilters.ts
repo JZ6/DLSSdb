@@ -156,13 +156,14 @@ export function useFilters(
 
       // Steam filter
       if (filters.steam) {
-        const sr = (steam[g.name]?.rating && STEAM_ORDER[steam[g.name].rating!]) ?? -1;
+        const si = steam[g.name];
+        const sr = (si?.rating && STEAM_ORDER[si.rating]) ?? -1;
         if (filters.steam === "op+" && sr < 7) return false;
         if (filters.steam === "vp+" && sr < 6) return false;
         if (filters.steam === "mp+" && sr < 4) return false;
         if (filters.steam === "neg" && (sr < 0 || sr > 3)) return false;
         if (filters.steam === "unk" && sr !== -1) return false;
-        if (filters.steam === "nos" && !steam[g.name]?.not_on_steam) return false;
+        if (filters.steam === "nos" && si) return false;
       }
 
       // HLTB filter
@@ -212,7 +213,7 @@ export function useFilters(
     // Upscaling
     const up: Record<string, number> = { fsr: 0, xess: 0, both: 0, any: 0, none: 0 };
     // Steam
-    const st: Record<string, number> = { "op+": 0, "vp+": 0, "mp+": 0, neg: 0, nos: 0 };
+    const st: Record<string, number> = { "op+": 0, "vp+": 0, "mp+": 0, neg: 0, unk: 0, nos: 0 };
     // Metacritic
     const mc: Record<string, number> = { "90+": 0, "75+": 0 };
     // Hide
@@ -260,7 +261,8 @@ export function useFilters(
       if (sOrder >= 6) st["vp+"]++;
       if (sOrder >= 4) st["mp+"]++;
       if (sOrder >= 0 && sOrder <= 3) st.neg++;
-      if (steam[g.name]?.not_on_steam) st.nos++;
+      if (!steam[g.name]) st.nos++;
+      else if (sOrder === -1) st.unk++;
 
       const mScore = metacritic[g.name]?.score;
       if (mScore !== undefined) {
@@ -301,19 +303,20 @@ function getSortVal(
     case "dlssver":
       return getDlssVersionOrder(g);
     case "framegen":
-      return getFrameGenLevel(g);
+      return getFrameGenLevel(g) || null;
     case "sr":
-      return FEATURE_ORDER[g["dlss super resolution"] || ""] ?? 0;
+      return FEATURE_ORDER[g["dlss super resolution"] || ""] || null;
     case "rr":
-      return FEATURE_ORDER[g["dlss ray reconstruction"] || ""] ?? 0;
+      return FEATURE_ORDER[g["dlss ray reconstruction"] || ""] || null;
     case "dlaa":
-      return FEATURE_ORDER[g.dlaa || ""] ?? 0;
+      return FEATURE_ORDER[g.dlaa || ""] || null;
     case "rt":
-      return RT_ORDER[g["ray tracing"] || ""] ?? 0;
+      return RT_ORDER[g["ray tracing"] || ""] || null;
     case "upscaling": {
       const u = upscaling[g.name];
       if (!u) return null;
-      return (u.fsr_version ? 1 : 0) + (u.xess_version ? 1 : 0);
+      const v = (u.fsr_version ? 1 : 0) + (u.xess_version ? 1 : 0);
+      return v || null;
     }
     case "steam": {
       const si = steam[g.name];

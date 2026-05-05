@@ -25,7 +25,7 @@
       "found": true,
       "slug": "171",
       "source": "metacritic",
-      "updated_at": "2026-05-04"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -61,7 +61,7 @@
       "found": true,
       "slug": "83",
       "source": "metacritic",
-      "updated_at": "2026-05-04"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -127,7 +127,7 @@
       "found": true,
       "slug": "a-difficult-game-about-rolling-reuprise",
       "source": "metacritic",
-      "updated_at": "2026-05-04"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": false
@@ -448,7 +448,7 @@
       "found": true,
       "slug": "airportsim",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": false
@@ -516,7 +516,8 @@
       "page": "Alan_Wake_II",
       "fsr_version": "FSR 2.2",
       "updated_at": "2026-05-01"
-    }
+    },
+    "image": "images/alan_wake_2.jpg"
   },
   "Alan Wake Remastered": {
     "steam": {
@@ -574,7 +575,7 @@
       "found": true,
       "slug": "alien",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -711,9 +712,11 @@
       "found": true,
       "slug": "anatomy-of-fear",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Animalia Survival": {
     "steam": {
@@ -744,9 +747,11 @@
       "found": true,
       "slug": "animalia-survival",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Anno 117: Pax Romana": {
     "steam": {
@@ -818,7 +823,9 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Aphelion": {
     "steam": {
@@ -884,7 +891,9 @@
     "metacritic": {
       "found": false
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "ARC Raiders": {
     "steam": {
@@ -991,7 +1000,7 @@
       "found": true,
       "slug": "arena-breakout-infinite",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -1031,7 +1040,7 @@
       "found": true,
       "slug": "ark-survival-ascended",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -1059,7 +1068,12 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": true,
+      "page": "Arknights:_Endfield",
+      "updated_at": "2026-05-05"
+    },
+    "image": "images/arknights_endfield.jpg"
   },
   "Aron's Adventure": {
     "steam": {
@@ -1090,7 +1104,7 @@
       "found": true,
       "slug": "arons-adventure",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -1128,9 +1142,11 @@
       "found": true,
       "slug": "ashes-of-creation",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Assassin's Creed Mirage": {
     "steam": {
@@ -1276,7 +1292,7 @@
       "found": true,
       "slug": "assetto-corsa-evo",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -1309,7 +1325,7 @@
       "found": true,
       "slug": "assetto-corsa-rally",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -1336,9 +1352,11 @@
       "found": true,
       "slug": "astral-tracks",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Astrometica": {
     "steam": {
@@ -1365,9 +1383,11 @@
       "found": true,
       "slug": "astrometica",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Atomic Heart": {
     "steam": {
@@ -1431,9 +1451,11 @@
       "found": true,
       "slug": "aunt-fatima",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Automate It: Factory Puzzle": {
     "steam": {
@@ -1459,9 +1481,11 @@
       "found": true,
       "slug": "automate-it",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Avatar: Frontiers of Pandora": {
     "steam": {
@@ -1640,9 +1664,11 @@
       "found": true,
       "slug": "backrooms-rec",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Backrooms: Escape Together": {
     "steam": {
@@ -1674,7 +1700,7 @@
       "found": true,
       "slug": "backrooms-escape-together",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -1782,9 +1808,11 @@
       "found": true,
       "slug": "ballads-of-hongye",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Banishers: Ghosts of New Eden": {
     "steam": {
@@ -1852,7 +1880,7 @@
       "found": true,
       "slug": "bastide",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -2038,7 +2066,9 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "BEAST: False Prophet": {
     "steam": {
@@ -2067,7 +2097,7 @@
       "found": true,
       "slug": "beast-false-prophet",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -2105,9 +2135,11 @@
       "found": true,
       "slug": "bellwright",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Beyond Enemy Lines 2": {
     "steam": {
@@ -2133,7 +2165,7 @@
       "found": true,
       "slug": "beyond-enemy-lines-2",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -2169,7 +2201,7 @@
       "found": true,
       "slug": "beyond-hanwell",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -2239,9 +2271,11 @@
       "found": true,
       "slug": "black-one-blood-brothers",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "BLACKTAIL": {
     "steam": {
@@ -2411,9 +2445,11 @@
       "found": true,
       "slug": "bodies-of-water-vr",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Bodycam": {
     "steam": {
@@ -2444,7 +2480,7 @@
       "found": true,
       "slug": "bodycam",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -2559,7 +2595,7 @@
       "found": true,
       "slug": "brickadia",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -2744,9 +2780,11 @@
       "found": true,
       "slug": "bum-revenge",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Bus Bound": {
     "steam": {
@@ -2842,7 +2880,9 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Call of Duty: Black Ops 7": {
     "steam": {
@@ -2873,7 +2913,9 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Call of Duty: Black Ops Cold War": {
     "steam": {
@@ -3085,7 +3127,9 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Call of Duty: Warzone (2022)": {
     "steam": {
@@ -3117,7 +3161,9 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Capes": {
     "steam": {
@@ -3183,9 +3229,11 @@
       "found": true,
       "slug": "car-dealer-simulator",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Carmageddon: Rogue Shift": {
     "steam": {
@@ -3244,9 +3292,11 @@
       "found": true,
       "slug": "carpathian-survival",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Casa Caballero": {
     "steam": {
@@ -3265,9 +3315,11 @@
       "found": true,
       "slug": "casa-caballero",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Chained Backrooms": {
     "steam": {
@@ -3296,9 +3348,11 @@
       "found": true,
       "slug": "chained-backrooms",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Chased by Darkness": {
     "steam": {
@@ -3324,9 +3378,11 @@
       "found": true,
       "slug": "chased-by-darkness",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Chernobylite": {
     "steam": {
@@ -3396,7 +3452,7 @@
       "found": true,
       "slug": "chernobylite-2-exclusion-zone",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -3433,7 +3489,9 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Chivalry 2": {
     "steam": {
@@ -3566,9 +3624,11 @@
       "found": true,
       "slug": "chronicles-of-sagrea",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "ChronoTecture: The Eprologue": {
     "steam": {
@@ -3587,9 +3647,11 @@
       "found": true,
       "slug": "chronotecture-the-eprologue",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Cions of Vega": {
     "steam": {
@@ -3617,7 +3679,7 @@
       "found": true,
       "slug": "cions-of-vega",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -3725,9 +3787,11 @@
       "found": true,
       "slug": "code-alkonost-awakening-of-evil",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "CODE VEIN II": {
     "steam": {
@@ -3875,9 +3939,11 @@
       "found": true,
       "slug": "conquerors-blade",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Control": {
     "steam": {
@@ -4087,9 +4153,11 @@
       "found": true,
       "slug": "crown-simulator-royal-life-simulation",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "CROWZ": {
     "steam": {
@@ -4110,7 +4178,7 @@
       "found": true,
       "slug": "crowz",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -4138,7 +4206,7 @@
       "found": true,
       "slug": "crsed-foad",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -4172,7 +4240,7 @@
       "found": true,
       "slug": "crysis-2-remastered",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -4206,7 +4274,7 @@
       "found": true,
       "slug": "crysis-3-remastered",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -4302,9 +4370,11 @@
       "found": true,
       "slug": "cursed-deal",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Cyberpunk 2077": {
     "steam": {
@@ -4366,7 +4436,7 @@
       "found": true,
       "slug": "cyubevr",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -4436,7 +4506,7 @@
       "found": true,
       "slug": "dark-and-darker",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -4473,7 +4543,7 @@
       "found": true,
       "slug": "davy-x-jones",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -4506,9 +4576,11 @@
       "found": true,
       "slug": "dawn-of-defiance",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Daydream: Forgotten Sorrow": {
     "steam": {
@@ -4606,7 +4678,7 @@
       "found": true,
       "slug": "dcs-world",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -4636,9 +4708,11 @@
       "found": true,
       "slug": "dead-abyss",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Dead Rising Deluxe Remaster": {
     "steam": {
@@ -4705,9 +4779,11 @@
       "found": true,
       "slug": "dead-signal",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Dead Space": {
     "steam": {
@@ -4808,8 +4884,12 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
-    "pcgw": {}
+    "metacritic": {
+      "found": false
+    },
+    "pcgw": {
+      "found": false
+    }
   },
   "Deadlink": {
     "steam": {
@@ -4872,7 +4952,7 @@
       "found": true,
       "slug": "deadlock",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -4907,7 +4987,7 @@
       "found": true,
       "slug": "deadzone-rogue",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -4941,9 +5021,11 @@
       "found": true,
       "slug": "death-realm",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Death Relives": {
     "steam": {
@@ -5122,9 +5204,11 @@
       "found": true,
       "slug": "deathground",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Deathloop": {
     "steam": {
@@ -5286,9 +5370,11 @@
       "found": true,
       "slug": "deedlee-doo-carkour",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Deep Rock Galactic": {
     "steam": {
@@ -5354,9 +5440,11 @@
       "found": true,
       "slug": "deepstates-vr",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "Deliver Us Mars": {
     "steam": {
@@ -5537,9 +5625,11 @@
       "found": true,
       "slug": "demonologist",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "DESORDRE: A Puzzle Game Adventure": {
     "steam": {
@@ -5569,7 +5659,7 @@
       "found": true,
       "slug": "desordre-a-puzzle-game-adventure",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -5641,7 +5731,7 @@
       "found": true,
       "slug": "desynced",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -5790,9 +5880,11 @@
       "found": true,
       "slug": "direct-contact",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": false
+    }
   },
   "DiRT 5": {
     "steam": {
@@ -5848,8 +5940,12 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
-    "pcgw": {}
+    "metacritic": {
+      "found": false
+    },
+    "pcgw": {
+      "found": false
+    }
   },
   "Dolmen": {
     "steam": {
@@ -5910,7 +6006,9 @@
       "hltb_id": 126167,
       "updated_at": "2026-05-01"
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "Domino_Simulator",
@@ -5943,7 +6041,7 @@
       "found": true,
       "slug": "dont-scream",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -6156,7 +6254,7 @@
       "found": true,
       "slug": "dreadzone",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -6185,7 +6283,7 @@
       "found": true,
       "slug": "dual-universe",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -6221,7 +6319,7 @@
       "found": true,
       "slug": "duckside",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -6256,7 +6354,7 @@
       "found": true,
       "slug": "duet-night-abyss",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -6330,7 +6428,7 @@
       "found": true,
       "slug": "dungeonborne",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -6627,7 +6725,9 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {}
   },
   "Eldegarde (Formerly 'Legacy: Steel & Sorcery')": {
@@ -6728,7 +6828,7 @@
       "found": true,
       "slug": "electronic-market-simulator",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -6756,7 +6856,7 @@
       "found": true,
       "slug": "emotionless-the-last-ticket",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -6860,7 +6960,7 @@
       "found": true,
       "slug": "empyrion-galactic-survival",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -6895,7 +6995,7 @@
       "found": true,
       "slug": "enlisted",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -6975,7 +7075,7 @@
       "found": true,
       "slug": "enshrouded",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -7007,7 +7107,7 @@
       "found": true,
       "slug": "entity-the-black-day",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -7035,7 +7135,7 @@
       "found": true,
       "slug": "ephesus",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -7066,7 +7166,7 @@
       "found": true,
       "slug": "escape-from-naraka",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -7193,8 +7293,11 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
-    "pcgw": {}
+    "metacritic": {
+      "found": false
+    },
+    "pcgw": {},
+    "image": "images/eve_frontier.jpg"
   },
   "EVE Online": {
     "steam": {
@@ -7420,7 +7523,7 @@
       "found": true,
       "slug": "exfil",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -7456,7 +7559,7 @@
       "found": true,
       "slug": "exit-from",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -7481,7 +7584,9 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {}
   },
   "F.I.S.T.: Forged In Shadow Torch": {
@@ -7822,7 +7927,7 @@
       "found": true,
       "slug": "fall-balance-ball",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -7889,7 +7994,7 @@
       "found": true,
       "slug": "far-far-west",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -7962,7 +8067,7 @@
       "found": true,
       "slug": "farlight-84",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -8107,7 +8212,7 @@
       "found": true,
       "slug": "fera-the-sundered-tribes",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -8286,7 +8391,7 @@
       "found": true,
       "slug": "finnish-cottage-simulator",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -8485,7 +8590,7 @@
       "found": true,
       "slug": "flipscapes",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -8546,7 +8651,7 @@
       "found": true,
       "slug": "forest-doesnt-care",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -8721,7 +8826,8 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {},
+    "image": "images/fortnite.jpg"
   },
   "Forza Horizon 5": {
     "steam": {
@@ -8902,7 +9008,7 @@
       "found": true,
       "slug": "frozen-flame",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -9115,7 +9221,7 @@
       "found": true,
       "slug": "get-stuffed",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -9141,7 +9247,7 @@
       "found": true,
       "slug": "ghost",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -9510,7 +9616,7 @@
       "found": true,
       "slug": "goofy-gorillas",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -9629,7 +9735,7 @@
       "found": true,
       "slug": "grand-emprise-time-travel-survival",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -9692,7 +9798,7 @@
       "found": true,
       "slug": "grand-theft-auto-v-enhanced",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -9723,7 +9829,7 @@
       "found": true,
       "slug": "grand-theft-auto",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -9753,7 +9859,7 @@
       "found": true,
       "slug": "grand-theft-auto-vice-city-the-definitive-edition",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -9781,7 +9887,7 @@
       "found": true,
       "slug": "gray-zone-warfare",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -9840,7 +9946,7 @@
       "found": true,
       "slug": "greedland",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -9896,7 +10002,7 @@
       "found": true,
       "slug": "ground-branch",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -9917,7 +10023,9 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "GuJian",
@@ -9950,7 +10058,7 @@
       "found": true,
       "slug": "gun-jam",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -10008,7 +10116,7 @@
       "found": true,
       "slug": "half-sword",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -10037,7 +10145,14 @@
       "extra": 1.92,
       "updated_at": "2026-05-01"
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": true,
+      "slug": "half-life-2",
+      "score": 96,
+      "source": "steam",
+      "appid": 220,
+      "updated_at": "2026-05-05"
+    },
     "pcgw": {
       "found": true,
       "page": "Half-Life_2_RTX",
@@ -10094,7 +10209,7 @@
       "found": true,
       "slug": "helios",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -10245,7 +10360,7 @@
       "found": true,
       "slug": "hellbreach-vegas",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -10297,7 +10412,7 @@
       "found": true,
       "slug": "heroic-kingdom-origins",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -10455,7 +10570,7 @@
       "found": true,
       "slug": "highrise-city",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -10489,9 +10604,11 @@
     },
     "metacritic": {
       "found": true,
-      "slug": "hitman-world-of-assassination",
-      "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "slug": "hitman-3",
+      "score": 87,
+      "source": "steam",
+      "appid": 1659040,
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -10556,10 +10673,7 @@
       "found": false
     },
     "metacritic": {
-      "found": true,
-      "slug": "holl-space-5d6",
-      "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "found": false
     },
     "pcgw": {}
   },
@@ -10582,7 +10696,7 @@
       "found": true,
       "slug": "holomento",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -10833,7 +10947,7 @@
       "found": true,
       "slug": "hound-automaton",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -10899,7 +11013,7 @@
       "found": true,
       "slug": "hydroneer",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -10961,7 +11075,7 @@
       "found": true,
       "slug": "ikonei-island-an-earthlock-adventure",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -11015,7 +11129,9 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "Incursion_Red_River",
@@ -11148,7 +11264,7 @@
       "found": true,
       "slug": "industria-ii",
       "source": "metacritic",
-      "updated_at": "2026-05-02"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -11177,7 +11293,7 @@
       "found": true,
       "slug": "industry-giant-40",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -11236,7 +11352,7 @@
       "found": true,
       "slug": "influx-redux",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -11328,7 +11444,7 @@
       "found": true,
       "slug": "inzoi",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -11356,7 +11472,7 @@
       "found": true,
       "slug": "iron-conflict",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -11377,7 +11493,7 @@
       "found": true,
       "slug": "island-of-the-ancients",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -11398,7 +11514,7 @@
       "found": true,
       "slug": "isles-of-yore",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -11454,7 +11570,7 @@
       "found": true,
       "slug": "jaws-of-extinction",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -11509,7 +11625,9 @@
       "hltb_id": 98533,
       "updated_at": "2026-05-01"
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "剑魄",
@@ -11639,7 +11757,7 @@
       "found": true,
       "slug": "jump-space",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -11763,7 +11881,9 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "Sword_of_Justice",
@@ -11777,8 +11897,11 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
-    "pcgw": {}
+    "metacritic": {
+      "found": false
+    },
+    "pcgw": {},
+    "image": "images/jx3_online.jpg"
   },
   "KARMA: The Dark World": {
     "steam": {
@@ -11835,7 +11958,7 @@
       "found": true,
       "slug": "kartkraft",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -12024,7 +12147,7 @@
       "found": true,
       "slug": "kristala",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -12114,7 +12237,7 @@
       "found": true,
       "slug": "last-hope-on-earth",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -12135,7 +12258,7 @@
       "found": true,
       "slug": "last-sighting",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -12229,7 +12352,7 @@
       "found": true,
       "slug": "leap",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -12256,7 +12379,7 @@
       "found": true,
       "slug": "legend-of-ymir",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -12279,7 +12402,7 @@
       "found": true,
       "slug": "legendary-tales",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -12394,7 +12517,7 @@
       "found": true,
       "slug": "level-zero-extraction",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -12487,7 +12610,7 @@
       "found": true,
       "slug": "lightyear-frontier",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -12676,7 +12799,7 @@
       "found": true,
       "slug": "liminalcore",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -12767,7 +12890,7 @@
       "found": true,
       "slug": "lodestar",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -12931,7 +13054,7 @@
       "found": true,
       "slug": "lost-skies",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -12994,7 +13117,7 @@
       "found": true,
       "slug": "loverowind",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -13054,7 +13177,7 @@
       "found": true,
       "slug": "lunacy-saint-rhodes",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -13190,7 +13313,7 @@
       "found": true,
       "slug": "manor-lords",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -13531,7 +13654,7 @@
       "found": true,
       "slug": "mavrix-by-matt-jones",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -13597,7 +13720,13 @@
       "appid": 2000890,
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {
+      "found": true,
+      "page": "MechWarrior_5:_Clans",
+      "fsr_version": "FSR 3.1",
+      "xess_version": "XeSS 1",
+      "updated_at": "2026-05-05"
+    }
   },
   "MechWarrior 5: Mercenaries": {
     "steam": {
@@ -13648,7 +13777,7 @@
       "found": true,
       "slug": "mercs-fully-loaded",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -13876,7 +14005,7 @@
       "found": true,
       "slug": "midnight-ghost-hunt",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -13924,8 +14053,11 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
-    "pcgw": {}
+    "metacritic": {
+      "found": false
+    },
+    "pcgw": {},
+    "image": "images/minecraft_rtx.jpg"
   },
   "MONGIL: STAR DIVE": {
     "steam": {
@@ -13941,9 +14073,10 @@
       "found": true,
       "slug": "mongil-star-dive",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {},
+    "image": "images/mongil_star_dive.jpg"
   },
   "Monster Energy Supercross - The Official Videogame 6": {
     "steam": {
@@ -13987,7 +14120,9 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "Monster_Energy_Supercross_25",
@@ -14156,7 +14291,7 @@
       "found": true,
       "slug": "moon-runner",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -14167,8 +14302,11 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
-    "pcgw": {}
+    "metacritic": {
+      "found": false
+    },
+    "pcgw": {},
+    "image": "images/moonlight_blade.jpg"
   },
   "Mortal Kombat 1": {
     "steam": {
@@ -14228,7 +14366,7 @@
       "found": true,
       "slug": "mortal-online-2",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -14256,7 +14394,7 @@
       "found": true,
       "slug": "mortal-rite",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -14500,7 +14638,7 @@
       "found": true,
       "slug": "myth-of-empires",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -14558,7 +14696,9 @@
       "complete": 150,
       "updated_at": "2026-05-01"
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "NBA_2K25",
@@ -14649,7 +14789,7 @@
       "found": true,
       "slug": "necrophosis",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -14714,7 +14854,7 @@
       "found": true,
       "slug": "new-arc-line",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -14770,7 +14910,7 @@
       "found": true,
       "slug": "night-of-the-dead",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -14798,7 +14938,7 @@
       "found": true,
       "slug": "night-project",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -14824,7 +14964,7 @@
       "found": true,
       "slug": "nightingale",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -14853,7 +14993,7 @@
       "found": true,
       "slug": "nightmare-frontier",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -14876,7 +15016,7 @@
       "found": true,
       "slug": "nine-to-five",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -14963,7 +15103,7 @@
       "found": true,
       "slug": "ninja-resurrection-a-tale-of-kuro",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -15098,7 +15238,7 @@
       "found": true,
       "slug": "no-more-room-in-hell-2",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -15127,7 +15267,7 @@
       "found": true,
       "slug": "no-one-survived",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -15153,7 +15293,7 @@
       "found": true,
       "slug": "no-rest-for-the-wicked",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -15179,7 +15319,7 @@
       "found": true,
       "slug": "noble-legacy",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -15264,7 +15404,7 @@
       "found": true,
       "slug": "nowhere-near",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -15281,11 +15421,12 @@
       "found": true,
       "slug": "nte-neverness-to-everness",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": false
-    }
+    },
+    "image": "images/nte.jpg"
   },
   "Observer: System Redux": {
     "steam": {
@@ -15339,7 +15480,7 @@
       "found": true,
       "slug": "oddsparks-an-automation-adventure",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -15366,7 +15507,7 @@
       "found": true,
       "slug": "off-the-grid",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -15397,7 +15538,7 @@
       "found": true,
       "slug": "ominous",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -15480,7 +15621,7 @@
       "found": true,
       "slug": "orbitindustries",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -15536,7 +15677,7 @@
       "found": true,
       "slug": "otherplane",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -15559,7 +15700,7 @@
       "found": true,
       "slug": "outbreak-shades-of-horror",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -15614,7 +15755,7 @@
       "found": true,
       "slug": "outerverse",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -15778,7 +15919,7 @@
       "found": true,
       "slug": "palworld",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -15808,7 +15949,7 @@
       "found": true,
       "slug": "panicore",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -15863,7 +16004,7 @@
       "found": true,
       "slug": "park-studio",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -15929,7 +16070,7 @@
       "found": true,
       "slug": "path-of-exile-2",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -15957,7 +16098,7 @@
       "found": true,
       "slug": "pax-dei",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -16075,7 +16216,9 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "PGA_Tour_2K23",
@@ -16095,7 +16238,9 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "PGA_Tour_2K25",
@@ -16124,7 +16269,7 @@
       "found": true,
       "slug": "phantasy-star-online-2-new-genesis",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -16183,7 +16328,7 @@
       "found": true,
       "slug": "pizza-bandit",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -16209,7 +16354,7 @@
       "found": true,
       "slug": "pizzapocalypse",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -16301,7 +16446,7 @@
       "found": true,
       "slug": "pluviophile",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -16448,7 +16593,7 @@
       "found": true,
       "slug": "powerslide-legends",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -16512,7 +16657,7 @@
       "found": true,
       "slug": "predecessor",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -16584,7 +16729,7 @@
       "found": true,
       "slug": "prologue-go-wayback",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -16608,7 +16753,7 @@
       "found": true,
       "slug": "propnight",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -16642,7 +16787,7 @@
       "found": true,
       "slug": "psycho-fear",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -16749,7 +16894,7 @@
       "found": true,
       "slug": "qanga",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -16784,7 +16929,7 @@
       "found": true,
       "slug": "quake-ii-rtx",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -16855,7 +17000,7 @@
       "found": true,
       "slug": "ranch-simulator",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -16918,7 +17063,7 @@
       "found": true,
       "slug": "raze-2070",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -16991,7 +17136,7 @@
       "found": true,
       "slug": "real-life",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -17054,7 +17199,7 @@
       "found": true,
       "slug": "recall",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -17235,7 +17380,7 @@
       "found": true,
       "slug": "reficul-666",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -17266,7 +17411,7 @@
       "found": true,
       "slug": "rem-survival",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -17375,7 +17520,7 @@
       "found": true,
       "slug": "remnants",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -17398,7 +17543,7 @@
       "found": true,
       "slug": "renovation-simulator",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -17618,7 +17763,7 @@
       "found": true,
       "slug": "return-to-campus",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -17722,7 +17867,7 @@
       "found": true,
       "slug": "revenge-of-the-mage",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -17775,9 +17920,10 @@
       "found": true,
       "slug": "rf-online-next",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {},
+    "image": "images/rf_online_next.jpg"
   },
   "Ring of Elysium": {
     "steam": {
@@ -17800,7 +17946,7 @@
       "found": true,
       "slug": "ring-of-elysium",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -18016,7 +18162,7 @@
       "found": true,
       "slug": "robo-pocket-3d-fighter-with-rollback",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -18116,7 +18262,7 @@
       "found": true,
       "slug": "rocket-squad-infinity",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -18285,7 +18431,7 @@
       "found": true,
       "slug": "runescape-dragonwilds",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -18514,7 +18660,7 @@
       "found": true,
       "slug": "saboteur",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -18660,7 +18806,7 @@
       "found": true,
       "slug": "sands-of-aura",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -18763,7 +18909,7 @@
       "found": true,
       "slug": "scavengers",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -18800,7 +18946,7 @@
       "found": true,
       "slug": "scp-5k",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -18831,7 +18977,7 @@
       "found": true,
       "slug": "scp-secret-files",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -18898,7 +19044,7 @@
       "found": true,
       "slug": "scum",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -18932,7 +19078,7 @@
       "found": true,
       "slug": "seafarer-the-ship-sim",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -19042,7 +19188,7 @@
       "found": true,
       "slug": "serum",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -19224,7 +19370,7 @@
       "found": true,
       "slug": "shatterline",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -19292,7 +19438,7 @@
       "found": true,
       "slug": "ships-at-sea",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -19468,7 +19614,7 @@
       "found": true,
       "slug": "silent-rain",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -19491,7 +19637,7 @@
       "found": true,
       "slug": "simrail-the-railway-simulator",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -19524,7 +19670,7 @@
       "found": true,
       "slug": "simulakros",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -19555,7 +19701,7 @@
       "found": true,
       "slug": "six-days-in-fallujah",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -19585,7 +19731,7 @@
       "found": true,
       "slug": "skate",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -19700,7 +19846,7 @@
       "found": true,
       "slug": "skye-the-misty-isle",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -19728,7 +19874,7 @@
       "found": true,
       "slug": "slavicpunk-oldtimer",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -19800,7 +19946,7 @@
       "found": true,
       "slug": "small-spaces",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -19873,7 +20019,7 @@
       "found": true,
       "slug": "smite-2",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -19973,7 +20119,7 @@
       "found": true,
       "slug": "sophonce",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -20005,7 +20151,7 @@
       "found": true,
       "slug": "soul-dossier",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -20037,7 +20183,7 @@
       "found": true,
       "slug": "soulmask",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -20070,7 +20216,7 @@
       "found": true,
       "slug": "soulmate",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -20106,7 +20252,7 @@
       "found": true,
       "slug": "soulslinger-envoy-of-death",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -20395,7 +20541,7 @@
       "found": true,
       "slug": "squad",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -20421,9 +20567,10 @@
       "found": true,
       "slug": "star-citizen",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {},
+    "image": "images/star_citizen.jpg"
   },
   "Star Trek: Voyager - Across The Unknown": {
     "steam": {
@@ -20602,7 +20749,7 @@
       "found": true,
       "slug": "starrupture",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -20670,7 +20817,7 @@
       "found": true,
       "slug": "starsiege-deadzone",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -20701,7 +20848,7 @@
       "found": true,
       "slug": "stay-in-the-light",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -20887,7 +21034,7 @@
       "found": true,
       "slug": "storage-hunter-simulator",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -20960,7 +21107,7 @@
       "found": true,
       "slug": "storror-parkour-pro",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -21105,7 +21252,7 @@
       "found": true,
       "slug": "strinova",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -21139,7 +21286,7 @@
       "found": true,
       "slug": "stygian-outer-gods",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -21214,13 +21361,24 @@
       "found": true,
       "slug": "subliminal",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
   "Sudden Strike 6": {
     "steam": {
-      "found": false
+      "found": true,
+      "appid": 2808550,
+      "rating": "Mixed",
+      "pct": 69,
+      "total": 386,
+      "release_date": "23 Apr, 2026",
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2808550/b5cb2ffa14cb80c59764619511b6eb52aff35377/capsule_184x69.jpg?t=1777554046",
+      "updated_at": "2026-05-05"
     },
     "hltb": {
       "found": false
@@ -21318,7 +21476,9 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "Super_People",
@@ -21356,7 +21516,7 @@
       "found": true,
       "slug": "supermoves",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -21429,7 +21589,7 @@
       "found": true,
       "slug": "supraland-six-inches-under",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -21466,7 +21626,7 @@
       "found": true,
       "slug": "supraworld",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -21500,7 +21660,7 @@
       "found": true,
       "slug": "survive-the-hill",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -21694,9 +21854,10 @@
       "found": true,
       "slug": "tankhead",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
-    "pcgw": {}
+    "pcgw": {},
+    "image": "images/tankhead.jpg"
   },
   "Tchia": {
     "steam": {
@@ -21947,7 +22108,7 @@
       "found": true,
       "slug": "the-anacrusis",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -22020,7 +22181,7 @@
       "found": true,
       "slug": "the-axis-unseen",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -22059,7 +22220,7 @@
       "found": true,
       "slug": "the-backrooms-lost-tape",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -22089,7 +22250,7 @@
       "found": true,
       "slug": "the-black-pool",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -22118,7 +22279,7 @@
       "found": true,
       "slug": "the-black-pool-arena-survivors",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -22145,7 +22306,7 @@
       "found": true,
       "slug": "the-bus",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -22324,7 +22485,7 @@
       "found": true,
       "slug": "the-dawn-snipers-way",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -22359,7 +22520,7 @@
       "found": true,
       "slug": "the-day-before",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -22389,7 +22550,7 @@
       "found": true,
       "slug": "the-devourer-hunted-souls",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -22650,7 +22811,7 @@
       "found": true,
       "slug": "the-gold-river-project",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -22757,7 +22918,7 @@
       "found": true,
       "slug": "the-killing-antidote",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -22830,7 +22991,7 @@
       "found": true,
       "slug": "the-last-caretaker",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -23123,7 +23284,7 @@
       "found": true,
       "slug": "the-matchless-kungfu",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -23229,7 +23390,7 @@
       "found": true,
       "slug": "the-nightmare-catcher",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -23263,7 +23424,7 @@
       "found": true,
       "slug": "the-orville-interactive-fan-experience",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -23409,7 +23570,7 @@
       "found": true,
       "slug": "the-redress-of-mira",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -23486,9 +23647,11 @@
     },
     "metacritic": {
       "found": true,
-      "slug": "the-sinking-city-remastered",
-      "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "slug": "the-sinking-city",
+      "score": 71,
+      "source": "steam",
+      "appid": 750130,
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -23523,7 +23686,7 @@
       "found": true,
       "slug": "the-swordsmen-x-survival",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -23772,7 +23935,7 @@
       "found": true,
       "slug": "three-alpha-one-nine",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -23834,7 +23997,7 @@
       "found": true,
       "slug": "time-breaker",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -23870,7 +24033,7 @@
       "found": true,
       "slug": "titan-quest-ii",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -23908,7 +24071,7 @@
       "found": true,
       "slug": "titan-station",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -23944,7 +24107,7 @@
       "found": true,
       "slug": "to-hell-with-it",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -24014,7 +24177,7 @@
       "found": true,
       "slug": "tokyo-xtreme-racer",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -24122,7 +24285,7 @@
       "found": true,
       "slug": "torque-drift-2",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -24192,7 +24355,7 @@
       "found": true,
       "slug": "towers-of-aghasba",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -24225,7 +24388,7 @@
       "found": true,
       "slug": "trail-out",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -24260,7 +24423,7 @@
       "found": true,
       "slug": "trench-tales",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -24330,7 +24493,7 @@
       "found": true,
       "slug": "tribes-3-rivals",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -24363,7 +24526,7 @@
       "found": true,
       "slug": "truck-mechanic-dangerous-paths",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -24399,7 +24562,7 @@
       "found": true,
       "slug": "turbo-sloths",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -24434,7 +24597,7 @@
       "found": true,
       "slug": "twin-stones-the-journey-of-bukka",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -24468,7 +24631,7 @@
       "found": true,
       "slug": "uboat",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -24540,7 +24703,7 @@
       "found": true,
       "slug": "uncrashed-fpv-drone-simulator",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -24561,7 +24724,7 @@
       "found": true,
       "slug": "united-1944",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -24589,7 +24752,7 @@
       "found": true,
       "slug": "united-assault-normandy-44",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -24610,7 +24773,7 @@
       "found": true,
       "slug": "unknown-woods",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -24680,7 +24843,7 @@
       "found": true,
       "slug": "valhall",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -24826,7 +24989,7 @@
       "found": true,
       "slug": "vampires-bloodlord-rising",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -24864,7 +25027,7 @@
       "found": true,
       "slug": "vector-strike",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -24893,7 +25056,7 @@
       "found": true,
       "slug": "viking-rage",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -24925,7 +25088,7 @@
       "found": true,
       "slug": "violet",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -25061,7 +25224,7 @@
       "found": true,
       "slug": "vr-nara-park",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -25091,7 +25254,7 @@
       "found": true,
       "slug": "wacky-west",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -25122,7 +25285,7 @@
       "found": true,
       "slug": "wakamarina-valley-new-zealand",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -25463,7 +25626,7 @@
       "found": true,
       "slug": "warhaven",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -25493,7 +25656,7 @@
       "found": true,
       "slug": "warstride-challenges",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -25674,7 +25837,7 @@
       "found": true,
       "slug": "whiskerwood",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -25701,7 +25864,7 @@
       "found": true,
       "slug": "who-is-abby",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -25722,7 +25885,7 @@
       "found": true,
       "slug": "why-dont-they-laugh",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -25745,7 +25908,7 @@
       "found": true,
       "slug": "wild-assault",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -25841,7 +26004,7 @@
       "found": true,
       "slug": "windrose",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -25868,7 +26031,7 @@
       "found": true,
       "slug": "winter-survival",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -25894,7 +26057,7 @@
       "found": true,
       "slug": "witchfire",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -25989,7 +26152,7 @@
       "found": true,
       "slug": "wonder-ball",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {}
   },
@@ -26014,7 +26177,7 @@
       "found": true,
       "slug": "workshop-simulator",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -26029,8 +26192,11 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
-    "pcgw": {}
+    "metacritic": {
+      "found": false
+    },
+    "pcgw": {},
+    "image": "images/world_of_jade_dynasty.jpg"
   },
   "World of Warcraft: Shadowlands": {
     "steam": {
@@ -26051,7 +26217,8 @@
       "source": "metacritic",
       "updated_at": "2026-05-01"
     },
-    "pcgw": {}
+    "pcgw": {},
+    "image": "images/wow_shadowlands.jpg"
   },
   "WRC Generations – The FIA WRC Official Game": {
     "steam": {
@@ -26071,7 +26238,9 @@
     "hltb": {
       "found": false
     },
-    "metacritic": {},
+    "metacritic": {
+      "found": false
+    },
     "pcgw": {
       "found": true,
       "page": "WRC_Generations",
@@ -26098,7 +26267,7 @@
       "found": true,
       "slug": "wreckfest-2",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -26156,7 +26325,7 @@
       "found": true,
       "slug": "wrench",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -26322,7 +26491,7 @@
       "found": true,
       "slug": "yag",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
@@ -26410,7 +26579,17 @@
   },
   "Zenless Zone Zero": {
     "steam": {
-      "found": false
+      "found": true,
+      "appid": 4162040,
+      "release_date": "Q2 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG",
+        "Free To Play"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4162040/678f2b92f6574386132e528ffa61c16906f6063e/capsule_184x69.jpg?t=1777039066",
+      "updated_at": "2026-05-05"
     },
     "hltb": {
       "found": true,
@@ -26448,7 +26627,7 @@
       "found": true,
       "slug": "zombie-city",
       "source": "metacritic",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-05"
     },
     "pcgw": {
       "found": true,
