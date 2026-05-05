@@ -12,7 +12,6 @@ export interface DlssGame {
 }
 
 export interface DlssData {
-  columns: Record<string, Record<string, unknown>>;
   data: DlssGame[];
 }
 
@@ -20,7 +19,6 @@ export interface SteamInfo {
   rating?: SteamRating;
   pct?: number;
   total?: number;
-  not_on_steam?: boolean;
   appid?: number;
   image?: string;
 }
@@ -29,6 +27,10 @@ export interface HltbInfo {
   main?: number;
   extra?: number;
   complete?: number;
+  coop?: number;
+  pvp?: number;
+  speed?: number;
+  all_styles?: number;
   hltb_id?: number;
 }
 
@@ -72,7 +74,8 @@ export type SortDir = 1 | -1;
 /** Returns the average of all available HLTB hours values, or undefined */
 export function getHltbHours(info?: HltbInfo): number | undefined {
   if (!info) return undefined;
-  const vals = [info.main, info.extra, info.complete].filter((v): v is number => v != null);
+  const vals = [info.main, info.extra, info.complete, info.coop, info.pvp, info.all_styles]
+    .filter((v): v is number => v != null);
   if (vals.length === 0) return undefined;
   return vals.reduce((a, b) => a + b, 0) / vals.length;
 }

@@ -10,7 +10,7 @@
  */
 
 import { writeFileSync, renameSync } from "fs";
-import { DLSS_FILE, UA } from "../lib/util.js";
+import { DLSS_FILE, GAME_DATA_FILE, UA, loadJson, saveJson, syncGameList } from "../lib/util.js";
 
 const DLSS_URL = "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/nvidia-rtx-games-engines-apps/dlss-rt-games-apps-overrides.json";
 
@@ -41,6 +41,14 @@ export async function updateDlss() {
     writeFileSync(tmp, raw);
     renameSync(tmp, DLSS_FILE);
     console.log(`  Downloaded ${games.length} games (${raw.length.toLocaleString()} bytes)`);
+
+    // Sync game_data.json — add empty entries for any new games
+    const gameData = loadJson(GAME_DATA_FILE);
+    const gameNames = games.map((e) => String(e.name));
+    if (syncGameList(gameData, gameNames)) {
+      saveJson(GAME_DATA_FILE, gameData);
+    }
+
     return true;
   } catch (e) {
     console.log(`  Failed to download: ${e.message}`);

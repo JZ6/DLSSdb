@@ -16,7 +16,7 @@
  */
 
 import { fileURLToPath } from "url";
-import { GAME_DATA_FILE, loadJson, saveJson, getGameNames, resolveGameName, parseArgs } from "./util.js";
+import { GAME_DATA_FILE, loadJson, saveJson, getGameNames, resolveGameName, parseArgs, sleep } from "./util.js";
 
 export class Updater {
   /** Sub-key in game_data.json entries: "steam", "hltb", "metacritic", "pcgw" */
@@ -27,6 +27,9 @@ export class Updater {
 
   /** Max concurrent API requests per batch (override for rate-limited sources). */
   batchSize = 6;
+
+  /** Delay in ms between batches to avoid rate limiting. */
+  batchDelay = 0;
 
   /** CLI --help output text. */
   helpText = "";
@@ -145,6 +148,7 @@ export class Updater {
     console.log(`  Fetching ${names.length} games...`);
     let added = 0;
     for (let i = 0; i < names.length; i += this.batchSize) {
+      if (i > 0 && this.batchDelay) await sleep(this.batchDelay);
       const batch = names.slice(i, i + this.batchSize);
       await Promise.all(batch.map(async (name, j) => {
         if (!gameData[name]) gameData[name] = {};

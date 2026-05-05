@@ -16,7 +16,7 @@
  */
 
 import { Updater } from "../lib/base.js";
-import { TODAY, UA, sleep, ARABIC_TO_ROMAN } from "../lib/util.js";
+import { TODAY, UA, sleep, romanVariations, nameVariations, checkRateLimit } from "../lib/util.js";
 
 const PCGW_API = "https://www.pcgamingwiki.com/w/api.php";
 
@@ -39,13 +39,6 @@ function parseUpscaling(str) {
   return result;
 }
 
-/** Generate page name variations with Arabic→Roman numeral conversions. */
-function pageVariations(name) {
-  const pages = [name];
-  const romanized = name.replace(/\b(\d+)\b/g, (_, n) => ARABIC_TO_ROMAN[Number(n)] || n);
-  if (romanized !== name) pages.push(romanized);
-  return pages;
-}
 
 /** Build an ordered pcgw entry object for game_data.json. */
 function buildPcgwEntry(page, upscaling) {
@@ -60,12 +53,31 @@ function buildPcgwEntry(page, upscaling) {
 // Cargo API helpers
 // ---------------------------------------------------------------------------
 
+// 20 requests/min → 3s between requests
+const PCGW_REQUEST_DELAY = 3000;
+let lastRequestTime = 0;
+
 /** Query PCGamingWiki's Cargo API. Returns the cargoquery result array. */
 async function cargoQuery(params) {
+  const now = Date.now();
+  const elapsed = now - lastRequestTime;
+  if (elapsed < PCGW_REQUEST_DELAY) await sleep(PCGW_REQUEST_DELAY - elapsed);
+  lastRequestTime = Date.now();
+
   const url = `${PCGW_API}?action=cargoquery&format=json&${new URLSearchParams(params)}`;
   const resp = await fetch(url, { headers: { "User-Agent": UA } });
+  checkRateLimit(resp);
   if (!resp.ok) return [];
-  return (await resp.json()).cargoquery ?? [];
+  const text = await resp.text();
+  try {
+    return JSON.parse(text).cargoquery ?? [];
+  } catch {
+    // Non-JSON response (e.g. Cloudflare block page)
+    if (text.includes("error code") || text.includes("<!doctype")) {
+      throw new Error("Rate limited (Cloudflare)");
+    }
+    return [];
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -114,7 +126,10 @@ async function fetchByAppId(appid) {
  * WHERE uses spaces (not underscores) for _pageName matching.
  */
 async function fetchByPageName(gameName) {
-  for (const variation of pageVariations(gameName)) {
+  // Try name variations (original, without parenthetical, before colon, etc.)
+  // then Roman numeral variations of each
+  const variations = nameVariations(gameName).flatMap(romanVariations);
+  for (const variation of [...new Set(variations)]) {
     // Step 1: Try with upscaling data
     const withUpscaling = await cargoQuery({
       tables: "Video,Infobox_game",
@@ -170,7 +185,6 @@ async function fetchAllUpscaling() {
     results.push(...batch);
     if (batch.length < batchSize) break; // Last page — no more results
     offset += batchSize;
-    await sleep(500); // Be polite to the API
   }
   return results;
 }
@@ -182,6 +196,7 @@ async function fetchAllUpscaling() {
 class PcgwUpdater extends Updater {
   sourceKey = "pcgw";
   label = "PCGamingWiki";
+  batchSize = 1;
   helpText = `Usage:
   node scripts/sources/pcgw.js                          Update all unchecked games
   node scripts/sources/pcgw.js --limit <n>              Update n unchecked games
@@ -209,7 +224,13 @@ class PcgwUpdater extends Updater {
 
     // Large list — bulk fetch all FSR/XeSS entries at once
     console.log("  Bulk fetching all FSR/XeSS entries from PCGamingWiki...");
-    const allResults = await fetchAllUpscaling();
+    let allResults;
+    try {
+      allResults = await fetchAllUpscaling();
+    } catch (e) {
+      console.log(`  Bulk fetch failed (${e.message}) — falling back to per-game`);
+      return super.update(gameData, names);
+    }
     console.log(`  PCGamingWiki returned ${allResults.length} entries with FSR/XeSS`);
 
     // Build appid → { page, fsr_version?, xess_version? } lookup map
@@ -231,20 +252,30 @@ class PcgwUpdater extends Updater {
     }
 
     // Match each game in the list by its Steam appid
-    let updated = 0, skipped = 0;
+    let updated = 0;
+    const unmatched = [];
     for (const name of names) {
       const appid = gameData[name]?.steam?.appid;
-      if (!appid) { skipped++; continue; } // No Steam appid — can't match in bulk mode
+      if (!appid) { unmatched.push(name); continue; }
       const match = appidMap.get(appid);
       if (match) {
         gameData[name].pcgw = buildPcgwEntry(match.page, match);
         updated++;
       } else {
-        skipped++;
+        unmatched.push(name);
       }
     }
 
-    console.log(`  Updated ${updated} games, ${skipped} had no match`);
+    // Fall back to per-game lookup for unmatched games (no appid or no bulk match)
+    if (unmatched.length) {
+      console.log(`  ${unmatched.length} games unmatched in bulk — falling back to per-game lookup`);
+      for (const name of unmatched) {
+        try { if (await this.processOne(gameData, name)) updated++; }
+        catch (e) { console.log(`  ${name}: error (${e.message})`); break; }
+      }
+    }
+
+    console.log(`  Updated ${updated} games total`);
     return updated;
   }
 

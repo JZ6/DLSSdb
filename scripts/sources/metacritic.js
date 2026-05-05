@@ -13,7 +13,7 @@
  */
 
 import { Updater } from "../lib/base.js";
-import { TODAY, UA, sleep, ARABIC_TO_ROMAN, nameVariations } from "../lib/util.js";
+import { TODAY, UA, sleep, romanVariations, nameVariations, checkRateLimit } from "../lib/util.js";
 
 // ---------------------------------------------------------------------------
 // Slug generation — converts game names to Metacritic URL paths
@@ -38,10 +38,7 @@ function slugFromUrl(url) {
 
 /** Generate slug variations with Arabic→Roman numeral conversions for sequels. */
 function slugVariations(slug) {
-  const slugs = [slug];
-  const romanized = slug.replace(/\b(\d+)\b/g, (_, n) => (ARABIC_TO_ROMAN[Number(n)] || n).toString().toLowerCase());
-  if (romanized !== slug) slugs.push(romanized);
-  return slugs;
+  return romanVariations(slug).map((s) => s.toLowerCase());
 }
 
 // ---------------------------------------------------------------------------
@@ -56,6 +53,7 @@ function slugVariations(slug) {
 async function fetchViaAppId(appid) {
   const url = `https://store.steampowered.com/api/appdetails?appids=${appid}`;
   const resp = await fetch(url, { headers: { "User-Agent": UA } });
+  checkRateLimit(resp);
   if (!resp.ok) return null;
   const json = await resp.json();
   const data = json?.[String(appid)]?.data;
@@ -77,6 +75,7 @@ async function fetchViaMetacritic(name) {
     for (const slug of slugVariations(nameToSlug(variation))) {
       const url = `https://www.metacritic.com/game/${slug}/`;
       const resp = await fetch(url, { headers: { "User-Agent": UA, "Accept": "text/html" } });
+      checkRateLimit(resp);
       if (!resp.ok) { await sleep(1000); continue; }
       const html = await resp.text();
       // Look for JSON-LD ratingValue in the page
@@ -126,6 +125,16 @@ class MetacriticUpdater extends Updater {
     // Log current state for single-game updates
     if (!prefix && metacriticEntry.score) {
       console.log(`  Current: score=${metacriticEntry.score} slug=${metacriticEntry.slug}`);
+    }
+
+    // Pass 0: Use cached score from Steam if available (avoids redundant API call)
+    if (steamEntry.metacritic_score) {
+      const slug = steamEntry.metacritic_url ? slugFromUrl(steamEntry.metacritic_url) : nameToSlug(name);
+      gameData[name].metacritic = buildMetacriticEntry({
+        score: steamEntry.metacritic_score, slug, appid: steamEntry.appid, source: "steam",
+      });
+      console.log(`  ${prefix}${name}: ${steamEntry.metacritic_score} [cached from steam]`);
+      return true;
     }
 
     // Pass 1: Try Steam App Details — fast and doesn't hit Metacritic directly

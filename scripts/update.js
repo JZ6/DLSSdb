@@ -36,6 +36,9 @@ import { updateDlss } from "./sources/dlss.js";
 const SOURCES = { steam, hltb, metacritic, pcgw };
 const ALL_KEYS = Object.keys(SOURCES);
 
+/** Default sources — pcgw excluded due to aggressive rate limiting. Use --sources pcgw to run it. */
+const DEFAULT_KEYS = ["steam", "hltb", "metacritic"];
+
 
 
 /**
@@ -44,7 +47,7 @@ const ALL_KEYS = Object.keys(SOURCES);
  * Exits with error if any unknown source names are given.
  */
 function parseSources(raw) {
-  if (!raw) return ALL_KEYS;
+  if (!raw) return DEFAULT_KEYS;
   const requested = raw.split(",").map((s) => s.trim().toLowerCase());
   const invalid = requested.filter((s) => !SOURCES[s]);
   if (invalid.length) {
@@ -77,7 +80,7 @@ if (isMain) {
     node scripts/update.js --limit <n>                   Limit per source in batch mode
     node scripts/update.js --dlss                        Update NVIDIA DLSS games list
 
-    Sources: ${ALL_KEYS.join(", ")} (default: all)`);
+    Sources: ${ALL_KEYS.join(", ")} (default: ${DEFAULT_KEYS.join(", ")})`);
     process.exit(0);
   }
 
@@ -89,7 +92,7 @@ if (isMain) {
     await updateDlss();
     if (args.includes("--dlss")) { return; }
 
-    // Load game data once — all sources mutate this shared object
+    // Load game data — new games were already added by updateDlss above
     const gameData = loadJson(GAME_DATA_FILE);
 
     // Run all selected sources in parallel — safe because each source

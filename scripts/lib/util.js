@@ -28,6 +28,16 @@ export const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/5
 /** Promise-based delay for rate limiting between API requests. */
 export const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+/**
+ * Check if an HTTP response is a rate limit and throw if so.
+ * Prevents rate-limited games from being incorrectly marked as "not found".
+ */
+export function checkRateLimit(resp) {
+  if (resp.status === 429 || resp.status === 1015) {
+    throw new Error(`Rate limited (HTTP ${resp.status})`);
+  }
+}
+
 // ---------------------------------------------------------------------------
 // File I/O
 // ---------------------------------------------------------------------------
@@ -59,6 +69,23 @@ export function getGameNames() {
     .map((e) => String(e.name));
 }
 
+/**
+ * Sync gameData with a list of game names — adds empty entries for any new games.
+ * Called after updating the DLSS list to ensure game_data.json has entries for all games.
+ * Returns the number of new games added.
+ */
+export function syncGameList(gameData, dlssNames) {
+  let added = 0;
+  for (const name of dlssNames) {
+    if (!gameData[name]) {
+      gameData[name] = {};
+      added++;
+    }
+  }
+  if (added) console.log(`  Added ${added} new game(s) from DLSS list`);
+  return added;
+}
+
 // ---------------------------------------------------------------------------
 // Name matching
 // ---------------------------------------------------------------------------
@@ -70,6 +97,17 @@ export function normalizeQuotes(s) {
 
 /** Arabic→Roman numeral map for game name variations (2 → "II", etc.). */
 export const ARABIC_TO_ROMAN = { 2: "II", 3: "III", 4: "IV", 5: "V", 6: "VI", 7: "VII", 8: "VIII", 9: "IX", 10: "X" };
+
+/**
+ * Generate variations with Arabic→Roman numeral conversions.
+ * "Game 2" → ["Game 2", "Game II"]. Returns [str] if no numerals to convert.
+ */
+export function romanVariations(str) {
+  const variations = [str];
+  const romanized = str.replace(/\b(\d+)\b/g, (_, n) => ARABIC_TO_ROMAN[Number(n)] || n);
+  if (romanized !== str) variations.push(romanized);
+  return variations;
+}
 
 /** Common suffixes to strip when generating name variations for fuzzy matching. */
 const STRIP_SUFFIXES = [

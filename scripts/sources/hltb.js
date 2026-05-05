@@ -15,7 +15,7 @@
  */
 
 import { Updater } from "../lib/base.js";
-import { TODAY, UA, normalizeQuotes, nameVariations, similarity } from "../lib/util.js";
+import { TODAY, UA, normalizeQuotes, nameVariations, similarity, checkRateLimit } from "../lib/util.js";
 
 const BASE_URL = "https://howlongtobeat.com";
 
@@ -64,6 +64,7 @@ async function getApi() {
 async function _initApi() {
   console.log("  Discovering HLTB API endpoint...");
   const resp = await fetch(BASE_URL, { headers: { "User-Agent": UA, Accept: "text/html" } });
+  checkRateLimit(resp);
   if (!resp.ok) throw new Error(`HLTB homepage returned ${resp.status}`);
   const html = await resp.text();
 
@@ -110,6 +111,7 @@ async function fetchById(hltbId) {
   const resp = await fetch(`${BASE_URL}/game/${hltbId}`, {
     headers: { "User-Agent": UA, Accept: "text/html" },
   });
+  checkRateLimit(resp);
   if (!resp.ok) return null;
   // Extract game data from Next.js __NEXT_DATA__ script tag
   const match = (await resp.text()).match(
@@ -157,6 +159,7 @@ async function fetchByName(rawName) {
     const resp = await fetch(`${BASE_URL}${api.searchPath}`, {
       method: "POST", headers, body: JSON.stringify(payload),
     });
+    checkRateLimit(resp);
     if (!resp.ok) continue;
     const results = (await resp.json()).data || [];
 

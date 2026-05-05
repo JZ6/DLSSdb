@@ -58,14 +58,13 @@ export function FeatureBadge({ value }: { value: string }) {
 }
 
 function fmtCount(n: number): string {
-  if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
-  if (n >= 1000) return `${(n / 1000).toFixed(1)}K`;
+  if (n >= 1000000) return `${+(n / 1000000).toFixed(1)}M`;
+  if (n >= 1000) return `${+(n / 1000).toFixed(1)}K`;
   return String(n);
 }
 
 export function SteamBadge({ info }: { info?: SteamInfo }) {
-  if (!info) return <span className="empty">—</span>;
-  if (info.not_on_steam) return <span className="empty">Not On Steam</span>;
+  if (!info) return <span className="empty">Not On Steam</span>;
   if (!info.rating) return <span className="empty">—</span>;
   const cls = STEAM_STYLES[info.rating] ?? "smx";
   const tip = info.total ? `${fmtCount(info.total)} reviews` : undefined;
@@ -139,6 +138,9 @@ export function HltbBadge({ data }: { data?: HltbInfo }) {
     data?.main && `Main Story: ${fmt(data.main)}h`,
     data?.extra && `Main + Extras: ${fmt(data.extra)}h`,
     data?.complete && `Completionist: ${fmt(data.complete)}h`,
+    data?.coop && `Co-Op: ${fmt(data.coop)}h`,
+    data?.pvp && `PvP: ${fmt(data.pvp)}h`,
+    data?.all_styles && `All Styles: ${fmt(data.all_styles)}h`,
   ].filter(Boolean).join("\n");
 
   return (
