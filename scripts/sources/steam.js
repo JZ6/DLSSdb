@@ -35,7 +35,7 @@ const VALID_RATINGS = new Set([
  * Falls back to pct-based bucketing when Steam returns a non-standard
  * description (e.g. "3 user reviews" for games with very few reviews).
  */
-function parseReviews(json) {
+export function parseReviews(json) {
   const s = json?.query_summary;
   if (!s) return null;
   const total = s.total_reviews ?? 0;
@@ -135,7 +135,7 @@ async function fetchGame(name, steamEntry) {
 }
 
 /** Build an ordered steam entry object for game_data.json. */
-function buildSteamEntry(appid, reviews, details) {
+export function buildSteamEntry(appid, reviews, details) {
   const entry = { found: true, appid };
   if (reviews) { entry.rating = reviews.rating; entry.pct = reviews.pct; entry.total = reviews.total; }
   if (details.release_date) entry.release_date = details.release_date;

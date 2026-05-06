@@ -130,6 +130,11 @@ export function HideBadge({ hidden, onToggle }: { hidden: boolean; onToggle: () 
   );
 }
 
+export function OwnedBadge({ owned }: { owned: boolean }) {
+  if (!owned) return <span className="empty">—</span>;
+  return <span className="badge byes">Owned</span>;
+}
+
 export function HltbBadge({ data }: { data?: HltbInfo }) {
   const displayHours = getHltbHours(data);
   if (displayHours === undefined) return <span className="empty">—</span>;

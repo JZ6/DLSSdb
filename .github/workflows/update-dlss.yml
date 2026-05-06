@@ -1,0 +1,59 @@
+name: Update DLSS List
+
+on:
+  schedule:
+    - cron: "36 22 * * 5" # Every Friday ~6:36 PM ET (10:36 PM UTC)
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Update DLSS games list from NVIDIA
+        run: node scripts/update.js --dlss
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "date=$(date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="update-dlss-${{ steps.changes.outputs.date }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add public/dlss-rt-games-apps-overrides.json public/game_data.json
+          git commit -m "Update DLSS games list from NVIDIA"
+          git push -u origin "$BRANCH"
+
+          ADDED=$(git diff main -- public/game_data.json | grep -c '^\+.*": {}' || true)
+          gh pr create \
+            --title "Update DLSS games list (${{ steps.changes.outputs.date }})" \
+            --body "Weekly automated update of the NVIDIA DLSS/RT games list.
+
+          ${ADDED:+**$ADDED new game(s) added.**}
+
+          - Source: [NVIDIA DLSS/RT JSON](https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/nvidia-rtx-games-engines-apps/dlss-rt-games-apps-overrides.json)
+          - New games get empty entries in \`game_data.json\` — run \`node scripts/update.js\` locally to fetch Steam/HLTB/Metacritic data for them."

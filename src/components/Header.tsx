@@ -6,9 +6,11 @@ interface Props {
   visibleCols?: Set<SortCol>;
   onToggleCol?: (key: SortCol) => void;
   onClearFilters?: () => void;
+  onImportLibrary?: () => void;
+  ownedCount?: number;
 }
 
-export function Header({ columns, visibleCols, onToggleCol, onClearFilters }: Props) {
+export function Header({ columns, visibleCols, onToggleCol, onClearFilters, onImportLibrary, ownedCount }: Props) {
   const showActions = columns && visibleCols && onToggleCol && onClearFilters;
 
   return (
@@ -20,6 +22,12 @@ export function Header({ columns, visibleCols, onToggleCol, onClearFilters }: Pr
         </div>
         {showActions && (
           <div className="header-actions">
+            {onImportLibrary && (
+              <button type="button" className="btn-clear btn-import-lib" onClick={onImportLibrary}>
+                Import Library
+                {ownedCount ? <span className="col-badge">{ownedCount}</span> : null}
+              </button>
+            )}
             <ColumnToggle columns={columns} visible={visibleCols} onToggle={onToggleCol} />
             <button type="button" className="btn-clear" onClick={onClearFilters}>
               Clear Filters

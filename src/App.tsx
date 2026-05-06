@@ -4,14 +4,24 @@ import { useFilters } from "./hooks/useFilters";
 import { Header } from "./components/Header";
 import { StatsBar } from "./components/StatsBar";
 import { GameTable, COLUMNS } from "./components/GameTable";
+import { ImportModal } from "./components/ImportModal";
 import type { SortCol } from "./types";
 
 const LS_COLS = "dlssdb-columns";
 const LS_HIDDEN = "dlssdb-hidden";
+const LS_OWNED = "dlssdb-owned";
 
 function loadHidden(): Set<string> {
   try {
     const saved = localStorage.getItem(LS_HIDDEN);
+    if (saved) return new Set(JSON.parse(saved));
+  } catch { /* ignore */ }
+  return new Set();
+}
+
+function loadOwned(): Set<string> {
+  try {
+    const saved = localStorage.getItem(LS_OWNED);
     if (saved) return new Set(JSON.parse(saved));
   } catch { /* ignore */ }
   return new Set();
@@ -31,8 +41,10 @@ function getDefaultCols(): Set<SortCol> {
 export default function App() {
   const { games, hltb, steam, metacritic, upscaling, images, loading, error } = useGameData();
   const [hiddenGames, setHiddenGames] = useState<Set<string>>(loadHidden);
+  const [ownedGames, setOwnedGames] = useState<Set<string>>(loadOwned);
+  const [showImport, setShowImport] = useState(false);
   const { filtered, filters, filterCounts, setFilter, clearFilters, sortCol, sortDir, toggleSort } =
-    useFilters(games, hltb, steam, metacritic, upscaling, hiddenGames);
+    useFilters(games, hltb, steam, metacritic, upscaling, hiddenGames, ownedGames);
   const [visibleCols, setVisibleCols] = useState<Set<SortCol>>(getDefaultCols);
 
   useEffect(() => {
@@ -42,6 +54,10 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem(LS_HIDDEN, JSON.stringify([...hiddenGames]));
   }, [hiddenGames]);
+
+  useEffect(() => {
+    localStorage.setItem(LS_OWNED, JSON.stringify([...ownedGames]));
+  }, [ownedGames]);
 
   const toggleHide = useCallback((name: string) => {
     setHiddenGames((prev) => {
@@ -108,6 +124,8 @@ export default function App() {
         visibleCols={visibleCols}
         onToggleCol={toggleCol}
         onClearFilters={clearFilters}
+        onImportLibrary={() => setShowImport(true)}
+        ownedCount={ownedGames.size}
       />
       <GameTable
         games={filtered}
@@ -125,8 +143,21 @@ export default function App() {
         onFilter={setFilter}
         hiddenGames={hiddenGames}
         onToggleHide={toggleHide}
+        ownedGames={ownedGames}
       />
       <StatsBar filtered={filtered} total={games.length} />
+      {showImport && (
+        <ImportModal
+          gameNames={games.map((g) => g.name)}
+          ownedCount={ownedGames.size}
+          onImport={(owned) => {
+            setOwnedGames(owned);
+            if (owned.size > 0) setVisibleCols((prev) => new Set([...prev, "owned" as SortCol]));
+          }}
+          onClear={() => setOwnedGames(new Set())}
+          onClose={() => setShowImport(false)}
+        />
+      )}
     </>
   );
 }

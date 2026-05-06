@@ -15,7 +15,7 @@ const STEAM_ORDER: Record<string, number> = {
   "Very Negative": 0,
 };
 
-const EMPTY_FILTERS: Filters = { search: "", framegen: "", dlssver: "", dlaa: "", sr: "", rr: "", rt: "", upscaling: "", steam: "", metacritic: "", hltb: "", hide: "" };
+const EMPTY_FILTERS: Filters = { search: "", framegen: "", dlssver: "", dlaa: "", sr: "", rr: "", rt: "", upscaling: "", steam: "", metacritic: "", hltb: "", hide: "", owned: "" };
 const LS_FILTERS = "dlssdb-filters";
 const LS_SORT = "dlssdb-sort";
 
@@ -80,6 +80,7 @@ export function useFilters(
   metacritic: Record<string, MetacriticInfo> = {},
   upscaling: Record<string, UpscalingInfo> = {},
   hiddenGames: Set<string> = new Set(),
+  ownedGames: Set<string> = new Set(),
 ) {
   const [filters, setFilters] = useState<Filters>(loadFilters);
   const [sort, setSort] = useState<{ col: SortCol; dir: SortDir }>(loadSort);
@@ -181,12 +182,19 @@ export function useFilters(
       if (!filters.hide && isHidden) return false;
       if (filters.hide === "hidden" && !isHidden) return false;
 
+      // Owned filter
+      if (filters.owned) {
+        const isOwned = ownedGames.has(g.name);
+        if (filters.owned === "owned" && !isOwned) return false;
+        if (filters.owned === "not" && isOwned) return false;
+      }
+
       return true;
     });
 
     result.sort((a, b) => {
-      const av = getSortVal(a, sortCol, hltb, steam, metacritic, upscaling, hiddenGames);
-      const bv = getSortVal(b, sortCol, hltb, steam, metacritic, upscaling, hiddenGames);
+      const av = getSortVal(a, sortCol, hltb, steam, metacritic, upscaling, hiddenGames, ownedGames);
+      const bv = getSortVal(b, sortCol, hltb, steam, metacritic, upscaling, hiddenGames, ownedGames);
       // null values always sort last regardless of direction
       if (av === null && bv === null) return 0;
       if (av === null) return 1;
@@ -196,7 +204,7 @@ export function useFilters(
     });
 
     return result;
-  }, [games, hltb, steam, metacritic, upscaling, hiddenGames, filters, sortCol, sortDir]);
+  }, [games, hltb, steam, metacritic, upscaling, hiddenGames, ownedGames, filters, sortCol, sortDir]);
 
   // Precompute filter option counts from full game list
   const filterCounts = useMemo(() => {
@@ -218,6 +226,8 @@ export function useFilters(
     const mc: Record<string, number> = { "90+": 0, "75+": 0 };
     // Hide
     const hi: Record<string, number> = { hidden: 0, all: 0 };
+    // Owned
+    const ow: Record<string, number> = { owned: 0, not: 0 };
     // HLTB
     const hl: Record<string, number> = { u10: 0, u60: 0, u100: 0, "100+": 0, unk: 0 };
 
@@ -280,13 +290,16 @@ export function useFilters(
 
       if (hiddenGames.has(g.name)) hi.hidden++;
       hi.all++;
+
+      if (ownedGames.has(g.name)) ow.owned++; else ow.not++;
     }
 
     c.framegen = fg; c.dlssver = dv; c.sr = sr; c.rr = rr; c.dlaa = dlaa;
     c.rt = rt; c.upscaling = up; c.steam = st; c.metacritic = mc; c.hltb = hl;
     c.hide = hi;
+    c.owned = ow;
     return c;
-  }, [games, hltb, steam, metacritic, upscaling, hiddenGames]);
+  }, [games, hltb, steam, metacritic, upscaling, hiddenGames, ownedGames]);
 
   return { filtered, filters, filterCounts, setFilter, clearFilters, sortCol, sortDir, toggleSort };
 }
@@ -296,6 +309,7 @@ function getSortVal(
   hltb: Record<string, HltbInfo>, steam: Record<string, SteamInfo>,
   metacritic: Record<string, MetacriticInfo>, upscaling: Record<string, UpscalingInfo>,
   hiddenGames?: Set<string>,
+  ownedGames?: Set<string>,
 ): string | number | null {
   switch (col) {
     case "name":
@@ -330,6 +344,8 @@ function getSortVal(
       return getHltbHours(hltb[g.name]) ?? null;
     case "hide":
       return hiddenGames?.has(g.name) ? 1 : 0;
+    case "owned":
+      return ownedGames?.has(g.name) ? 1 : 0;
     default:
       return "";
   }
