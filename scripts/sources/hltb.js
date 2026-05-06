@@ -28,7 +28,7 @@ const BASE_URL = "https://howlongtobeat.com";
  * HLTB stores times in seconds; we convert to hours rounded to 2 decimals.
  * Returns null if no playtime data at all (only has game_id).
  */
-function parseHltbTimes(g) {
+export function parseHltbTimes(g) {
   const toHours = (s) => Math.round((s / 3600) * 100) / 100;
   const d = { hltb_id: g.game_id };
   if (g.comp_main > 0) d.main = toHours(g.comp_main);       // Main story
@@ -188,7 +188,7 @@ async function fetchGame(name, hltbEntry) {
 }
 
 /** Build an ordered hltb entry object for game_data.json. */
-function buildHltbEntry(data) {
+export function buildHltbEntry(data) {
   const entry = { found: true };
   if (data.hltb_id) entry.hltb_id = data.hltb_id;
   if (data.main) entry.main = data.main;

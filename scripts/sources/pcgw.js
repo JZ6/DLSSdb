@@ -28,7 +28,7 @@ const PCGW_API = "https://www.pcgamingwiki.com/w/api.php";
  * Parse PCGamingWiki Upscaling field string like "DLSS,FSR 3.1,XeSS 2".
  * Returns { fsr_version?, xess_version? } — takes the last (highest) version listed.
  */
-function parseUpscaling(str) {
+export function parseUpscaling(str) {
   if (!str) return {};
   const parts = str.split(",").map((p) => p.trim());
   const fsrParts = parts.filter((p) => p.startsWith("FSR"));
@@ -41,7 +41,7 @@ function parseUpscaling(str) {
 
 
 /** Build an ordered pcgw entry object for game_data.json. */
-function buildPcgwEntry(page, upscaling) {
+export function buildPcgwEntry(page, upscaling) {
   const entry = { found: true, page };
   if (upscaling.fsr_version) entry.fsr_version = upscaling.fsr_version;
   if (upscaling.xess_version) entry.xess_version = upscaling.xess_version;

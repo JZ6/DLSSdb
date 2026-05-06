@@ -20,7 +20,7 @@ import { TODAY, UA, sleep, romanVariations, nameVariations, checkRateLimit } fro
 // ---------------------------------------------------------------------------
 
 /** Convert game name to Metacritic URL slug: "Cyberpunk 2077" → "cyberpunk-2077" */
-function nameToSlug(name) {
+export function nameToSlug(name) {
   let s = name.toLowerCase();
   s = s.replace(/[™®©]/g, "");           // Strip trademark symbols
   s = s.replace(/[':./!,()[\]&+]/g, ""); // Strip punctuation
@@ -31,13 +31,13 @@ function nameToSlug(name) {
 }
 
 /** Extract slug from a Metacritic URL: ".../game/pc/cyberpunk-2077?..." → "cyberpunk-2077" */
-function slugFromUrl(url) {
+export function slugFromUrl(url) {
   const match = url.match(/\/game\/(?:pc\/)?([^/?]+)/);
   return match ? match[1] : null;
 }
 
 /** Generate slug variations with Arabic→Roman numeral conversions for sequels. */
-function slugVariations(slug) {
+export function slugVariations(slug) {
   return romanVariations(slug).map((s) => s.toLowerCase());
 }
 
@@ -89,7 +89,7 @@ async function fetchViaMetacritic(name) {
 }
 
 /** Build an ordered metacritic entry object for game_data.json. */
-function buildMetacriticEntry(data) {
+export function buildMetacriticEntry(data) {
   const entry = { found: true };
   if (data.slug) entry.slug = data.slug;
   if (data.score) entry.score = data.score;

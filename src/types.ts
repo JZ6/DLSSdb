@@ -66,9 +66,10 @@ export interface Filters {
   metacritic: string;
   hltb: string;
   hide: string;
+  owned: string;
 }
 
-export type SortCol = "name" | "framegen" | "dlssver" | "sr" | "rr" | "dlaa" | "rt" | "steam" | "metacritic" | "upscaling" | "hltb" | "hide";
+export type SortCol = "name" | "framegen" | "dlssver" | "sr" | "rr" | "dlaa" | "rt" | "steam" | "metacritic" | "upscaling" | "hltb" | "hide" | "owned";
 export type SortDir = 1 | -1;
 
 /** Returns the average of all available HLTB hours values, or undefined */

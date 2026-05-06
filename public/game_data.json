@@ -1393,9 +1393,9 @@
     "steam": {
       "found": true,
       "appid": 668580,
-      "rating": "Mixed",
-      "pct": 68,
-      "total": 45640,
+      "rating": "Very Positive",
+      "pct": 81,
+      "total": 47477,
       "release_date": "20 Feb, 2023",
       "genres": [
         "Action",
@@ -1403,16 +1403,19 @@
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/2e5b726a510cd940705cba806dd16b7dfccc16d6/capsule_184x69_alt_assets_2.jpg?t=1776355944",
+      "metacritic_score": 76,
       "metacritic_url": "https://www.metacritic.com/game/pc/atomic-heart?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-06"
     },
     "hltb": {
       "found": true,
       "hltb_id": 56297,
       "main": 16.22,
-      "extra": 24.94,
+      "extra": 24.93,
       "complete": 36.5,
-      "updated_at": "2026-05-01"
+      "speed": 9.9,
+      "all_styles": 21.2,
+      "updated_at": "2026-05-06"
     },
     "metacritic": {
       "found": true,
@@ -1420,7 +1423,7 @@
       "score": 76,
       "source": "steam",
       "appid": 668580,
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-06"
     },
     "pcgw": {
       "found": true,
@@ -25879,7 +25882,9 @@
       "updated_at": "2026-05-01"
     },
     "hltb": {
-      "found": false
+      "found": true,
+      "hltb_id": 183125,
+      "updated_at": "2026-05-06"
     },
     "metacritic": {
       "found": true,

@@ -5,8 +5,9 @@ export default defineConfig({
   plugins: [react()],
   base: process.env.CF_PAGES ? '/' : '/DLSSdb/',
   test: {
-    environment: 'jsdom',
+    environment: 'happy-dom',
     globals: true,
+    exclude: ['e2e/**', 'node_modules/**'],
     setupFiles: ['./src/test/setup.ts'],
   },
 })

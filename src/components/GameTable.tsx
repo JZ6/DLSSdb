@@ -1,6 +1,6 @@
 import { memo, useEffect, useRef, useMemo, useState } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo, SortCol, SortDir, Filters } from "../types";
-import { FrameGenBadge, DlssVersionBadge, FeatureBadge, SteamBadge, MetacriticBadge, UpscalingBadge, HltbBadge, HideBadge } from "./Badge";
+import { FrameGenBadge, DlssVersionBadge, FeatureBadge, SteamBadge, MetacriticBadge, UpscalingBadge, HltbBadge, HideBadge, OwnedBadge } from "./Badge";
 
 export interface Column {
   key: SortCol;
@@ -22,6 +22,7 @@ export const COLUMNS: Column[] = [
   { key: "rt",         label: "Ray Tracing",    minWidth: "90px",  tooltip: "Ray Tracing support\nPath Tracing = full path tracing\nYes = partial (reflections, shadows, GI)" },
   { key: "steam",      label: "Steam Rating",   minWidth: "180px", tooltip: "Steam user review rating\nwith positive review percentage" },
   { key: "sr",         label: "Super Res",      minWidth: "70px",  tooltip: "DLSS Super Resolution\nAI upscaling from lower resolution\nNV-T = Transformer model (best)" },
+  { key: "owned",      label: "Owned",          minWidth: "60px",  tooltip: "Games you own\nImport your library via the header button" },
   { key: "hide",       label: "Visibility",     minWidth: "40px",  tooltip: "Toggle game visibility\nHidden games are saved in your browser", icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg> },
 ];
 
@@ -85,6 +86,11 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
     { value: "u100", label: "< 100 h" },
     { value: "100+", label: "> 100 h" },
   ],
+  owned: [
+    { value: "", label: "All" },
+    { value: "owned", label: "Owned" },
+    { value: "not", label: "Not Owned" },
+  ],
   hide: [
     { value: "", label: "Visible" },
     { value: "hidden", label: "Hidden Only" },
@@ -131,9 +137,10 @@ interface Props {
   onFilter: (key: keyof Filters, value: string) => void;
   hiddenGames: Set<string>;
   onToggleHide: (name: string) => void;
+  ownedGames: Set<string>;
 }
 
-export function GameTable({ games, hltb, steam, metacritic, upscaling, images, sortCol, sortDir, onSort, visibleCols, filters, filterCounts, onFilter, hiddenGames, onToggleHide }: Props) {
+export function GameTable({ games, hltb, steam, metacritic, upscaling, images, sortCol, sortDir, onSort, visibleCols, filters, filterCounts, onFilter, hiddenGames, onToggleHide, ownedGames }: Props) {
   const cols = useMemo(
     () => COLUMNS.filter((c) => visibleCols.has(c.key)),
     [visibleCols]
@@ -226,6 +233,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
               cols={cols}
               hidden={hiddenGames.has(g.name)}
               onToggleHide={onToggleHide}
+              owned={ownedGames.has(g.name)}
             />
           ))}
         </tbody>
@@ -235,7 +243,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
   );
 }
 
-const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, image, cols, hidden, onToggleHide }: {
+const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, image, cols, hidden, onToggleHide, owned }: {
   game: DlssGame;
   steam?: SteamInfo;
   hltb?: HltbInfo;
@@ -245,6 +253,7 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
   cols: Column[];
   hidden: boolean;
   onToggleHide: (name: string) => void;
+  owned: boolean;
 }) {
   const data: RowData = { steam, hltb, metacritic, upscaling };
   const [imgErr, setImgErr] = useState(false);
@@ -255,6 +264,13 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
   return (
     <tr className={hidden ? "row-hidden" : ""}>
       {cols.map((col) => {
+        if (col.key === "owned") {
+          return (
+            <td key="owned">
+              <OwnedBadge owned={owned} />
+            </td>
+          );
+        }
         if (col.key === "hide") {
           return (
             <td key="hide">
