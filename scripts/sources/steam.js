@@ -180,7 +180,7 @@ class SteamUpdater extends Updater {
       const revStr = rev ? `${rev.rating} (${rev.pct}%, ${rev.total.toLocaleString()} reviews)` : "no reviews yet";
       console.log(`  ${prefix}${name}: ${revStr} [appid=${result.appid}]`);
     } else {
-      gameData[name].steam = { found: false };
+      gameData[name].steam = { found: false, updated_at: TODAY };
       console.log(`  ${prefix}${name}: not found on Steam`);
     }
     return !!result;

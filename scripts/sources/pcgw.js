@@ -295,7 +295,7 @@ class PcgwUpdater extends Updater {
       const upStr = [result.fsr_version, result.xess_version].filter(Boolean).join(", ") || "no upscaling";
       console.log(`  ${prefix}${name}: ${upStr} [page="${result.page}"]`);
     } else {
-      gameData[name].pcgw = { found: false };
+      gameData[name].pcgw = { found: false, updated_at: TODAY };
       console.log(`  ${prefix}${name}: not found on PCGamingWiki`);
     }
     return !!result;

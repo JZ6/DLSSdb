@@ -33,13 +33,13 @@ function getDefaultCols(): Set<SortCol> {
     if (saved) return new Set(JSON.parse(saved));
   } catch { /* ignore */ }
   const w = window.innerWidth;
-  if (w < 768) return new Set(["name", "framegen", "steam", "hide"]);
+  if (w < 800) return new Set(["name", "framegen", "steam", "hide"]);
   if (w < 1200) return new Set(["name", "dlssver", "framegen", "steam", "hltb", "hide"]);
   return new Set(["name", "dlssver", "framegen", "rt", "steam", "metacritic", "hltb", "hide"]);
 }
 
 export default function App() {
-  const { games, hltb, steam, metacritic, upscaling, images, loading, error } = useGameData();
+  const { games, hltb, steam, metacritic, upscaling, images, loading, error, retry } = useGameData();
   const [hiddenGames, setHiddenGames] = useState<Set<string>>(loadHidden);
   const [ownedGames, setOwnedGames] = useState<Set<string>>(loadOwned);
   const [showImport, setShowImport] = useState(false);
@@ -111,6 +111,7 @@ export default function App() {
           <h2>Failed to load game data</h2>
           <p>Make sure <code>dlss-rt-games-apps-overrides.json</code> is in the <code>public/</code> folder and accessible.</p>
           <p className="error-detail">{error}</p>
+          <button type="button" className="btn-clear" onClick={retry}>Retry</button>
         </div>
         <StatsBar filtered={[]} total={0} />
       </>

@@ -99,10 +99,10 @@ describe("similarity", () => {
     expect(similarity("Cyberpunk 2077", "cyberpunk 2077")).toBeGreaterThan(0.8);
   });
 
-  it("returns moderate score for partially similar strings", () => {
+  it("returns moderate score when one string is a subset of the other", () => {
     const s = similarity("The Witcher 3 Wild Hunt", "The Witcher 3");
-    expect(s).toBeGreaterThan(0.5);
-    expect(s).toBeLessThan(1);
+    expect(s).toBeGreaterThan(0.7);
+    expect(s).toBeLessThan(0.85);
   });
 
   it("returns 0 for empty strings", () => {

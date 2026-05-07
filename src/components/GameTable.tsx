@@ -68,9 +68,9 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
   ],
   steam: [
     { value: "", label: "All" },
-    { value: "op+", label: "Overwhelmingly Positive +" },
+    { value: "op+", label: "Ov. Positive +" },
     { value: "vp+", label: "Very Positive +" },
-    { value: "mp+", label: "Mostly Positive +" },
+    { value: "mp+", label: "M. Positive +" },
     { value: "neg", label: "Negative" },
     { value: "nos", label: "Not On Steam" },
   ],
@@ -92,9 +92,9 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
     { value: "not", label: "Not Owned" },
   ],
   hide: [
-    { value: "", label: "Visible" },
+    { value: "", label: "All" },
+    { value: "visible", label: "Visible" },
     { value: "hidden", label: "Hidden Only" },
-    { value: "all", label: "Show All" },
   ],
 };
 
@@ -179,6 +179,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
                   key={col.key}
                   style={{ minWidth: col.minWidth }}
                   className={sortCol === col.key ? "sorted" : ""}
+                  aria-sort={sortCol === col.key ? (sortDir === 1 ? "ascending" : "descending") : "none"}
                 >
                   <div className="th-label" role="button" tabIndex={0} onClick={() => onSort(col.key)} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onSort(col.key); } }}>
                     <span className="si">
@@ -197,6 +198,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
                     <input
                       className="th-filter-input"
                       type="text"
+                      aria-label="Search games"
                       placeholder={window.innerWidth <= 800 ? "Search..." : "Search games (/) "}
                       value={filters.search}
                       onChange={(e) => onFilter("search", e.target.value)}

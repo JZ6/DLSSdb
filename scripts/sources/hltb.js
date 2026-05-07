@@ -233,7 +233,7 @@ class HltbUpdater extends Updater {
     } else {
       // Preserve hltb_id if we had one — the game page might be temporarily down
       const preserved = hltbEntry.hltb_id ? { hltb_id: hltbEntry.hltb_id } : {};
-      gameData[name].hltb = { found: false, ...preserved };
+      gameData[name].hltb = { found: false, ...preserved, updated_at: TODAY };
       console.log(`  ${prefix}${name}: not found`);
     }
     return !!result;
