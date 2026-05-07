@@ -173,10 +173,10 @@ describe('useFilters', () => {
       expect(result.current.filtered[0].name).toBe('Halo Infinite')
     })
 
-    it('shows all when filter is "all"', () => {
+    it('shows all when filter is empty', () => {
       const hidden = new Set(['Halo Infinite'])
       const { result } = renderHook(() => useFilters(games, hltb, steam, metacritic, upscaling, hidden))
-      act(() => result.current.setFilter('hide', 'all'))
+      act(() => result.current.setFilter('hide', ''))
       expect(result.current.filtered).toHaveLength(4)
     })
   })

@@ -25,6 +25,11 @@ jobs:
       - name: Update DLSS games list from NVIDIA
         run: node scripts/update.js --dlss
 
+      - name: Validate JSON output
+        run: |
+          node -e "JSON.parse(require('fs').readFileSync('public/game_data.json', 'utf8'))"
+          node -e "JSON.parse(require('fs').readFileSync('public/dlss-rt-games-apps-overrides.json', 'utf8'))"
+
       - name: Check for changes
         id: changes
         run: |

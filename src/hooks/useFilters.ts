@@ -15,7 +15,7 @@ const STEAM_ORDER: Record<string, number> = {
   "Very Negative": 0,
 };
 
-const EMPTY_FILTERS: Filters = { search: "", framegen: "", dlssver: "", dlaa: "", sr: "", rr: "", rt: "", upscaling: "", steam: "", metacritic: "", hltb: "", hide: "", owned: "" };
+const EMPTY_FILTERS: Filters = { search: "", framegen: "", dlssver: "", dlaa: "", sr: "", rr: "", rt: "", upscaling: "", steam: "", metacritic: "", hltb: "", hide: "visible", owned: "" };
 const LS_FILTERS = "dlssdb-filters";
 const LS_SORT = "dlssdb-sort";
 
@@ -35,7 +35,7 @@ function filtersFromHash(): Partial<Filters> {
 function filtersToHash(filters: Filters): void {
   const params = new URLSearchParams();
   for (const [k, v] of Object.entries(filters)) {
-    if (v) params.set(k, v);
+    if (v && v !== EMPTY_FILTERS[k as keyof Filters]) params.set(k, v);
   }
   const hash = params.toString();
   const newUrl = hash ? `#${hash}` : window.location.pathname + window.location.search;
@@ -179,7 +179,7 @@ export function useFilters(
 
       // Hide filter: "" (default) = exclude hidden, "hidden" = hidden only, "all" = show everything
       const isHidden = hiddenGames.has(g.name);
-      if (!filters.hide && isHidden) return false;
+      if (filters.hide === "visible" && isHidden) return false;
       if (filters.hide === "hidden" && !isHidden) return false;
 
       // Owned filter

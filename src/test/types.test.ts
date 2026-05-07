@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { getFrameGenLevel, getFrameGenLabel, getHltbHours } from '../types'
+import { getFrameGenLevel, getFrameGenLabel, getHltbHours, getDlssVersion, getDlssVersionOrder } from '../types'
 import type { DlssGame, HltbInfo } from '../types'
 
 const makeGame = (overrides: Partial<DlssGame> = {}): DlssGame => ({
@@ -73,5 +73,47 @@ describe('getHltbHours', () => {
 
   it('returns undefined for fully empty object', () => {
     expect(getHltbHours({})).toBeUndefined()
+  })
+})
+
+describe('getDlssVersion', () => {
+  it('returns 4.5 for MFG 6X', () => {
+    expect(getDlssVersion(makeGame({ 'dlss multi frame generation': 'NV, 6X' }))).toBe('4.5')
+  })
+
+  it('returns 4 for MFG 4X', () => {
+    expect(getDlssVersion(makeGame({ 'dlss multi frame generation': 'NV, 4X' }))).toBe('4')
+  })
+
+  it('returns 3.5 for ray reconstruction', () => {
+    expect(getDlssVersion(makeGame({ 'dlss ray reconstruction': 'Yes' }))).toBe('3.5')
+  })
+
+  it('returns 3 for frame generation', () => {
+    expect(getDlssVersion(makeGame({ 'dlss frame generation': 'Yes' }))).toBe('3')
+  })
+
+  it('returns 2 for super resolution', () => {
+    expect(getDlssVersion(makeGame({ 'dlss super resolution': 'Yes' }))).toBe('2')
+  })
+
+  it('returns 1 for no DLSS features', () => {
+    expect(getDlssVersion(makeGame())).toBe('1')
+  })
+})
+
+describe('getDlssVersionOrder', () => {
+  it('orders versions correctly', () => {
+    const v45 = getDlssVersionOrder(makeGame({ 'dlss multi frame generation': 'NV, 6X' }))
+    const v4 = getDlssVersionOrder(makeGame({ 'dlss multi frame generation': 'NV, 4X' }))
+    const v35 = getDlssVersionOrder(makeGame({ 'dlss ray reconstruction': 'Yes' }))
+    const v3 = getDlssVersionOrder(makeGame({ 'dlss frame generation': 'Yes' }))
+    const v2 = getDlssVersionOrder(makeGame({ 'dlss super resolution': 'Yes' }))
+    const v1 = getDlssVersionOrder(makeGame())
+    expect(v45).toBeGreaterThan(v4)
+    expect(v4).toBeGreaterThan(v35)
+    expect(v35).toBeGreaterThan(v3)
+    expect(v3).toBeGreaterThan(v2)
+    expect(v2).toBeGreaterThan(v1)
   })
 })

@@ -8,6 +8,7 @@
 import { readFileSync, writeFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import * as fuzz from "fuzzball";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 export const ROOT = join(__dirname, "../..");
@@ -146,19 +147,19 @@ export function nameVariations(name) {
 }
 
 /**
- * SequenceMatcher-style similarity score (longest common subsequence ratio).
- * Returns 0–1 where 1 is identical. Used for fuzzy game name matching.
+ * Fuzzy similarity score between two strings (0–1).
+ * Uses fuzzball's token_set_ratio which handles edition suffixes and word reordering.
+ * Guards against substring false positives (e.g. "Tomb Raider" vs "Shadow of the Tomb Raider")
+ * by falling back to ratio() when token_set_ratio gives a perfect score on dissimilar strings.
  */
 export function similarity(a, b) {
   if (!a || !b) return 0;
-  a = a.toLowerCase();
-  b = b.toLowerCase();
-  const m = a.length, n = b.length;
-  const dp = Array.from({ length: m + 1 }, () => new Uint16Array(n + 1));
-  for (let i = 1; i <= m; i++)
-    for (let j = 1; j <= n; j++)
-      dp[i][j] = a[i - 1] === b[j - 1] ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1]);
-  return (2 * dp[m][n]) / (m + n);
+  const tsr = fuzz.token_set_ratio(a, b);
+  if (tsr === 100) {
+    const r = fuzz.ratio(a, b);
+    if (r < 75) return r / 100;
+  }
+  return tsr / 100;
 }
 
 /** Best similarity score across all variation pairs of two game names. */

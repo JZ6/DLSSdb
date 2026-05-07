@@ -150,5 +150,6 @@ describe("HltbUpdater.processOne", () => {
     const result = await hltb.processOne(gameData, "Missing");
     expect(result).toBe(false);
     expect(gameData["Missing"].hltb.found).toBe(false);
+    expect(gameData["Missing"].hltb.hltb_id).toBe(99);
   });
 });

@@ -68,12 +68,14 @@ export function SteamBadge({ info }: { info?: SteamInfo }) {
   if (!info.rating) return <span className="empty">—</span>;
   const cls = STEAM_STYLES[info.rating] ?? "smx";
   const tip = info.total ? `${fmtCount(info.total)} reviews` : undefined;
-  return (
+  const url = info.appid ? `https://store.steampowered.com/app/${info.appid}` : undefined;
+  const inner = (
     <div className="sc">
       <span className={`badge ${cls}`} data-tip={tip} tabIndex={tip ? 0 : undefined}>{info.rating}</span>
       {info.pct !== undefined && <span className="sp">{info.pct}%</span>}
     </div>
   );
+  return url ? <a href={url} target="_blank" rel="noopener noreferrer">{inner}</a> : inner;
 }
 
 export function MetacriticBadge({ info }: { info?: MetacriticInfo }) {
@@ -149,7 +151,7 @@ export function HltbBadge({ data }: { data?: HltbInfo }) {
   ].filter(Boolean).join("\n");
 
   return (
-    <span className="hltb-cell" data-tip={tooltip}>
+    <span className="hltb-cell" data-tip={tooltip} tabIndex={0}>
       <span className="hltb-main" style={{ color: hltbColor(displayHours) }}>{fmt(displayHours)} hours</span>
     </span>
   );

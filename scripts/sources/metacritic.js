@@ -159,7 +159,7 @@ class MetacriticUpdater extends Updater {
     }
 
     // Not found on either source
-    gameData[name].metacritic = { found: false };
+    gameData[name].metacritic = { found: false, updated_at: TODAY };
     console.log(`  ${prefix}${name}: not found`);
     return false;
   }

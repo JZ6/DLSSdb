@@ -19,6 +19,7 @@ interface GameData {
   images: Record<string, string>;
   loading: boolean;
   error: string | null;
+  retry: () => void;
 }
 
 export function useGameData(): GameData {
@@ -30,6 +31,7 @@ export function useGameData(): GameData {
   const [images, setImages] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [retryCount, setRetryCount] = useState(0);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -83,7 +85,9 @@ export function useGameData(): GameData {
       });
 
     return () => controller.abort();
-  }, []);
+  }, [retryCount]);
 
-  return { games, hltb, steam, metacritic, upscaling, images, loading, error };
+  const retry = () => { setError(null); setLoading(true); setRetryCount((c) => c + 1); };
+
+  return { games, hltb, steam, metacritic, upscaling, images, loading, error, retry };
 }
