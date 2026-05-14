@@ -80,6 +80,14 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
     { value: "90+", label: "90+" },
     { value: "75+", label: "75+" },
   ],
+  release_date: [
+    { value: "", label: "All" },
+    { value: "2026", label: "2026" },
+    { value: "2025", label: "2025" },
+    { value: "2024", label: "2024" },
+    { value: "2023", label: "2023" },
+    { value: "old", label: "Before 2023" },
+  ],
   hltb: [
     { value: "", label: "All" },
     { value: "u10", label: "< 10 h" },
@@ -116,7 +124,14 @@ const CELL_RENDERERS: Record<string, CellRenderer> = {
   rr:         (g) => <FeatureBadge value={g["dlss ray reconstruction"] || ""} />,
   dlaa:       (g) => <FeatureBadge value={g.dlaa || ""} />,
   rt:         (g) => <FeatureBadge value={g["ray tracing"] || ""} />,
-  release_date: (_g, d) => <span className={d.steam?.release_date ? "" : "empty"}>{d.steam?.release_date ?? "—"}</span>,
+  release_date: (_g, d) => {
+    const rd = d.steam?.release_date;
+    if (!rd) return <span className="empty">—</span>;
+    const parsed = new Date(rd);
+    const fmt = isNaN(parsed.getTime()) ? rd
+      : `${parsed.getFullYear()}/${String(parsed.getMonth() + 1).padStart(2, "0")}/${String(parsed.getDate()).padStart(2, "0")}`;
+    return <span>{fmt}</span>;
+  },
   upscaling:  (_g, d) => <UpscalingBadge info={d.upscaling} />,
   steam:      (_g, d) => <SteamBadge info={d.steam} />,
   metacritic: (_g, d) => <MetacriticBadge info={d.metacritic} />,

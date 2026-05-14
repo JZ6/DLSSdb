@@ -15,7 +15,7 @@ const STEAM_ORDER: Record<string, number> = {
   "Very Negative": 0,
 };
 
-const EMPTY_FILTERS: Filters = { search: "", framegen: "", dlssver: "", dlaa: "", sr: "", rr: "", rt: "", upscaling: "", steam: "", metacritic: "", hltb: "", hide: "visible", owned: "" };
+const EMPTY_FILTERS: Filters = { search: "", framegen: "", dlssver: "", dlaa: "", sr: "", rr: "", rt: "", upscaling: "", steam: "", metacritic: "", release_date: "", hltb: "", hide: "visible", owned: "" };
 const LS_FILTERS = "dlssdb-filters";
 const LS_SORT = "dlssdb-sort";
 
@@ -155,6 +155,20 @@ export function useFilters(
         }
       }
 
+      // Release date filter
+      if (filters.release_date) {
+        const rd = steam[g.name]?.release_date;
+        if (!rd) return false;
+        const d = new Date(rd);
+        if (isNaN(d.getTime())) return false;
+        const year = d.getFullYear();
+        if (filters.release_date === "2026" && year !== 2026) return false;
+        if (filters.release_date === "2025" && year !== 2025) return false;
+        if (filters.release_date === "2024" && year !== 2024) return false;
+        if (filters.release_date === "2023" && year !== 2023) return false;
+        if (filters.release_date === "old" && year >= 2023) return false;
+      }
+
       // Steam filter
       if (filters.steam) {
         const si = steam[g.name];
@@ -224,6 +238,8 @@ export function useFilters(
     const st: Record<string, number> = { "op+": 0, "vp+": 0, "mp+": 0, neg: 0, unk: 0, nos: 0 };
     // Metacritic
     const mc: Record<string, number> = { "90+": 0, "75+": 0 };
+    // Release date
+    const rd: Record<string, number> = { "2026": 0, "2025": 0, "2024": 0, "2023": 0, old: 0 };
     // Hide
     const hi: Record<string, number> = { hidden: 0, all: 0 };
     // Owned
@@ -280,6 +296,19 @@ export function useFilters(
         if (mScore >= 75) mc["75+"]++;
       }
 
+      const rdVal = steam[g.name]?.release_date;
+      if (rdVal) {
+        const d = new Date(rdVal);
+        if (!isNaN(d.getTime())) {
+          const year = d.getFullYear();
+          if (year === 2026) rd["2026"]++;
+          if (year === 2025) rd["2025"]++;
+          if (year === 2024) rd["2024"]++;
+          if (year === 2023) rd["2023"]++;
+          if (year < 2023) rd.old++;
+        }
+      }
+
       const hours = getHltbHours(hltb[g.name]);
       if (hours !== undefined) {
         if (hours < 10) hl.u10++;
@@ -295,7 +324,7 @@ export function useFilters(
     }
 
     c.framegen = fg; c.dlssver = dv; c.sr = sr; c.rr = rr; c.dlaa = dlaa;
-    c.rt = rt; c.upscaling = up; c.steam = st; c.metacritic = mc; c.hltb = hl;
+    c.rt = rt; c.upscaling = up; c.steam = st; c.metacritic = mc; c.release_date = rd; c.hltb = hl;
     c.hide = hi;
     c.owned = ow;
     return c;

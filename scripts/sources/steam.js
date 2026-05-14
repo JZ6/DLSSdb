@@ -162,8 +162,8 @@ class SteamUpdater extends Updater {
   node scripts/sources/steam.js --refresh <days>         Re-fetch entries older than <days>
   node scripts/sources/steam.js --backfill               Re-fetch games with appid but missing rating`;
 
-  /** Backfill: games that have an appid but no review rating (e.g. search found them but reviews API failed). */
-  backfillFilter(e) { return !e.rating; }
+  /** Backfill: games that have an appid but missing rating or release date. */
+  backfillFilter(e) { return !e.rating || !e.release_date; }
 
   async processOne(gameData, name, prefix = "") {
     const steamEntry = gameData[name].steam || {};

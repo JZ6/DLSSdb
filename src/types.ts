@@ -65,6 +65,7 @@ export interface Filters {
   upscaling: string;
   steam: string;
   metacritic: string;
+  release_date: string;
   hltb: string;
   hide: string;
   owned: string;
