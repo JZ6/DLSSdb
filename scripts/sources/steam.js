@@ -190,7 +190,8 @@ class SteamUpdater extends Updater {
 
     const result = await fetchGame(name, steamEntry);
     if (result) {
-      gameData[name].steam = buildSteamEntry(result.appid, result.reviews, result.details, result.tags);
+      const existing = gameData[name].steam || {};
+      gameData[name].steam = { ...existing, ...buildSteamEntry(result.appid, result.reviews, result.details, result.tags) };
       const rev = result.reviews;
       const revStr = rev ? `${rev.rating} (${rev.pct}%, ${rev.total.toLocaleString()} reviews)` : "no reviews yet";
       console.log(`  ${prefix}${name}: ${revStr} [appid=${result.appid}]`);
