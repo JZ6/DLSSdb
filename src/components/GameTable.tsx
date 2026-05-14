@@ -278,8 +278,6 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
   );
 }
 
-const MAX_VISIBLE_TAGS = 3;
-
 const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, image, cols, hidden, onToggleHide, owned, tagFilter, onTagClick }: {
   game: DlssGame;
   steam?: SteamInfo;
@@ -333,12 +331,10 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
           const tags = steam?.tags;
           if (!tags?.length) return <td key="tags"><span className="empty">—</span></td>;
           const tq = tagFilter.toLowerCase();
-          const visible = tags.slice(0, MAX_VISIBLE_TAGS);
-          const overflow = tags.length - MAX_VISIBLE_TAGS;
           return (
             <td key="tags">
-              <div className="tags-cell">
-                {visible.map((tag) => {
+              <div className="tags-cell" data-tip={tags.join(", ")}>
+                {tags.map((tag) => {
                   const matched = tq && tag.toLowerCase().includes(tq);
                   const dimmed = tq && !matched;
                   return (
@@ -346,11 +342,9 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
                       key={tag}
                       className={`tag-badge${matched ? " tag-match" : ""}${dimmed ? " tag-dim" : ""}`}
                       onClick={() => onTagClick(tagFilter === tag ? "" : tag)}
-                      title={`Filter by "${tag}"`}
                     >{tag}</span>
                   );
                 })}
-                {overflow > 0 && <span className="tag-overflow">+{overflow}</span>}
               </div>
             </td>
           );
