@@ -8,3 +8,15 @@
 .upscaling-badges { display: flex; gap: 4px; justify-content: center; }
 .bfsr  { background: #2a0800; color: #ed1c24; border: 1px solid #6a1a1a; }
 .bxess { background: #002244; color: var(--blue); border: 1px solid #2a5a8a; }
+
+/* Tags */
+.tags-cell { display: flex; flex-wrap: wrap; gap: 3px; max-width: 200px; }
+.tag-badge {
+  font-size: 11px; padding: 1px 5px; border-radius: 3px; cursor: pointer; white-space: nowrap;
+  background: var(--bg3); color: var(--text-dim); border: 1px solid var(--border);
+  transition: all 0.15s;
+}
+.tag-badge:hover { border-color: var(--text-dim); color: var(--text); }
+.tag-match { background: #1a2a00; color: var(--accent); border-color: var(--accent-dim); }
+.tag-dim { opacity: 0.35; }
+.tag-overflow { font-size: 10px; color: var(--text-dim); padding: 1px 3px; align-self: center; }

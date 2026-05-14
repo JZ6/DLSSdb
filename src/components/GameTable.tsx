@@ -127,11 +127,7 @@ const CELL_RENDERERS: Record<string, CellRenderer> = {
   rr:         (g) => <FeatureBadge value={g["dlss ray reconstruction"] || ""} />,
   dlaa:       (g) => <FeatureBadge value={g.dlaa || ""} />,
   rt:         (g) => <FeatureBadge value={g["ray tracing"] || ""} />,
-  tags: (_g, d) => {
-    const tags = d.steam?.tags;
-    if (!tags?.length) return <span className="empty">—</span>;
-    return <span className="tags-cell">{tags.join(", ")}</span>;
-  },
+  // tags rendered inline in GameRow (needs filter context)
   release_date: (_g, d) => {
     const rd = d.steam?.release_date;
     if (!rd) return <span className="empty">—</span>;
@@ -271,6 +267,8 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
               hidden={hiddenGames.has(g.name)}
               onToggleHide={onToggleHide}
               owned={ownedGames.has(g.name)}
+              tagFilter={filters.tags}
+              onTagClick={(tag) => onFilter("tags", tag)}
             />
           ))}
         </tbody>
@@ -280,7 +278,9 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
   );
 }
 
-const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, image, cols, hidden, onToggleHide, owned }: {
+const MAX_VISIBLE_TAGS = 3;
+
+const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, image, cols, hidden, onToggleHide, owned, tagFilter, onTagClick }: {
   game: DlssGame;
   steam?: SteamInfo;
   hltb?: HltbInfo;
@@ -291,6 +291,8 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
   hidden: boolean;
   onToggleHide: (name: string) => void;
   owned: boolean;
+  tagFilter: string;
+  onTagClick: (tag: string) => void;
 }) {
   const data: RowData = { steam, hltb, metacritic, upscaling };
   const [imgErr, setImgErr] = useState(false);
@@ -324,6 +326,32 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
                   : <span className="game-thumb-ph">?</span>}
                 <span className="game-name">{game.name}</span>
               </a>
+            </td>
+          );
+        }
+        if (col.key === "tags") {
+          const tags = steam?.tags;
+          if (!tags?.length) return <td key="tags"><span className="empty">—</span></td>;
+          const tq = tagFilter.toLowerCase();
+          const visible = tags.slice(0, MAX_VISIBLE_TAGS);
+          const overflow = tags.length - MAX_VISIBLE_TAGS;
+          return (
+            <td key="tags">
+              <div className="tags-cell">
+                {visible.map((tag) => {
+                  const matched = tq && tag.toLowerCase().includes(tq);
+                  const dimmed = tq && !matched;
+                  return (
+                    <span
+                      key={tag}
+                      className={`tag-badge${matched ? " tag-match" : ""}${dimmed ? " tag-dim" : ""}`}
+                      onClick={() => onTagClick(tagFilter === tag ? "" : tag)}
+                      title={`Filter by "${tag}"`}
+                    >{tag}</span>
+                  );
+                })}
+                {overflow > 0 && <span className="tag-overflow">+{overflow}</span>}
+              </div>
             </td>
           );
         }
