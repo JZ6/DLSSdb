@@ -132,7 +132,7 @@ const CELL_RENDERERS: Record<string, CellRenderer> = {
     if (!rd) return <span className="empty">—</span>;
     const parsed = new Date(rd);
     const fmt = isNaN(parsed.getTime()) ? rd
-      : `${parsed.getFullYear()}/${String(parsed.getMonth() + 1).padStart(2, "0")}/${String(parsed.getDate()).padStart(2, "0")}`;
+      : `${parsed.getFullYear()} ${parsed.toLocaleDateString("en-US", { month: "short" })} ${parsed.getDate()}`;
     return <span>{fmt}</span>;
   },
   upscaling:  (_g, d) => <UpscalingBadge info={d.upscaling} />,
