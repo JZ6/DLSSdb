@@ -9039,8 +9039,16 @@
   },
   "F1 22": {
     "steam": {
-      "found": false,
-      "updated_at": "2026-05-14"
+      "found": true,
+      "appid": 1692250,
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Racing",
+        "Immersive Sim",
+        "VR",
+        "Sports",
+        "Driving"
+      ]
     },
     "hltb": {
       "found": true,
