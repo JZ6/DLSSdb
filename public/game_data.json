@@ -20179,27 +20179,8 @@
   },
   "PC Building Simulator 2": {
     "steam": {
-      "found": true,
-      "appid": 1944910,
-      "rating": "Mostly Positive",
-      "pct": 71,
-      "total": 306,
-      "release_date": "14 Sep, 2023",
-      "genres": [
-        "Action",
-        "Casual",
-        "Indie",
-        "Sports"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1944910/capsule_184x69.jpg?t=1745977467",
-      "updated_at": "2026-05-14",
-      "tags": [
-        "Action",
-        "Casual",
-        "Sports",
-        "2D Fighter",
-        "Arcade"
-      ]
+      "found": false,
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -23564,29 +23545,8 @@
   },
   "SCP: Secret Files": {
     "steam": {
-      "found": true,
-      "appid": 1978100,
-      "rating": "Very Positive",
-      "pct": 91,
-      "total": 218,
-      "release_date": "10 Oct, 2022",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Racing",
-        "Simulation",
-        "Sports",
-        "Strategy"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978100/capsule_184x69.jpg?t=1701324469",
-      "updated_at": "2026-05-14",
-      "tags": [
-        "Simulation",
-        "Racing",
-        "Strategy",
-        "Casual",
-        "Sports"
-      ]
+      "found": false,
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
