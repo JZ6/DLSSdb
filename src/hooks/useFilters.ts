@@ -15,7 +15,7 @@ const STEAM_ORDER: Record<string, number> = {
   "Very Negative": 0,
 };
 
-const EMPTY_FILTERS: Filters = { search: "", framegen: "", dlssver: "", dlaa: "", sr: "", rr: "", rt: "", upscaling: "", steam: "", metacritic: "", release_date: "", hltb: "", hide: "visible", owned: "" };
+const EMPTY_FILTERS: Filters = { search: "", framegen: "", dlssver: "", dlaa: "", sr: "", rr: "", rt: "", upscaling: "", steam: "", metacritic: "", release_date: "", tags: "", hltb: "", hide: "visible", owned: "" };
 const LS_FILTERS = "dlssdb-filters";
 const LS_SORT = "dlssdb-sort";
 
@@ -153,6 +153,13 @@ export function useFilters(
           if (filters.metacritic === "90+" && mc < 90) return false;
           if (filters.metacritic === "75+" && mc < 75) return false;
         }
+      }
+
+      // Tags filter
+      if (filters.tags) {
+        const tq = filters.tags.toLowerCase();
+        const tags = steam[g.name]?.tags;
+        if (!tags?.some((t) => t.toLowerCase().includes(tq))) return false;
       }
 
       // Release date filter

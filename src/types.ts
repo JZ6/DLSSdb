@@ -67,6 +67,7 @@ export interface Filters {
   steam: string;
   metacritic: string;
   release_date: string;
+  tags: string;
   hltb: string;
   hide: string;
   owned: string;

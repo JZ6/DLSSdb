@@ -140,8 +140,12 @@ describe("SteamUpdater.backfillFilter", () => {
     expect(steam.backfillFilter({ found: true, appid: 123 })).toBe(true);
   });
 
-  it("returns false when rating present", () => {
-    expect(steam.backfillFilter({ found: true, appid: 123, rating: "Very Positive" })).toBe(false);
+  it("returns false when rating, release_date, and tags present", () => {
+    expect(steam.backfillFilter({ found: true, appid: 123, rating: "Very Positive", release_date: "1 Jan, 2024", tags: ["Action"] })).toBe(false);
+  });
+
+  it("returns true when tags missing", () => {
+    expect(steam.backfillFilter({ found: true, appid: 123, rating: "Very Positive", release_date: "1 Jan, 2024" })).toBe(true);
   });
 });
 
