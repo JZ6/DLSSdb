@@ -331,20 +331,29 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
           const tags = steam?.tags;
           if (!tags?.length) return <td key="tags"><span className="empty">—</span></td>;
           const tq = tagFilter.toLowerCase();
+          const visible = tags.slice(0, 3);
+          const rest = tags.slice(3);
+          const badge = (tag: string) => {
+            const matched = tq && tag.toLowerCase().includes(tq);
+            const dimmed = tq && !matched;
+            return (
+              <span
+                key={tag}
+                className={`tag-badge${matched ? " tag-match" : ""}${dimmed ? " tag-dim" : ""}`}
+                onClick={() => onTagClick(tagFilter === tag ? "" : tag)}
+              >{tag}</span>
+            );
+          };
           return (
             <td key="tags">
-              <div className="tags-cell" data-tip={tags.join(", ")}>
-                {tags.map((tag) => {
-                  const matched = tq && tag.toLowerCase().includes(tq);
-                  const dimmed = tq && !matched;
-                  return (
-                    <span
-                      key={tag}
-                      className={`tag-badge${matched ? " tag-match" : ""}${dimmed ? " tag-dim" : ""}`}
-                      onClick={() => onTagClick(tagFilter === tag ? "" : tag)}
-                    >{tag}</span>
-                  );
-                })}
+              <div className="tags-cell">
+                {visible.map(badge)}
+                {rest.length > 0 && (
+                  <span className="tag-more">
+                    +{rest.length}
+                    <span className="tag-more-list">{rest.map(badge)}</span>
+                  </span>
+                )}
               </div>
             </td>
           );

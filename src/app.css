@@ -10,7 +10,7 @@
 .bxess { background: #002244; color: var(--blue); border: 1px solid #2a5a8a; }
 
 /* Tags */
-.tags-cell { display: flex; flex-wrap: wrap; gap: 3px; max-width: 200px; max-height: 21px; overflow: hidden; }
+.tags-cell { display: flex; flex-wrap: nowrap; gap: 3px; max-width: 200px; align-items: center; }
 .tag-badge {
   font-size: 11px; padding: 1px 5px; border-radius: 3px; cursor: pointer; white-space: nowrap;
   background: var(--bg3); color: var(--text-dim); border: 1px solid var(--border);
@@ -19,4 +19,11 @@
 .tag-badge:hover { border-color: var(--text-dim); color: var(--text); }
 .tag-match { background: #1a2a00; color: var(--accent); border-color: var(--accent-dim); }
 .tag-dim { opacity: 0.35; }
-.tag-overflow { font-size: 10px; color: var(--text-dim); padding: 1px 3px; align-self: center; }
+.tag-more { position: relative; font-size: 10px; color: var(--text-dim); padding: 1px 4px; cursor: default; white-space: nowrap; }
+.tag-more-list {
+  display: none; position: absolute; bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%);
+  background: var(--bg3); border: 1px solid var(--border); border-radius: 5px;
+  padding: 6px 8px; z-index: var(--z-tooltip); box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  flex-wrap: wrap; gap: 3px; width: max-content; max-width: 250px;
+}
+.tag-more:hover .tag-more-list { display: flex; }
