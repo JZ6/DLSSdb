@@ -3,7 +3,7 @@ import type { DlssGame, DlssData, HltbInfo, SteamInfo, SteamRating, MetacriticIn
 
 // Raw shape of each entry in game_data.json
 interface GameDataEntry {
-  steam?:      { found?: boolean; appid?: number; rating?: SteamRating; pct?: number; total?: number; image?: string; release_date?: string };
+  steam?:      { found?: boolean; appid?: number; rating?: SteamRating; pct?: number; total?: number; image?: string; release_date?: string; tags?: string[] };
   hltb?:       { found?: boolean; hltb_id?: number; main?: number; extra?: number; complete?: number; coop?: number; pvp?: number; speed?: number; all_styles?: number };
   metacritic?: { found?: boolean; score?: number };
   pcgw?:       { found?: boolean; fsr_version?: string; xess_version?: string };

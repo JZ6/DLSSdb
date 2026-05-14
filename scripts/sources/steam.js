@@ -118,6 +118,18 @@ async function fetchDetails(appid) {
   return result;
 }
 
+/** Fetch top community tags from SteamSpy. Returns string[] or empty array. */
+async function fetchTags(appid) {
+  try {
+    const url = `https://steamspy.com/api.php?request=appdetails&appid=${appid}`;
+    const resp = await fetch(url, { headers: { "User-Agent": UA } });
+    if (!resp.ok) return [];
+    const json = await resp.json();
+    if (!json?.tags || typeof json.tags !== "object") return [];
+    return Object.keys(json.tags).slice(0, 5);
+  } catch { return []; }
+}
+
 /**
  * Fetch all Steam data for a game.
  * If we already have an appid (from a previous run), skip the search.
@@ -129,13 +141,14 @@ async function fetchGame(name, steamEntry) {
     appid = await searchByName(name);
     if (!appid) return null;
   }
-  const reviews = await fetchReviews(appid);
-  const details = await fetchDetails(appid);
-  return { appid, reviews, details };
+  const [reviews, details, tags] = await Promise.all([
+    fetchReviews(appid), fetchDetails(appid), fetchTags(appid),
+  ]);
+  return { appid, reviews, details, tags };
 }
 
 /** Build an ordered steam entry object for game_data.json. */
-export function buildSteamEntry(appid, reviews, details) {
+export function buildSteamEntry(appid, reviews, details, tags) {
   const entry = { found: true, appid };
   if (reviews) { entry.rating = reviews.rating; entry.pct = reviews.pct; entry.total = reviews.total; }
   if (details.release_date) entry.release_date = details.release_date;
@@ -143,6 +156,7 @@ export function buildSteamEntry(appid, reviews, details) {
   if (details.image) entry.image = details.image;
   if (details.metacritic_score) entry.metacritic_score = details.metacritic_score;
   if (details.metacritic_url) entry.metacritic_url = details.metacritic_url;
+  if (tags?.length) entry.tags = tags;
   entry.updated_at = TODAY;
   return entry;
 }
@@ -163,8 +177,8 @@ class SteamUpdater extends Updater {
   node scripts/sources/steam.js --refresh <days>         Re-fetch entries older than <days>
   node scripts/sources/steam.js --backfill               Re-fetch games with appid but missing rating`;
 
-  /** Backfill: games that have an appid but missing rating or release date. */
-  backfillFilter(e) { return !e.rating || !e.release_date; }
+  /** Backfill: games that have an appid but missing rating, release date, or tags. */
+  backfillFilter(e) { return !e.rating || !e.release_date || !e.tags; }
 
   async processOne(gameData, name, prefix = "") {
     const steamEntry = gameData[name].steam || {};
@@ -176,7 +190,7 @@ class SteamUpdater extends Updater {
 
     const result = await fetchGame(name, steamEntry);
     if (result) {
-      gameData[name].steam = buildSteamEntry(result.appid, result.reviews, result.details);
+      gameData[name].steam = buildSteamEntry(result.appid, result.reviews, result.details, result.tags);
       const rev = result.reviews;
       const revStr = rev ? `${rev.rating} (${rev.pct}%, ${rev.total.toLocaleString()} reviews)` : "no reviews yet";
       console.log(`  ${prefix}${name}: ${revStr} [appid=${result.appid}]`);

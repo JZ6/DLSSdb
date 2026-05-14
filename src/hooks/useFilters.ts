@@ -381,6 +381,8 @@ function getSortVal(
       const d = new Date(rd);
       return isNaN(d.getTime()) ? null : d.getTime();
     }
+    case "tags":
+      return steam[g.name]?.tags?.[0] ?? null;
     default:
       return "";
   }

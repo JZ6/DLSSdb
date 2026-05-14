@@ -26,6 +26,7 @@ export const COLUMNS: Column[] = [
   { key: "release_date",  label: "Release",      minWidth: "90px",  tooltip: "Steam release date" },
   { key: "steam",         label: "Steam Rating", minWidth: "180px", tooltip: "Steam user review rating\nwith positive review percentage" },
   { key: "sr",            label: "Super Res",    minWidth: "70px",  tooltip: "DLSS Super Resolution\nAI upscaling from lower resolution\nNV-T = Transformer model (best)" },
+  { key: "tags",          label: "Tags",         minWidth: "120px", tooltip: "Steam community tags" },
   { key: "owned",         label: "Owned",        minWidth: "60px",  tooltip: "Games you own\nImport your library via the header button" },
   { key: "hide",          label: "Visibility",   minWidth: "40px",  tooltip: "Toggle game visibility\nHidden games are saved in your browser", icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg> },
 ];
@@ -127,6 +128,11 @@ const CELL_RENDERERS: Record<string, CellRenderer> = {
   rr:         (g) => <FeatureBadge value={g["dlss ray reconstruction"] || ""} />,
   dlaa:       (g) => <FeatureBadge value={g.dlaa || ""} />,
   rt:         (g) => <FeatureBadge value={g["ray tracing"] || ""} />,
+  tags: (_g, d) => {
+    const tags = d.steam?.tags;
+    if (!tags?.length) return <span className="empty">—</span>;
+    return <span className="tags-cell">{tags.join(", ")}</span>;
+  },
   release_date: (_g, d) => {
     const rd = d.steam?.release_date;
     if (!rd) return <span className="empty">—</span>;
