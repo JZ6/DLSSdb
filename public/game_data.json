@@ -23545,8 +23545,25 @@
   },
   "SCP: Secret Files": {
     "steam": {
-      "found": false,
-      "updated_at": "2026-05-14"
+      "found": true,
+      "appid": 1718130,
+      "updated_at": "2026-05-14",
+      "rating": "Very Positive",
+      "pct": 88,
+      "total": 5055,
+      "release_date": "13 Sep, 2022",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1718130/capsule_184x69.jpg?t=1769406056",
+      "tags": [
+        "Adventure",
+        "Story Rich",
+        "Psychological Horror",
+        "Atmospheric",
+        "Mystery"
+      ]
     },
     "hltb": {
       "found": true,
