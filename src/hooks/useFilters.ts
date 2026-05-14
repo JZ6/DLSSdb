@@ -346,6 +346,12 @@ function getSortVal(
       return hiddenGames?.has(g.name) ? 1 : 0;
     case "owned":
       return ownedGames?.has(g.name) ? 1 : 0;
+    case "release_date": {
+      const rd = steam[g.name]?.release_date;
+      if (!rd) return null;
+      const d = new Date(rd);
+      return isNaN(d.getTime()) ? null : d.getTime();
+    }
     default:
       return "";
   }

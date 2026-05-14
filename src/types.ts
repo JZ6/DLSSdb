@@ -21,6 +21,7 @@ export interface SteamInfo {
   total?: number;
   appid?: number;
   image?: string;
+  release_date?: string;
 }
 
 export interface HltbInfo {
@@ -69,7 +70,7 @@ export interface Filters {
   owned: string;
 }
 
-export type SortCol = "name" | "framegen" | "dlssver" | "sr" | "rr" | "dlaa" | "rt" | "steam" | "metacritic" | "upscaling" | "hltb" | "hide" | "owned";
+export type SortCol = "name" | "framegen" | "dlssver" | "sr" | "rr" | "dlaa" | "rt" | "steam" | "metacritic" | "upscaling" | "hltb" | "hide" | "owned" | "release_date";
 export type SortDir = 1 | -1;
 
 /** Returns the average of all available HLTB hours values, or undefined */
