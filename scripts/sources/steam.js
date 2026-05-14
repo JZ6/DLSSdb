@@ -168,7 +168,8 @@ export function buildSteamEntry(appid, reviews, details, tags) {
 class SteamUpdater extends Updater {
   sourceKey = "steam";
   label = "Steam";
-  batchDelay = 60;
+  batchSize = 3;
+  batchDelay = 1500;
   helpText = `Usage:
   node scripts/sources/steam.js                          Update all unchecked games
   node scripts/sources/steam.js --limit <n>              Update n unchecked games
