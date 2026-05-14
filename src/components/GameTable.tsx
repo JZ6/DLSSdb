@@ -23,7 +23,7 @@ export const COLUMNS: Column[] = [
   { key: "hltb",          label: "Playtime",     minWidth: "70px",  tooltip: "Average playtime from HowLongToBeat\n(Main Story + Extras + Completionist)\nHover a value for full breakdown" },
   { key: "rr",            label: "Ray Recon",    minWidth: "80px",  tooltip: "DLSS Ray Reconstruction\nAI-enhanced ray tracing denoiser\nfor cleaner reflections and lighting" },
   { key: "rt",            label: "Ray Tracing",  minWidth: "90px",  tooltip: "Ray Tracing support\nPath Tracing = full path tracing\nYes = partial (reflections, shadows, GI)" },
-  { key: "release_date",  label: "Release",      minWidth: "90px",  tooltip: "Steam release date" },
+  { key: "release_date",  label: "Release Date",  minWidth: "90px",  tooltip: "Steam release date" },
   { key: "steam",         label: "Steam Rating", minWidth: "180px", tooltip: "Steam user review rating\nwith positive review percentage" },
   { key: "sr",            label: "Super Res",    minWidth: "70px",  tooltip: "DLSS Super Resolution\nAI upscaling from lower resolution\nNV-T = Transformer model (best)" },
   { key: "tags",          label: "Tags",         minWidth: "120px", tooltip: "Steam community tags" },
