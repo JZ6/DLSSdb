@@ -47,7 +47,7 @@
       "appid": 1059220,
       "rating": "Mixed",
       "pct": 68,
-      "total": 808,
+      "total": 900,
       "release_date": "23 Apr, 2026",
       "genres": [
         "Action",
@@ -57,7 +57,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1059220/de4d1ea9256f9f8b13ea54f5d21d9f05290c215f/capsule_184x69.jpg?t=1777472253",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -255,13 +255,13 @@
       "appid": 2695430,
       "rating": "Very Positive",
       "pct": 84,
-      "total": 1236,
+      "total": 1254,
       "release_date": "25 Nov, 2025",
       "genres": [
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2695430/capsule_184x69.jpg?t=1774544326",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -652,14 +652,14 @@
       "found": true,
       "appid": 3655390,
       "rating": "Mostly Positive",
-      "pct": 75,
-      "total": 826,
+      "pct": 74,
+      "total": 862,
       "release_date": "30 Sep, 2025",
       "genres": [
         "Action"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3655390/308a4947264bdaaeb951a7811418fdb934220c58/capsule_184x69.jpg?t=1765587611",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -891,15 +891,16 @@
       "appid": 3274580,
       "rating": "Mixed",
       "pct": 70,
-      "total": 11441,
+      "total": 11819,
       "release_date": "12 Nov, 2025",
       "genres": [
         "Simulation",
         "Strategy"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3274580/2a50b884fd1739a68165fc41af8130197f6c57a4/capsule_184x69.jpg?t=1774275135",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3274580/1d3d81abd9955392d1a265ea494e4ae7e2f3b25b/capsule_184x69_alt_assets_3.jpg?t=1777890311",
       "metacritic_url": "https://www.metacritic.com/game/pc/anno-117-pax-romana?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 84
     },
     "hltb": {
       "found": true,
@@ -931,14 +932,14 @@
       "appid": 2656490,
       "rating": "Very Positive",
       "pct": 91,
-      "total": 148,
+      "total": 153,
       "release_date": "4 Feb, 2026",
       "genres": [
         "Indie",
         "Strategy"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2656490/25f2035a66c92957773f2b3248c6e3d4986f87f8/capsule_184x69.jpg?t=1772534951",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2656490/54dd17a3547d5359af2f72b07b54fecb37662f52/capsule_184x69_alt_assets_2.jpg?t=1777863684",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -964,15 +965,15 @@
       "found": true,
       "appid": 1966410,
       "rating": "Mixed",
-      "pct": 65,
-      "total": 97,
+      "pct": 64,
+      "total": 224,
       "release_date": "28 Apr, 2026",
       "genres": [
         "Action",
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966410/cfccbb378f9824977fad88b01ea43c174f4c0b92/capsule_184x69.jpg?t=1777362540",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -1039,14 +1040,14 @@
       "found": true,
       "appid": 1808500,
       "rating": "Very Positive",
-      "pct": 86,
-      "total": 382165,
+      "pct": 84,
+      "total": 393081,
       "release_date": "30 Oct, 2025",
       "genres": [
         "Action"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/542a243d39bd7ed791359be9e96c82f419b81475/capsule_184x69.jpg?t=1772007651",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/542a243d39bd7ed791359be9e96c82f419b81475/capsule_184x69.jpg?t=1776865359",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -1122,8 +1123,8 @@
       "found": true,
       "appid": 2073620,
       "rating": "Mostly Positive",
-      "pct": 75,
-      "total": 51410,
+      "pct": 74,
+      "total": 54727,
       "release_date": "15 Sep, 2025",
       "genres": [
         "Action",
@@ -1133,8 +1134,8 @@
         "Strategy",
         "Free To Play"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073620/da6b1ccb801074fea2fb7992482e57748178d29a/capsule_184x69.jpg?t=1775129982",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073620/6f34ad8408e4dc931c6d75f1e51151ac120e425a/capsule_184x69.jpg?t=1777360456",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -1279,7 +1280,7 @@
       "appid": 4124950,
       "rating": "Mostly Negative",
       "pct": 34,
-      "total": 18770,
+      "total": 18881,
       "release_date": "11 Dec, 2025",
       "genres": [
         "Action",
@@ -1291,7 +1292,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4124950/15b0b2039ac5e6b82ffe9941d57b13e4bdb8ae4d/capsule_184x69.jpg?t=1773949146",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -1358,16 +1359,16 @@
       "found": true,
       "appid": 3159330,
       "rating": "Mostly Positive",
-      "pct": 74,
-      "total": 35939,
-      "release_date": "19 Mar, 2025",
+      "pct": 76,
+      "total": 36386,
+      "release_date": "Mar 19, 2025",
       "genres": [
         "Action",
         "Adventure",
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/fe6c8f40f405c8bb3a05788d1316ebd8e3c31b6a/capsule_184x69.jpg?t=1775589420",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -1488,14 +1489,14 @@
       "appid": 3917090,
       "rating": "Very Positive",
       "pct": 88,
-      "total": 8681,
+      "total": 9251,
       "release_date": "13 Nov, 2025",
       "genres": [
         "Racing",
         "Early Access"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917090/f8cc9f26dfbae25623b43951ecd6305da20e8ef2/capsule_184x69.jpg?t=1772115772",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917090/b506bc8de0bf91e3b79c6cdbe57539e9dfb59c9a/capsule_184x69_alt_assets_4.jpg?t=1777539477",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -2282,15 +2283,16 @@
       "found": true,
       "appid": 2807960,
       "rating": "Mixed",
-      "pct": 66,
-      "total": 333808,
+      "pct": 65,
+      "total": 339332,
       "release_date": "10 Oct, 2025",
       "genres": [
         "Action"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2807960/d7ae078e0a543a97ff5a5d72165999535b0b1cdc/capsule_184x69.jpg?t=1776359117",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2807960/d7ae078e0a543a97ff5a5d72165999535b0b1cdc/capsule_184x69.jpg?t=1778612637",
       "metacritic_url": "https://www.metacritic.com/game/pc/battlefield-6?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 82
     },
     "hltb": {
       "found": true,
@@ -2707,12 +2709,12 @@
     "steam": {
       "found": true,
       "appid": 2091020,
-      "release_date": "May 14, 2026",
+      "release_date": "14 May, 2026",
       "genres": [
         "Action",
         "Adventure"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2091020/9434ece4a406d804a5f945994a4048e76bf9d0cd/capsule_184x69.jpg?t=1778769998",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2091020/9434ece4a406d804a5f945994a4048e76bf9d0cd/capsule_184x69.jpg?t=1778774833",
       "updated_at": "2026-05-14"
     },
     "hltb": {
@@ -2951,16 +2953,17 @@
       "appid": 1285190,
       "rating": "Mixed",
       "pct": 59,
-      "total": 78073,
-      "release_date": "Sep 11, 2025",
+      "total": 78825,
+      "release_date": "11 Sep, 2025",
       "genres": [
         "Action",
         "Adventure",
         "RPG"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1285190/e6349d8b7c646953bc70f87ed484b3be2bdebd4f/capsule_184x69_alt_assets_1.jpg?t=1776357461",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1285190/7f4b1a9cbe01d19fdcbf10ef5dce492098ef0ba8/capsule_184x69.jpg?t=1778543046",
       "metacritic_url": "https://www.metacritic.com/game/pc/borderlands-4?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 81
     },
     "hltb": {
       "found": true,
@@ -3036,8 +3039,8 @@
       "found": true,
       "appid": 2199420,
       "rating": "Very Positive",
-      "pct": 87,
-      "total": 1247,
+      "pct": 81,
+      "total": 1290,
       "release_date": "11 Jul, 2025",
       "genres": [
         "Action",
@@ -3047,7 +3050,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2199420/b2b1134b326a2c7122745ddca08ce0cadd46abcc/capsule_184x69.jpg?t=1765565621",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -3252,7 +3255,7 @@
       "appid": 3702930,
       "rating": "Mixed",
       "pct": 63,
-      "total": 364,
+      "total": 378,
       "release_date": "30 Jul, 2025",
       "genres": [
         "Action",
@@ -3262,7 +3265,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3702930/063b0df705b468c2fea16b1d9bd82c7cf14a43bf/capsule_184x69.jpg?t=1772211416",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": false
@@ -3282,14 +3285,14 @@
       "found": true,
       "appid": 2095420,
       "rating": "Mostly Positive",
-      "pct": 76,
-      "total": 267,
-      "release_date": "Apr 30, 2026",
+      "pct": 74,
+      "total": 617,
+      "release_date": "30 Apr, 2026",
       "genres": [
         "Simulation"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2095420/97866de3ef8943b26e713eddf58d2cbc3fed6b7d/capsule_184x69.jpg?t=1777667967",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -3395,13 +3398,13 @@
       "appid": 3606480,
       "rating": "Mostly Negative",
       "pct": 39,
-      "total": 4055,
+      "total": 4246,
       "release_date": "13 Nov, 2025",
       "genres": [
         "Action"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3606480/e265efebec95c52bb0c662532a51b6bdf45ccd37/capsule_184x69.jpg?t=1775145884",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3606480/e265efebec95c52bb0c662532a51b6bdf45ccd37/capsule_184x69.jpg?t=1776875198",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -3510,15 +3513,15 @@
     "steam": {
       "found": true,
       "appid": 3595230,
-      "rating": "Mostly Negative",
+      "rating": "Mixed",
       "pct": 40,
-      "total": 13160,
+      "total": 13558,
       "release_date": "22 Oct, 2022",
       "genres": [
         "Action"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595230/054c163a183d9958c4d9eb9a08517ee2b4992ff3/capsule_184x69.jpg?t=1764711899",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595230/054c163a183d9958c4d9eb9a08517ee2b4992ff3/capsule_184x69.jpg?t=1776875685",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -3549,13 +3552,13 @@
       "appid": 3595270,
       "rating": "Mixed",
       "pct": 42,
-      "total": 17689,
+      "total": 18088,
       "release_date": "10 Nov, 2023",
       "genres": [
         "Action"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595270/05b8f73493348dfa9b6662dc13a6740929ea195b/capsule_184x69.jpg?t=1764711750",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595270/05b8f73493348dfa9b6662dc13a6740929ea195b/capsule_184x69.jpg?t=1776875582",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -3629,14 +3632,14 @@
       "appid": 1962663,
       "rating": "Mostly Negative",
       "pct": 31,
-      "total": 49632,
+      "total": 49908,
       "release_date": "16 Nov, 2022",
       "genres": [
         "Action",
         "Free To Play"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962663/d7a8b3e9a239f79f28a88bfa70aa51943597e0f7/capsule_184x69_alt_assets_17.jpg?t=1775145880",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962663/d7a8b3e9a239f79f28a88bfa70aa51943597e0f7/capsule_184x69_alt_assets_17.jpg?t=1776875850",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -3663,14 +3666,14 @@
       "appid": 1962663,
       "rating": "Mostly Negative",
       "pct": 31,
-      "total": 49632,
+      "total": 49908,
       "release_date": "16 Nov, 2022",
       "genres": [
         "Action",
         "Free To Play"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962663/d7a8b3e9a239f79f28a88bfa70aa51943597e0f7/capsule_184x69_alt_assets_17.jpg?t=1775145880",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962663/d7a8b3e9a239f79f28a88bfa70aa51943597e0f7/capsule_184x69_alt_assets_17.jpg?t=1776875850",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -3738,7 +3741,7 @@
       "appid": 3115010,
       "rating": "Very Positive",
       "pct": 80,
-      "total": 1556,
+      "total": 1586,
       "release_date": "23 Jan, 2025",
       "genres": [
         "Casual",
@@ -3748,7 +3751,7 @@
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115010/7d9a6049a0b64e23e363ee9c40f0e5edd042f5e3/capsule_184x69.jpg?t=1748944884",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -3773,15 +3776,15 @@
       "found": true,
       "appid": 1712100,
       "rating": "Mixed",
-      "pct": 63,
-      "total": 747,
+      "pct": 64,
+      "total": 758,
       "release_date": "6 Feb, 2026",
       "genres": [
         "Action",
         "Racing"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1712100/3dcbcb1ed756705dd1fd31511606ac6c43949710/capsule_184x69.jpg?t=1773931844",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -4042,14 +4045,14 @@
       "appid": 1332430,
       "rating": "Very Positive",
       "pct": 90,
-      "total": 124,
+      "total": 129,
       "release_date": "26 Aug, 2025",
       "genres": [
         "Action",
         "Strategy"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332430/b6cd825c0fde964d61aacf39c1a1f9c96a2c3171/capsule_184x69.jpg?t=1776355487",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332430/b6cd825c0fde964d61aacf39c1a1f9c96a2c3171/capsule_184x69.jpg?t=1776439362",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -4446,15 +4449,15 @@
       "found": true,
       "appid": 2362060,
       "rating": "Mixed",
-      "pct": 63,
-      "total": 6105,
+      "pct": 64,
+      "total": 6292,
       "release_date": "29 Jan, 2026",
       "genres": [
         "Action",
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362060/6d3b367ffaa2fb432f891978e18248466972c0b6/capsule_184x69.jpg?t=1770242240",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -4579,7 +4582,7 @@
       "appid": 835570,
       "rating": "Mixed",
       "pct": 67,
-      "total": 37806,
+      "total": 38013,
       "release_date": "5 Apr, 2020",
       "genres": [
         "Action",
@@ -4589,7 +4592,7 @@
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/835570/ac2c2fe9a23f8abd005321ea617eb1d67385e874/capsule_184x69.jpg?t=1774524137",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -4703,15 +4706,15 @@
       "found": true,
       "appid": 3321460,
       "rating": "Very Positive",
-      "pct": 82,
-      "total": 131985,
+      "pct": 84,
+      "total": 151107,
       "release_date": "19 Mar, 2026",
       "genres": [
         "Action",
         "Adventure"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/f4b3cbf1c0759e0f18cbc0bf13cdefa02451c95b/capsule_184x69.jpg?t=1776322395",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/f4b3cbf1c0759e0f18cbc0bf13cdefa02451c95b/capsule_184x69.jpg?t=1777016399",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -4741,14 +4744,14 @@
       "found": true,
       "appid": 2101960,
       "rating": "Very Positive",
-      "pct": 82,
-      "total": 9966,
+      "pct": 88,
+      "total": 10308,
       "release_date": "5 Sep, 2025",
       "genres": [
         "Action"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101960/a9c0e9e0e5ed7b191b8efc25d496003c4296bc76/capsule_184x69.jpg?t=1775658988",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101960/a9c0e9e0e5ed7b191b8efc25d496003c4296bc76/capsule_184x69.jpg?t=1777385995",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -5062,7 +5065,7 @@
       "appid": 2760560,
       "rating": "Mixed",
       "pct": 60,
-      "total": 255,
+      "total": 257,
       "release_date": "16 Apr, 2026",
       "genres": [
         "Adventure"
@@ -5261,7 +5264,7 @@
       "appid": 2016590,
       "rating": "Mixed",
       "pct": 65,
-      "total": 81678,
+      "total": 82545,
       "release_date": "7 Jun, 2024",
       "genres": [
         "Action",
@@ -5269,8 +5272,8 @@
         "Free To Play",
         "Early Access"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2016590/capsule_184x69.jpg?t=1774319438",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2016590/capsule_184x69.jpg?t=1777389390",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -5299,7 +5302,7 @@
       "appid": 2611170,
       "rating": "Very Positive",
       "pct": 87,
-      "total": 401,
+      "total": 403,
       "release_date": "28 Aug, 2025",
       "genres": [
         "Action",
@@ -5308,7 +5311,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2611170/74452f9e9cdd3094933a648e0b43d2e213fa1220/capsule_184x69.jpg?t=1765790443",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -5496,15 +5499,15 @@
       "found": true,
       "appid": 3230850,
       "rating": "Mixed",
-      "pct": 57,
-      "total": 28,
+      "pct": 56,
+      "total": 27,
       "release_date": "4 Nov, 2024",
       "genres": [
         "Indie",
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3230850/0ae5d43d626c5c41a67d6160db8caf05c8cadd93/capsule_184x69.jpg?t=1731582337",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": false
@@ -5525,7 +5528,7 @@
       "appid": 3404260,
       "rating": "Overwhelmingly Positive",
       "pct": 96,
-      "total": 5251,
+      "total": 5476,
       "release_date": "5 May, 2026",
       "genres": [
         "Action",
@@ -5687,15 +5690,16 @@
       "appid": 3352690,
       "rating": "Very Positive",
       "pct": 88,
-      "total": 802,
+      "total": 805,
       "release_date": "31 Jul, 2025",
       "genres": [
         "Adventure",
         "Indie"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3352690/a87f89215b98f2d404121fba71038d3ee8987394/capsule_184x69.jpg?t=1771405168",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3352690/a87f89215b98f2d404121fba71038d3ee8987394/capsule_184x69.jpg?t=1777370357",
       "metacritic_url": "https://www.metacritic.com/game/pc/dead-take?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 76
     },
     "hltb": {
       "found": true,
@@ -5726,8 +5730,8 @@
       "found": true,
       "appid": 2660830,
       "rating": "Mostly Positive",
-      "pct": 72,
-      "total": 40,
+      "pct": 73,
+      "total": 41,
       "release_date": "10 Jul, 2025",
       "genres": [
         "Action",
@@ -5736,7 +5740,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2660830/67bcb62eb46a44315dcdcc746b2be2446da2561e/capsule_184x69.jpg?t=1761568986",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": false
@@ -5910,8 +5914,8 @@
       "found": true,
       "appid": 1987400,
       "rating": "Very Positive",
-      "pct": 88,
-      "total": 292,
+      "pct": 87,
+      "total": 297,
       "release_date": "25 Jul, 2025",
       "genres": [
         "Action",
@@ -5919,7 +5923,7 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1987400/6e688fffcc2ce8e5926fb1eff5047c802ca9fbb3/capsule_184x69.jpg?t=1766680115",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -5989,16 +5993,16 @@
     "steam": {
       "found": true,
       "appid": 3280350,
-      "rating": "Very Positive",
-      "pct": 89,
-      "total": 17960,
+      "rating": "Overwhelmingly Positive",
+      "pct": 96,
+      "total": 21630,
       "release_date": "19 Mar, 2026",
       "genres": [
         "Action",
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/6e07f61e2585bae97d2406d45666a7ee70543792/capsule_184x69.jpg?t=1774022345",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -6076,7 +6080,7 @@
       "appid": 1200770,
       "rating": "Mixed",
       "pct": 63,
-      "total": 968,
+      "total": 977,
       "release_date": "7 Oct, 2025",
       "genres": [
         "Action",
@@ -6084,8 +6088,8 @@
         "Indie",
         "Early Access"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1200770/5705e9a80e5b48925ee95044e465b13cafe1897a/capsule_184x69.jpg?t=1762790109",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1200770/5705e9a80e5b48925ee95044e465b13cafe1897a/capsule_184x69.jpg?t=1778507378",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -6489,7 +6493,7 @@
       "appid": 2507950,
       "rating": "Mixed",
       "pct": 58,
-      "total": 179123,
+      "total": 182210,
       "release_date": "4 Dec, 2024",
       "genres": [
         "Action",
@@ -6497,8 +6501,8 @@
         "Massively Multiplayer",
         "Free To Play"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/a2ba8eba5ae29420687ad1f09da9929f58641da0/capsule_184x69.jpg?t=1772768205",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/ea0d733147b05183a17d33e85bb8c518f7894fa2/capsule_184x69_alt_assets_11.jpg?t=1776894033",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -6525,7 +6529,7 @@
       "appid": 2507950,
       "rating": "Mixed",
       "pct": 58,
-      "total": 179123,
+      "total": 182210,
       "release_date": "4 Dec, 2024",
       "genres": [
         "Action",
@@ -6533,8 +6537,8 @@
         "Massively Multiplayer",
         "Free To Play"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/a2ba8eba5ae29420687ad1f09da9929f58641da0/capsule_184x69.jpg?t=1772768205",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/ea0d733147b05183a17d33e85bb8c518f7894fa2/capsule_184x69_alt_assets_11.jpg?t=1776894033",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -6733,7 +6737,7 @@
       "appid": 2536520,
       "rating": "Very Positive",
       "pct": 88,
-      "total": 4557,
+      "total": 4801,
       "release_date": "11 Feb, 2026",
       "genres": [
         "Action",
@@ -6741,7 +6745,7 @@
         "Strategy"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/2a400c5821131f4525919029b03adf1168fdffd3/capsule_184x69.jpg?t=1774399170",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -6901,8 +6905,8 @@
       "appid": 2255370,
       "rating": "Mixed",
       "pct": 61,
-      "total": 549,
-      "release_date": "May 12, 2026",
+      "total": 683,
+      "release_date": "12 May, 2026",
       "genres": [
         "Action",
         "Adventure"
@@ -7348,8 +7352,8 @@
       "found": true,
       "appid": 3484300,
       "rating": "Mixed",
-      "pct": 51,
-      "total": 1177,
+      "pct": 52,
+      "total": 1184,
       "release_date": "17 Jul, 2025",
       "genres": [
         "Action",
@@ -7358,7 +7362,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3484300/d54cf2fd4259e0658a0c7182e2206dd5daf89bce/capsule_184x69.jpg?t=1772909141",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -7462,15 +7466,15 @@
       "appid": 3950020,
       "rating": "Mixed",
       "pct": 58,
-      "total": 1525,
+      "total": 1571,
       "release_date": "19 Jan, 2026",
       "genres": [
         "Action",
         "RPG",
         "Free To Play"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950020/d065007037ca8c035d2ed6e1a659c1b81e4ba568/capsule_184x69.jpg?t=1775509159",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950020/d065007037ca8c035d2ed6e1a659c1b81e4ba568/capsule_184x69.jpg?t=1776926171",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -7497,7 +7501,7 @@
       "appid": 1172710,
       "rating": "Mostly Positive",
       "pct": 70,
-      "total": 74835,
+      "total": 75624,
       "release_date": "10 Jun, 2025",
       "genres": [
         "Action",
@@ -7505,8 +7509,8 @@
         "Massively Multiplayer",
         "RPG"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/1122dbb1046ee63f4dc8d7da1355f5d3d31f0fa0/capsule_184x69.jpg?t=1776342542",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/1122dbb1046ee63f4dc8d7da1355f5d3d31f0fa0/capsule_184x69.jpg?t=1777565238",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -7545,7 +7549,7 @@
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3822620/d0bca185e7e027206f39f577067d361b0cab3f8b/capsule_184x69.jpg?t=1753375428",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -7613,15 +7617,15 @@
       "appid": 3008130,
       "rating": "Very Positive",
       "pct": 87,
-      "total": 66648,
+      "total": 67397,
       "release_date": "18 Sep, 2025",
       "genres": [
         "Action",
         "Adventure",
         "RPG"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008130/fa4f6b7fac317f7ace0343a54654e92a16ad5b09/capsule_184x69.jpg?t=1774625693",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008130/121bbff32c3e334ffcd3167af007cb8c0513d558/capsule_184x69.jpg?t=1777373421",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -7791,14 +7795,14 @@
       "appid": 2821610,
       "rating": "Mostly Positive",
       "pct": 76,
-      "total": 1501,
-      "release_date": "12 Aug, 2025",
+      "total": 1570,
+      "release_date": "Aug 12, 2025",
       "genres": [
         "Action",
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2821610/e0906141c579cee0ec28d8769838a860377787a4/capsule_184x69.jpg?t=1771578630",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -8004,7 +8008,7 @@
         "Strategy"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041550/capsule_184x69.jpg?t=1765906754",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": false
@@ -8029,7 +8033,7 @@
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3570000/40279977bc4f482ce2b3036f94757d6d88e7555e/capsule_184x69.jpg?t=1766441185",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -8427,8 +8431,8 @@
       "found": true,
       "appid": 3932890,
       "rating": "Mixed",
-      "pct": 47,
-      "total": 49255,
+      "pct": 48,
+      "total": 50902,
       "release_date": "15 Nov, 2025",
       "genres": [
         "Action",
@@ -8436,8 +8440,8 @@
         "RPG",
         "Simulation"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/2c6e1e35562ccc39bb34436d2ea1064710691d9d/capsule_184x69.jpg?t=1776352258",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/2c6e1e35562ccc39bb34436d2ea1064710691d9d/capsule_184x69.jpg?t=1778229025",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -8511,14 +8515,14 @@
       "found": true,
       "appid": 3450310,
       "rating": "Mostly Positive",
-      "pct": 72,
-      "total": 26853,
+      "pct": 71,
+      "total": 27766,
       "release_date": "4 Nov, 2025",
       "genres": [
         "Strategy"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3450310/b38d9e6151305e42163707ded29f2e6fb0d81f52/capsule_184x69.jpg?t=1773949223",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3450310/93b862c08fd1033ce08c015c62c1d3a0c2bf10f0/capsule_184x69_alt_assets_1.jpg?t=1778072327",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -8877,13 +8881,13 @@
       "appid": 770170,
       "rating": "Mixed",
       "pct": 70,
-      "total": 191,
+      "total": 192,
       "release_date": "13 May, 2022",
       "genres": [
         "Utilities"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/770170/capsule_184x69.jpg?t=1697531796",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": false
@@ -9389,8 +9393,8 @@
       "found": true,
       "appid": 3124540,
       "rating": "Overwhelmingly Positive",
-      "pct": 97,
-      "total": 10879,
+      "pct": 96,
+      "total": 27306,
       "release_date": "28 Apr, 2026",
       "genres": [
         "Action",
@@ -9398,8 +9402,8 @@
         "Indie",
         "Early Access"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/ffc2ffae5774ee943e6c0e3e6e26ed801e781f29/capsule_184x69_alt_assets_3.jpg?t=1777478432",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/ffc2ffae5774ee943e6c0e3e6e26ed801e781f29/capsule_184x69_alt_assets_3.jpg?t=1778234595",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -9468,7 +9472,7 @@
       "appid": 1928420,
       "rating": "Mostly Positive",
       "pct": 76,
-      "total": 54972,
+      "total": 55077,
       "release_date": "21 Sep, 2023",
       "genres": [
         "Action",
@@ -9476,8 +9480,8 @@
         "Massively Multiplayer",
         "Free To Play"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1928420/cbd0c6f6c0525ade78b1dd992e59a279b96c29e1/capsule_184x69.jpg?t=1776323822",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1928420/461dd9b34a992dcaae01c6fac1b5c2ee1405a1c5/capsule_184x69.jpg?t=1776926334",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -9592,13 +9596,13 @@
       "appid": 2272540,
       "rating": "Mixed",
       "pct": 64,
-      "total": 2234,
+      "total": 2240,
       "release_date": "17 Jun, 2025",
       "genres": [
         "Action"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2272540/4ad859b1a2c4b741c2c97056563f8eca19fda9c0/capsule_184x69.jpg?t=1773771620",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -9923,14 +9927,14 @@
       "appid": 1669480,
       "rating": "Very Positive",
       "pct": 81,
-      "total": 2100,
+      "total": 2172,
       "release_date": "9 Sep, 2025",
       "genres": [
         "Action",
         "Simulation"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1669480/b431a153a3f2c79b99004c32189bfd0c54c09858/capsule_184x69.jpg?t=1773997656",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1669480/b431a153a3f2c79b99004c32189bfd0c54c09858/capsule_184x69.jpg?t=1778682119",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -10168,7 +10172,7 @@
         "Simulation"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3922100/231bdb733e81c259dce0be35beddd5827343ca70/capsule_184x69.jpg?t=1768059148",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": false
@@ -10505,14 +10509,14 @@
       "appid": 2943650,
       "rating": "Mostly Positive",
       "pct": 74,
-      "total": 48760,
+      "total": 49127,
       "release_date": "6 Mar, 2025",
       "genres": [
         "Action",
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2943650/fba2d3346dc2f27182ab7e5b750cdb1eddc39374/capsule_184x69.jpg?t=1769680898",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -10807,13 +10811,13 @@
       "appid": 2523720,
       "rating": "Mixed",
       "pct": 59,
-      "total": 3063,
+      "total": 3174,
       "release_date": "26 Aug, 2025",
       "genres": [
         "Action"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523720/f0477240dce46254a81741ad45bbc8c642153331/capsule_184x69.jpg?t=1757024702",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -11286,14 +11290,14 @@
       "appid": 2687400,
       "rating": "Mostly Positive",
       "pct": 73,
-      "total": 943,
+      "total": 965,
       "release_date": "23 Oct, 2025",
       "genres": [
         "Action",
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2687400/d3a293bca18ec6d4af2fd056e48f36285cb67b49/capsule_184x69.jpg?t=1770803947",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -11371,7 +11375,14 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627570/8fcac79f4d20452bc8f35c410262c29339262e95/capsule_184x69.jpg?t=1754318864",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Action",
+        "Casual",
+        "Multiplayer",
+        "PvP",
+        "3D Platformer"
+      ]
     },
     "hltb": {
       "found": true,
@@ -11541,7 +11552,14 @@
         "Simulation"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2236300/capsule_184x69.jpg?t=1751465431",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Survival",
+        "Base-Building",
+        "Crafting",
+        "Adventure",
+        "Automation"
+      ]
     },
     "hltb": {
       "found": true,
@@ -11691,14 +11709,21 @@
       "appid": 1546990,
       "rating": "Very Positive",
       "pct": 82,
-      "total": 8009,
+      "total": 8010,
       "release_date": "19 Jan, 2023",
       "genres": [
         "Action",
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1546990/capsule_184x69.jpg?t=1741117543",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Action",
+        "Open World",
+        "Third-Person Shooter",
+        "Adventure",
+        "Action-Adventure"
+      ]
     },
     "hltb": {
       "found": true,
@@ -11770,7 +11795,7 @@
       "appid": 1997660,
       "rating": "Mixed",
       "pct": 61,
-      "total": 1222,
+      "total": 1227,
       "release_date": "10 Mar, 2026",
       "genres": [
         "Action",
@@ -11778,7 +11803,14 @@
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1997660/0ee13cdf868351853d5480c51935a02b5af1b0b5/capsule_184x69_alt_assets_2.jpg?t=1778173541",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "RPG",
+        "Adventure",
+        "Story Rich",
+        "Fantasy",
+        "Singleplayer"
+      ]
     },
     "hltb": {
       "found": true,
@@ -11814,7 +11846,14 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218400/888723fd666f63a097328ef6404da05b8caf5f6b/capsule_184x69.jpg?t=1778642578",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Rogue-lite",
+        "Bullet Hell",
+        "Early Access",
+        "Action Roguelike",
+        "Rogue-like"
+      ]
     },
     "hltb": {
       "found": true,
@@ -11849,7 +11888,14 @@
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1336380/capsule_184x69.jpg?t=1680116768",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Difficult",
+        "Singleplayer",
+        "Indie",
+        "Action",
+        "Bullet Hell"
+      ]
     },
     "hltb": {
       "found": true,
@@ -11923,7 +11969,14 @@
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570780/capsule_184x69.jpg?t=1726190878",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "RPG",
+        "Story Rich",
+        "Turn-Based",
+        "Martial Arts",
+        "Great Soundtrack"
+      ]
     },
     "hltb": {
       "found": false
@@ -11952,7 +12005,14 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1308360/capsule_184x69.jpg?t=1762968540",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Rhythm",
+        "Action",
+        "Music",
+        "Singleplayer",
+        "FPS"
+      ]
     },
     "hltb": {
       "found": true,
@@ -11982,7 +12042,14 @@
         "Strategy"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1630110/capsule_184x69.jpg?t=1728053351",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Action",
+        "Action-Adventure",
+        "3D",
+        "Shoot 'Em Up",
+        "Cyberpunk"
+      ]
     },
     "hltb": {
       "found": true,
@@ -12013,7 +12080,7 @@
       "appid": 2397300,
       "rating": "Mixed",
       "pct": 68,
-      "total": 23544,
+      "total": 23546,
       "release_date": "30 Jan, 2026",
       "genres": [
         "Action",
@@ -12050,13 +12117,13 @@
       "appid": 2477290,
       "rating": "Mixed",
       "pct": 56,
-      "total": 8756,
+      "total": 8812,
       "release_date": "18 Mar, 2025",
       "genres": [
         "Action"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2477290/21654648e70f9f5fb757c9011355f648ba46a8b7/capsule_184x69.jpg?t=1742606075",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -12092,7 +12159,14 @@
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1240440/9d64f5027f08e849ed1369f98b22326e2377b2b7/capsule_184x69.jpg?t=1774464322",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Free to Play",
+        "FPS",
+        "Multiplayer",
+        "Singleplayer",
+        "Shooter"
+      ]
     },
     "hltb": {
       "found": true,
@@ -12128,7 +12202,14 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3045330/28a25b448f535e6069500330c83b57675fa1fac6/capsule_184x69.jpg?t=1769279626",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Adventure",
+        "Horror",
+        "Thriller",
+        "Story Rich",
+        "Action-Adventure"
+      ]
     },
     "hltb": {
       "found": true,
@@ -12149,7 +12230,7 @@
       "appid": 1620730,
       "rating": "Very Positive",
       "pct": 86,
-      "total": 5477,
+      "total": 5478,
       "release_date": "4 Sep, 2025",
       "genres": [
         "Action",
@@ -12196,7 +12277,14 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/889910/capsule_184x69.jpg?t=1764867573",
       "metacritic_score": 78,
       "metacritic_url": "https://www.metacritic.com/game/pc/hell-pie?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Comedy",
+        "Third Person",
+        "Platformer",
+        "Singleplayer",
+        "3D Platformer"
+      ]
     },
     "hltb": {
       "found": true,
@@ -12278,7 +12366,14 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414340/capsule_184x69.jpg?t=1776350290",
       "metacritic_score": 83,
       "metacritic_url": "https://www.metacritic.com/game/pc/hellblade-senuas-sacrifice?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Atmospheric",
+        "Psychological",
+        "Story Rich",
+        "Female Protagonist",
+        "Mythology"
+      ]
     },
     "hltb": {
       "found": true,
@@ -12315,7 +12410,14 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1691320/capsule_184x69.jpg?t=1772802788",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Online Co-Op",
+        "Indie",
+        "FPS",
+        "Zombies",
+        "PvE"
+      ]
     },
     "hltb": {
       "found": true,
@@ -12337,7 +12439,7 @@
       "appid": 1321680,
       "rating": "Very Positive",
       "pct": 80,
-      "total": 5311,
+      "total": 5313,
       "release_date": "6 Dec, 2022",
       "genres": [
         "Adventure",
@@ -12345,7 +12447,14 @@
         "Strategy"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1321680/cb13d3ee19a1afe9a026142a28edd59cf735536e/capsule_184x69.jpg?t=1777368194",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Adventure",
+        "Puzzle",
+        "Horror",
+        "First-Person",
+        "Action-Adventure"
+      ]
     },
     "hltb": {
       "found": true,
@@ -12385,7 +12494,14 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2815830/fb3f08bee21efc88b655b89f16c7d661262468c9/capsule_184x69.jpg?t=1741629655",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Early Access",
+        "Exploration",
+        "Souls-like",
+        "Perma Death",
+        "PvE"
+      ]
     },
     "hltb": {
       "found": false
@@ -12458,7 +12574,14 @@
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583230/capsule_184x69.jpg?t=1752869049",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Comedy",
+        "FPS",
+        "Singleplayer",
+        "Dark Humor",
+        "Adventure"
+      ]
     },
     "hltb": {
       "found": true,
@@ -12525,15 +12648,15 @@
       "found": true,
       "appid": 4128260,
       "rating": "Mixed",
-      "pct": 46,
-      "total": 40548,
+      "pct": 45,
+      "total": 40328,
       "release_date": "26 Jan, 2026",
       "genres": [
         "Action",
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4128260/a1028cffd5925e238b97fa4ee899222e803daff4/capsule_184x69.jpg?t=1773274959",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -12569,7 +12692,14 @@
         "Strategy"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1489970/capsule_184x69.jpg?t=1759311838",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Simulation",
+        "Strategy",
+        "City Builder",
+        "Colony Sim",
+        "Sandbox"
+      ]
     },
     "hltb": {
       "found": true,
@@ -12699,7 +12829,14 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1572470/capsule_184x69.jpg?t=1628781665",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Early Access",
+        "Third-Person Shooter",
+        "Exploration",
+        "Metroidvania",
+        "Hack and Slash"
+      ]
     },
     "hltb": {
       "found": false
@@ -12725,7 +12862,14 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/721700/capsule_184x69.jpg?t=1759311930",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Early Access",
+        "Action Roguelike",
+        "Third-Person Shooter",
+        "Action",
+        "Looter Shooter"
+      ]
     },
     "hltb": {
       "found": true,
@@ -12757,7 +12901,14 @@
         "Strategy"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1840080/capsule_184x69.jpg?t=1754416598",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Space",
+        "RTS",
+        "Strategy",
+        "Sci-fi",
+        "Story Rich"
+      ]
     },
     "hltb": {
       "found": true,
@@ -12957,13 +13108,20 @@
       "appid": 1271700,
       "rating": "Mostly Positive",
       "pct": 79,
-      "total": 7502,
+      "total": 7521,
       "release_date": "30 Sep, 2021",
       "genres": [
         "Racing"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1271700/capsule_184x69.jpg?t=1725035139",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Racing",
+        "Arcade",
+        "Driving",
+        "Multiplayer",
+        "Split Screen"
+      ]
     },
     "hltb": {
       "found": true,
@@ -13003,7 +13161,14 @@
         "Sports"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2051120/capsule_184x69.jpg?t=1771001963",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Arcade",
+        "Family Friendly",
+        "Driving",
+        "PvP",
+        "Multiplayer"
+      ]
     },
     "hltb": {
       "found": true,
@@ -13039,7 +13204,14 @@
         "Action"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3081120/04b9ad872c0ac2582bdaff5e37b3261eef9c012d/capsule_184x69.jpg?t=1729494139",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Horror",
+        "Survival Horror",
+        "Multiplayer",
+        "Online Co-Op",
+        "Co-op"
+      ]
     },
     "hltb": {
       "found": false
@@ -13103,8 +13275,8 @@
       "appid": 1106840,
       "rating": "Very Positive",
       "pct": 86,
-      "total": 27167,
-      "release_date": "May 8, 2020",
+      "total": 27534,
+      "release_date": "8 May, 2020",
       "genres": [
         "Adventure",
         "Casual",
@@ -13112,8 +13284,15 @@
         "Simulation",
         "Strategy"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1106840/capsule_184x69.jpg?t=1770117457",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1106840/capsule_184x69.jpg?t=1777546952",
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Base-Building",
+        "Mining",
+        "Automation",
+        "Sandbox",
+        "Co-op"
+      ]
     },
     "hltb": {
       "found": true,
@@ -13149,7 +13328,14 @@
         "Simulation"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/capsule_184x69.jpg?t=1772745915",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Survival",
+        "Open World Survival Craft",
+        "Multiplayer",
+        "Base-Building",
+        "Online Co-Op"
+      ]
     },
     "hltb": {
       "found": true,
@@ -13433,8 +13619,8 @@
       "found": true,
       "appid": 2154070,
       "rating": "Mixed",
-      "pct": 52,
-      "total": 138,
+      "pct": 51,
+      "total": 294,
       "release_date": "29 Apr, 2026",
       "genres": [
         "Action",
@@ -13442,7 +13628,7 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/a7eb1c66297a8d4347da5d8cc4e5ec61da4f004f/capsule_184x69.jpg?t=1777481710",
-      "updated_at": "2026-05-02"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -13508,7 +13694,7 @@
       "appid": 3164330,
       "rating": "Mixed",
       "pct": 56,
-      "total": 9858,
+      "total": 9857,
       "release_date": "28 Apr, 2025",
       "genres": [
         "Action",
@@ -14217,7 +14403,7 @@
       "rating": "Very Positive",
       "pct": 93,
       "total": 10275,
-      "release_date": "Oct 21, 2025",
+      "release_date": "21 Oct, 2025",
       "genres": [
         "Simulation",
         "Strategy"
@@ -14435,13 +14621,13 @@
       "appid": 3043580,
       "rating": "Very Positive",
       "pct": 92,
-      "total": 887,
+      "total": 918,
       "release_date": "17 Oct, 2025",
       "genres": [
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3043580/16d2c74cc598dbd305c22d1b2e374cfd00343e30/capsule_184x69.jpg?t=1771445040",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -16124,7 +16310,7 @@
       "appid": 1941540,
       "rating": "Mostly Positive",
       "pct": 73,
-      "total": 27531,
+      "total": 27532,
       "release_date": "7 Aug, 2025",
       "genres": [
         "Action",
@@ -16253,14 +16439,14 @@
       "found": true,
       "appid": 3065800,
       "rating": "Very Positive",
-      "pct": 86,
-      "total": 45489,
-      "release_date": "Mar 5, 2026",
+      "pct": 85,
+      "total": 48896,
+      "release_date": "5 Mar, 2026",
       "genres": [
         "Action"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/9d48fde3699ddad29c58612dc53eb7e85731cff9/capsule_184x69.jpg?t=1776191386",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/9d48fde3699ddad29c58612dc53eb7e85731cff9/capsule_184x69.jpg?t=1778546185",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -17340,16 +17526,17 @@
       "found": true,
       "appid": 2852190,
       "rating": "Very Positive",
-      "pct": 80,
-      "total": 7204,
-      "release_date": "Mar 12, 2026",
+      "pct": 81,
+      "total": 7737,
+      "release_date": "12 Mar, 2026",
       "genres": [
         "Adventure",
         "RPG"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2852190/d42ab41c29c230c2e855c32f6669f37043187b70/capsule_184x69.jpg?t=1773387803",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2852190/d42ab41c29c230c2e855c32f6669f37043187b70/capsule_184x69.jpg?t=1778720498",
       "metacritic_url": "https://www.metacritic.com/game/pc/monster-hunter-stories-3-twisted-reflection?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 87
     },
     "hltb": {
       "found": true,
@@ -17808,16 +17995,16 @@
     "steam": {
       "found": true,
       "appid": 2416450,
-      "rating": "Overwhelmingly Positive",
+      "rating": "Very Positive",
       "pct": 95,
-      "total": 8670,
+      "total": 10750,
       "release_date": "16 Apr, 2026",
       "genres": [
         "Action",
         "Indie"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/772ae02fc6ab5734887bc6621ed5cf7bcc739050/capsule_184x69.jpg?t=1777393988",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/772ae02fc6ab5734887bc6621ed5cf7bcc739050/capsule_184x69.jpg?t=1778117943",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -18065,8 +18252,8 @@
       "appid": 3472040,
       "rating": "Mixed",
       "pct": 66,
-      "total": 21623,
-      "release_date": "Sep 4, 2025",
+      "total": 21628,
+      "release_date": "4 Sep, 2025",
       "genres": [
         "Sports"
       ],
@@ -18652,8 +18839,8 @@
       "appid": 3681010,
       "rating": "Mostly Positive",
       "pct": 80,
-      "total": 17591,
-      "release_date": "Feb 5, 2026",
+      "total": 17595,
+      "release_date": "5 Feb, 2026",
       "genres": [
         "Action",
         "RPG"
@@ -19209,7 +19396,7 @@
       "appid": 2139460,
       "rating": "Mostly Positive",
       "pct": 78,
-      "total": 171918,
+      "total": 171922,
       "release_date": "9 Jul, 2024",
       "genres": [
         "Action",
@@ -19573,7 +19760,7 @@
       "appid": 2357570,
       "rating": "Mostly Negative",
       "pct": 30,
-      "total": 399776,
+      "total": 399794,
       "release_date": "10 Aug, 2023",
       "genres": [
         "Action",
@@ -20516,15 +20703,15 @@
       "found": true,
       "appid": 2410180,
       "rating": "Mixed",
-      "pct": 40,
-      "total": 1731,
+      "pct": 41,
+      "total": 1748,
       "release_date": "18 Jul, 2023",
       "genres": [
         "Action",
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2410180/capsule_184x69.jpg?t=1689714678",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -20618,7 +20805,7 @@
       "appid": 3357650,
       "rating": "Overwhelmingly Positive",
       "pct": 97,
-      "total": 41688,
+      "total": 41706,
       "release_date": "16 Apr, 2026",
       "genres": [
         "Action",
@@ -20698,15 +20885,15 @@
       "found": true,
       "appid": 299970,
       "rating": "Mostly Negative",
-      "pct": 37,
-      "total": 2182,
+      "pct": 38,
+      "total": 2245,
       "release_date": "25 Nov, 2025",
       "genres": [
         "Racing",
         "Simulation"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/299970/2241f4c3bd1f1656cd1bbd74353bbce2c47d9963/capsule_184x69.jpg?t=1775034372",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/299970/2241f4c3bd1f1656cd1bbd74353bbce2c47d9963/capsule_184x69.jpg?t=1777901067",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -20733,8 +20920,8 @@
       "found": true,
       "appid": 2943740,
       "rating": "Mostly Positive",
-      "pct": 73,
-      "total": 271,
+      "pct": 72,
+      "total": 281,
       "release_date": "20 Nov, 2025",
       "genres": [
         "Adventure",
@@ -20743,7 +20930,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2943740/22454e1a7a75cdb2ad7456bd28e46575526a7526/capsule_184x69.jpg?t=1774621825",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -21245,7 +21432,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2839050/capsule_184x69.jpg?t=1752221569",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -21265,15 +21452,16 @@
       "found": true,
       "appid": 2129530,
       "rating": "Mostly Positive",
-      "pct": 73,
-      "total": 19996,
+      "pct": 74,
+      "total": 21318,
       "release_date": "13 Feb, 2026",
       "genres": [
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2129530/0e28f1b3446dd979013ca3df83a3ced5d7ca611b/capsule_184x69.jpg?t=1771918402",
       "metacritic_url": "https://www.metacritic.com/game/pc/reanimal?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 81
     },
     "hltb": {
       "found": true,
@@ -21601,15 +21789,15 @@
       "appid": 2138720,
       "rating": "Mixed",
       "pct": 68,
-      "total": 47113,
+      "total": 47931,
       "release_date": "19 Jun, 2025",
       "genres": [
         "Action",
         "Indie",
         "Sports"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/99d71852c4c1133b8483eb26d0632aa574c5ca82/capsule_184x69.jpg?t=1774538788",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/99d71852c4c1133b8483eb26d0632aa574c5ca82/capsule_184x69.jpg?t=1776935102",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -21893,15 +22081,16 @@
       "appid": 3764200,
       "rating": "Overwhelmingly Positive",
       "pct": 96,
-      "total": 162150,
-      "release_date": "Feb 26, 2026",
+      "total": 169472,
+      "release_date": "26 Feb, 2026",
       "genres": [
         "Action",
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/64f506b9b6210df6055136e7017f2082957e5b22/capsule_184x69.jpg?t=1772587704",
       "metacritic_url": "https://www.metacritic.com/game/pc/resident-evil-requiem?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 92
     },
     "hltb": {
       "found": true,
@@ -21977,7 +22166,7 @@
       "appid": 3174480,
       "rating": "Mostly Positive",
       "pct": 77,
-      "total": 1662,
+      "total": 1678,
       "release_date": "12 Jan, 2025",
       "genres": [
         "Casual",
@@ -21986,7 +22175,7 @@
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3174480/502698de126b035541a038d384ee4c7a6f4c5283/capsule_184x69.jpg?t=1740881458",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": false
@@ -22130,14 +22319,14 @@
       "appid": 2787320,
       "rating": "Very Positive",
       "pct": 86,
-      "total": 3302,
+      "total": 3370,
       "release_date": "8 May, 2025",
       "genres": [
         "Action",
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2787320/9cdc2f3145c77e52c50f1d8471b5217695a15800/capsule_184x69.jpg?t=1766069600",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -22475,8 +22664,8 @@
     "steam": {
       "found": true,
       "appid": 3743240,
-      "rating": "Very Positive",
-      "pct": 82,
+      "rating": "Positive",
+      "pct": 87,
       "total": 30,
       "release_date": "17 Jul, 2025",
       "genres": [
@@ -22484,7 +22673,7 @@
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743240/b0fa4bc068cfcd84dd73dcb97efa8dbb63fa06bc/capsule_184x69.jpg?t=1752768037",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -22511,8 +22700,8 @@
     "steam": {
       "found": true,
       "appid": 3743240,
-      "rating": "Very Positive",
-      "pct": 83,
+      "rating": "Positive",
+      "pct": 87,
       "total": 30,
       "release_date": "17 Jul, 2025",
       "genres": [
@@ -22520,7 +22709,7 @@
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743240/b0fa4bc068cfcd84dd73dcb97efa8dbb63fa06bc/capsule_184x69.jpg?t=1752768037",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -22625,14 +22814,14 @@
       "appid": 3050900,
       "rating": "Very Positive",
       "pct": 89,
-      "total": 1928,
+      "total": 1984,
       "release_date": "10 Feb, 2026",
       "genres": [
         "Action",
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3050900/8710a03b942defa8444d3d7724ab258051b65552/capsule_184x69.jpg?t=1775546912",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -22663,7 +22852,7 @@
       "appid": 2864560,
       "rating": "Very Positive",
       "pct": 88,
-      "total": 3441,
+      "total": 3492,
       "release_date": "4 Jun, 2025",
       "genres": [
         "Action",
@@ -22672,7 +22861,8 @@
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2864560/3fe915a5095f483da2b079ac8f73d74610f7588c/capsule_184x69.jpg?t=1771027230",
       "metacritic_url": "https://www.metacritic.com/game/pc/rune-factory-guardians-of-azuma?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 80
     },
     "hltb": {
       "found": true,
@@ -23135,15 +23325,15 @@
       "appid": 3634520,
       "rating": "Mixed",
       "pct": 55,
-      "total": 2303,
+      "total": 2801,
       "release_date": "8 Apr, 2026",
       "genres": [
         "Action",
         "Adventure",
         "Racing"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634520/2db3efbf3943750338fe9fcd5c0e7d75c8162ccc/capsule_184x69.jpg?t=1775653125",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634520/2db3efbf3943750338fe9fcd5c0e7d75c8162ccc/capsule_184x69.jpg?t=1778677114",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -23425,14 +23615,14 @@
       "found": true,
       "appid": 2814990,
       "rating": "Very Positive",
-      "pct": 83,
-      "total": 830,
+      "pct": 82,
+      "total": 979,
       "release_date": "26 Mar, 2026",
       "genres": [
         "Racing"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2814990/274907193f54622df6f23ef2067702a570a215ab/capsule_184x69.jpg?t=1774512017",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2814990/274907193f54622df6f23ef2067702a570a215ab/capsule_184x69.jpg?t=1776873990",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -23505,15 +23695,15 @@
       "appid": 2582140,
       "rating": "Mixed",
       "pct": 68,
-      "total": 1775,
+      "total": 1854,
       "release_date": "7 Oct, 2025",
       "genres": [
         "Casual",
         "Simulation",
         "Early Access"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2582140/fadc8c8447e0467d1d9947f2f31f957fb965536f/capsule_184x69.jpg?t=1771516522",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2582140/dd2d8555051b779455d904333c06c983d7c51371/capsule_184x69_alt_assets_3.jpg?t=1778248232",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -23845,13 +24035,13 @@
       "appid": 2087030,
       "rating": "Mostly Positive",
       "pct": 73,
-      "total": 29124,
+      "total": 29101,
       "release_date": "3 Jul, 2025",
       "genres": [
         "Action"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2087030/capsule_184x69.jpg?t=1757923026",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -24088,14 +24278,14 @@
       "appid": 2947440,
       "rating": "Very Positive",
       "pct": 81,
-      "total": 26068,
+      "total": 26808,
       "release_date": "24 Sep, 2025",
       "genres": [
         "Action",
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/0059b56f4400fe95555b8145d5f8f05b160a54e5/capsule_184x69.jpg?t=1770169624",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -24277,7 +24467,7 @@
       "appid": 3354750,
       "rating": "Mixed",
       "pct": 69,
-      "total": 84639,
+      "total": 84640,
       "release_date": "16 Sep, 2025",
       "genres": [
         "Action",
@@ -25026,7 +25216,7 @@
       "appid": 2641470,
       "rating": "Mixed",
       "pct": 64,
-      "total": 19760,
+      "total": 19759,
       "release_date": "3 Sep, 2024",
       "genres": [
         "Action",
@@ -25105,14 +25295,14 @@
       "appid": 2918300,
       "rating": "Mixed",
       "pct": 64,
-      "total": 21775,
+      "total": 21867,
       "release_date": "22 May, 2025",
       "genres": [
         "Action",
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2918300/4816514e23bd4b31d13715e3744ceb0a4865e3e2/capsule_184x69_alt_assets_2.jpg?t=1774641182",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -25141,7 +25331,7 @@
       "appid": 2479650,
       "rating": "Very Positive",
       "pct": 94,
-      "total": 1270,
+      "total": 1344,
       "release_date": "18 Nov, 2025",
       "genres": [
         "Action",
@@ -25149,7 +25339,8 @@
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2479650/58bdd154a0458f3075de50f3a12947a192ac6750/capsule_184x69.jpg?t=1770127075",
       "metacritic_url": "https://www.metacritic.com/game/pc/spongebob-squarepants-titans-of-the-tide?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 79
     },
     "hltb": {
       "found": true,
@@ -25289,16 +25480,16 @@
     "steam": {
       "found": true,
       "appid": 2643390,
-      "rating": "Mostly Positive",
+      "rating": "Very Positive",
       "pct": 80,
-      "total": 3864,
+      "total": 4036,
       "release_date": "18 Feb, 2026",
       "genres": [
         "Indie",
         "Strategy"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2643390/be41ff71b3f3d73566a3aec812615e4760c7111e/capsule_184x69.jpg?t=1772111072",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -25460,7 +25651,7 @@
       "appid": 1631270,
       "rating": "Very Positive",
       "pct": 81,
-      "total": 11507,
+      "total": 12118,
       "release_date": "6 Jan, 2026",
       "genres": [
         "Action",
@@ -25469,8 +25660,8 @@
         "Simulation",
         "Early Access"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1631270/574fc3eb0de68f9350cab375774b00e7e47efe27/capsule_184x69_alt_assets_3.jpg?t=1776327825",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1631270/574fc3eb0de68f9350cab375774b00e7e47efe27/capsule_184x69_alt_assets_3.jpg?t=1778741421",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -25538,14 +25729,14 @@
       "appid": 2170420,
       "rating": "Mixed",
       "pct": 54,
-      "total": 2532,
+      "total": 2529,
       "release_date": "18 Jul, 2023",
       "genres": [
         "Action",
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170420/capsule_184x69.jpg?t=1707929269",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -25696,16 +25887,16 @@
       "found": true,
       "appid": 3489700,
       "rating": "Very Positive",
-      "pct": 85,
-      "total": 85302,
-      "release_date": "11 Jun, 2025",
+      "pct": 94,
+      "total": 86452,
+      "release_date": "Jun 11, 2025",
       "genres": [
         "Action",
         "Adventure",
         "RPG"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/75914656cad450124a18fef914c5a5f4866ffb67/capsule_184x69.jpg?t=1773886328",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/75914656cad450124a18fef914c5a5f4866ffb67/capsule_184x69.jpg?t=1776466244",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -26041,8 +26232,8 @@
       "found": true,
       "appid": 1282270,
       "rating": "Mostly Positive",
-      "pct": 75,
-      "total": 29367,
+      "pct": 74,
+      "total": 29598,
       "release_date": "21 Nov, 2024",
       "genres": [
         "Action",
@@ -26050,7 +26241,7 @@
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282270/d949c2aff801dd41bbd2004c52b78e38d9f59c1d/capsule_184x69.jpg?t=1776337579",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -26117,15 +26308,15 @@
       "found": true,
       "appid": 3290690,
       "rating": "Mixed",
-      "pct": 69,
-      "total": 871,
+      "pct": 68,
+      "total": 936,
       "release_date": "19 Feb, 2026",
       "genres": [
         "Action",
         "Adventure"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3290690/24e1044981a0637b97586ba55ef2d269651f3cac/capsule_184x69.jpg?t=1771586961",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3290690/24e1044981a0637b97586ba55ef2d269651f3cac/capsule_184x69.jpg?t=1778174593",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -26154,8 +26345,8 @@
       "found": true,
       "appid": 2300840,
       "rating": "Mostly Positive",
-      "pct": 70,
-      "total": 2566,
+      "pct": 72,
+      "total": 3067,
       "release_date": "31 Mar, 2026",
       "genres": [
         "Adventure",
@@ -26165,7 +26356,7 @@
         "Strategy"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2300840/b6328a02feb765d77247344516b9d11b4b5299cd/capsule_184x69.jpg?t=1774940575",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -26188,8 +26379,8 @@
       "found": true,
       "appid": 1962700,
       "rating": "Very Positive",
-      "pct": 90,
-      "total": 364,
+      "pct": 87,
+      "total": 1697,
       "release_date": "14 May, 2026",
       "genres": [
         "Action",
@@ -26215,16 +26406,16 @@
     "steam": {
       "found": true,
       "appid": 2808550,
-      "rating": "Mixed",
-      "pct": 69,
-      "total": 386,
+      "rating": "Mostly Positive",
+      "pct": 71,
+      "total": 468,
       "release_date": "23 Apr, 2026",
       "genres": [
         "Action",
         "Strategy"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2808550/b5cb2ffa14cb80c59764619511b6eb52aff35377/capsule_184x69.jpg?t=1777554046",
-      "updated_at": "2026-05-05"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": false
@@ -26492,7 +26683,7 @@
       "appid": 1869290,
       "rating": "Very Positive",
       "pct": 92,
-      "total": 1437,
+      "total": 1470,
       "release_date": "15 Aug, 2025",
       "genres": [
         "Action",
@@ -26501,7 +26692,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1869290/739119c7987fd11dfbedaa99eb32feb24629d06a/capsule_184x69.jpg?t=1775659717",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -26651,7 +26842,7 @@
       "appid": 1008080,
       "rating": "Mixed",
       "pct": 66,
-      "total": 4996,
+      "total": 4995,
       "release_date": "7 Sep, 2023",
       "genres": [
         "Action",
@@ -26659,7 +26850,7 @@
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1008080/capsule_184x69.jpg?t=1725936128",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -27013,14 +27204,15 @@
       "appid": 1601570,
       "rating": "Very Positive",
       "pct": 90,
-      "total": 17140,
+      "total": 17407,
       "release_date": "13 Jun, 2025",
       "genres": [
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601570/5934a27732c4867d605121201078eae8bd46ef4e/capsule_184x69.jpg?t=1774966319",
       "metacritic_url": "https://www.metacritic.com/game/pc/the-alters?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 85
     },
     "hltb": {
       "found": true,
@@ -27259,8 +27451,8 @@
       "found": true,
       "appid": 3843850,
       "rating": "Mostly Positive",
-      "pct": 70,
-      "total": 30,
+      "pct": 72,
+      "total": 32,
       "release_date": "21 Oct, 2025",
       "genres": [
         "Action",
@@ -27270,7 +27462,7 @@
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3843850/3dc4c17dd634c189dc693eed6ec92d61fa04354c/capsule_184x69.jpg?t=1761066273",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": false
@@ -27459,15 +27651,21 @@
       "appid": 868270,
       "rating": "Mixed",
       "pct": 64,
-      "total": 45334,
+      "total": 45344,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868270/capsule_184x69.jpg?t=1695833372",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "Extraction Shooter",
         "Survival",
         "Loot",
         "Free to Play",
         "Multiplayer"
+      ],
+      "release_date": "8 Jun, 2022",
+      "genres": [
+        "Action",
+        "Free To Play",
+        "Massively Multiplayer"
       ]
     },
     "hltb": {
@@ -27749,16 +27947,16 @@
     "steam": {
       "found": true,
       "appid": 2073850,
-      "rating": "Very Positive",
-      "pct": 84,
-      "total": 265075,
+      "rating": "Mostly Positive",
+      "pct": 78,
+      "total": 267054,
       "release_date": "7 Dec, 2023",
       "genres": [
         "Action",
         "Free To Play"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073850/dc50f757c463cc1f7cadbd61a4e63e3ba8d566fa/capsule_184x69.jpg?t=1774608998",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073850/dc50f757c463cc1f7cadbd61a4e63e3ba8d566fa/capsule_184x69.jpg?t=1778695694",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -27834,8 +28032,8 @@
       "found": true,
       "appid": 2074920,
       "rating": "Mixed",
-      "pct": 62,
-      "total": 110347,
+      "pct": 57,
+      "total": 110664,
       "release_date": "30 Jun, 2024",
       "genres": [
         "Action",
@@ -27843,8 +28041,8 @@
         "RPG",
         "Free To Play"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2074920/6deaf56f8ba75e4e82b5231fb279d77820cc7b26/capsule_184x69.jpg?t=1772678291",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2074920/6deaf56f8ba75e4e82b5231fb279d77820cc7b26/capsule_184x69.jpg?t=1778220259",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -27874,8 +28072,8 @@
       "found": true,
       "appid": 1253220,
       "rating": "Mixed",
-      "pct": 67,
-      "total": 546,
+      "pct": 66,
+      "total": 560,
       "release_date": "23 Jan, 2026",
       "genres": [
         "Adventure",
@@ -27883,8 +28081,8 @@
         "Simulation",
         "Early Access"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1253220/f7006a8eb2ff882d7983512a9f07bb937a50f289/capsule_184x69.jpg?t=1774541227",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1253220/f7006a8eb2ff882d7983512a9f07bb937a50f289/capsule_184x69.jpg?t=1778108378",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -28080,8 +28278,8 @@
       "found": true,
       "appid": 1783560,
       "rating": "Very Positive",
-      "pct": 85,
-      "total": 10178,
+      "pct": 86,
+      "total": 10589,
       "release_date": "6 Nov, 2025",
       "genres": [
         "Action",
@@ -28090,8 +28288,8 @@
         "Simulation",
         "Early Access"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/a0d2224197e441bac91d2e09438aebb944c6e997/capsule_184x69.jpg?t=1776251073",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/dcaa9aff0db0632022654b5be34ec1e728467c1b/capsule_184x69.jpg?t=1778670011",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -28633,8 +28831,8 @@
       "found": true,
       "appid": 1449110,
       "rating": "Mostly Positive",
-      "pct": 75,
-      "total": 7895,
+      "pct": 74,
+      "total": 8150,
       "release_date": "29 Oct, 2025",
       "genres": [
         "Action",
@@ -28642,7 +28840,7 @@
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449110/da980550b308768b5a9b3ba451e3e25ed00aae06/capsule_184x69.jpg?t=1761760147",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -29114,7 +29312,7 @@
       "appid": 959860,
       "rating": "Mixed",
       "pct": 66,
-      "total": 330,
+      "total": 332,
       "release_date": "19 Oct, 2022",
       "genres": [
         "RPG",
@@ -29122,7 +29320,15 @@
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/959860/capsule_184x69.jpg?t=1696424187",
       "metacritic_url": "https://www.metacritic.com/game/pc/the-valiant?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 73,
+      "tags": [
+        "Strategy",
+        "RTS",
+        "Medieval",
+        "RPG",
+        "Action RTS"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29151,14 +29357,22 @@
       "appid": 292030,
       "rating": "Overwhelmingly Positive",
       "pct": 97,
-      "total": 865622,
+      "total": 868490,
       "release_date": "18 May, 2015",
       "genres": [
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/abf6e7b3b01ed20c35a8dc0a009a8f9fc3e57b93/capsule_184x69.jpg?t=1768303991",
       "metacritic_url": "https://www.metacritic.com/game/pc/the-witcher-3-wild-hunt?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 93,
+      "tags": [
+        "Open World",
+        "RPG",
+        "Story Rich",
+        "Atmospheric",
+        "Mature"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29197,7 +29411,14 @@
         "Casual"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3130980/capsule_184x69.jpg?t=1727996855",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Precision Platformer",
+        "3D Platformer",
+        "Runner",
+        "Adventure",
+        "Platformer"
+      ]
     },
     "hltb": {
       "found": false
@@ -29216,7 +29437,7 @@
       "appid": 2429640,
       "rating": "Mixed",
       "pct": 67,
-      "total": 67877,
+      "total": 67993,
       "release_date": "1 Oct, 2024",
       "genres": [
         "Action",
@@ -29225,8 +29446,8 @@
         "RPG",
         "Free To Play"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2429640/dd04319d8cdd4b7321f8ebdf9c040bad6799d461/capsule_184x69.jpg?t=1776358944",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2429640/dd04319d8cdd4b7321f8ebdf9c040bad6799d461/capsule_184x69.jpg?t=1777602989",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -29265,7 +29486,14 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623440/capsule_184x69.jpg?t=1725071288",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Puzzle",
+        "Physics",
+        "Puzzle-Platformer",
+        "Time Management",
+        "First-Person"
+      ]
     },
     "hltb": {
       "found": false
@@ -29287,16 +29515,16 @@
       "found": true,
       "appid": 1154030,
       "rating": "Very Positive",
-      "pct": 84,
-      "total": 16112,
+      "pct": 83,
+      "total": 16524,
       "release_date": "1 Aug, 2025",
       "genres": [
         "Action",
         "RPG",
         "Early Access"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1154030/capsule_184x69.jpg?t=1776326198",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1154030/capsule_184x69.jpg?t=1777285636",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -29326,7 +29554,7 @@
       "appid": 1881120,
       "rating": "Very Positive",
       "pct": 90,
-      "total": 571,
+      "total": 573,
       "release_date": "11 Nov, 2022",
       "genres": [
         "Adventure",
@@ -29334,7 +29562,14 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1881120/capsule_184x69.jpg?t=1700761406",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Walking Simulator",
+        "Mystery",
+        "Story Rich",
+        "Sci-fi",
+        "Conversation"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29371,7 +29606,7 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1567740/capsule_184x69.jpg?t=1619923048",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -29397,15 +29632,22 @@
       "found": true,
       "appid": 1550270,
       "rating": "Mixed",
-      "pct": 69,
-      "total": 204,
+      "pct": 68,
+      "total": 206,
       "release_date": "7 Dec, 2022",
       "genres": [
         "Adventure",
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1550270/capsule_184x69.jpg?t=1759330676",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Puzzle",
+        "3D Platformer",
+        "Colorful",
+        "Open World",
+        "Adventure"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29432,15 +29674,22 @@
       "found": true,
       "appid": 2634950,
       "rating": "Very Positive",
-      "pct": 87,
-      "total": 15064,
+      "pct": 94,
+      "total": 15272,
       "release_date": "24 Sep, 2025",
       "genres": [
         "Racing",
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2634950/26e314a7da5d9af3afbba68efc0ae3e04cce3e36/capsule_184x69.jpg?t=1772290875",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Racing",
+        "Driving",
+        "3D",
+        "Controller",
+        "Automobile Sim"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29468,13 +29717,20 @@
       "appid": 2379390,
       "rating": "Mixed",
       "pct": 66,
-      "total": 3086,
+      "total": 3085,
       "release_date": "15 Jun, 2023",
       "genres": [
         "Action"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379390/capsule_184x69.jpg?t=1765569459",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "FPS",
+        "Action",
+        "Online Co-Op",
+        "PvE",
+        "Shooter"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29547,7 +29803,7 @@
       "appid": 3116640,
       "rating": "Mixed",
       "pct": 66,
-      "total": 409,
+      "total": 417,
       "release_date": "28 Nov, 2024",
       "genres": [
         "Action",
@@ -29558,7 +29814,14 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3116640/c7ac039852a356e13acdba56322ad53e2bd503cd/capsule_184x69.jpg?t=1761809197",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Early Access",
+        "Indie",
+        "Driving",
+        "Racing",
+        "Realistic"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29578,8 +29841,8 @@
       "found": true,
       "appid": 2064650,
       "rating": "Mixed",
-      "pct": 67,
-      "total": 11942,
+      "pct": 66,
+      "total": 11966,
       "release_date": "19 Oct, 2022",
       "genres": [
         "Action",
@@ -29588,7 +29851,14 @@
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2064650/692af38bace208c353dacee8309427d48a46121a/capsule_184x69.jpg?t=1772766760",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Anime",
+        "MMORPG",
+        "Open World",
+        "RPG",
+        "Action"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29616,7 +29886,7 @@
       "appid": 2178070,
       "rating": "Mixed",
       "pct": 69,
-      "total": 2024,
+      "total": 2028,
       "release_date": "19 Nov, 2024",
       "genres": [
         "Action",
@@ -29626,7 +29896,14 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2178070/f03e4a814c3e35166f44a1a6d2deb671d36ee932/capsule_184x69.jpg?t=1759773354",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Early Access",
+        "Creature Collector",
+        "Action RPG",
+        "Adventure",
+        "Action"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29649,7 +29926,7 @@
       "appid": 1664220,
       "rating": "Very Positive",
       "pct": 80,
-      "total": 3714,
+      "total": 3742,
       "release_date": "7 Sep, 2022",
       "genres": [
         "Action",
@@ -29658,7 +29935,14 @@
         "Racing"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1664220/capsule_184x69.jpg?t=1764550626",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Destruction",
+        "Racing",
+        "Automobile Sim",
+        "Vehicular Combat",
+        "Combat Racing"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29687,7 +29971,7 @@
       "appid": 2214220,
       "rating": "Mostly Positive",
       "pct": 72,
-      "total": 587,
+      "total": 606,
       "release_date": "6 May, 2025",
       "genres": [
         "Action",
@@ -29695,8 +29979,15 @@
         "Indie",
         "Early Access"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2214220/capsule_184x69.jpg?t=1754651976",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2214220/capsule_184x69.jpg?t=1778507549",
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Early Access",
+        "PvE",
+        "Third-Person Shooter",
+        "Shooter",
+        "Souls-like"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29765,15 +30056,22 @@
       "found": true,
       "appid": 2687970,
       "rating": "Mixed",
-      "pct": 63,
-      "total": 1369,
+      "pct": 62,
+      "total": 1375,
       "release_date": "12 Mar, 2024",
       "genres": [
         "Action",
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2687970/capsule_184x69.jpg?t=1731076036",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Early Access",
+        "Fast-Paced",
+        "FPS",
+        "Team-Based",
+        "First-Person"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29797,8 +30095,8 @@
       "found": true,
       "appid": 995680,
       "rating": "Mixed",
-      "pct": 69,
-      "total": 126,
+      "pct": 68,
+      "total": 139,
       "release_date": "30 Mar, 2026",
       "genres": [
         "Action",
@@ -29806,7 +30104,7 @@
         "Simulation"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/995680/1a73fa69958286a94f6ca510b1632b40e5856ba5/capsule_184x69.jpg?t=1775032450",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -29831,7 +30129,7 @@
       "appid": 1443630,
       "rating": "Very Positive",
       "pct": 85,
-      "total": 115,
+      "total": 117,
       "release_date": "8 Dec, 2022",
       "genres": [
         "Action",
@@ -29842,7 +30140,14 @@
         "Sports"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1443630/capsule_184x69.jpg?t=1775841503",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Singleplayer",
+        "Racing",
+        "3D",
+        "Atmospheric",
+        "3D Vision"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29875,7 +30180,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1662690/capsule_184x69.jpg?t=1626088307",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -29897,8 +30202,8 @@
       "found": true,
       "appid": 494840,
       "rating": "Very Positive",
-      "pct": 85,
-      "total": 25789,
+      "pct": 84,
+      "total": 26395,
       "release_date": "2 Aug, 2024",
       "genres": [
         "Action",
@@ -29907,8 +30212,15 @@
         "Simulation",
         "Strategy"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/494840/capsule_184x69.jpg?t=1774609959",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/494840/capsule_184x69.jpg?t=1778267921",
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Simulation",
+        "World War II",
+        "Submarine",
+        "Naval Combat",
+        "Military"
+      ]
     },
     "hltb": {
       "found": true,
@@ -29978,9 +30290,9 @@
     "steam": {
       "found": true,
       "appid": 1682970,
-      "rating": "Very Positive",
+      "rating": "Overwhelmingly Positive",
       "pct": 95,
-      "total": 6818,
+      "total": 7018,
       "release_date": "1 Sep, 2021",
       "genres": [
         "Action",
@@ -29989,8 +30301,15 @@
         "Simulation",
         "Sports"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1682970/capsule_184x69.jpg?t=1775125881",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1682970/capsule_184x69.jpg?t=1776951426",
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Simulation",
+        "Flight",
+        "Sports",
+        "Racing",
+        "Physics"
+      ]
     },
     "hltb": {
       "found": true,
@@ -30018,7 +30337,14 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2152790/capsule_184x69.jpg?t=1744307644",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Early Access",
+        "World War II",
+        "Survival",
+        "FPS",
+        "Action"
+      ]
     },
     "hltb": {
       "found": false
@@ -30044,7 +30370,14 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1342810/capsule_184x69.jpg?t=1727323884",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Action",
+        "Shooter",
+        "FPS",
+        "World War II",
+        "Action Roguelike"
+      ]
     },
     "hltb": {
       "found": true,
@@ -30073,7 +30406,14 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1516580/capsule_184x69.jpg?t=1635273003",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "FPS",
+        "Horror",
+        "Atmospheric",
+        "Action",
+        "Shooter"
+      ]
     },
     "hltb": {
       "found": false
@@ -30090,15 +30430,22 @@
     "steam": {
       "found": true,
       "appid": 2172010,
-      "rating": "Mostly Positive",
-      "pct": 72,
-      "total": 4631,
+      "rating": "Very Positive",
+      "pct": 83,
+      "total": 4713,
       "release_date": "4 Oct, 2024",
       "genres": [
         "Adventure"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172010/capsule_184x69.jpg?t=1750959555",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Horror",
+        "Choices Matter",
+        "Adventure",
+        "Singleplayer",
+        "Choose Your Own Adventure"
+      ]
     },
     "hltb": {
       "found": true,
@@ -30128,7 +30475,7 @@
       "appid": 908740,
       "rating": "Mixed",
       "pct": 51,
-      "total": 465,
+      "total": 467,
       "release_date": "22 Oct, 2020",
       "genres": [
         "Action",
@@ -30138,7 +30485,14 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/908740/capsule_184x69.jpg?t=1755378192",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Early Access",
+        "Vikings",
+        "Survival",
+        "Open World",
+        "Building"
+      ]
     },
     "hltb": {
       "found": true,
@@ -30166,14 +30520,21 @@
       "appid": 1963210,
       "rating": "Mixed",
       "pct": 63,
-      "total": 1188,
+      "total": 1192,
       "release_date": "11 Nov, 2022",
       "genres": [
         "Action",
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1963210/capsule_184x69.jpg?t=1775121246",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Action",
+        "RPG",
+        "Female Protagonist",
+        "Singleplayer",
+        "Action RPG"
+      ]
     },
     "hltb": {
       "found": true,
@@ -30202,15 +30563,15 @@
       "found": true,
       "appid": 532790,
       "rating": "Mixed",
-      "pct": 64,
-      "total": 11857,
+      "pct": 56,
+      "total": 12135,
       "release_date": "21 Oct, 2025",
       "genres": [
         "Action",
         "RPG"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/532790/88ffb5c9f4564c0760c45e6e4de10ebf60b85a5f/capsule_184x69.jpg?t=1773948903",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/532790/88ffb5c9f4564c0760c45e6e4de10ebf60b85a5f/capsule_184x69.jpg?t=1777568452",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -30240,14 +30601,21 @@
       "appid": 1299510,
       "rating": "Mixed",
       "pct": 65,
-      "total": 651,
+      "total": 671,
       "release_date": "30 May, 2023",
       "genres": [
         "Adventure",
         "RPG"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1299510/capsule_184x69.jpg?t=1733310545",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1299510/capsule_184x69.jpg?t=1778175048",
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Adventure",
+        "Story Rich",
+        "Atmospheric",
+        "Choices Matter",
+        "Singleplayer"
+      ]
     },
     "hltb": {
       "found": true,
@@ -30276,7 +30644,7 @@
       "appid": 2191500,
       "rating": "Mostly Positive",
       "pct": 73,
-      "total": 1496,
+      "total": 1540,
       "release_date": "30 Jan, 2026",
       "genres": [
         "Action",
@@ -30286,7 +30654,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2191500/565d0af1083bc11272b58fbbaaa47173772c4cdf/capsule_184x69.jpg?t=1773841388",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -30311,8 +30679,8 @@
       "found": true,
       "appid": 2678820,
       "rating": "Mixed",
-      "pct": 64,
-      "total": 168,
+      "pct": 65,
+      "total": 167,
       "release_date": "4 Mar, 2025",
       "genres": [
         "Action",
@@ -30322,7 +30690,7 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678820/2397a7484731ce7b8731af04c07d690c4eb2a2a9/capsule_184x69.jpg?t=1770484698",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -30345,8 +30713,8 @@
       "found": true,
       "appid": 589150,
       "rating": "Mixed",
-      "pct": 50,
-      "total": 46,
+      "pct": 51,
+      "total": 47,
       "release_date": "28 Apr, 2017",
       "genres": [
         "Action",
@@ -30354,7 +30722,14 @@
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/589150/capsule_184x69.jpg?t=1717594989",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Casual",
+        "Action",
+        "Indie",
+        "VR",
+        "Vikings"
+      ]
     },
     "hltb": {
       "found": true,
@@ -30377,15 +30752,15 @@
     "steam": {
       "found": true,
       "appid": 3255770,
-      "rating": "Mostly Positive",
-      "pct": 72,
+      "rating": "Positive",
+      "pct": 100,
       "total": 11,
       "release_date": "24 Oct, 2024",
       "genres": [
         "Action"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3255770/fc06f96d5c87c95e5ee466fcc3df783896171cf5/capsule_184x69.jpg?t=1764959972",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -30407,13 +30782,20 @@
       "appid": 3112260,
       "rating": "Mostly Positive",
       "pct": 71,
-      "total": 2179,
+      "total": 2195,
       "release_date": "27 Jan, 2025",
       "genres": [
         "Action"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3112260/26ef867c539479649b9fcc9217d3f7521d59dc02/capsule_184x69.jpg?t=1769739453",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "3D Fighter",
+        "Action",
+        "Multiplayer",
+        "Local Multiplayer",
+        "PvP"
+      ]
     },
     "hltb": {
       "found": true,
@@ -30444,7 +30826,7 @@
       "appid": 1063420,
       "rating": "Very Positive",
       "pct": 87,
-      "total": 8156,
+      "total": 8209,
       "release_date": "25 Nov, 2024",
       "genres": [
         "Action",
@@ -30452,7 +30834,15 @@
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1063420/e0125bca0713c77bf1da9609654bcb8e39544a4b/capsule_184x69.jpg?t=1768403739",
       "metacritic_url": "https://www.metacritic.com/game/pc/void-crew?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 80,
+      "tags": [
+        "Co-op",
+        "Multiplayer",
+        "Space Sim",
+        "Adventure",
+        "Space"
+      ]
     },
     "hltb": {
       "found": true,
@@ -30537,7 +30927,14 @@
         "Simulation"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1581590/capsule_184x69.jpg?t=1617603144",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-05-14",
+      "tags": [
+        "Casual",
+        "Simulation",
+        "Education",
+        "Sandbox",
+        "Walking Simulator"
+      ]
     },
     "hltb": {
       "found": false
@@ -30556,7 +30953,7 @@
       "appid": 2582470,
       "rating": "Very Positive",
       "pct": 89,
-      "total": 143,
+      "total": 146,
       "release_date": "26 Aug, 2025",
       "genres": [
         "Action",
@@ -30565,7 +30962,7 @@
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2582470/1adc3fad433d1185ac192a5dedf24ed6fc782438/capsule_184x69.jpg?t=1764959729",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -30992,14 +31389,14 @@
       "appid": 2107670,
       "rating": "Mixed",
       "pct": 58,
-      "total": 6989,
+      "total": 6984,
       "release_date": "20 Sep, 2023",
       "genres": [
         "Action",
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2107670/capsule_184x69.jpg?t=1712877501",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -31027,13 +31424,18 @@
       "pct": 91,
       "total": 318,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1608470/capsule_184x69.jpg?t=1754584657",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "3D",
         "Gore",
         "FPS",
         "3D Platformer",
         "Parkour"
+      ],
+      "release_date": "7 Sep, 2023",
+      "genres": [
+        "Action",
+        "Indie"
       ]
     },
     "hltb": {
@@ -31062,15 +31464,20 @@
       "appid": 2239550,
       "rating": "Mixed",
       "pct": 57,
-      "total": 11939,
+      "total": 12011,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239550/capsule_184x69.jpg?t=1747655055",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "Action",
         "Open World",
         "Adventure",
         "Multiplayer",
         "RPG"
+      ],
+      "release_date": "26 Jan, 2023",
+      "genres": [
+        "Action",
+        "Adventure"
       ]
     },
     "hltb": {
@@ -31143,15 +31550,21 @@
       "appid": 1171690,
       "rating": "Mixed",
       "pct": 60,
-      "total": 26046,
+      "total": 26067,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1171690/a2ebc0f10f9b71eabfb150dfc05195cad94cdb68/capsule_184x69.jpg?t=1768340055",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "Action RPG",
         "Online Co-Op",
         "Loot",
         "Dungeon Crawler",
         "Third Person"
+      ],
+      "release_date": "21 Oct, 2024",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
       ]
     },
     "hltb": {
@@ -31182,16 +31595,24 @@
       "appid": 1519090,
       "rating": "Mixed",
       "pct": 67,
-      "total": 1258,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1519090/capsule_184x69.jpg?t=1764149579",
-      "updated_at": "2026-05-01",
+      "total": 1270,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1519090/capsule_184x69.jpg?t=1778175155",
+      "updated_at": "2026-05-14",
       "tags": [
         "Action",
         "Multiplayer",
         "Zombies",
         "Singleplayer",
         "Co-op"
-      ]
+      ],
+      "release_date": "29 Feb, 2024",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "metacritic_score": 71,
+      "metacritic_url": "https://www.metacritic.com/game/pc/welcome-to-paradize?ftag=MCD-06-10aaa1f"
     },
     "hltb": {
       "found": true,
@@ -31216,9 +31637,16 @@
       "appid": 3564740,
       "rating": "Very Positive",
       "pct": 87,
-      "total": 106806,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3564740/53d45054f1168cc9cfdf6bb922f141f04aea7ca4/capsule_184x69.jpg?t=1776132096",
-      "updated_at": "2026-05-01"
+      "total": 108421,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3564740/53d45054f1168cc9cfdf6bb922f141f04aea7ca4/capsule_184x69.jpg?t=1777516538",
+      "updated_at": "2026-05-14",
+      "release_date": "14 Nov, 2025",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG",
+        "Free To Play"
+      ]
     },
     "hltb": {
       "found": true,
@@ -31249,9 +31677,15 @@
       "appid": 2489330,
       "rating": "Very Positive",
       "pct": 93,
-      "total": 2835,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2489330/caaa3b4a34615707722863e102e007034eaa036a/capsule_184x69.jpg?t=1776358840",
-      "updated_at": "2026-05-01"
+      "total": 2987,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2489330/caaa3b4a34615707722863e102e007034eaa036a/capsule_184x69.jpg?t=1776847854",
+      "updated_at": "2026-05-14",
+      "release_date": "6 Nov, 2025",
+      "genres": [
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ]
     },
     "hltb": {
       "found": true,
@@ -31279,13 +31713,19 @@
       "pct": 81,
       "total": 78,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2614800/28b997db2b0cb00ec9eb40b6fc90fb6a812d080a/capsule_184x69.jpg?t=1766404876",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "Exploration",
         "Immersive Sim",
         "Collectathon",
         "Hidden Object",
         "Puzzle"
+      ],
+      "release_date": "21 Aug, 2024",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
       ]
     },
     "hltb": {
@@ -31309,13 +31749,18 @@
       "pct": 64,
       "total": 14,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3031940/2ea8f5d7f1fd22debf19e62976ec40f0886fa9dd/capsule_184x69.jpg?t=1764072541",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "Horror",
         "Thriller",
         "Story Rich",
         "First-Person",
         "Narration"
+      ],
+      "release_date": "30 Aug, 2024",
+      "genres": [
+        "Indie",
+        "Simulation"
       ]
     },
     "hltb": {
@@ -31336,16 +31781,23 @@
       "found": true,
       "appid": 2827230,
       "rating": "Mostly Positive",
-      "pct": 71,
-      "total": 4014,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827230/fe64176d32eac76585b6eaa37dcc9c31a9a27900/capsule_184x69.jpg?t=1774609064",
-      "updated_at": "2026-05-01",
+      "pct": 70,
+      "total": 4056,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827230/42592a9db5a847db214e79f72ef6a13c0f87d44f/capsule_184x69.jpg?t=1778481308",
+      "updated_at": "2026-05-14",
       "tags": [
         "Early Access",
         "Hero Shooter",
         "Third-Person Shooter",
         "Action",
         "Shooter"
+      ],
+      "release_date": "11 Apr, 2025",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer",
+        "Early Access"
       ]
     },
     "hltb": {
@@ -31454,10 +31906,17 @@
       "found": true,
       "appid": 3041230,
       "rating": "Very Positive",
-      "pct": 88,
-      "total": 6230,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/6e112d27d66e13071f329e5ff68758dc18bd9a84/capsule_184x69.jpg?t=1776158614",
-      "updated_at": "2026-05-01"
+      "pct": 87,
+      "total": 40933,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/6e112d27d66e13071f329e5ff68758dc18bd9a84/capsule_184x69.jpg?t=1777529081",
+      "updated_at": "2026-05-14",
+      "release_date": "14 Apr, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG",
+        "Early Access"
+      ]
     },
     "hltb": {
       "found": true,
@@ -31484,15 +31943,22 @@
       "appid": 1394960,
       "rating": "Mixed",
       "pct": 63,
-      "total": 756,
+      "total": 761,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1394960/13564809bd3cd3cf29725fbfad16db709a838707/capsule_184x69.jpg?t=1764318067",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "Survival",
         "Open World Survival Craft",
         "Cooking",
         "Open World",
         "Exploration"
+      ],
+      "release_date": "19 Nov, 2025",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Simulation"
       ]
     },
     "hltb": {
@@ -31557,17 +32023,25 @@
       "found": true,
       "appid": 1448440,
       "rating": "Mixed",
-      "pct": 49,
-      "total": 28732,
+      "pct": 50,
+      "total": 28790,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/6ede9cdaae075ff79ba6194d1475be7a2b9aa4a0/capsule_184x69.jpg?t=1775538052",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "Action",
         "Souls-like",
         "RPG",
         "Difficult",
         "Action RPG"
-      ]
+      ],
+      "release_date": "3 Mar, 2023",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "metacritic_score": 79,
+      "metacritic_url": "https://www.metacritic.com/game/pc/wo-long-fallen-dynasty?ftag=MCD-06-10aaa1f"
     },
     "hltb": {
       "found": true,
@@ -31599,16 +32073,22 @@
       "appid": 1056960,
       "rating": "Mixed",
       "pct": 43,
-      "total": 15545,
+      "total": 15597,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1056960/capsule_184x69.jpg?t=1761681484",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "Action",
         "Co-op",
         "FPS",
         "Female Protagonist",
         "Singleplayer"
-      ]
+      ],
+      "release_date": "25 Jul, 2019",
+      "genres": [
+        "Action"
+      ],
+      "metacritic_score": 69,
+      "metacritic_url": "https://www.metacritic.com/game/pc/wolfenstein-youngblood?ftag=MCD-06-10aaa1f"
     },
     "hltb": {
       "found": true,
@@ -31639,14 +32119,20 @@
       "rating": "Mostly Positive",
       "pct": 72,
       "total": 18,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640030/capsule_184x69.jpg?t=1775143265",
-      "updated_at": "2026-05-01",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640030/capsule_184x69.jpg?t=1778230230",
+      "updated_at": "2026-05-14",
       "tags": [
         "Action",
         "Exploration",
         "3D Platformer",
         "Open World",
         "Nonlinear"
+      ],
+      "release_date": "7 Nov, 2024",
+      "genres": [
+        "Action",
+        "Indie",
+        "Free To Play"
       ]
     },
     "hltb": {
@@ -31668,15 +32154,20 @@
       "appid": 1650550,
       "rating": "Mixed",
       "pct": 68,
-      "total": 303,
+      "total": 304,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1650550/capsule_184x69.jpg?t=1726487010",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "Exploration",
         "Simulation",
         "Immersive Sim",
         "Hidden Object",
         "Interactive Fiction"
+      ],
+      "release_date": "10 Mar, 2022",
+      "genres": [
+        "Indie",
+        "Simulation"
       ]
     },
     "hltb": {
@@ -31815,9 +32306,14 @@
       "appid": 1594040,
       "rating": "Mixed",
       "pct": 66,
-      "total": 448,
+      "total": 455,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594040/feb45e200df8d59b14b1ca087c6faa340b794706/capsule_184x69.jpg?t=1770216574",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "release_date": "28 Oct, 2025",
+      "genres": [
+        "Action",
+        "Racing"
+      ]
     },
     "hltb": {
       "found": true,
@@ -31844,15 +32340,22 @@
       "appid": 936720,
       "rating": "Very Positive",
       "pct": 86,
-      "total": 1962,
+      "total": 1977,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/936720/capsule_184x69.jpg?t=1750871915",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "Building",
         "Automobile Sim",
         "Realistic",
         "Simulation",
         "Immersive Sim"
+      ],
+      "release_date": "19 Dec, 2018",
+      "genres": [
+        "Indie",
+        "Racing",
+        "Simulation",
+        "Early Access"
       ]
     },
     "hltb": {
@@ -31877,8 +32380,8 @@
       "found": true,
       "appid": 2277560,
       "rating": "Mixed",
-      "pct": 55,
-      "total": 102015,
+      "pct": 56,
+      "total": 102621,
       "release_date": "23 Jul, 2025",
       "genres": [
         "Action",
@@ -31887,7 +32390,8 @@
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2277560/7ad08d174b97880d3f611a068991b98471d1eb9c/capsule_184x69.jpg?t=1770741955",
       "metacritic_url": "https://www.metacritic.com/game/pc/wuchang-fallen-feathers?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14",
+      "metacritic_score": 77
     },
     "hltb": {
       "found": true,
@@ -31916,11 +32420,18 @@
     "steam": {
       "found": true,
       "appid": 3513350,
-      "rating": "Mostly Positive",
-      "pct": 73,
-      "total": 43408,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3513350/73c9d69886aea606deb7d023d82c8003b7beb6c8/capsule_184x69.jpg?t=1774412683",
-      "updated_at": "2026-05-01"
+      "rating": "Very Positive",
+      "pct": 89,
+      "total": 45380,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3513350/57675f918025082f880eb6434e47dbdbf6cf2999/capsule_184x69.jpg?t=1777505458",
+      "updated_at": "2026-05-14",
+      "release_date": "28 Apr, 2025",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG",
+        "Free To Play"
+      ]
     },
     "hltb": {
       "found": true,
@@ -31996,15 +32507,21 @@
       "appid": 1249800,
       "rating": "Mixed",
       "pct": 63,
-      "total": 9561,
+      "total": 9567,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1249800/capsule_184x69.jpg?t=1730256579",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "RPG",
         "Martial Arts",
         "Historical",
         "Singleplayer",
         "Story Rich"
+      ],
+      "release_date": "28 Oct, 2020",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
       ]
     },
     "hltb": {
@@ -32036,13 +32553,18 @@
       "pct": 87,
       "total": 38,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736420/capsule_184x69.jpg?t=1648306818",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "RPG",
         "Indie",
         "Tabletop",
         "Programming",
         "Multiplayer"
+      ],
+      "release_date": "26 Mar, 2022",
+      "genres": [
+        "Indie",
+        "RPG"
       ]
     },
     "hltb": {
@@ -32069,9 +32591,9 @@
     "steam": {
       "found": true,
       "appid": 3717340,
-      "rating": "Very Positive",
-      "pct": 88,
-      "total": 850,
+      "rating": "Mostly Positive",
+      "pct": 78,
+      "total": 922,
       "release_date": "11 Dec, 2025",
       "genres": [
         "Action",
@@ -32079,7 +32601,7 @@
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3717340/78a7982f2c48b89ef00024fe4fb7134e5e4a4e03/capsule_184x69.jpg?t=1768478664",
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -32110,15 +32632,15 @@
       "appid": 3937550,
       "rating": "Mixed",
       "pct": 61,
-      "total": 2711,
+      "total": 2887,
       "release_date": "Feb 11, 2026",
       "genres": [
         "Action",
         "Adventure",
         "RPG"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937550/ac8c4e75acc1e5fbb3560e53af94772b1d99a3eb/capsule_184x69.jpg?t=1771414116",
-      "updated_at": "2026-05-01"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937550/ac8c4e75acc1e5fbb3560e53af94772b1d99a3eb/capsule_184x69.jpg?t=1777587435",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -32154,8 +32676,8 @@
         "RPG",
         "Free To Play"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4162040/678f2b92f6574386132e528ffa61c16906f6063e/capsule_184x69.jpg?t=1777039066",
-      "updated_at": "2026-05-05"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4162040/678f2b92f6574386132e528ffa61c16906f6063e/capsule_184x69.jpg?t=1778643442",
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
@@ -32182,13 +32704,23 @@
       "pct": 80,
       "total": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/771570/capsule_184x69.jpg?t=1516152704",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-05-14",
       "tags": [
         "Action",
         "Gore",
         "Violent",
         "Strategy",
         "RPG"
+      ],
+      "release_date": "16 Jan, 2018",
+      "genres": [
+        "Violent",
+        "Gore",
+        "Action",
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Strategy"
       ]
     },
     "hltb": {
