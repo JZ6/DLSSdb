@@ -12935,18 +12935,7 @@
   },
   "Honkai: Star Rail": {
     "steam": {
-      "found": true,
-      "appid": 2346280,
-      "release_date": "To be announced",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie",
-        "Strategy",
-        "Free To Play",
-        "Early Access"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2346280/capsule_184x69.jpg?t=1731516803",
+      "found": false,
       "updated_at": "2026-05-14"
     },
     "hltb": {
