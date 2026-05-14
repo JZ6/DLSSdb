@@ -9039,26 +9039,8 @@
   },
   "F1 22": {
     "steam": {
-      "found": true,
-      "appid": 1692900,
-      "rating": "Mostly Negative",
-      "pct": 30,
-      "total": 23,
-      "release_date": "28 Jul, 2021",
-      "genres": [
-        "Action",
-        "Casual",
-        "Strategy"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1692900/capsule_184x69.jpg?t=1672496840",
-      "updated_at": "2026-05-14",
-      "tags": [
-        "3D",
-        "Casual",
-        "Strategy",
-        "Tower Defense",
-        "3D Platformer"
-      ]
+      "found": false,
+      "updated_at": "2026-05-14"
     },
     "hltb": {
       "found": true,
