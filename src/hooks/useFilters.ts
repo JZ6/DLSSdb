@@ -168,12 +168,13 @@ export function useFilters(
         if (!rd) return false;
         const d = new Date(rd);
         if (isNaN(d.getTime())) return false;
-        const year = d.getFullYear();
-        if (filters.release_date === "2026" && year !== 2026) return false;
-        if (filters.release_date === "2025" && year !== 2025) return false;
-        if (filters.release_date === "2024" && year !== 2024) return false;
-        if (filters.release_date === "2023" && year !== 2023) return false;
-        if (filters.release_date === "old" && year >= 2023) return false;
+        const now = Date.now();
+        const age = now - d.getTime();
+        const ONE_MONTH = 30 * 86400000;
+        const ONE_YEAR = 365 * 86400000;
+        if (filters.release_date === "month" && age > ONE_MONTH) return false;
+        if (filters.release_date === "year" && (age > ONE_YEAR || age <= 0)) return false;
+        if (filters.release_date === "old" && age <= ONE_YEAR) return false;
       }
 
       // Steam filter
@@ -246,7 +247,10 @@ export function useFilters(
     // Metacritic
     const mc: Record<string, number> = { "90+": 0, "75+": 0 };
     // Release date
-    const rd: Record<string, number> = { "2026": 0, "2025": 0, "2024": 0, "2023": 0, old: 0 };
+    const rd: Record<string, number> = { month: 0, year: 0, old: 0 };
+    const NOW = Date.now();
+    const ONE_MONTH = 30 * 86400000;
+    const ONE_YEAR = 365 * 86400000;
     // Hide
     const hi: Record<string, number> = { hidden: 0, all: 0 };
     // Owned
@@ -307,12 +311,10 @@ export function useFilters(
       if (rdVal) {
         const d = new Date(rdVal);
         if (!isNaN(d.getTime())) {
-          const year = d.getFullYear();
-          if (year === 2026) rd["2026"]++;
-          if (year === 2025) rd["2025"]++;
-          if (year === 2024) rd["2024"]++;
-          if (year === 2023) rd["2023"]++;
-          if (year < 2023) rd.old++;
+          const age = NOW - d.getTime();
+          if (age <= ONE_MONTH) rd.month++;
+          if (age > 0 && age <= ONE_YEAR) rd.year++;
+          if (age > ONE_YEAR) rd.old++;
         }
       }
 

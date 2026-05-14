@@ -87,11 +87,9 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
   ],
   release_date: [
     { value: "", label: "All" },
-    { value: "2026", label: "2026" },
-    { value: "2025", label: "2025" },
-    { value: "2024", label: "2024" },
-    { value: "2023", label: "2023" },
-    { value: "old", label: "Before 2023" },
+    { value: "month", label: "Last Month" },
+    { value: "year", label: "Last Year" },
+    { value: "old", label: "Older" },
   ],
   hltb: [
     { value: "", label: "All" },
