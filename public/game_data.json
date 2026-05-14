@@ -2321,6 +2321,35 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Blades of Fire": {
+    "steam": {
+      "found": true,
+      "appid": 2091020,
+      "release_date": "May 14, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2091020/9434ece4a406d804a5f945994a4048e76bf9d0cd/capsule_184x69.jpg?t=1778598017",
+      "updated_at": "2026-05-14"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 164588,
+      "main": 32.83,
+      "extra": 47.35,
+      "complete": 78.4,
+      "all_styles": 47.83,
+      "updated_at": "2026-05-14"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "blades-of-fire",
+      "score": 71,
+      "source": "metacritic",
+      "updated_at": "2026-05-14"
+    }
+  },
   "Bleak Faith: Forsaken": {
     "steam": {
       "found": true,
@@ -4717,6 +4746,37 @@
       "found": false
     }
   },
+  "Dead As Disco": {
+    "steam": {
+      "found": true,
+      "appid": 3404260,
+      "rating": "Overwhelmingly Positive",
+      "pct": 96,
+      "total": 5251,
+      "release_date": "5 May, 2026",
+      "genres": [
+        "Action",
+        "Indie",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404260/c047bcb51618b08b5764cc3a5c15f1b50511e4ee/capsule_184x69.jpg?t=1778694984",
+      "updated_at": "2026-05-14"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 167362,
+      "main": 2.31,
+      "extra": 5.07,
+      "all_styles": 2.87,
+      "updated_at": "2026-05-14"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "dead-as-disco",
+      "source": "metacritic",
+      "updated_at": "2026-05-14"
+    }
+  },
   "Dead Rising Deluxe Remaster": {
     "steam": {
       "found": true,
@@ -5887,6 +5947,34 @@
     },
     "pcgw": {
       "found": false
+    }
+  },
+  "Directive 8020": {
+    "steam": {
+      "found": true,
+      "appid": 2255370,
+      "rating": "Mixed",
+      "pct": 61,
+      "total": 549,
+      "release_date": "May 12, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2255370/a392d8661820bce934b820dda268eb69e586b9d2/capsule_184x69.jpg?t=1778669826",
+      "updated_at": "2026-05-14"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 116632,
+      "updated_at": "2026-05-14"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "directive-8020",
+      "score": 72,
+      "source": "metacritic",
+      "updated_at": "2026-05-14"
     }
   },
   "DiRT 5": {
@@ -8871,6 +8959,31 @@
       "fsr_version": "FSR 2.2",
       "xess_version": "XeSS 1.2",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Forza Horizon 6": {
+    "steam": {
+      "found": true,
+      "appid": 2483190,
+      "release_date": "18 MAY 2026",
+      "genres": [
+        "Carreras",
+        "Simuladores",
+        "Deportes"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d0d73e4ff499d6cd6fb06f7af898414179997125/capsule_184x69.jpg?t=1778262106",
+      "updated_at": "2026-05-14"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 174970,
+      "updated_at": "2026-05-14"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "forza-horizon-6",
+      "source": "metacritic",
+      "updated_at": "2026-05-14"
     }
   },
   "Forza Motorsport": {
@@ -21367,6 +21480,31 @@
       "updated_at": "2026-05-05"
     },
     "pcgw": {}
+  },
+  "Subnautica 2": {
+    "steam": {
+      "found": true,
+      "appid": 1962700,
+      "release_date": "14 MAY 2026",
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Acceso anticipado"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/a5668b4e7176e657e2f1c70667df989ba27f64b5/capsule_184x69.jpg?t=1778510411",
+      "updated_at": "2026-05-14"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 158248,
+      "updated_at": "2026-05-14"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "subnautica-2",
+      "source": "metacritic",
+      "updated_at": "2026-05-14"
+    }
   },
   "Sudden Strike 6": {
     "steam": {
