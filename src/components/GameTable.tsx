@@ -294,6 +294,16 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
 }) {
   const data: RowData = { steam, hltb, metacritic, upscaling };
   const [imgErr, setImgErr] = useState(false);
+  const [tagOpen, setTagOpen] = useState(false);
+  const tagMoreRef = useRef<HTMLSpanElement>(null);
+  useEffect(() => {
+    if (!tagOpen) return;
+    const close = (e: MouseEvent) => {
+      if (tagMoreRef.current && !tagMoreRef.current.contains(e.target as Node)) setTagOpen(false);
+    };
+    document.addEventListener("mousedown", close);
+    return () => document.removeEventListener("mousedown", close);
+  }, [tagOpen]);
   const imgSrc = steam?.image || image;
   const steamUrl = steam?.appid
     ? `https://store.steampowered.com/app/${steam.appid}`
@@ -349,9 +359,9 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
               <div className="tags-cell">
                 {visible.map(badge)}
                 {rest.length > 0 && (
-                  <span className="tag-more">
+                  <span className={`tag-more${tagOpen ? " tag-more-open" : ""}`} ref={tagMoreRef} onClick={() => setTagOpen(!tagOpen)}>
                     +{rest.length}
-                    <span className="tag-more-list">{rest.map(badge)}</span>
+                    {tagOpen && <span className="tag-more-list">{rest.map(badge)}</span>}
                   </span>
                 )}
               </div>

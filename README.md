@@ -70,3 +70,15 @@ GitHub Pages deployment is configured via the `base: '/dlssdb/'` setting in `vit
 
 - Vite + React + TypeScript
 - No external UI libraries
+
+
+# TODO
+
+tag filer what happens when in the +n
+
+ok lets make a plan, first rules are, column widths can only change when a new column is added or removed from the drop down, or on window resize.
+
+whenever these events happen the column width should be set to a static size based on the size of the values within.
+the game column should always be 360px, and the rest of the columns should try expand to take up empty space if necessary, but once a minsize is reached then they overflow into scrollbar.
+
+filter changes should not modify the size of the columns
