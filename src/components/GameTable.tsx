@@ -24,11 +24,11 @@ export const COLUMNS: Column[] = [
   { key: "metacritic",    label: "MC",           fullLabel: "Metacritic", minWidth: "90px",  tooltip: "Metacritic critic score\nGreen = 75+\nYellow = 50–74\nRed = below 50" },
   { key: "hltb",          label: "Playtime",     minWidth: "125px", tooltip: "Average playtime from HowLongToBeat\n(Main Story + Extras + Completionist)\nHover a value for full breakdown" },
   { key: "rr",            label: "RR",           fullLabel: "Ray Recon", minWidth: "90px",  tooltip: "DLSS Ray Reconstruction\nAI-enhanced ray tracing denoiser\nfor cleaner reflections and lighting" },
-  { key: "rt",            label: "Ray Tracing",  minWidth: "90px",  tooltip: "Ray Tracing support\nPath Tracing = full path tracing\nYes = partial (reflections, shadows, GI)" },
-  { key: "release_date",  label: "Release Date", minWidth: "110px", tooltip: "Steam release date" },
-  { key: "steam",         label: "Steam Rating", minWidth: "180px", tooltip: "Steam user review rating\nwith positive review percentage" },
-  { key: "sr",            label: "Super Res",    minWidth: "90px",  tooltip: "DLSS Super Resolution\nAI upscaling from lower resolution\nNV-T = Transformer model (best)" },
-  { key: "tags",          label: "Tags",         minWidth: "160px", tooltip: "Steam community tags\nSearch to filter by tag" },
+  { key: "rt",            label: "RT",           fullLabel: "Ray Tracing", minWidth: "125px", tooltip: "Ray Tracing support\nPath Tracing = full path tracing\nYes = partial (reflections, shadows, GI)" },
+  { key: "release_date",  label: "Release Day",  minWidth: "150px", tooltip: "Steam release date" },
+  { key: "steam",         label: "Steam Rating", minWidth: "240px", tooltip: "Steam user review rating\nwith positive review percentage" },
+  { key: "sr",            label: "SR",           fullLabel: "Super Res", minWidth: "90px",  tooltip: "DLSS Super Resolution\nAI upscaling from lower resolution\nNV-T = Transformer model (best)" },
+  { key: "tags",          label: "Tags",         minWidth: "180px", tooltip: "Steam community tags\nSearch to filter by tag" },
   { key: "owned",         label: "Owned",        minWidth: "90px",  tooltip: "Games you own\nImport your library via the header button" },
   { key: "hide",          label: "Visibility",   minWidth: "90px",  tooltip: "Toggle game visibility\nHidden games are saved in your browser", icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg> },
 ];
@@ -366,8 +366,8 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
           const tags = steam?.tags;
           if (!tags?.length) return <td key="tags"><span className="empty">—</span></td>;
           const tq = tagFilter.toLowerCase();
-          const visible = tags.slice(0, 3);
-          const rest = tags.slice(3);
+          const visible = tags.slice(0, 2);
+          const rest = tags.slice(2);
           const badge = (tag: string) => {
             const matched = tq && tag.toLowerCase().includes(tq);
             const dimmed = tq && !matched;
