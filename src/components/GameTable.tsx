@@ -1,4 +1,4 @@
-import { memo, useEffect, useRef, useMemo, useState } from "react";
+import { memo, useEffect, useLayoutEffect, useRef, useMemo, useState } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo, SortCol, SortDir, Filters } from "../types";
 import { FrameGenBadge, DlssVersionBadge, FeatureBadge, SteamBadge, MetacriticBadge, UpscalingBadge, HltbBadge, HideBadge, OwnedBadge } from "./Badge";
 
@@ -15,21 +15,21 @@ export const PINNED_FIRST = new Set<SortCol>(["name"]);
 export const PINNED_LAST = new Set<SortCol>(["owned", "hide"]);
 
 export const COLUMNS: Column[] = [
-  { key: "name",          label: "Game",         minWidth: "160px", tooltip: "Click to view on Steam" },
+  { key: "name",          label: "Game",         minWidth: "360px", tooltip: "Click to view on Steam" },
   { key: "dlaa",          label: "DLAA",         minWidth: "60px",  tooltip: "Deep Learning Anti-Aliasing\nAI anti-aliasing at native resolution" },
   { key: "dlssver",       label: "DLSS",         minWidth: "60px",  tooltip: "DLSS Version\n4.5 = Multi Frame Gen 6X\n4 = Multi Frame Gen 4X\n3.5 = Ray Reconstruction\n3 = Frame Generation\n2 = Super Resolution" },
   { key: "framegen",      label: "Frame Gen",    minWidth: "80px",  tooltip: "DLSS Frame Generation\n6X = DLSS 4.5 (RTX 50)\n4X = DLSS 4 (RTX 40/50)\n2X = DLSS 3 (RTX 40/50)" },
-  { key: "upscaling",     label: "FSR / XeSS",   minWidth: "80px",  tooltip: "Non-DLSS upscaling support\nFSR = AMD FidelityFX\nXeSS = Intel" },
-  { key: "metacritic",    label: "Metacritic",   minWidth: "70px",  tooltip: "Metacritic critic score\nGreen = 75+\nYellow = 50–74\nRed = below 50" },
-  { key: "hltb",          label: "Playtime",     minWidth: "70px",  tooltip: "Average playtime from HowLongToBeat\n(Main Story + Extras + Completionist)\nHover a value for full breakdown" },
-  { key: "rr",            label: "Ray Recon",    minWidth: "80px",  tooltip: "DLSS Ray Reconstruction\nAI-enhanced ray tracing denoiser\nfor cleaner reflections and lighting" },
+  { key: "upscaling",     label: "FSR / XeSS",   minWidth: "110px", tooltip: "Non-DLSS upscaling support\nFSR = AMD FidelityFX\nXeSS = Intel" },
+  { key: "metacritic",    label: "Metacritic",   minWidth: "80px",  tooltip: "Metacritic critic score\nGreen = 75+\nYellow = 50–74\nRed = below 50" },
+  { key: "hltb",          label: "Playtime",     minWidth: "80px",  tooltip: "Average playtime from HowLongToBeat\n(Main Story + Extras + Completionist)\nHover a value for full breakdown" },
+  { key: "rr",            label: "Ray Recon",    minWidth: "70px",  tooltip: "DLSS Ray Reconstruction\nAI-enhanced ray tracing denoiser\nfor cleaner reflections and lighting" },
   { key: "rt",            label: "Ray Tracing",  minWidth: "90px",  tooltip: "Ray Tracing support\nPath Tracing = full path tracing\nYes = partial (reflections, shadows, GI)" },
-  { key: "release_date",  label: "Release Date",  minWidth: "90px",  tooltip: "Steam release date" },
+  { key: "release_date",  label: "Release Date", minWidth: "110px", tooltip: "Steam release date" },
   { key: "steam",         label: "Steam Rating", minWidth: "180px", tooltip: "Steam user review rating\nwith positive review percentage" },
   { key: "sr",            label: "Super Res",    minWidth: "70px",  tooltip: "DLSS Super Resolution\nAI upscaling from lower resolution\nNV-T = Transformer model (best)" },
-  { key: "tags",          label: "Tags",         minWidth: "120px", maxWidth: "200px", tooltip: "Steam community tags\nSearch to filter by tag" },
+  { key: "tags",          label: "Tags",         minWidth: "160px", tooltip: "Steam community tags\nSearch to filter by tag" },
   { key: "owned",         label: "Owned",        minWidth: "60px",  tooltip: "Games you own\nImport your library via the header button" },
-  { key: "hide",          label: "Visibility",   minWidth: "40px",  tooltip: "Toggle game visibility\nHidden games are saved in your browser", icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg> },
+  { key: "hide",          label: "Visibility",   minWidth: "50px",  tooltip: "Toggle game visibility\nHidden games are saved in your browser", icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg> },
 ];
 
 const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]>> = {
@@ -168,6 +168,28 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
   );
 
   const wrapRef = useRef<HTMLDivElement>(null);
+  const [containerWidth, setContainerWidth] = useState(0);
+
+  useLayoutEffect(() => {
+    const el = wrapRef.current;
+    if (!el) return;
+    setContainerWidth(el.clientWidth);
+    const ro = new ResizeObserver((entries) => {
+      const w = entries[0]?.contentRect.width ?? 0;
+      setContainerWidth(w);
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  const colWidths = useMemo(() => {
+    const minWidths = cols.map((c) => parseInt(c.minWidth));
+    const totalMin = minWidths.reduce((s, w) => s + w, 0);
+    const extra = Math.max(0, containerWidth - totalMin);
+    const share = cols.length > 0 ? Math.floor(extra / cols.length) : 0;
+    return minWidths.map((w) => w + share);
+  }, [cols, containerWidth]);
+
   useEffect(() => {
     const el = wrapRef.current;
     if (!el || window.innerWidth > 800) return;
@@ -190,6 +212,9 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
   return (
     <div className="table-wrap" ref={wrapRef}>
       <table>
+        <colgroup>
+          {colWidths.map((w, i) => <col key={cols[i].key} style={{ width: w }} />)}
+        </colgroup>
         <thead>
           <tr>
             {cols.map((col) => {
@@ -198,7 +223,6 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
               return (
                 <th
                   key={col.key}
-                  style={{ minWidth: col.minWidth, maxWidth: col.maxWidth }}
                   className={sortCol === col.key ? "sorted" : ""}
                   aria-sort={sortCol === col.key ? (sortDir === 1 ? "ascending" : "descending") : "none"}
                 >
