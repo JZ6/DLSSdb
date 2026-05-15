@@ -7,7 +7,6 @@ export interface Column {
   label: string;
   fullLabel?: string;
   minWidth: string;
-  maxWidth?: string;
   tooltip: string;
   icon?: React.JSX.Element;
 }
@@ -386,7 +385,7 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
                 {rest.length > 0 && (
                   <span className={`tag-more${tagOpen ? " tag-more-open" : ""}`} ref={tagMoreRef} onClick={() => setTagOpen(!tagOpen)}>
                     +{rest.length}
-                    {tagOpen && <span className="tag-more-list">{rest.map(badge)}</span>}
+                    {tagOpen && <span className={`tag-more-list${tagMoreRef.current && tagMoreRef.current.getBoundingClientRect().top < 200 ? " tag-more-below" : ""}`}>{rest.map(badge)}</span>}
                   </span>
                 )}
               </div>
