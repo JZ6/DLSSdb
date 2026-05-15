@@ -362,6 +362,13 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
           const tags = steam?.tags;
           if (!tags?.length) return <td key="tags"><span className="empty">—</span></td>;
           const tq = tagFilter.toLowerCase();
+          const ordered = tq
+            ? [...tags].sort((a, b) => {
+                const am = a.toLowerCase().includes(tq) ? 0 : 1;
+                const bm = b.toLowerCase().includes(tq) ? 0 : 1;
+                return am - bm;
+              })
+            : tags;
           const available = tagColWidth - 28;
           const estW = (t: string) => t.length * 5.2 + 11;
           const btnW = 26;
@@ -369,7 +376,7 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
           const shown: string[] = [];
           const overflow: string[] = [];
           let used = 0;
-          for (const t of tags) {
+          for (const t of ordered) {
             const w = estW(t) + 2;
             if (used + w <= limit) {
               shown.push(t);
@@ -379,8 +386,7 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
             }
           }
           if (overflow.length === 0) {
-            // all fit — no +N button needed, reclaim btnW space
-            // (already all shown, nothing to do)
+            // all fit — no +N button needed
           } else if (shown.length === 0) {
             shown.push(overflow.shift()!);
           }
