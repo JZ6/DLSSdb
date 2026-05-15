@@ -5,6 +5,7 @@ import { FrameGenBadge, DlssVersionBadge, FeatureBadge, SteamBadge, MetacriticBa
 export interface Column {
   key: SortCol;
   label: string;
+  fullLabel?: string;
   minWidth: string;
   maxWidth?: string;
   tooltip: string;
@@ -16,20 +17,20 @@ export const PINNED_LAST = new Set<SortCol>(["owned", "hide"]);
 
 export const COLUMNS: Column[] = [
   { key: "name",          label: "Game",         minWidth: "360px", tooltip: "Click to view on Steam" },
-  { key: "dlaa",          label: "DLAA",         minWidth: "60px",  tooltip: "Deep Learning Anti-Aliasing\nAI anti-aliasing at native resolution" },
-  { key: "dlssver",       label: "DLSS",         minWidth: "60px",  tooltip: "DLSS Version\n4.5 = Multi Frame Gen 6X\n4 = Multi Frame Gen 4X\n3.5 = Ray Reconstruction\n3 = Frame Generation\n2 = Super Resolution" },
-  { key: "framegen",      label: "Frame Gen",    minWidth: "80px",  tooltip: "DLSS Frame Generation\n6X = DLSS 4.5 (RTX 50)\n4X = DLSS 4 (RTX 40/50)\n2X = DLSS 3 (RTX 40/50)" },
-  { key: "upscaling",     label: "FSR / XeSS",   minWidth: "110px", tooltip: "Non-DLSS upscaling support\nFSR = AMD FidelityFX\nXeSS = Intel" },
-  { key: "metacritic",    label: "Metacritic",   minWidth: "80px",  tooltip: "Metacritic critic score\nGreen = 75+\nYellow = 50–74\nRed = below 50" },
-  { key: "hltb",          label: "Playtime",     minWidth: "80px",  tooltip: "Average playtime from HowLongToBeat\n(Main Story + Extras + Completionist)\nHover a value for full breakdown" },
-  { key: "rr",            label: "Ray Recon",    minWidth: "70px",  tooltip: "DLSS Ray Reconstruction\nAI-enhanced ray tracing denoiser\nfor cleaner reflections and lighting" },
+  { key: "dlaa",          label: "DLAA",         minWidth: "90px",  tooltip: "Deep Learning Anti-Aliasing\nAI anti-aliasing at native resolution" },
+  { key: "dlssver",       label: "DLSS",         minWidth: "90px",  tooltip: "DLSS Version\n4.5 = Multi Frame Gen 6X\n4 = Multi Frame Gen 4X\n3.5 = Ray Reconstruction\n3 = Frame Generation\n2 = Super Resolution" },
+  { key: "framegen",      label: "FG",           fullLabel: "Frame Gen", minWidth: "90px",  tooltip: "DLSS Frame Generation\n6X = DLSS 4.5 (RTX 50)\n4X = DLSS 4 (RTX 40/50)\n2X = DLSS 3 (RTX 40/50)" },
+  { key: "upscaling",     label: "FSR/XeSS",     minWidth: "120px", tooltip: "Non-DLSS upscaling support\nFSR = AMD FidelityFX\nXeSS = Intel" },
+  { key: "metacritic",    label: "MC",           fullLabel: "Metacritic", minWidth: "90px",  tooltip: "Metacritic critic score\nGreen = 75+\nYellow = 50–74\nRed = below 50" },
+  { key: "hltb",          label: "Playtime",     minWidth: "125px", tooltip: "Average playtime from HowLongToBeat\n(Main Story + Extras + Completionist)\nHover a value for full breakdown" },
+  { key: "rr",            label: "RR",           fullLabel: "Ray Recon", minWidth: "90px",  tooltip: "DLSS Ray Reconstruction\nAI-enhanced ray tracing denoiser\nfor cleaner reflections and lighting" },
   { key: "rt",            label: "Ray Tracing",  minWidth: "90px",  tooltip: "Ray Tracing support\nPath Tracing = full path tracing\nYes = partial (reflections, shadows, GI)" },
   { key: "release_date",  label: "Release Date", minWidth: "110px", tooltip: "Steam release date" },
   { key: "steam",         label: "Steam Rating", minWidth: "180px", tooltip: "Steam user review rating\nwith positive review percentage" },
-  { key: "sr",            label: "Super Res",    minWidth: "70px",  tooltip: "DLSS Super Resolution\nAI upscaling from lower resolution\nNV-T = Transformer model (best)" },
+  { key: "sr",            label: "Super Res",    minWidth: "90px",  tooltip: "DLSS Super Resolution\nAI upscaling from lower resolution\nNV-T = Transformer model (best)" },
   { key: "tags",          label: "Tags",         minWidth: "160px", tooltip: "Steam community tags\nSearch to filter by tag" },
-  { key: "owned",         label: "Owned",        minWidth: "60px",  tooltip: "Games you own\nImport your library via the header button" },
-  { key: "hide",          label: "Visibility",   minWidth: "50px",  tooltip: "Toggle game visibility\nHidden games are saved in your browser", icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg> },
+  { key: "owned",         label: "Owned",        minWidth: "90px",  tooltip: "Games you own\nImport your library via the header button" },
+  { key: "hide",          label: "Visibility",   minWidth: "90px",  tooltip: "Toggle game visibility\nHidden games are saved in your browser", icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg> },
 ];
 
 const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]>> = {
