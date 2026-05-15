@@ -283,6 +283,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
               upscaling={upscaling[g.name]}
               image={images[g.name]}
               cols={cols}
+              tagColWidth={colWidths[cols.findIndex((c) => c.key === "tags")] ?? 180}
               hidden={hiddenGames.has(g.name)}
               onToggleHide={onToggleHide}
               owned={ownedGames.has(g.name)}
@@ -297,7 +298,7 @@ export function GameTable({ games, hltb, steam, metacritic, upscaling, images, s
   );
 }
 
-const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, image, cols, hidden, onToggleHide, owned, tagFilter, onTagClick }: {
+const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling, image, cols, tagColWidth, hidden, onToggleHide, owned, tagFilter, onTagClick }: {
   game: DlssGame;
   steam?: SteamInfo;
   hltb?: HltbInfo;
@@ -305,6 +306,7 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
   upscaling?: UpscalingInfo;
   image?: string;
   cols: Column[];
+  tagColWidth: number;
   hidden: boolean;
   onToggleHide: (name: string) => void;
   owned: boolean;
@@ -360,8 +362,30 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
           const tags = steam?.tags;
           if (!tags?.length) return <td key="tags"><span className="empty">—</span></td>;
           const tq = tagFilter.toLowerCase();
-          const visible = tags.slice(0, 2);
-          const rest = tags.slice(2);
+          const available = tagColWidth - 28;
+          const tagW = (t: string) => t.length * 5.5 + 12;
+          const shown: string[] = [];
+          const hidden: string[] = [];
+          let used = 0;
+          for (const t of tags) {
+            const w = tagW(t) + 2;
+            if (used + w <= available || shown.length === 0) {
+              shown.push(t);
+              used += w;
+            } else {
+              hidden.push(t);
+            }
+          }
+          if (hidden.length > 0) {
+            const btnW = 26;
+            while (shown.length > 1 && used + btnW > available) {
+              const removed = shown.pop()!;
+              used -= tagW(removed) + 2;
+              hidden.unshift(removed);
+            }
+          }
+          const visible = shown;
+          const rest = hidden;
           const badge = (tag: string) => {
             const matched = tq && tag.toLowerCase().includes(tq);
             const dimmed = tq && !matched;
