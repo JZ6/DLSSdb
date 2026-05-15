@@ -29,7 +29,7 @@ export const COLUMNS: Column[] = [
   { key: "steam",         label: "Steam Rating", minWidth: "240px", tooltip: "Steam user review rating\nwith positive review percentage" },
   { key: "sr",            label: "SR",           fullLabel: "Super Res", minWidth: "90px",  tooltip: "DLSS Super Resolution\nAI upscaling from lower resolution\nNV-T = Transformer model (best)" },
   { key: "tags",          label: "Tags",         minWidth: "180px", tooltip: "Steam community tags\nSearch to filter by tag" },
-  { key: "owned",         label: "Owned",        minWidth: "90px",  tooltip: "Games you own\nImport your library via the header button" },
+  { key: "owned",         label: "Own",          fullLabel: "Owned", minWidth: "90px",  tooltip: "Games you own\nImport your library via the header button" },
   { key: "hide",          label: "Visibility",   minWidth: "90px",  tooltip: "Toggle game visibility\nHidden games are saved in your browser", icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg> },
 ];
 
