@@ -165,14 +165,24 @@ export function useFilters(
       // Release date filter
       if (filters.release_date) {
         const rd = steam[g.name]?.release_date;
+        if (filters.release_date === "upcoming") {
+          if (!rd) return false;
+          const d = new Date(rd);
+          const isNonDate = /^(to be announced|tba|coming soon|q[1-4]\s*\d{4})$/i.test(rd.trim());
+          if (isNonDate) return true;
+          if (isNaN(d.getTime())) return false;
+          return d.getTime() > Date.now();
+        }
         if (!rd) return false;
         const d = new Date(rd);
         if (isNaN(d.getTime())) return false;
         const now = Date.now();
         const age = now - d.getTime();
         const ONE_MONTH = 30 * 86400000;
+        const THREE_MONTHS = 90 * 86400000;
         const ONE_YEAR = 365 * 86400000;
         if (filters.release_date === "month" && age > ONE_MONTH) return false;
+        if (filters.release_date === "quarter" && age > THREE_MONTHS) return false;
         if (filters.release_date === "year" && (age > ONE_YEAR || age <= 0)) return false;
         if (filters.release_date === "old" && age <= ONE_YEAR) return false;
       }
@@ -247,10 +257,12 @@ export function useFilters(
     // Metacritic
     const mc: Record<string, number> = { "90+": 0, "75+": 0 };
     // Release date
-    const rd: Record<string, number> = { month: 0, year: 0, old: 0 };
+    const rd: Record<string, number> = { month: 0, quarter: 0, year: 0, old: 0, upcoming: 0 };
     const NOW = Date.now();
     const ONE_MONTH = 30 * 86400000;
+    const THREE_MONTHS = 90 * 86400000;
     const ONE_YEAR = 365 * 86400000;
+    const NON_DATE_RE = /^(to be announced|tba|coming soon|q[1-4]\s*\d{4})$/i;
     // Hide
     const hi: Record<string, number> = { hidden: 0, all: 0 };
     // Owned
@@ -309,12 +321,17 @@ export function useFilters(
 
       const rdVal = steam[g.name]?.release_date;
       if (rdVal) {
+        if (NON_DATE_RE.test(rdVal.trim())) { rd.upcoming++; }
+        else {
         const d = new Date(rdVal);
         if (!isNaN(d.getTime())) {
           const age = NOW - d.getTime();
-          if (age <= ONE_MONTH) rd.month++;
+          if (age < 0) rd.upcoming++;
+          if (age >= 0 && age <= ONE_MONTH) rd.month++;
+          if (age >= 0 && age <= THREE_MONTHS) rd.quarter++;
           if (age > 0 && age <= ONE_YEAR) rd.year++;
           if (age > ONE_YEAR) rd.old++;
+        }
         }
       }
 

@@ -1,6 +1,6 @@
 import { memo, useEffect, useLayoutEffect, useRef, useMemo, useState } from "react";
 import type { DlssGame, HltbInfo, SteamInfo, MetacriticInfo, UpscalingInfo, SortCol, SortDir, Filters } from "../types";
-import { FrameGenBadge, DlssVersionBadge, FeatureBadge, SteamBadge, MetacriticBadge, UpscalingBadge, HltbBadge, HideBadge, OwnedBadge } from "./Badge";
+import { FrameGenBadge, DlssVersionBadge, FeatureBadge, SteamBadge, MetacriticBadge, UpscalingBadge, ReleaseDateBadge, HltbBadge, HideBadge, OwnedBadge } from "./Badge";
 
 export interface Column {
   key: SortCol;
@@ -29,7 +29,7 @@ export const COLUMNS: Column[] = [
   { key: "sr",            label: "SR",           fullLabel: "Super Res", minWidth: "90px",  tooltip: "DLSS Super Resolution\nAI upscaling from lower resolution\nNV-T = Transformer model (best)" },
   { key: "tags",          label: "Tags",         minWidth: "180px", tooltip: "Steam community tags\nSearch to filter by tag" },
   { key: "owned",         label: "Own",          fullLabel: "Owned", minWidth: "90px",  tooltip: "Games you own\nImport your library via the header button" },
-  { key: "hide",          label: "Visibility",   minWidth: "90px",  tooltip: "Toggle game visibility\nHidden games are saved in your browser", icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg> },
+  { key: "hide",          label: "Hide",         minWidth: "90px",  tooltip: "Toggle game visibility\nHidden games are saved in your browser" },
 ];
 
 const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]>> = {
@@ -88,8 +88,10 @@ const COLUMN_FILTERS: Partial<Record<SortCol, { value: string; label: string }[]
   release_date: [
     { value: "", label: "All" },
     { value: "month", label: "Last Month" },
+    { value: "quarter", label: "Last 3 Months" },
     { value: "year", label: "Last Year" },
     { value: "old", label: "Older" },
+    { value: "upcoming", label: "Upcoming" },
   ],
   hltb: [
     { value: "", label: "All" },
@@ -128,14 +130,7 @@ const CELL_RENDERERS: Record<string, CellRenderer> = {
   dlaa:       (g) => <FeatureBadge value={g.dlaa || ""} />,
   rt:         (g) => <FeatureBadge value={g["ray tracing"] || ""} />,
   // tags rendered inline in GameRow (needs filter context)
-  release_date: (_g, d) => {
-    const rd = d.steam?.release_date;
-    if (!rd) return <span className="empty">—</span>;
-    const parsed = new Date(rd);
-    const fmt = isNaN(parsed.getTime()) ? rd
-      : `${parsed.getFullYear()} ${parsed.toLocaleDateString("en-US", { month: "short" })} ${parsed.getDate()}`;
-    return <span>{fmt}</span>;
-  },
+  release_date: (_g, d) => <ReleaseDateBadge date={d.steam?.release_date} />,
   upscaling:  (_g, d) => <UpscalingBadge info={d.upscaling} />,
   steam:      (_g, d) => <SteamBadge info={d.steam} />,
   metacritic: (_g, d) => <MetacriticBadge info={d.metacritic} />,
