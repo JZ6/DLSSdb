@@ -363,29 +363,29 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
           if (!tags?.length) return <td key="tags"><span className="empty">—</span></td>;
           const tq = tagFilter.toLowerCase();
           const available = tagColWidth - 28;
-          const tagW = (t: string) => t.length * 5.5 + 12;
+          const estW = (t: string) => t.length * 5.2 + 11;
+          const btnW = 26;
+          const limit = available - btnW;
           const shown: string[] = [];
-          const hidden: string[] = [];
+          const overflow: string[] = [];
           let used = 0;
           for (const t of tags) {
-            const w = tagW(t) + 2;
-            if (used + w <= available || shown.length === 0) {
+            const w = estW(t) + 2;
+            if (used + w <= limit) {
               shown.push(t);
               used += w;
             } else {
-              hidden.push(t);
+              overflow.push(t);
             }
           }
-          if (hidden.length > 0) {
-            const btnW = 26;
-            while (shown.length > 1 && used + btnW > available) {
-              const removed = shown.pop()!;
-              used -= tagW(removed) + 2;
-              hidden.unshift(removed);
-            }
+          if (overflow.length === 0) {
+            // all fit — no +N button needed, reclaim btnW space
+            // (already all shown, nothing to do)
+          } else if (shown.length === 0) {
+            shown.push(overflow.shift()!);
           }
           const visible = shown;
-          const rest = hidden;
+          const rest = overflow;
           const badge = (tag: string) => {
             const matched = tq && tag.toLowerCase().includes(tq);
             const dimmed = tq && !matched;
