@@ -316,6 +316,7 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
   const data: RowData = { steam, hltb, metacritic, upscaling };
   const [imgErr, setImgErr] = useState(false);
   const [tagOpen, setTagOpen] = useState(false);
+  const [tagBelow, setTagBelow] = useState(false);
   const tagMoreRef = useRef<HTMLSpanElement>(null);
   useEffect(() => {
     if (!tagOpen) return;
@@ -408,9 +409,9 @@ const GameRow = memo(function GameRow({ game, steam, hltb, metacritic, upscaling
               <div className="tags-cell">
                 {visible.map(badge)}
                 {rest.length > 0 && (
-                  <span className={`tag-more${tagOpen ? " tag-more-open" : ""}`} ref={tagMoreRef} onClick={() => setTagOpen(!tagOpen)}>
+                  <span className={`tag-more${tagOpen ? " tag-more-open" : ""}`} ref={tagMoreRef} onClick={() => { if (!tagOpen && tagMoreRef.current) setTagBelow(tagMoreRef.current.getBoundingClientRect().top < 200); setTagOpen(!tagOpen); }}>
                     +{rest.length}
-                    {tagOpen && <span className={`tag-more-list${tagMoreRef.current && tagMoreRef.current.getBoundingClientRect().top < 200 ? " tag-more-below" : ""}`}>{rest.map(badge)}</span>}
+                    {tagOpen && <span className={`tag-more-list${tagBelow ? " tag-more-below" : ""}`}>{rest.map(badge)}</span>}
                   </span>
                 )}
               </div>
