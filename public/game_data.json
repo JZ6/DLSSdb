@@ -76,6 +76,34 @@
       "updated_at": "2026-05-04"
     }
   },
+  "007 First Light": {
+    "steam": {
+      "found": true,
+      "appid": 3768760,
+      "rating": "Very Positive",
+      "pct": 91,
+      "total": 5895,
+      "release_date": "May 26, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/244e00f17e6d0b5d1e88320dfbb5a12b483be700/capsule_184x69.jpg?t=1779903755",
+      "updated_at": "2026-05-27"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 85276,
+      "updated_at": "2026-05-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "007-first-light",
+      "score": 87,
+      "source": "metacritic",
+      "updated_at": "2026-05-27"
+    }
+  },
   "7 Days To Die": {
     "steam": {
       "found": true,
@@ -12440,6 +12468,46 @@
     },
     "pcgw": {}
   },
+  "Helldivers 2": {
+    "steam": {
+      "found": true,
+      "appid": 553850,
+      "rating": "Mostly Positive",
+      "pct": 75,
+      "total": 1143283,
+      "release_date": "Feb 8, 2024",
+      "genres": [
+        "Action"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/8463c7dc0ff0c0e3eef6de1688ea25f081761c99/capsule_184x69.jpg?t=1779899567",
+      "tags": [
+        "Online Co-Op",
+        "PvE",
+        "Third-Person Shooter",
+        "Multiplayer",
+        "Action"
+      ],
+      "updated_at": "2026-05-27"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 129232,
+      "main": 31.91,
+      "extra": 65.01,
+      "complete": 87.53,
+      "coop": 71.32,
+      "pvp": 31.03,
+      "all_styles": 67.32,
+      "updated_at": "2026-05-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "helldivers-2",
+      "score": 82,
+      "source": "metacritic",
+      "updated_at": "2026-05-27"
+    }
+  },
   "Hello Neighbor 2": {
     "steam": {
       "found": true,
@@ -15219,6 +15287,39 @@
     },
     "pcgw": {}
   },
+  "LEGO Batman: Legacy of the Dark Knight": {
+    "steam": {
+      "found": true,
+      "appid": 2215200,
+      "rating": "Overwhelmingly Positive",
+      "pct": 96,
+      "total": 7173,
+      "release_date": "22 May, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/4933722fc48c284f30ea2d0f9eb932c0ab3de1b5/capsule_184x69.jpg?t=1779824566",
+      "updated_at": "2026-05-27"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 172962,
+      "main": 12.2,
+      "extra": 17.03,
+      "complete": 29.48,
+      "coop": 14.48,
+      "all_styles": 16.14,
+      "updated_at": "2026-05-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "lego-batman-legacy-of-the-dark-knight",
+      "score": 84,
+      "source": "metacritic",
+      "updated_at": "2026-05-27"
+    }
+  },
   "LEGO Builder's Journey": {
     "steam": {
       "found": true,
@@ -16217,6 +16318,39 @@
       "found": true,
       "page": "Lumote",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Luna Abyss": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 112558,
+      "main": 7.47,
+      "extra": 9.62,
+      "complete": 12.4,
+      "all_styles": 8.53,
+      "updated_at": "2026-05-27"
+    },
+    "steam": {
+      "found": true,
+      "appid": 1933000,
+      "rating": "Very Positive",
+      "pct": 88,
+      "total": 360,
+      "release_date": "May 21, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1933000/3160a681955ff6f1b80fd681a9207fdcd2907a03/capsule_184x69.jpg?t=1779870125",
+      "updated_at": "2026-05-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "luna-abyss",
+      "score": 80,
+      "source": "metacritic",
+      "updated_at": "2026-05-27"
     }
   },
   "Lunacy: Saint Rhodes": {
@@ -25620,6 +25754,37 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Starminer": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 144496,
+      "updated_at": "2026-05-27"
+    },
+    "steam": {
+      "found": true,
+      "appid": 1116050,
+      "rating": "Mostly Positive",
+      "pct": 75,
+      "total": 205,
+      "release_date": "27 May, 2026",
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/b436ed1d410e608f105dc696b619a8469658b3b1/capsule_184x69.jpg?t=1779896765",
+      "updated_at": "2026-05-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "starminer",
+      "source": "metacritic",
+      "updated_at": "2026-05-27"
+    }
+  },
   "StarRupture": {
     "steam": {
       "found": true,
@@ -26375,6 +26540,34 @@
       "slug": "subnautica-2",
       "source": "metacritic",
       "updated_at": "2026-05-14"
+    }
+  },
+  "Sudden Strike 5": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 171045,
+      "updated_at": "2026-05-27"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2808550,
+      "rating": "Mostly Positive",
+      "pct": 73,
+      "total": 559,
+      "release_date": "Apr 23, 2026",
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2808550/b5cb2ffa14cb80c59764619511b6eb52aff35377/capsule_184x69.jpg?t=1777554046",
+      "updated_at": "2026-05-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "sudden-strike-5",
+      "score": 76,
+      "source": "metacritic",
+      "updated_at": "2026-05-27"
     }
   },
   "Sudden Strike 6": {
@@ -32178,6 +32371,34 @@
     },
     "pcgw": {},
     "image": "images/world_of_jade_dynasty.jpg"
+  },
+  "World of Tanks: HEAT": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 172971,
+      "updated_at": "2026-05-27"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2100280,
+      "rating": "Mostly Negative",
+      "pct": 39,
+      "total": 2042,
+      "release_date": "May 25, 2026",
+      "genres": [
+        "Action",
+        "Massively Multiplayer",
+        "Free To Play"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2100280/d06c38ca042fdf07e300de37a062e3a1629ba1ce/capsule_184x69.jpg?t=1779909551",
+      "updated_at": "2026-05-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "world-of-tanks-heat",
+      "source": "metacritic",
+      "updated_at": "2026-05-27"
+    }
   },
   "World of Warcraft: Shadowlands": {
     "steam": {
