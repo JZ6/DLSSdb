@@ -140,6 +140,44 @@
       "updated_at": "2026-06-03"
     }
   },
+  "7 Days To Die": {
+    "steam": {
+      "found": true,
+      "appid": 251570,
+      "rating": "Very Positive",
+      "pct": 87,
+      "total": 399540,
+      "release_date": "Jul 25, 2024",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/capsule_184x69.jpg?t=1776457619",
+      "updated_at": "2026-06-03"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 13500,
+      "main": 53.24,
+      "extra": 111.77,
+      "complete": 284.58,
+      "coop": 158.08,
+      "pvp": 794.11,
+      "all_styles": 133.21,
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "7-days-to-die",
+      "score": 47,
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "A Difficult Game About ROLLING - ReUpRise": {
     "steam": {
       "found": true,
