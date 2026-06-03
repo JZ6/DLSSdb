@@ -1,4 +1,34 @@
 {
+  "83": {
+    "steam": {
+      "found": true,
+      "appid": 1059220,
+      "rating": "Mixed",
+      "pct": 66,
+      "total": 949,
+      "release_date": "Apr 23, 2026",
+      "genres": [
+        "Action",
+        "Massively Multiplayer",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1059220/de4d1ea9256f9f8b13ea54f5d21d9f05290c215f/capsule_184x69.jpg?t=1779281144",
+      "updated_at": "2026-06-03"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 152061,
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "83",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "171": {
     "steam": {
       "found": true,
@@ -74,6 +104,40 @@
       "found": true,
       "page": "'83",
       "updated_at": "2026-05-04"
+    }
+  },
+  "007 First Light": {
+    "steam": {
+      "found": true,
+      "appid": 3768760,
+      "rating": "Very Positive",
+      "pct": 93,
+      "total": 23042,
+      "release_date": "May 26, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/244e00f17e6d0b5d1e88320dfbb5a12b483be700/capsule_184x69.jpg?t=1780344100",
+      "metacritic_score": 86,
+      "metacritic_url": "https://www.metacritic.com/game/pc/007-first-light?ftag=MCD-06-10aaa1f",
+      "updated_at": "2026-06-03"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 85276,
+      "main": 15.28,
+      "extra": 18.25,
+      "complete": 23.94,
+      "all_styles": 16.93,
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "007-first-light",
+      "score": 87,
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "7 Days To Die": {
@@ -282,6 +346,34 @@
       "found": true,
       "page": "A.I.L.A",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Abject Abyss": {
+    "steam": {
+      "found": true,
+      "appid": 3353810,
+      "rating": "Positive",
+      "pct": 93,
+      "total": 15,
+      "release_date": "Apr 8, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3353810/660baad43615c4064511431f58607d6030b99a7a/capsule_184x69.jpg?t=1777776750",
+      "updated_at": "2026-06-03"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 184339,
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "abject-abyss",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "Achilles: Legends Untold": {
@@ -1118,6 +1210,34 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Arena Breakers": {
+    "hltb": {
+      "found": false,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 3892600,
+      "rating": "Mostly Positive",
+      "pct": 71,
+      "total": 7,
+      "release_date": "Apr 8, 2026",
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892600/8bc688407003ad036c50d1856c7b858488bbd4d0/capsule_184x69.jpg?t=1776086115",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "arena-breakers",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "Arena Breakout: Infinite": {
     "steam": {
       "found": true,
@@ -1274,6 +1394,34 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Ash & Rust": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 175910,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 1358490,
+      "rating": "Mixed",
+      "pct": 67,
+      "total": 82,
+      "release_date": "Mar 13, 2026",
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1358490/f46b89b0811da873f8ac73c3bf703964e9c231ab/capsule_184x69.jpg?t=1776712872",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "ash-rust",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "Ashes Of Creation": {
     "steam": {
       "found": true,
@@ -1307,6 +1455,34 @@
     },
     "pcgw": {
       "found": false
+    }
+  },
+  "ASHGARD: Infinity Mask": {
+    "hltb": {
+      "found": false,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 3372950,
+      "rating": "Positive",
+      "pct": 95,
+      "total": 20,
+      "release_date": "Mar 27, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3372950/52cd0891dd9eb5180e53e0631f8bf63b667f3d40/capsule_184x69.jpg?t=1774912192",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "ashgard-infinity-mask",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "Assassin's Creed Mirage": {
@@ -1711,6 +1887,33 @@
     },
     "pcgw": {
       "found": false
+    }
+  },
+  "AVaOut": {
+    "hltb": {
+      "found": false,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 4405950,
+      "rating": "Overwhelmingly Positive",
+      "pct": 100,
+      "total": 4,
+      "release_date": "Mar 8, 2026",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Free To Play"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4405950/8cf1817d6f40cfcea73e2a77908fa46aec3f5ac3/capsule_184x69.jpg?t=1773026332",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "avaout",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "Avatar: Frontiers of Pandora": {
@@ -2949,6 +3152,36 @@
       "page": "Bodycam",
       "fsr_version": "FSR 3",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Bootstrap Island": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 153066,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 1942110,
+      "rating": "Very Positive",
+      "pct": 82,
+      "total": 1224,
+      "release_date": "Mar 12, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942110/ad23676cffbc58ab17c453e802bd1dc25d035d10/capsule_184x69.jpg?t=1777379647",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "bootstrap-island",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "Borderlands 4": {
@@ -4661,6 +4894,35 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Cooking Simulator 2: Better Together": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 183931,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2455360,
+      "rating": "Mixed",
+      "pct": 46,
+      "total": 753,
+      "release_date": "Mar 31, 2026",
+      "genres": [
+        "Casual",
+        "Indie",
+        "RPG",
+        "Simulation"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455360/bdbb24697c0b4afab51a3fec22bbd69068964a27/capsule_184x69.jpg?t=1779179696",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "cooking-simulator-2-better-together",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "Crime Boss: Rockay City": {
     "steam": {
       "found": true,
@@ -5300,6 +5562,39 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Darwin's Paradox!": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 163844,
+      "main": 4.61,
+      "extra": 5.12,
+      "complete": 6.08,
+      "all_styles": 5.09,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2989180,
+      "rating": "Very Positive",
+      "pct": 88,
+      "total": 780,
+      "release_date": "Apr 2, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2989180/85e634c779471ff86f90a844bca712f488a7b13c/capsule_184x69.jpg?t=1775773471",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "darwins-paradox",
+      "score": 73,
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "DAVY x JONES": {
     "steam": {
       "found": true,
@@ -5333,6 +5628,36 @@
       "found": true,
       "page": "Davy_X_Jones",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Dawn Break": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 184273,
+      "main": 3.04,
+      "all_styles": 3.04,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 3470610,
+      "rating": "Mostly Positive",
+      "pct": 74,
+      "total": 297,
+      "release_date": "Apr 8, 2026",
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470610/f402dadc4596e6bcc05447b57df89ad6d5a5967f/capsule_184x69.jpg?t=1777648361",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "dawn-break",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "Dawn of Defiance": {
@@ -6361,6 +6686,35 @@
       "page": "Deep_Rock_Galactic",
       "fsr_version": "FSR 2",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Deep Rock Galactic: Rogue Core": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 138796,
+      "main": 2.31,
+      "all_styles": 2.31,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2605790,
+      "rating": "Mixed",
+      "pct": 59,
+      "total": 12233,
+      "release_date": "May 20, 2026",
+      "genres": [
+        "Action",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2605790/cf83f3c2010f64ecd2ba0799cfeee2efdd7abe17/capsule_184x69.jpg?t=1779480566",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "deep-rock-galactic-rogue-core",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "DeepStates (VR)": {
@@ -10165,6 +10519,42 @@
       "updated_at": "2026-05-01"
     }
   },
+  "For Honor": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 36385,
+      "main": 7.04,
+      "extra": 10.99,
+      "complete": 18.25,
+      "coop": 14.94,
+      "pvp": 64.61,
+      "all_styles": 8.41,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 304390,
+      "rating": "Mixed",
+      "pct": 69,
+      "total": 161796,
+      "release_date": "Feb 13, 2017",
+      "genres": [
+        "Action"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304390/5b4909717c94e99511e459aad48cd2202e191046/capsule_184x69.jpg?t=1778259779",
+      "metacritic_score": 76,
+      "metacritic_url": "https://www.metacritic.com/game/pc/for-honor?ftag=MCD-06-10aaa1f",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "for-honor",
+      "score": 76,
+      "source": "steam",
+      "appid": 304390,
+      "updated_at": "2026-06-03"
+    }
+  },
   "Forest Doesn’t Care": {
     "steam": {
       "found": true,
@@ -12440,6 +12830,39 @@
     },
     "pcgw": {}
   },
+  "Helldivers 2": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 129232,
+      "main": 31.91,
+      "extra": 65.01,
+      "complete": 87.53,
+      "coop": 71.32,
+      "pvp": 31.03,
+      "all_styles": 67.32,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 553850,
+      "rating": "Mostly Positive",
+      "pct": 75,
+      "total": 1144554,
+      "release_date": "8 Feb, 2024",
+      "genres": [
+        "Action"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/8463c7dc0ff0c0e3eef6de1688ea25f081761c99/capsule_184x69.jpg?t=1779899567",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "helldivers-2",
+      "score": 82,
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "Hello Neighbor 2": {
     "steam": {
       "found": true,
@@ -13221,6 +13644,36 @@
     },
     "pcgw": {}
   },
+  "Human Host": {
+    "hltb": {
+      "found": false,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2393970,
+      "rating": "Mostly Positive",
+      "pct": 79,
+      "total": 209,
+      "release_date": "Apr 5, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2393970/3e2e8715f40474bfec3fa599b5bdf366077b5de6/capsule_184x69.jpg?t=1778423072",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "human-host",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "Hunt: Showdown 1896": {
     "steam": {
       "found": true,
@@ -13309,6 +13762,40 @@
       "found": true,
       "page": "Hydroneer",
       "updated_at": "2026-05-01"
+    }
+  },
+  "I Am Jesus Christ": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 112800,
+      "main": 5.64,
+      "extra": 5.83,
+      "complete": 6.41,
+      "all_styles": 5.95,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 1198970,
+      "rating": "Very Positive",
+      "pct": 86,
+      "total": 1313,
+      "release_date": "Apr 2, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1198970/11ec2a907d05269fa690a363e287871286bb45dc/capsule_184x69.jpg?t=1779867569",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "i-am-jesus-christ",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "ICARUS": {
@@ -15065,6 +15552,37 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Lay of the Land": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 157511,
+      "main": 6,
+      "all_styles": 6,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2776090,
+      "rating": "Mostly Positive",
+      "pct": 79,
+      "total": 989,
+      "release_date": "Apr 8, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776090/75ed7c5e5b14af80c4790c935b5cf37ec156ae4d/capsule_184x69.jpg?t=1775660418",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "lay-of-the-land",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "Layers of Fear": {
     "steam": {
       "found": true,
@@ -15219,6 +15737,39 @@
     },
     "pcgw": {}
   },
+  "LEGO Batman: Legacy of the Dark Knight": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 172962,
+      "main": 12.5,
+      "extra": 18.05,
+      "complete": 31.33,
+      "coop": 14.48,
+      "all_styles": 19.43,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2215200,
+      "rating": "Overwhelmingly Positive",
+      "pct": 96,
+      "total": 9277,
+      "release_date": "May 22, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/4933722fc48c284f30ea2d0f9eb932c0ab3de1b5/capsule_184x69.jpg?t=1779824566",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "lego-batman-legacy-of-the-dark-knight",
+      "score": 84,
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "LEGO Builder's Journey": {
     "steam": {
       "found": true,
@@ -15348,6 +15899,35 @@
       "found": true,
       "page": "Lemnis_Gate",
       "updated_at": "2026-05-01"
+    }
+  },
+  "LET IT DIE: INFERNO": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 174946,
+      "main": 12.58,
+      "all_styles": 12.58,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2576150,
+      "rating": "Mixed",
+      "pct": 53,
+      "total": 721,
+      "release_date": "Dec 3, 2025",
+      "genres": [
+        "Action"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2576150/a57aa4244fe7ba1564918b806a923a71806f39b3/capsule_184x69.jpg?t=1775013930",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "let-it-die-inferno",
+      "score": 54,
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "Level Zero: Extraction": {
@@ -16217,6 +16797,39 @@
       "found": true,
       "page": "Lumote",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Luna Abyss": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 112558,
+      "main": 7.62,
+      "extra": 9.17,
+      "complete": 10.96,
+      "all_styles": 8.28,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 1933000,
+      "rating": "Very Positive",
+      "pct": 87,
+      "total": 533,
+      "release_date": "May 21, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1933000/3160a681955ff6f1b80fd681a9207fdcd2907a03/capsule_184x69.jpg?t=1779870125",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "luna-abyss",
+      "score": 81,
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "Lunacy: Saint Rhodes": {
@@ -17379,6 +17992,39 @@
     "pcgw": {},
     "image": "images/minecraft_rtx.jpg"
   },
+  "MINOS": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 175187,
+      "main": 6,
+      "complete": 28,
+      "all_styles": 17,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 3181650,
+      "rating": "Very Positive",
+      "pct": 91,
+      "total": 476,
+      "release_date": "Apr 9, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Simulation",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3181650/dd35c74294be47efc5068caab13d8e38338fc3a0/capsule_184x69.jpg?t=1775747654",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "minos",
+      "score": 76,
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "MONGIL: STAR DIVE": {
     "steam": {
       "found": false
@@ -17690,6 +18336,35 @@
     },
     "pcgw": {},
     "image": "images/moonlight_blade.jpg"
+  },
+  "Morbid Metal": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 105500,
+      "main": 0.77,
+      "all_styles": 0.77,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 1866130,
+      "rating": "Very Positive",
+      "pct": 83,
+      "total": 1354,
+      "release_date": "Apr 8, 2026",
+      "genres": [
+        "Action",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866130/fd771db749b0c86b70b19e8fb55fbb0b0eb03874/capsule_184x69.jpg?t=1779376961",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "morbid-metal",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
   },
   "Mortal Kombat 1": {
     "steam": {
@@ -19288,6 +19963,40 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Of Ash and Steel": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 159520,
+      "main": 50,
+      "extra": 83,
+      "complete": 100,
+      "all_styles": 81,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2893820,
+      "rating": "Mixed",
+      "pct": 65,
+      "total": 6451,
+      "release_date": "Nov 24, 2025",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2893820/39aa77af1ae8ffc745cc837f1824016a8208627a/capsule_184x69.jpg?t=1764104048",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "of-ash-and-steel",
+      "score": 57,
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "Off The Grid": {
     "steam": {
       "found": true,
@@ -19510,6 +20219,35 @@
       "found": true,
       "page": "Orcs_Must_Die!_Deathtrap",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Origament: A Paper Adventure": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 184204,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 3448430,
+      "rating": "Very Positive",
+      "pct": 96,
+      "total": 104,
+      "release_date": "Apr 7, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448430/8366ce9297a2f15ae14214cf662a5ea60db34ef4/capsule_184x69_alt_assets_1.jpg?t=1779446238",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "origament-a-paper-adventure",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "Otherplane": {
@@ -20206,6 +20944,37 @@
       "updated_at": "2026-05-01"
     },
     "image": "images/pc_building_simulator_2.jpg"
+  },
+  "People of Note": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 174905,
+      "main": 16,
+      "extra": 22.17,
+      "complete": 26.08,
+      "all_styles": 21.89,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 1626170,
+      "rating": "Very Positive",
+      "pct": 91,
+      "total": 372,
+      "release_date": "7 Apr, 2026",
+      "genres": [
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1626170/90325a0ba70ed9523b1c487e1867972a219ccf97/capsule_184x69.jpg?t=1776172132",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "people-of-note",
+      "score": 78,
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
   },
   "PERISH": {
     "steam": {
@@ -21463,6 +22232,33 @@
       "page": "Reanimal",
       "fsr_version": "FSR 4",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Reaper Actual": {
+    "hltb": {
+      "found": false,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2995670,
+      "rating": "Very Negative",
+      "pct": 12,
+      "total": 57,
+      "release_date": "May 29, 2026",
+      "genres": [
+        "Action",
+        "Massively Multiplayer",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2995670/e6159269e89629d80da66a5bd768559edcbb2eae/capsule_184x69.jpg?t=1780350191",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "reaper-actual",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "Recall": {
@@ -22939,6 +23735,34 @@
       "page": "RuneScape:_Dragonwilds",
       "fsr_version": "FSR 3",
       "updated_at": "2026-05-01"
+    }
+  },
+  "RUNNING TRAIN | 走ル列車！": {
+    "hltb": {
+      "found": false,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 4630570,
+      "rating": "Overwhelmingly Positive",
+      "pct": 98,
+      "total": 967,
+      "release_date": "May 24, 2026",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630570/30dee21083f9e90c3f3e6d88935d5233839cd9bf/capsule_184x69.jpg?t=1780242360",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "running-train",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "Rust": {
@@ -25620,6 +26444,37 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Starminer": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 144496,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 1116050,
+      "rating": "Mostly Positive",
+      "pct": 75,
+      "total": 1234,
+      "release_date": "May 27, 2026",
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/b436ed1d410e608f105dc696b619a8469658b3b1/capsule_184x69.jpg?t=1780221176",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "starminer",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "StarRupture": {
     "steam": {
       "found": true,
@@ -26375,6 +27230,37 @@
       "slug": "subnautica-2",
       "source": "metacritic",
       "updated_at": "2026-05-14"
+    }
+  },
+  "Sudden Strike 5": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 171045,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2808550,
+      "rating": "Mostly Positive",
+      "pct": 73,
+      "total": 572,
+      "release_date": "Apr 23, 2026",
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2808550/b5cb2ffa14cb80c59764619511b6eb52aff35377/capsule_184x69.jpg?t=1780408413",
+      "metacritic_score": 76,
+      "metacritic_url": "https://www.metacritic.com/game/pc/sudden-strike-5?ftag=MCD-06-10aaa1f",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "sudden-strike-5",
+      "score": 76,
+      "source": "steam",
+      "appid": 2808550,
+      "updated_at": "2026-06-03"
     }
   },
   "Sudden Strike 6": {
@@ -28761,6 +29647,39 @@
       "updated_at": "2026-05-01"
     }
   },
+  "The Occultist": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 155053,
+      "main": 6.67,
+      "extra": 7.36,
+      "complete": 8.89,
+      "all_styles": 7.11,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2092840,
+      "rating": "Mostly Positive",
+      "pct": 76,
+      "total": 293,
+      "release_date": "Apr 8, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2092840/e8640ea90d47b5f7605454427499e1aacb9d05c9/capsule_184x69.jpg?t=1775818971",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "the-occultist",
+      "score": 66,
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
+  },
   "The Orville Interactive Fan Experience": {
     "steam": {
       "found": true,
@@ -30217,6 +31136,31 @@
       "page": "Uboat",
       "fsr_version": "FSR 2",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Ultra Form Alpha": {
+    "hltb": {
+      "found": false,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 4408490,
+      "rating": "Mixed",
+      "pct": 67,
+      "total": 3,
+      "release_date": "Apr 3, 2026",
+      "genres": [
+        "Action"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4408490/acbca8e9f67b7d08e0a499d347fd4a690256eb00/capsule_184x69.jpg?t=1777209420",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "ultra-form-alpha",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
     }
   },
   "Uncharted: Legacy of Thieves Collection": {
@@ -32178,6 +33122,35 @@
     },
     "pcgw": {},
     "image": "images/world_of_jade_dynasty.jpg"
+  },
+  "World of Tanks: HEAT": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 172971,
+      "updated_at": "2026-06-03"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2100280,
+      "rating": "Mixed",
+      "pct": 49,
+      "total": 3757,
+      "release_date": "May 25, 2026",
+      "genres": [
+        "Action",
+        "Casual",
+        "Massively Multiplayer",
+        "Free To Play"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2100280/d06c38ca042fdf07e300de37a062e3a1629ba1ce/capsule_184x69.jpg?t=1780407610",
+      "updated_at": "2026-06-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "world-of-tanks-heat",
+      "source": "metacritic",
+      "updated_at": "2026-06-03"
+    }
   },
   "World of Warcraft: Shadowlands": {
     "steam": {
