@@ -112,8 +112,8 @@
       "appid": 3768760,
       "rating": "Very Positive",
       "pct": 93,
-      "total": 23042,
-      "release_date": "May 26, 2026",
+      "total": 24416,
+      "release_date": "26 May, 2026",
       "genres": [
         "Action",
         "Adventure"
@@ -121,23 +121,24 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/244e00f17e6d0b5d1e88320dfbb5a12b483be700/capsule_184x69.jpg?t=1780344100",
       "metacritic_score": 86,
       "metacritic_url": "https://www.metacritic.com/game/pc/007-first-light?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "hltb": {
       "found": true,
       "hltb_id": 85276,
-      "main": 15.28,
-      "extra": 18.25,
-      "complete": 23.94,
-      "all_styles": 16.93,
-      "updated_at": "2026-06-03"
+      "main": 15.29,
+      "extra": 18.2,
+      "complete": 23.65,
+      "all_styles": 16.96,
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "007-first-light",
-      "score": 87,
-      "source": "metacritic",
-      "updated_at": "2026-06-03"
+      "score": 86,
+      "source": "steam",
+      "appid": 3768760,
+      "updated_at": "2026-06-04"
     }
   },
   "7 Days To Die": {
@@ -2903,16 +2904,16 @@
     "steam": {
       "found": true,
       "appid": 2091020,
-      "release_date": "May 14, 2026",
+      "release_date": "14 May, 2026",
       "genres": [
         "Action",
         "Adventure"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2091020/9434ece4a406d804a5f945994a4048e76bf9d0cd/capsule_184x69.jpg?t=1778774833",
-      "updated_at": "2026-05-14",
-      "rating": "Overwhelmingly Positive",
-      "pct": 100,
-      "total": 1
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2091020/9434ece4a406d804a5f945994a4048e76bf9d0cd/capsule_184x69.jpg?t=1780405214",
+      "updated_at": "2026-06-04",
+      "rating": "Mostly Positive",
+      "pct": 78,
+      "total": 459
     },
     "hltb": {
       "found": true,
@@ -2921,14 +2922,14 @@
       "extra": 47.35,
       "complete": 78.4,
       "all_styles": 47.83,
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "blades-of-fire",
       "score": 71,
       "source": "metacritic",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-06-04"
     }
   },
   "Bleak Faith: Forsaken": {
@@ -5847,8 +5848,8 @@
       "found": true,
       "appid": 3404260,
       "rating": "Overwhelmingly Positive",
-      "pct": 96,
-      "total": 5476,
+      "pct": 97,
+      "total": 8887,
       "release_date": "5 May, 2026",
       "genres": [
         "Action",
@@ -5856,21 +5857,22 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404260/c047bcb51618b08b5764cc3a5c15f1b50511e4ee/capsule_184x69.jpg?t=1778694984",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-06-04"
     },
     "hltb": {
       "found": true,
       "hltb_id": 167362,
-      "main": 2.31,
-      "extra": 5.07,
-      "all_styles": 2.87,
-      "updated_at": "2026-05-14"
+      "main": 2.33,
+      "extra": 5.56,
+      "complete": 13.19,
+      "all_styles": 3.44,
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "dead-as-disco",
       "source": "metacritic",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-06-04"
     }
   },
   "Dead Rising Deluxe Remaster": {
@@ -6685,27 +6687,27 @@
       "hltb_id": 138796,
       "main": 2.31,
       "all_styles": 2.31,
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "steam": {
       "found": true,
       "appid": 2605790,
       "rating": "Mixed",
       "pct": 59,
-      "total": 12233,
-      "release_date": "May 20, 2026",
+      "total": 12398,
+      "release_date": "20 May, 2026",
       "genres": [
         "Action",
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2605790/cf83f3c2010f64ecd2ba0799cfeee2efdd7abe17/capsule_184x69.jpg?t=1779480566",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "deep-rock-galactic-rogue-core",
       "source": "metacritic",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     }
   },
   "DeepStates (VR)": {
@@ -7255,27 +7257,32 @@
       "found": true,
       "appid": 2255370,
       "rating": "Mixed",
-      "pct": 61,
-      "total": 683,
+      "pct": 63,
+      "total": 1773,
       "release_date": "12 May, 2026",
       "genres": [
         "Action",
         "Adventure"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2255370/a392d8661820bce934b820dda268eb69e586b9d2/capsule_184x69.jpg?t=1778669826",
-      "updated_at": "2026-05-14"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2255370/a392d8661820bce934b820dda268eb69e586b9d2/capsule_184x69.jpg?t=1780398572",
+      "updated_at": "2026-06-04"
     },
     "hltb": {
       "found": true,
       "hltb_id": 116632,
-      "updated_at": "2026-05-14"
+      "main": 7.71,
+      "extra": 9.95,
+      "complete": 15.53,
+      "coop": 8.58,
+      "all_styles": 8.49,
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "directive-8020",
       "score": 72,
       "source": "metacritic",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-06-04"
     }
   },
   "DiRT 5": {
@@ -10832,7 +10839,7 @@
     "steam": {
       "found": true,
       "appid": 2483190,
-      "release_date": "18 May, 2026",
+      "release_date": "May 18, 2026",
       "genres": [
         "Racing",
         "Simulation",
@@ -15746,33 +15753,33 @@
     "hltb": {
       "found": true,
       "hltb_id": 172962,
-      "main": 12.5,
-      "extra": 18.05,
-      "complete": 31.33,
+      "main": 12.49,
+      "extra": 18.08,
+      "complete": 31.35,
       "coop": 14.48,
-      "all_styles": 19.43,
-      "updated_at": "2026-06-03"
+      "all_styles": 19.44,
+      "updated_at": "2026-06-04"
     },
     "steam": {
       "found": true,
       "appid": 2215200,
       "rating": "Overwhelmingly Positive",
       "pct": 96,
-      "total": 9277,
-      "release_date": "May 22, 2026",
+      "total": 9523,
+      "release_date": "22 May, 2026",
       "genres": [
         "Action",
         "Adventure"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/4933722fc48c284f30ea2d0f9eb932c0ab3de1b5/capsule_184x69.jpg?t=1779824566",
-      "updated_at": "2026-06-03"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/4933722fc48c284f30ea2d0f9eb932c0ab3de1b5/capsule_184x69.jpg?t=1780501607",
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "lego-batman-legacy-of-the-dark-knight",
       "score": 84,
       "source": "metacritic",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     }
   },
   "LEGO Builder's Journey": {
@@ -16810,31 +16817,31 @@
       "hltb_id": 112558,
       "main": 7.62,
       "extra": 9.17,
-      "complete": 10.96,
-      "all_styles": 8.28,
-      "updated_at": "2026-06-03"
+      "complete": 11.61,
+      "all_styles": 8.44,
+      "updated_at": "2026-06-04"
     },
     "steam": {
       "found": true,
       "appid": 1933000,
       "rating": "Very Positive",
       "pct": 87,
-      "total": 533,
-      "release_date": "May 21, 2026",
+      "total": 546,
+      "release_date": "21 May, 2026",
       "genres": [
         "Action",
         "Adventure",
         "Indie"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1933000/3160a681955ff6f1b80fd681a9207fdcd2907a03/capsule_184x69.jpg?t=1779870125",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "luna-abyss",
       "score": 81,
       "source": "metacritic",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     }
   },
   "Lunacy: Saint Rhodes": {
@@ -22242,28 +22249,28 @@
   "Reaper Actual": {
     "hltb": {
       "found": false,
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "steam": {
       "found": true,
       "appid": 2995670,
       "rating": "Very Negative",
-      "pct": 12,
-      "total": 57,
-      "release_date": "May 29, 2026",
+      "pct": 14,
+      "total": 59,
+      "release_date": "29 May, 2026",
       "genres": [
         "Action",
         "Massively Multiplayer",
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2995670/e6159269e89629d80da66a5bd768559edcbb2eae/capsule_184x69.jpg?t=1780350191",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "reaper-actual",
       "source": "metacritic",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     }
   },
   "Recall": {
@@ -23745,15 +23752,15 @@
   "RUNNING TRAIN | 走ル列車！": {
     "hltb": {
       "found": false,
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "steam": {
       "found": true,
       "appid": 4630570,
       "rating": "Overwhelmingly Positive",
       "pct": 98,
-      "total": 967,
-      "release_date": "May 24, 2026",
+      "total": 1002,
+      "release_date": "24 May, 2026",
       "genres": [
         "Casual",
         "Indie",
@@ -23761,13 +23768,13 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630570/30dee21083f9e90c3f3e6d88935d5233839cd9bf/capsule_184x69.jpg?t=1780242360",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "running-train",
       "source": "metacritic",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     }
   },
   "Rust": {
@@ -26453,15 +26460,15 @@
     "hltb": {
       "found": true,
       "hltb_id": 144496,
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "steam": {
       "found": true,
       "appid": 1116050,
       "rating": "Mostly Positive",
       "pct": 75,
-      "total": 1234,
-      "release_date": "May 27, 2026",
+      "total": 1298,
+      "release_date": "27 May, 2026",
       "genres": [
         "Action",
         "Indie",
@@ -26471,13 +26478,13 @@
         "Early Access"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1116050/b436ed1d410e608f105dc696b619a8469658b3b1/capsule_184x69.jpg?t=1780221176",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "starminer",
       "source": "metacritic",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     }
   },
   "StarRupture": {
@@ -27214,27 +27221,32 @@
       "found": true,
       "appid": 1962700,
       "rating": "Very Positive",
-      "pct": 87,
-      "total": 2377,
-      "release_date": "May 14, 2026",
+      "pct": 91,
+      "total": 110100,
+      "release_date": "14 May, 2026",
       "genres": [
         "Action",
         "Adventure",
         "Early Access"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/a5668b4e7176e657e2f1c70667df989ba27f64b5/capsule_184x69.jpg?t=1778771924",
-      "updated_at": "2026-05-14"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/a5668b4e7176e657e2f1c70667df989ba27f64b5/capsule_184x69.jpg?t=1780372044",
+      "updated_at": "2026-06-04"
     },
     "hltb": {
       "found": true,
       "hltb_id": 158248,
-      "updated_at": "2026-05-14"
+      "main": 13.11,
+      "extra": 17.32,
+      "complete": 30.28,
+      "coop": 13.41,
+      "all_styles": 15.46,
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "subnautica-2",
       "source": "metacritic",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-06-04"
     }
   },
   "Sudden Strike 5": {
@@ -33132,15 +33144,15 @@
     "hltb": {
       "found": true,
       "hltb_id": 172971,
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "steam": {
       "found": true,
       "appid": 2100280,
       "rating": "Mixed",
       "pct": 49,
-      "total": 3757,
-      "release_date": "May 25, 2026",
+      "total": 3933,
+      "release_date": "25 May, 2026",
       "genres": [
         "Action",
         "Casual",
@@ -33148,13 +33160,13 @@
         "Free To Play"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2100280/d06c38ca042fdf07e300de37a062e3a1629ba1ce/capsule_184x69.jpg?t=1780407610",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "world-of-tanks-heat",
       "source": "metacritic",
-      "updated_at": "2026-06-03"
+      "updated_at": "2026-06-04"
     }
   },
   "World of Warcraft: Shadowlands": {
