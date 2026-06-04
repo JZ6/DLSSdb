@@ -10853,7 +10853,7 @@
     "steam": {
       "found": true,
       "appid": 2483190,
-      "release_date": "May 18, 2026",
+      "release_date": "18 May, 2026",
       "genres": [
         "Racing",
         "Simulation",
@@ -10863,7 +10863,7 @@
       "updated_at": "2026-06-04",
       "rating": "Very Positive",
       "pct": 84,
-      "total": 68158
+      "total": 68831
     },
     "hltb": {
       "found": true,
@@ -10880,6 +10880,13 @@
       "slug": "forza-horizon-6",
       "score": 91,
       "source": "metacritic",
+      "updated_at": "2026-06-04"
+    },
+    "pcgw": {
+      "found": true,
+      "page": "Forza_Horizon_6",
+      "fsr_version": "FSR 3.1",
+      "xess_version": "XeSS 2.1",
       "updated_at": "2026-06-04"
     }
   },
