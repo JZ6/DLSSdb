@@ -5391,31 +5391,32 @@
       "appid": 1091500,
       "rating": "Very Positive",
       "pct": 86,
-      "total": 934068,
+      "total": 940948,
       "release_date": "9 Dec, 2020",
       "genres": [
         "RPG"
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/590e0988a2fb79f44d3e31e41fd4949eb76abc41/capsule_184x69.jpg?t=1769690377",
       "metacritic_url": "https://www.metacritic.com/game/pc/cyberpunk-2077?ftag=MCD-06-10aaa1f",
-      "updated_at": "2026-05-01",
+      "updated_at": "2026-06-04",
       "tags": [
         "Cyberpunk",
         "Open World",
         "Nudity",
         "RPG",
         "Singleplayer"
-      ]
+      ],
+      "metacritic_score": 86
     },
     "hltb": {
       "found": true,
       "hltb_id": 2127,
-      "main": 26,
-      "extra": 63.1,
-      "complete": 108.36,
+      "main": 25.99,
+      "extra": 63.14,
+      "complete": 108.41,
       "speed": 8.23,
-      "all_styles": 65.53,
-      "updated_at": "2026-05-01"
+      "all_styles": 65.66,
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
@@ -5423,7 +5424,7 @@
       "score": 86,
       "source": "steam",
       "appid": 1091500,
-      "updated_at": "2026-05-01"
+      "updated_at": "2026-06-04"
     },
     "pcgw": {
       "found": true,
