@@ -10832,19 +10832,28 @@
         "Simulation",
         "Sports"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d0d73e4ff499d6cd6fb06f7af898414179997125/capsule_184x69.jpg?t=1778769078",
-      "updated_at": "2026-05-14"
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d0d73e4ff499d6cd6fb06f7af898414179997125/capsule_184x69.jpg?t=1779912021",
+      "updated_at": "2026-06-04",
+      "rating": "Very Positive",
+      "pct": 84,
+      "total": 68158
     },
     "hltb": {
       "found": true,
       "hltb_id": 174970,
-      "updated_at": "2026-05-14"
+      "main": 26.3,
+      "extra": 36.19,
+      "complete": 56.93,
+      "coop": 12.81,
+      "all_styles": 32.74,
+      "updated_at": "2026-06-04"
     },
     "metacritic": {
       "found": true,
       "slug": "forza-horizon-6",
+      "score": 91,
       "source": "metacritic",
-      "updated_at": "2026-05-14"
+      "updated_at": "2026-06-04"
     }
   },
   "Forza Motorsport": {
