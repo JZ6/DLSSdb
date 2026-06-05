@@ -15702,38 +15702,6 @@
       "updated_at": "2026-05-01"
     }
   },
-  "Legend of Ymir": {
-    "steam": {
-      "found": true,
-      "appid": 4172530,
-      "rating": "Mostly Negative",
-      "pct": 24,
-      "total": 1032,
-      "release_date": "4 Apr, 2026",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Massively Multiplayer",
-        "RPG",
-        "Strategy",
-        "Free To Play"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4172530/588e500d194d9eaff0ec3efe4c9866c0f18283a4/capsule_184x69.jpg?t=1780366260",
-      "updated_at": "2026-06-04"
-    },
-    "hltb": {
-      "found": true,
-      "hltb_id": 156468,
-      "updated_at": "2026-06-04"
-    },
-    "metacritic": {
-      "found": true,
-      "slug": "legend-of-ymir",
-      "source": "metacritic",
-      "updated_at": "2026-06-04"
-    },
-    "pcgw": {}
-  },
   "Legendary Tales": {
     "steam": {
       "found": true,
