@@ -968,6 +968,40 @@
       "found": false
     }
   },
+  "Anno 117: Pax Romana": {
+    "steam": {
+      "found": true,
+      "appid": 3274580,
+      "rating": "Mixed",
+      "pct": 70,
+      "total": 12001,
+      "release_date": "Nov 12, 2025",
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3274580/2a50b884fd1739a68165fc41af8130197f6c57a4/capsule_184x69.jpg?t=1780353529",
+      "metacritic_score": 84,
+      "metacritic_url": "https://www.metacritic.com/game/pc/anno-117-pax-romana?ftag=MCD-06-10aaa1f",
+      "updated_at": "2026-06-05"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 152093,
+      "main": 9.97,
+      "extra": 23.9,
+      "complete": 57.27,
+      "all_styles": 13.49,
+      "updated_at": "2026-06-05"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "anno-117-pax-romana",
+      "score": 84,
+      "source": "metacritic",
+      "updated_at": "2026-06-05"
+    }
+  },
   "Anthem": {
     "steam": {
       "found": true,
