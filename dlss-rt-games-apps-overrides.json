@@ -3578,6 +3578,18 @@
   },
   {
     "sno": 294,
+    "name": "Empulse",
+    "type": "Game",
+    "dlss multi frame generation": "NV, 6X",
+    "dlss frame generation": "NV, U",
+    "dlss super resolution": "NV, T",
+    "dlss ray reconstruction": "",
+    "dlaa": "NV, T",
+    "ray tracing": "",
+    "ai": ""
+  },
+  {
+    "sno": 295,
     "name": "Empyreal",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -3589,7 +3601,7 @@
     "ai": ""
   },
   {
-    "sno": 295,
+    "sno": 296,
     "name": "Empyrion - Galactic Survival",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3601,7 +3613,7 @@
     "ai": ""
   },
   {
-    "sno": 296,
+    "sno": 297,
     "name": "Enlisted",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -3613,7 +3625,7 @@
     "ai": ""
   },
   {
-    "sno": 297,
+    "sno": 298,
     "name": "Enshrouded",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3625,7 +3637,7 @@
     "ai": ""
   },
   {
-    "sno": 298,
+    "sno": 299,
     "name": "Enotria: The Last Song",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -3637,7 +3649,7 @@
     "ai": ""
   },
   {
-    "sno": 299,
+    "sno": 300,
     "name": "ENTITY: THE BLACK DAY",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -3649,7 +3661,7 @@
     "ai": ""
   },
   {
-    "sno": 300,
+    "sno": 301,
     "name": "Ephesus",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3661,7 +3673,7 @@
     "ai": ""
   },
   {
-    "sno": 301,
+    "sno": 302,
     "name": "Epic Games' Twinmotion-UE",
     "type": "App",
     "dlss multi frame generation": "NV, 6X",
@@ -3673,7 +3685,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 302,
+    "sno": 303,
     "name": "Epic Games' Unreal Engine (4 & 5)",
     "type": "App",
     "dlss multi frame generation": "",
@@ -3685,7 +3697,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 303,
+    "sno": 304,
     "name": "Escape From Naraka",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3697,7 +3709,7 @@
     "ai": ""
   },
   {
-    "sno": 304,
+    "sno": 305,
     "name": "Escape From Tarkov",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3709,7 +3721,7 @@
     "ai": ""
   },
   {
-    "sno": 305,
+    "sno": 306,
     "name": "ESI Group IC.IDO",
     "type": "App",
     "dlss multi frame generation": "",
@@ -3721,7 +3733,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 306,
+    "sno": 307,
     "name": "ESRI ArcGIS Pro",
     "type": "App",
     "dlss multi frame generation": "",
@@ -3733,7 +3745,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 307,
+    "sno": 308,
     "name": "Eternal Strands",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -3745,7 +3757,7 @@
     "ai": ""
   },
   {
-    "sno": 308,
+    "sno": 309,
     "name": "Europa Universalis V",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3757,7 +3769,7 @@
     "ai": ""
   },
   {
-    "sno": 309,
+    "sno": 310,
     "name": "EVE Frontier",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -3769,7 +3781,7 @@
     "ai": ""
   },
   {
-    "sno": 310,
+    "sno": 311,
     "name": "EVE Online",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -3781,7 +3793,7 @@
     "ai": ""
   },
   {
-    "sno": 311,
+    "sno": 312,
     "name": "Everspace 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -3793,7 +3805,7 @@
     "ai": ""
   },
   {
-    "sno": 312,
+    "sno": 313,
     "name": "Evil Dead: The Game",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3805,7 +3817,7 @@
     "ai": ""
   },
   {
-    "sno": 313,
+    "sno": 314,
     "name": "Evil West",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3817,7 +3829,7 @@
     "ai": ""
   },
   {
-    "sno": 314,
+    "sno": 315,
     "name": "EVOTINCTION",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -3829,7 +3841,7 @@
     "ai": ""
   },
   {
-    "sno": 315,
+    "sno": 316,
     "name": "EXFIL",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -3841,7 +3853,7 @@
     "ai": ""
   },
   {
-    "sno": 316,
+    "sno": 317,
     "name": "Exit From",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3853,7 +3865,7 @@
     "ai": ""
   },
   {
-    "sno": 317,
+    "sno": 318,
     "name": "EzBench",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3865,7 +3877,7 @@
     "ai": ""
   },
   {
-    "sno": 318,
+    "sno": 319,
     "name": "Facerig Animaze",
     "type": "App",
     "dlss multi frame generation": "",
@@ -3877,7 +3889,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 319,
+    "sno": 320,
     "name": "Far Far West",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -3889,7 +3901,7 @@
     "ai": ""
   },
   {
-    "sno": 320,
+    "sno": 321,
     "name": "F.I.S.T.: Forged In Shadow Torch",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3901,7 +3913,7 @@
     "ai": ""
   },
   {
-    "sno": 321,
+    "sno": 322,
     "name": "F1 2020",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3913,7 +3925,7 @@
     "ai": ""
   },
   {
-    "sno": 322,
+    "sno": 323,
     "name": "F1 2021",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3925,7 +3937,7 @@
     "ai": ""
   },
   {
-    "sno": 323,
+    "sno": 324,
     "name": "F1 22",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3937,7 +3949,7 @@
     "ai": ""
   },
   {
-    "sno": 324,
+    "sno": 325,
     "name": "F1 23",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3949,7 +3961,7 @@
     "ai": ""
   },
   {
-    "sno": 325,
+    "sno": 326,
     "name": "F1 24",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3961,7 +3973,7 @@
     "ai": ""
   },
   {
-    "sno": 326,
+    "sno": 327,
     "name": "F1 25",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -3973,7 +3985,7 @@
     "ai": ""
   },
   {
-    "sno": 327,
+    "sno": 328,
     "name": "F1 Manager 2023",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3985,7 +3997,7 @@
     "ai": ""
   },
   {
-    "sno": 328,
+    "sno": 329,
     "name": "F1 Manager 2024",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -3997,7 +4009,7 @@
     "ai": ""
   },
   {
-    "sno": 329,
+    "sno": 330,
     "name": "Fall Balance Ball",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4009,7 +4021,7 @@
     "ai": ""
   },
   {
-    "sno": 330,
+    "sno": 331,
     "name": "Far Cry 6",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4021,7 +4033,7 @@
     "ai": ""
   },
   {
-    "sno": 331,
+    "sno": 332,
     "name": "Faraday Protocol",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4033,7 +4045,7 @@
     "ai": ""
   },
   {
-    "sno": 332,
+    "sno": 333,
     "name": "Farlight 84",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -4045,7 +4057,7 @@
     "ai": ""
   },
   {
-    "sno": 333,
+    "sno": 334,
     "name": "Farming Simulator 22",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4057,7 +4069,7 @@
     "ai": ""
   },
   {
-    "sno": 334,
+    "sno": 335,
     "name": "Farming Simulator 25",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4069,7 +4081,19 @@
     "ai": ""
   },
   {
-    "sno": 335,
+    "sno": 336,
+    "name": "Fatekeeper",
+    "type": "Game",
+    "dlss multi frame generation": "NV, 6X",
+    "dlss frame generation": "Yes",
+    "dlss super resolution": "NV, T",
+    "dlss ray reconstruction": "",
+    "dlaa": "NV, T",
+    "ray tracing": "Yes",
+    "ai": ""
+  },
+  {
+    "sno": 337,
     "name": "FBC: Firebreak",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4081,7 +4105,7 @@
     "ai": ""
   },
   {
-    "sno": 336,
+    "sno": 338,
     "name": "Fera: The Sundered Tribes",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4093,7 +4117,7 @@
     "ai": ""
   },
   {
-    "sno": 337,
+    "sno": 339,
     "name": "FINAL FANTASY VII REBIRTH",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -4105,7 +4129,7 @@
     "ai": ""
   },
   {
-    "sno": 338,
+    "sno": 340,
     "name": "FINAL FANTASY XIV Online",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4117,7 +4141,7 @@
     "ai": ""
   },
   {
-    "sno": 339,
+    "sno": 341,
     "name": "FINAL FANTASY XV",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4129,7 +4153,7 @@
     "ai": ""
   },
   {
-    "sno": 340,
+    "sno": 342,
     "name": "FINAL FANTASY XVI",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4141,7 +4165,7 @@
     "ai": ""
   },
   {
-    "sno": 341,
+    "sno": 343,
     "name": "Finnish Cottage Simulator",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -4153,7 +4177,7 @@
     "ai": ""
   },
   {
-    "sno": 342,
+    "sno": 344,
     "name": "Firefighting Simulator: Ignite",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4165,7 +4189,7 @@
     "ai": ""
   },
   {
-    "sno": 343,
+    "sno": 345,
     "name": "Firefighting Simulator - The Squad",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4177,7 +4201,7 @@
     "ai": ""
   },
   {
-    "sno": 344,
+    "sno": 346,
     "name": "Firmament",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4189,7 +4213,7 @@
     "ai": ""
   },
   {
-    "sno": 345,
+    "sno": 347,
     "name": "Five Nights At Freddy’s: Security Breach",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4201,7 +4225,7 @@
     "ai": ""
   },
   {
-    "sno": 346,
+    "sno": 348,
     "name": "Flintlock: The Siege of Dawn",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4213,7 +4237,7 @@
     "ai": ""
   },
   {
-    "sno": 347,
+    "sno": 349,
     "name": "Flipscapes",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4225,7 +4249,7 @@
     "ai": ""
   },
   {
-    "sno": 348,
+    "sno": 350,
     "name": "Fobia - St. Dinfna Hotel",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4237,7 +4261,7 @@
     "ai": ""
   },
   {
-    "sno": 349,
+    "sno": 351,
     "name": "Forest Doesn’t Care",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4249,7 +4273,7 @@
     "ai": ""
   },
   {
-    "sno": 350,
+    "sno": 352,
     "name": "Forever Skies",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4261,7 +4285,7 @@
     "ai": ""
   },
   {
-    "sno": 351,
+    "sno": 353,
     "name": "Forgive Me Father 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4273,7 +4297,7 @@
     "ai": ""
   },
   {
-    "sno": 352,
+    "sno": 354,
     "name": "For Honor",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4285,7 +4309,7 @@
     "ai": ""
   },
   {
-    "sno": 353,
+    "sno": 355,
     "name": "Forspoken",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4297,7 +4321,7 @@
     "ai": ""
   },
   {
-    "sno": 354,
+    "sno": 356,
     "name": "Fortnite",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4309,7 +4333,7 @@
     "ai": ""
   },
   {
-    "sno": 355,
+    "sno": 357,
     "name": "Fort Solis",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4321,7 +4345,7 @@
     "ai": ""
   },
   {
-    "sno": 356,
+    "sno": 358,
     "name": "Forza Horizon 5",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4333,7 +4357,7 @@
     "ai": ""
   },
   {
-    "sno": 357,
+    "sno": 359,
     "name": "Forza Horizon 6",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4345,7 +4369,7 @@
     "ai": ""
   },
   {
-    "sno": 358,
+    "sno": 360,
     "name": "Forza Motorsport",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4357,7 +4381,7 @@
     "ai": ""
   },
   {
-    "sno": 359,
+    "sno": 361,
     "name": "Foundry MODO",
     "type": "App",
     "dlss multi frame generation": "",
@@ -4369,7 +4393,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 360,
+    "sno": 362,
     "name": "FragPunk",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4381,7 +4405,7 @@
     "ai": ""
   },
   {
-    "sno": 361,
+    "sno": 363,
     "name": "Frostpunk 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4393,7 +4417,7 @@
     "ai": ""
   },
   {
-    "sno": 362,
+    "sno": 364,
     "name": "Frozen Flame",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4405,7 +4429,7 @@
     "ai": ""
   },
   {
-    "sno": 363,
+    "sno": 365,
     "name": "Frozenheim",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4417,7 +4441,7 @@
     "ai": ""
   },
   {
-    "sno": 364,
+    "sno": 366,
     "name": "Funko Fusion",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4429,7 +4453,7 @@
     "ai": ""
   },
   {
-    "sno": 365,
+    "sno": 367,
     "name": "Fusion Quill",
     "type": "App",
     "dlss multi frame generation": "",
@@ -4441,7 +4465,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 366,
+    "sno": 368,
     "name": "Game of Thrones: Kingsroad",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4453,7 +4477,7 @@
     "ai": ""
   },
   {
-    "sno": 367,
+    "sno": 369,
     "name": "Gangs of Sherwood",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4465,7 +4489,7 @@
     "ai": ""
   },
   {
-    "sno": 368,
+    "sno": 370,
     "name": "Gears of War: Reloaded",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4477,7 +4501,7 @@
     "ai": ""
   },
   {
-    "sno": 369,
+    "sno": 371,
     "name": "Get Stuffed!",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4489,7 +4513,7 @@
     "ai": ""
   },
   {
-    "sno": 370,
+    "sno": 372,
     "name": "Ghost",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4501,7 +4525,7 @@
     "ai": ""
   },
   {
-    "sno": 371,
+    "sno": 373,
     "name": "Ghostbusters: Spirits Unleashed",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4513,7 +4537,7 @@
     "ai": ""
   },
   {
-    "sno": 372,
+    "sno": 374,
     "name": "Ghost of Tsushima Director’s Cut",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4525,7 +4549,7 @@
     "ai": ""
   },
   {
-    "sno": 373,
+    "sno": 375,
     "name": "Ghostrunner",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4537,7 +4561,7 @@
     "ai": ""
   },
   {
-    "sno": 374,
+    "sno": 376,
     "name": "Ghostrunner 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4549,7 +4573,7 @@
     "ai": ""
   },
   {
-    "sno": 375,
+    "sno": 377,
     "name": "Ghostwire: Tokyo",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4561,7 +4585,7 @@
     "ai": ""
   },
   {
-    "sno": 376,
+    "sno": 378,
     "name": "Glodon BIMMaker",
     "type": "App",
     "dlss multi frame generation": "",
@@ -4573,7 +4597,19 @@
     "ai": "Yes"
   },
   {
-    "sno": 377,
+    "sno": 379,
+    "name": "GOALS",
+    "type": "Game",
+    "dlss multi frame generation": "NV, 4X",
+    "dlss frame generation": "NV, U",
+    "dlss super resolution": "NV, T",
+    "dlss ray reconstruction": "",
+    "dlaa": "NV, T",
+    "ray tracing": "",
+    "ai": ""
+  },
+  {
+    "sno": 380,
     "name": "Goat Simulator: Remastered",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4585,7 +4621,7 @@
     "ai": ""
   },
   {
-    "sno": 378,
+    "sno": 381,
     "name": "GODBREAKERS",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4597,7 +4633,7 @@
     "ai": ""
   },
   {
-    "sno": 379,
+    "sno": 382,
     "name": "God of War",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4609,7 +4645,7 @@
     "ai": ""
   },
   {
-    "sno": 380,
+    "sno": 383,
     "name": "God of War Ragnarök",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4621,7 +4657,7 @@
     "ai": ""
   },
   {
-    "sno": 381,
+    "sno": 384,
     "name": "Godfall",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4633,7 +4669,7 @@
     "ai": ""
   },
   {
-    "sno": 382,
+    "sno": 385,
     "name": "Goofy Gorillas",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4645,7 +4681,7 @@
     "ai": ""
   },
   {
-    "sno": 383,
+    "sno": 386,
     "name": "Google Chrome (RTX Video Super Resolution)",
     "type": "App",
     "dlss multi frame generation": "",
@@ -4657,7 +4693,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 384,
+    "sno": 387,
     "name": "Gord",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4669,7 +4705,7 @@
     "ai": ""
   },
   {
-    "sno": 385,
+    "sno": 388,
     "name": "Gori: Cuddly Carnage",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4681,7 +4717,7 @@
     "ai": ""
   },
   {
-    "sno": 386,
+    "sno": 389,
     "name": "Gotham Knights",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4693,7 +4729,19 @@
     "ai": ""
   },
   {
-    "sno": 387,
+    "sno": 390,
+    "name": "Gothic 1 Remake",
+    "type": "Game",
+    "dlss multi frame generation": "NV, 6X",
+    "dlss frame generation": "NV, U",
+    "dlss super resolution": "NV, T",
+    "dlss ray reconstruction": "",
+    "dlaa": "NV, T",
+    "ray tracing": "",
+    "ai": ""
+  },
+  {
+    "sno": 391,
     "name": "Grand Emprise: Time Travel Survival",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4705,7 +4753,7 @@
     "ai": ""
   },
   {
-    "sno": 388,
+    "sno": 392,
     "name": "Grand Theft Auto III - The Definitive Edition",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4717,7 +4765,7 @@
     "ai": ""
   },
   {
-    "sno": 389,
+    "sno": 393,
     "name": "Grand Theft Auto: San Andreas - The Definitive Edition",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4729,7 +4777,7 @@
     "ai": ""
   },
   {
-    "sno": 390,
+    "sno": 394,
     "name": "Grand Theft Auto: Vice City - The Definitive Edition",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4741,7 +4789,7 @@
     "ai": ""
   },
   {
-    "sno": 391,
+    "sno": 395,
     "name": "Grand Theft Auto V Enhanced",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -4753,7 +4801,7 @@
     "ai": ""
   },
   {
-    "sno": 392,
+    "sno": 396,
     "name": "Gray Zone Warfare",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4765,7 +4813,7 @@
     "ai": ""
   },
   {
-    "sno": 393,
+    "sno": 397,
     "name": "GreedFall II: The Dying World",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4777,7 +4825,7 @@
     "ai": ""
   },
   {
-    "sno": 394,
+    "sno": 398,
     "name": "Greedland",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4789,7 +4837,7 @@
     "ai": ""
   },
   {
-    "sno": 395,
+    "sno": 399,
     "name": "Gripper",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4801,7 +4849,7 @@
     "ai": ""
   },
   {
-    "sno": 396,
+    "sno": 400,
     "name": "Ground Branch",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4813,7 +4861,7 @@
     "ai": ""
   },
   {
-    "sno": 397,
+    "sno": 401,
     "name": "Gu Jian Qi Tan Online",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4825,7 +4873,7 @@
     "ai": ""
   },
   {
-    "sno": 398,
+    "sno": 402,
     "name": "GUN JAM",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4837,7 +4885,7 @@
     "ai": ""
   },
   {
-    "sno": 399,
+    "sno": 403,
     "name": "Gungrave G.O.R.E",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4849,7 +4897,7 @@
     "ai": ""
   },
   {
-    "sno": 400,
+    "sno": 404,
     "name": "Half-Life 2 RTX Demo",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -4861,7 +4909,7 @@
     "ai": ""
   },
   {
-    "sno": 401,
+    "sno": 405,
     "name": "Half Sword",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4873,7 +4921,7 @@
     "ai": ""
   },
   {
-    "sno": 402,
+    "sno": 406,
     "name": "Halo Infinite",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4885,7 +4933,7 @@
     "ai": ""
   },
   {
-    "sno": 403,
+    "sno": 407,
     "name": "Helios",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4897,7 +4945,7 @@
     "ai": ""
   },
   {
-    "sno": 404,
+    "sno": 408,
     "name": "Hell Pie",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4909,7 +4957,7 @@
     "ai": ""
   },
   {
-    "sno": 405,
+    "sno": 409,
     "name": "Hellblade: Senua's Sacrifice",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4921,7 +4969,7 @@
     "ai": ""
   },
   {
-    "sno": 406,
+    "sno": 410,
     "name": "Hellblade II Enhanced: Senua's Saga",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4933,7 +4981,7 @@
     "ai": ""
   },
   {
-    "sno": 407,
+    "sno": 411,
     "name": "Hellbreach: Vegas",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4945,7 +4993,7 @@
     "ai": ""
   },
   {
-    "sno": 408,
+    "sno": 412,
     "name": "Helldivers 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4957,7 +5005,7 @@
     "ai": ""
   },
   {
-    "sno": 409,
+    "sno": 413,
     "name": "Hell Is Us",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4969,7 +5017,7 @@
     "ai": ""
   },
   {
-    "sno": 410,
+    "sno": 414,
     "name": "Hello Neighbor 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -4981,7 +5029,7 @@
     "ai": ""
   },
   {
-    "sno": 411,
+    "sno": 415,
     "name": "Heroic Kingdom: Origins",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -4993,7 +5041,7 @@
     "ai": ""
   },
   {
-    "sno": 412,
+    "sno": 416,
     "name": "Hi-Fi RUSH",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5005,7 +5053,7 @@
     "ai": ""
   },
   {
-    "sno": 413,
+    "sno": 417,
     "name": "Highguard",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5017,7 +5065,7 @@
     "ai": ""
   },
   {
-    "sno": 414,
+    "sno": 418,
     "name": "High On Life",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5029,7 +5077,7 @@
     "ai": ""
   },
   {
-    "sno": 415,
+    "sno": 419,
     "name": "High On Life 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5041,7 +5089,7 @@
     "ai": ""
   },
   {
-    "sno": 416,
+    "sno": 420,
     "name": "Highrise City",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5053,7 +5101,7 @@
     "ai": ""
   },
   {
-    "sno": 417,
+    "sno": 421,
     "name": "HITMAN World of Assassination",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5065,7 +5113,7 @@
     "ai": ""
   },
   {
-    "sno": 418,
+    "sno": 422,
     "name": "Hogwarts Legacy",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5077,7 +5125,7 @@
     "ai": ""
   },
   {
-    "sno": 419,
+    "sno": 423,
     "name": "Höll Space 5D6",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5089,7 +5137,7 @@
     "ai": ""
   },
   {
-    "sno": 420,
+    "sno": 424,
     "name": "Homebrew Cortex",
     "type": "App",
     "dlss multi frame generation": "",
@@ -5101,7 +5149,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 421,
+    "sno": 425,
     "name": "Homebrew Jan Desktop",
     "type": "App",
     "dlss multi frame generation": "",
@@ -5113,7 +5161,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 422,
+    "sno": 426,
     "name": "Homeworld 3",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5125,7 +5173,7 @@
     "ai": ""
   },
   {
-    "sno": 423,
+    "sno": 427,
     "name": "Honkai: Star Rail",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5137,7 +5185,7 @@
     "ai": ""
   },
   {
-    "sno": 424,
+    "sno": 428,
     "name": "Holomento",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5149,7 +5197,7 @@
     "ai": ""
   },
   {
-    "sno": 425,
+    "sno": 429,
     "name": "Horizon Technology Kool VR 3.0",
     "type": "App",
     "dlss multi frame generation": "",
@@ -5161,7 +5209,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 426,
+    "sno": 430,
     "name": "Horizon Forbidden West Complete Edition",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5173,7 +5221,7 @@
     "ai": ""
   },
   {
-    "sno": 427,
+    "sno": 431,
     "name": "Horizon Zero Dawn Complete Edition",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5185,7 +5233,7 @@
     "ai": ""
   },
   {
-    "sno": 428,
+    "sno": 432,
     "name": "Horizon Zero Dawn Remastered",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5197,7 +5245,7 @@
     "ai": ""
   },
   {
-    "sno": 429,
+    "sno": 433,
     "name": "HOT WHEELS UNLEASHED",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5209,7 +5257,7 @@
     "ai": ""
   },
   {
-    "sno": 430,
+    "sno": 434,
     "name": "HOT WHEELS UNLEASHED 2 - Turbocharged",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5221,7 +5269,7 @@
     "ai": ""
   },
   {
-    "sno": 431,
+    "sno": 435,
     "name": "HOUND: AUTOMATON",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5233,7 +5281,7 @@
     "ai": ""
   },
   {
-    "sno": 432,
+    "sno": 436,
     "name": "Human Host",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5245,7 +5293,7 @@
     "ai": ""
   },
   {
-    "sno": 433,
+    "sno": 437,
     "name": "Hunt: Showdown 1896",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5257,7 +5305,7 @@
     "ai": ""
   },
   {
-    "sno": 434,
+    "sno": 438,
     "name": "Hydroneer",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5269,7 +5317,7 @@
     "ai": ""
   },
   {
-    "sno": 435,
+    "sno": 439,
     "name": "I Am Jesus Christ",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5281,7 +5329,7 @@
     "ai": ""
   },
   {
-    "sno": 436,
+    "sno": 440,
     "name": "ICARUS",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5293,7 +5341,7 @@
     "ai": ""
   },
   {
-    "sno": 437,
+    "sno": 441,
     "name": "Ikonei Island: An Earthlock Adventure",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5305,7 +5353,7 @@
     "ai": ""
   },
   {
-    "sno": 438,
+    "sno": 442,
     "name": "Immortals of Aveum",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5317,7 +5365,7 @@
     "ai": ""
   },
   {
-    "sno": 439,
+    "sno": 443,
     "name": "Incurison Red River",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5329,7 +5377,7 @@
     "ai": ""
   },
   {
-    "sno": 440,
+    "sno": 444,
     "name": "Indiana Jones and the Great Circle",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5341,7 +5389,7 @@
     "ai": ""
   },
   {
-    "sno": 441,
+    "sno": 445,
     "name": "INDIKA",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5353,7 +5401,7 @@
     "ai": ""
   },
   {
-    "sno": 442,
+    "sno": 446,
     "name": "INDUSTRIA",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5365,7 +5413,7 @@
     "ai": ""
   },
   {
-    "sno": 443,
+    "sno": 447,
     "name": "INDUSTRIA 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5377,7 +5425,7 @@
     "ai": ""
   },
   {
-    "sno": 444,
+    "sno": 448,
     "name": "Industry Giant 4.0",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5389,7 +5437,7 @@
     "ai": ""
   },
   {
-    "sno": 445,
+    "sno": 449,
     "name": "Infinity Nikki",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -5401,7 +5449,7 @@
     "ai": ""
   },
   {
-    "sno": 446,
+    "sno": 450,
     "name": "InFlux Redux",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5413,7 +5461,7 @@
     "ai": ""
   },
   {
-    "sno": 447,
+    "sno": 451,
     "name": "Into the Dead: Our Darkest Days",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5425,7 +5473,7 @@
     "ai": ""
   },
   {
-    "sno": 448,
+    "sno": 452,
     "name": "Into the Radius VR",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5437,7 +5485,7 @@
     "ai": ""
   },
   {
-    "sno": 449,
+    "sno": 453,
     "name": "inZOI",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5449,7 +5497,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 450,
+    "sno": 454,
     "name": "Iron Conflict",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5461,7 +5509,7 @@
     "ai": ""
   },
   {
-    "sno": 451,
+    "sno": 455,
     "name": "Island of the Ancients",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5473,7 +5521,7 @@
     "ai": ""
   },
   {
-    "sno": 452,
+    "sno": 456,
     "name": "Isles of Yore",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5485,7 +5533,7 @@
     "ai": ""
   },
   {
-    "sno": 453,
+    "sno": 457,
     "name": "Isotropix Angie",
     "type": "App",
     "dlss multi frame generation": "",
@@ -5497,7 +5545,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 454,
+    "sno": 458,
     "name": "Isotropix Clarisse",
     "type": "App",
     "dlss multi frame generation": "",
@@ -5509,7 +5557,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 455,
+    "sno": 459,
     "name": "Jagged Alliance 3",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5521,7 +5569,7 @@
     "ai": ""
   },
   {
-    "sno": 456,
+    "sno": 460,
     "name": "Jaws Of Extinction",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5533,7 +5581,7 @@
     "ai": ""
   },
   {
-    "sno": 457,
+    "sno": 461,
     "name": "JDM: Japanese Drift Master",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -5545,7 +5593,7 @@
     "ai": ""
   },
   {
-    "sno": 458,
+    "sno": 462,
     "name": "Jian Po",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5557,7 +5605,7 @@
     "ai": ""
   },
   {
-    "sno": 459,
+    "sno": 463,
     "name": "Jianying Pro",
     "type": "App",
     "dlss multi frame generation": "",
@@ -5569,7 +5617,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 460,
+    "sno": 464,
     "name": "John Carpenter's Toxic Commando",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -5581,7 +5629,7 @@
     "ai": ""
   },
   {
-    "sno": 461,
+    "sno": 465,
     "name": "Jotunnslayer: Hordes of Hel",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5593,7 +5641,7 @@
     "ai": ""
   },
   {
-    "sno": 462,
+    "sno": 466,
     "name": "Judgment",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5605,7 +5653,7 @@
     "ai": ""
   },
   {
-    "sno": 463,
+    "sno": 467,
     "name": "Jump Space",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5617,7 +5665,7 @@
     "ai": ""
   },
   {
-    "sno": 464,
+    "sno": 468,
     "name": "Jurassic World Evolution 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5629,7 +5677,7 @@
     "ai": ""
   },
   {
-    "sno": 465,
+    "sno": 469,
     "name": "Jurassic World Evolution 3",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -5641,7 +5689,7 @@
     "ai": ""
   },
   {
-    "sno": 466,
+    "sno": 470,
     "name": "Jusant",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5653,7 +5701,7 @@
     "ai": ""
   },
   {
-    "sno": 467,
+    "sno": 471,
     "name": "Justice / Sword of Justice",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -5665,7 +5713,7 @@
     "ai": ""
   },
   {
-    "sno": 468,
+    "sno": 472,
     "name": "JX3 Online RTX Version",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5677,7 +5725,7 @@
     "ai": ""
   },
   {
-    "sno": 469,
+    "sno": 473,
     "name": "KARMA: The Dark World",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5689,7 +5737,7 @@
     "ai": ""
   },
   {
-    "sno": 470,
+    "sno": 474,
     "name": "KartKraft",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5701,7 +5749,7 @@
     "ai": ""
   },
   {
-    "sno": 471,
+    "sno": 475,
     "name": "Keeper",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5713,7 +5761,7 @@
     "ai": ""
   },
   {
-    "sno": 472,
+    "sno": 476,
     "name": "Kena: Bridge of Spirits",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5725,7 +5773,7 @@
     "ai": ""
   },
   {
-    "sno": 473,
+    "sno": 477,
     "name": "Killer Klowns from Outer Space: The Game",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5737,7 +5785,7 @@
     "ai": ""
   },
   {
-    "sno": 474,
+    "sno": 478,
     "name": "Killing Floor 3",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5749,7 +5797,7 @@
     "ai": ""
   },
   {
-    "sno": 475,
+    "sno": 479,
     "name": "Kingdom Come: Deliverance II",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5761,7 +5809,7 @@
     "ai": ""
   },
   {
-    "sno": 476,
+    "sno": 480,
     "name": "Kunitsu-Gami: Path of the Goddess",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5773,7 +5821,7 @@
     "ai": ""
   },
   {
-    "sno": 477,
+    "sno": 481,
     "name": "Kognat Rotobot",
     "type": "App",
     "dlss multi frame generation": "",
@@ -5785,7 +5833,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 478,
+    "sno": 482,
     "name": "Kristala",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5797,7 +5845,7 @@
     "ai": ""
   },
   {
-    "sno": 479,
+    "sno": 483,
     "name": "Land of the Vikings",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5809,7 +5857,7 @@
     "ai": ""
   },
   {
-    "sno": 480,
+    "sno": 484,
     "name": "Last Hope on Earth",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5821,7 +5869,7 @@
     "ai": ""
   },
   {
-    "sno": 481,
+    "sno": 485,
     "name": "Last Sighting",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5833,7 +5881,7 @@
     "ai": ""
   },
   {
-    "sno": 482,
+    "sno": 486,
     "name": "Last Train Home",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5845,7 +5893,7 @@
     "ai": ""
   },
   {
-    "sno": 483,
+    "sno": 487,
     "name": "Layers of Fear",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5857,7 +5905,7 @@
     "ai": ""
   },
   {
-    "sno": 484,
+    "sno": 488,
     "name": "Lay of the Land",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -5869,7 +5917,7 @@
     "ai": ""
   },
   {
-    "sno": 485,
+    "sno": 489,
     "name": "LEAP",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5881,7 +5929,7 @@
     "ai": ""
   },
   {
-    "sno": 486,
+    "sno": 490,
     "name": "Legendary Tales",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5893,7 +5941,7 @@
     "ai": ""
   },
   {
-    "sno": 487,
+    "sno": 491,
     "name": "Legend of Ymir",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -5905,7 +5953,7 @@
     "ai": ""
   },
   {
-    "sno": 488,
+    "sno": 492,
     "name": "LEGO Batman: Legacy of the Dark Knight",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5917,7 +5965,7 @@
     "ai": ""
   },
   {
-    "sno": 489,
+    "sno": 493,
     "name": "LEGO Builder's Journey",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5929,7 +5977,7 @@
     "ai": ""
   },
   {
-    "sno": 490,
+    "sno": 494,
     "name": "LEGO Horizon Adventures",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5941,7 +5989,7 @@
     "ai": ""
   },
   {
-    "sno": 491,
+    "sno": 495,
     "name": "Lemnis Gate",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5953,7 +6001,7 @@
     "ai": ""
   },
   {
-    "sno": 492,
+    "sno": 496,
     "name": "LET IT DIE: INFERNO",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5965,7 +6013,7 @@
     "ai": ""
   },
   {
-    "sno": 493,
+    "sno": 497,
     "name": "Level Zero: Extraction",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -5977,7 +6025,7 @@
     "ai": ""
   },
   {
-    "sno": 494,
+    "sno": 498,
     "name": "Lies of P",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -5989,7 +6037,7 @@
     "ai": ""
   },
   {
-    "sno": 495,
+    "sno": 499,
     "name": "Life Is Strange: True Colors",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6001,7 +6049,7 @@
     "ai": ""
   },
   {
-    "sno": 496,
+    "sno": 500,
     "name": "Lightyear Frontier",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6013,7 +6061,7 @@
     "ai": ""
   },
   {
-    "sno": 497,
+    "sno": 501,
     "name": "Like a Dragon: Infinite Wealth",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6025,7 +6073,7 @@
     "ai": ""
   },
   {
-    "sno": 498,
+    "sno": 502,
     "name": "Like A Dragon: Ishin!",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6037,7 +6085,7 @@
     "ai": ""
   },
   {
-    "sno": 499,
+    "sno": 503,
     "name": "Like A Dragon Gaiden: The Man Who Erased His Name",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6049,7 +6097,7 @@
     "ai": ""
   },
   {
-    "sno": 500,
+    "sno": 504,
     "name": "Like a Dragon: Pirate Yakuza in Hawaii",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6061,7 +6109,7 @@
     "ai": ""
   },
   {
-    "sno": 501,
+    "sno": 505,
     "name": "Liminalcore",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6073,7 +6121,7 @@
     "ai": ""
   },
   {
-    "sno": 502,
+    "sno": 506,
     "name": "Langchain",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6085,7 +6133,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 503,
+    "sno": 507,
     "name": "Langflow AI",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6097,7 +6145,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 504,
+    "sno": 508,
     "name": "Linctex Digital Technology Co.Ltd - Style3D Studio",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6109,7 +6157,7 @@
     "ai": ""
   },
   {
-    "sno": 505,
+    "sno": 509,
     "name": "Little Nightmares II",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6121,7 +6169,7 @@
     "ai": ""
   },
   {
-    "sno": 506,
+    "sno": 510,
     "name": "Little Nightmares III",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6133,7 +6181,7 @@
     "ai": ""
   },
   {
-    "sno": 507,
+    "sno": 511,
     "name": "LM Studio",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6145,7 +6193,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 508,
+    "sno": 512,
     "name": "Lodestar",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6157,7 +6205,7 @@
     "ai": ""
   },
   {
-    "sno": 509,
+    "sno": 513,
     "name": "Loopmancer",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6169,7 +6217,7 @@
     "ai": ""
   },
   {
-    "sno": 510,
+    "sno": 514,
     "name": "Lords of the Fallen",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6181,7 +6229,7 @@
     "ai": ""
   },
   {
-    "sno": 511,
+    "sno": 515,
     "name": "Lost Judgment",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6193,7 +6241,7 @@
     "ai": ""
   },
   {
-    "sno": 512,
+    "sno": 516,
     "name": "Lost Records: Bloom & Rage",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6205,7 +6253,7 @@
     "ai": ""
   },
   {
-    "sno": 513,
+    "sno": 517,
     "name": "Lost Skies",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6217,7 +6265,7 @@
     "ai": ""
   },
   {
-    "sno": 514,
+    "sno": 518,
     "name": "Lost Soul Aside",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6229,7 +6277,7 @@
     "ai": ""
   },
   {
-    "sno": 515,
+    "sno": 519,
     "name": "Loverowind",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6241,7 +6289,7 @@
     "ai": ""
   },
   {
-    "sno": 516,
+    "sno": 520,
     "name": "Lumote: The Mastermote Chronicles",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6253,7 +6301,7 @@
     "ai": ""
   },
   {
-    "sno": 517,
+    "sno": 521,
     "name": "Luna Abyss",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6265,7 +6313,7 @@
     "ai": ""
   },
   {
-    "sno": 518,
+    "sno": 522,
     "name": "Lunacy: Saint Rhodes",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6277,7 +6325,7 @@
     "ai": ""
   },
   {
-    "sno": 519,
+    "sno": 523,
     "name": "Luto",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -6289,7 +6337,7 @@
     "ai": ""
   },
   {
-    "sno": 520,
+    "sno": 524,
     "name": "Luxion KeyShot",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6301,7 +6349,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 521,
+    "sno": 525,
     "name": "Mafia: The Old Country",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6313,7 +6361,7 @@
     "ai": ""
   },
   {
-    "sno": 522,
+    "sno": 526,
     "name": "Mandragora: Whispers of the Witch Tree",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6325,7 +6373,7 @@
     "ai": ""
   },
   {
-    "sno": 523,
+    "sno": 527,
     "name": "Manor Lords",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6337,7 +6385,7 @@
     "ai": ""
   },
   {
-    "sno": 524,
+    "sno": 528,
     "name": "Marmoset Toolbag",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6349,7 +6397,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 525,
+    "sno": 529,
     "name": "Martha Is Dead",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6361,11 +6409,11 @@
     "ai": ""
   },
   {
-    "sno": 526,
+    "sno": 530,
     "name": "Marathon",
     "type": "Game",
     "dlss multi frame generation": "",
-    "dlss frame generation": "",
+    "dlss frame generation": "Yes",
     "dlss super resolution": "NV, T",
     "dlss ray reconstruction": "",
     "dlaa": "NV, T",
@@ -6373,7 +6421,7 @@
     "ai": ""
   },
   {
-    "sno": 527,
+    "sno": 531,
     "name": "Marvel Rivals",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -6385,7 +6433,7 @@
     "ai": ""
   },
   {
-    "sno": 528,
+    "sno": 532,
     "name": "Marvel's Avengers",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6397,7 +6445,7 @@
     "ai": ""
   },
   {
-    "sno": 529,
+    "sno": 533,
     "name": "Marvel's Guardians of the Galaxy",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6409,7 +6457,7 @@
     "ai": ""
   },
   {
-    "sno": 530,
+    "sno": 534,
     "name": "Marvel's Midnight Suns",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6421,7 +6469,7 @@
     "ai": ""
   },
   {
-    "sno": 531,
+    "sno": 535,
     "name": "Marvel's Spider-Man Remastered",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6433,7 +6481,7 @@
     "ai": ""
   },
   {
-    "sno": 532,
+    "sno": 536,
     "name": "Marvel's Spider-Man: Miles Morales",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6445,7 +6493,7 @@
     "ai": ""
   },
   {
-    "sno": 533,
+    "sno": 537,
     "name": "Marvel's Spider-Man 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -6457,7 +6505,7 @@
     "ai": ""
   },
   {
-    "sno": 534,
+    "sno": 538,
     "name": "MAVRIX By Matt Jones",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6469,7 +6517,7 @@
     "ai": ""
   },
   {
-    "sno": 535,
+    "sno": 539,
     "name": "Maxon Redshift Renderer",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6481,7 +6529,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 536,
+    "sno": 540,
     "name": "McNeel & Assoc. RHINO",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6493,7 +6541,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 537,
+    "sno": 541,
     "name": "Mecha BREAK",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -6505,7 +6553,7 @@
     "ai": ""
   },
   {
-    "sno": 538,
+    "sno": 542,
     "name": "MechWarrior 5: Clans",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6517,7 +6565,7 @@
     "ai": ""
   },
   {
-    "sno": 539,
+    "sno": 543,
     "name": "MechWarrior 5: Mercenaries",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6529,7 +6577,7 @@
     "ai": ""
   },
   {
-    "sno": 540,
+    "sno": 544,
     "name": "Mercs Fully Loaded",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6541,7 +6589,7 @@
     "ai": ""
   },
   {
-    "sno": 541,
+    "sno": 545,
     "name": "Meshroom VR WeViz Studio",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6553,7 +6601,7 @@
     "ai": ""
   },
   {
-    "sno": 542,
+    "sno": 546,
     "name": "Metal Eden",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6565,7 +6613,7 @@
     "ai": ""
   },
   {
-    "sno": 543,
+    "sno": 547,
     "name": "METAL GEAR SOLID Δ: SNAKE EATER",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6577,7 +6625,7 @@
     "ai": ""
   },
   {
-    "sno": 544,
+    "sno": 548,
     "name": "Metro Exodus",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6589,7 +6637,7 @@
     "ai": ""
   },
   {
-    "sno": 545,
+    "sno": 549,
     "name": "Metro Exodus PC Enhanced Edition",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6601,7 +6649,7 @@
     "ai": ""
   },
   {
-    "sno": 546,
+    "sno": 550,
     "name": "Microsoft Edge (RTX Video Super Resolution)",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6613,7 +6661,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 547,
+    "sno": 551,
     "name": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6625,7 +6673,7 @@
     "ai": ""
   },
   {
-    "sno": 548,
+    "sno": 552,
     "name": "Microsoft Flight Simulator 2024",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6637,7 +6685,7 @@
     "ai": ""
   },
   {
-    "sno": 549,
+    "sno": 553,
     "name": "Midnight Ghost Hunt",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6649,7 +6697,7 @@
     "ai": ""
   },
   {
-    "sno": 550,
+    "sno": 554,
     "name": "MindsEye",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6661,7 +6709,7 @@
     "ai": ""
   },
   {
-    "sno": 551,
+    "sno": 555,
     "name": "Minecraft with RTX",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6673,7 +6721,7 @@
     "ai": ""
   },
   {
-    "sno": 552,
+    "sno": 556,
     "name": "MINOS",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6685,7 +6733,7 @@
     "ai": ""
   },
   {
-    "sno": 553,
+    "sno": 557,
     "name": "Microsoft VS Code",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6697,7 +6745,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 554,
+    "sno": 558,
     "name": "Mintplex Labs AnythingLLM",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6709,7 +6757,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 555,
+    "sno": 559,
     "name": "MONGIL: STAR DIVE",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -6721,7 +6769,7 @@
     "ai": ""
   },
   {
-    "sno": 556,
+    "sno": 560,
     "name": "Monster Energy Supercross 25 - The Official Video Game",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6733,7 +6781,7 @@
     "ai": ""
   },
   {
-    "sno": 557,
+    "sno": 561,
     "name": "Monster Energy Supercross - The Official Videogame 6",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6745,7 +6793,7 @@
     "ai": ""
   },
   {
-    "sno": 558,
+    "sno": 562,
     "name": "Monster Hunter Rise",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6757,7 +6805,7 @@
     "ai": ""
   },
   {
-    "sno": 559,
+    "sno": 563,
     "name": "Monster Hunter Stories 3: Twisted Reflection",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6769,7 +6817,7 @@
     "ai": ""
   },
   {
-    "sno": 560,
+    "sno": 564,
     "name": "Monster Hunter Wilds",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -6781,7 +6829,7 @@
     "ai": ""
   },
   {
-    "sno": 561,
+    "sno": 565,
     "name": "Monster Hunter World",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6793,7 +6841,7 @@
     "ai": ""
   },
   {
-    "sno": 562,
+    "sno": 566,
     "name": "Moon Runner",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6805,7 +6853,7 @@
     "ai": ""
   },
   {
-    "sno": 563,
+    "sno": 567,
     "name": "Moonlight Blade",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6817,7 +6865,7 @@
     "ai": ""
   },
   {
-    "sno": 564,
+    "sno": 568,
     "name": "Morbid Metal",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6829,7 +6877,7 @@
     "ai": ""
   },
   {
-    "sno": 565,
+    "sno": 569,
     "name": "Mortal Kombat 1",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6841,7 +6889,7 @@
     "ai": ""
   },
   {
-    "sno": 566,
+    "sno": 570,
     "name": "Mortal Online 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6853,7 +6901,7 @@
     "ai": ""
   },
   {
-    "sno": 567,
+    "sno": 571,
     "name": "Mortal Rite",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6865,7 +6913,7 @@
     "ai": ""
   },
   {
-    "sno": 568,
+    "sno": 572,
     "name": "Mortal Shell",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6877,7 +6925,7 @@
     "ai": ""
   },
   {
-    "sno": 569,
+    "sno": 573,
     "name": "Mother Machine",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -6889,7 +6937,7 @@
     "ai": ""
   },
   {
-    "sno": 570,
+    "sno": 574,
     "name": "MotoGP 24",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6901,7 +6949,7 @@
     "ai": ""
   },
   {
-    "sno": 571,
+    "sno": 575,
     "name": "Mount & Blade II: Bannerlord",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6913,7 +6961,7 @@
     "ai": ""
   },
   {
-    "sno": 572,
+    "sno": 576,
     "name": "MOUSE: P.I. For Hire",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6925,7 +6973,7 @@
     "ai": ""
   },
   {
-    "sno": 573,
+    "sno": 577,
     "name": "Mozilla Firefox (RTX Video Super Resolution)",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6937,7 +6985,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 574,
+    "sno": 578,
     "name": "Msty",
     "type": "App",
     "dlss multi frame generation": "",
@@ -6949,7 +6997,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 575,
+    "sno": 579,
     "name": "My Time At Sandrock",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6961,7 +7009,7 @@
     "ai": ""
   },
   {
-    "sno": 576,
+    "sno": 580,
     "name": "Myst",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6973,7 +7021,7 @@
     "ai": ""
   },
   {
-    "sno": 577,
+    "sno": 581,
     "name": "Myth of Empires",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -6985,7 +7033,7 @@
     "ai": ""
   },
   {
-    "sno": 578,
+    "sno": 582,
     "name": "NARAKA: BLADEPOINT",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -6997,7 +7045,7 @@
     "ai": ""
   },
   {
-    "sno": 579,
+    "sno": 583,
     "name": "NBA 2K5",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7009,7 +7057,7 @@
     "ai": ""
   },
   {
-    "sno": 580,
+    "sno": 584,
     "name": "NBA 2K6",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7021,56 +7069,8 @@
     "ai": ""
   },
   {
-    "sno": 581,
-    "name": "Necromunda: Hired Gun",
-    "type": "Game",
-    "dlss multi frame generation": "",
-    "dlss frame generation": "",
-    "dlss super resolution": "Yes",
-    "dlss ray reconstruction": "",
-    "dlaa": "",
-    "ray tracing": "",
-    "ai": ""
-  },
-  {
-    "sno": 582,
-    "name": "Necrophosis",
-    "type": "Game",
-    "dlss multi frame generation": "",
-    "dlss frame generation": "",
-    "dlss super resolution": "NV, T",
-    "dlss ray reconstruction": "",
-    "dlaa": "NV, T",
-    "ray tracing": "",
-    "ai": ""
-  },
-  {
-    "sno": 583,
-    "name": "Need For Speed Unbound",
-    "type": "Game",
-    "dlss multi frame generation": "NV, 6X",
-    "dlss frame generation": "NV, U",
-    "dlss super resolution": "NV, T",
-    "dlss ray reconstruction": "",
-    "dlaa": "NV, T",
-    "ray tracing": "",
-    "ai": ""
-  },
-  {
-    "sno": 584,
-    "name": "Nemetschek ALLPLAN",
-    "type": "App",
-    "dlss multi frame generation": "",
-    "dlss frame generation": "",
-    "dlss super resolution": "",
-    "dlss ray reconstruction": "",
-    "dlaa": "",
-    "ray tracing": "Yes",
-    "ai": "Yes"
-  },
-  {
     "sno": 585,
-    "name": "New Arc Line",
+    "name": "NBA THE RUN",
     "type": "Game",
     "dlss multi frame generation": "",
     "dlss frame generation": "",
@@ -7082,6 +7082,66 @@
   },
   {
     "sno": 586,
+    "name": "Necromunda: Hired Gun",
+    "type": "Game",
+    "dlss multi frame generation": "",
+    "dlss frame generation": "",
+    "dlss super resolution": "Yes",
+    "dlss ray reconstruction": "",
+    "dlaa": "",
+    "ray tracing": "",
+    "ai": ""
+  },
+  {
+    "sno": 587,
+    "name": "Necrophosis",
+    "type": "Game",
+    "dlss multi frame generation": "",
+    "dlss frame generation": "",
+    "dlss super resolution": "NV, T",
+    "dlss ray reconstruction": "",
+    "dlaa": "NV, T",
+    "ray tracing": "",
+    "ai": ""
+  },
+  {
+    "sno": 588,
+    "name": "Need For Speed Unbound",
+    "type": "Game",
+    "dlss multi frame generation": "NV, 6X",
+    "dlss frame generation": "NV, U",
+    "dlss super resolution": "NV, T",
+    "dlss ray reconstruction": "",
+    "dlaa": "NV, T",
+    "ray tracing": "",
+    "ai": ""
+  },
+  {
+    "sno": 589,
+    "name": "Nemetschek ALLPLAN",
+    "type": "App",
+    "dlss multi frame generation": "",
+    "dlss frame generation": "",
+    "dlss super resolution": "",
+    "dlss ray reconstruction": "",
+    "dlaa": "",
+    "ray tracing": "Yes",
+    "ai": "Yes"
+  },
+  {
+    "sno": 590,
+    "name": "New Arc Line",
+    "type": "Game",
+    "dlss multi frame generation": "",
+    "dlss frame generation": "",
+    "dlss super resolution": "NV, T",
+    "dlss ray reconstruction": "",
+    "dlaa": "",
+    "ray tracing": "",
+    "ai": ""
+  },
+  {
+    "sno": 591,
     "name": "New World: Aeternum",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7093,7 +7153,7 @@
     "ai": ""
   },
   {
-    "sno": 587,
+    "sno": 592,
     "name": "Nightingale",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7105,7 +7165,7 @@
     "ai": ""
   },
   {
-    "sno": 588,
+    "sno": 593,
     "name": "Nightmare Frontier",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7117,7 +7177,7 @@
     "ai": ""
   },
   {
-    "sno": 589,
+    "sno": 594,
     "name": "Night of the Dead",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7129,7 +7189,7 @@
     "ai": ""
   },
   {
-    "sno": 590,
+    "sno": 595,
     "name": "Night Project",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7141,7 +7201,7 @@
     "ai": ""
   },
   {
-    "sno": 591,
+    "sno": 596,
     "name": "Nine To Five",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7153,7 +7213,7 @@
     "ai": ""
   },
   {
-    "sno": 592,
+    "sno": 597,
     "name": "NINJA GAIDEN 2 Black",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7165,7 +7225,7 @@
     "ai": ""
   },
   {
-    "sno": 593,
+    "sno": 598,
     "name": "NINJA GAIDEN 4",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7177,7 +7237,7 @@
     "ai": ""
   },
   {
-    "sno": 594,
+    "sno": 599,
     "name": "Ninja Resurrection: A tale of Kuro",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7189,7 +7249,7 @@
     "ai": ""
   },
   {
-    "sno": 595,
+    "sno": 600,
     "name": "Nioh 2 The Complete Edition",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7201,7 +7261,7 @@
     "ai": ""
   },
   {
-    "sno": 596,
+    "sno": 601,
     "name": "Nioh 3",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7213,7 +7273,7 @@
     "ai": ""
   },
   {
-    "sno": 597,
+    "sno": 602,
     "name": "Noble Legacy",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7225,7 +7285,7 @@
     "ai": ""
   },
   {
-    "sno": 598,
+    "sno": 603,
     "name": "Nobody Wants To Die",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7237,7 +7297,7 @@
     "ai": ""
   },
   {
-    "sno": 599,
+    "sno": 604,
     "name": "No Man's Sky",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7249,7 +7309,7 @@
     "ai": ""
   },
   {
-    "sno": 600,
+    "sno": 605,
     "name": "No More Room In Hell 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7261,7 +7321,7 @@
     "ai": ""
   },
   {
-    "sno": 601,
+    "sno": 606,
     "name": "No Rest for the Wicked",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7273,7 +7333,7 @@
     "ai": ""
   },
   {
-    "sno": 602,
+    "sno": 607,
     "name": "Nomic AI GPT4All",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7285,7 +7345,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 603,
+    "sno": 608,
     "name": "No One Survived",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7297,7 +7357,7 @@
     "ai": ""
   },
   {
-    "sno": 604,
+    "sno": 609,
     "name": "NORSE: Oath of Blood",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7309,7 +7369,7 @@
     "ai": ""
   },
   {
-    "sno": 605,
+    "sno": 610,
     "name": "Nowhere Near",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7321,7 +7381,7 @@
     "ai": ""
   },
   {
-    "sno": 606,
+    "sno": 611,
     "name": "NTE (Neverness to Everness)",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -7333,7 +7393,7 @@
     "ai": ""
   },
   {
-    "sno": 607,
+    "sno": 612,
     "name": "NVIDIA Broadcast",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7345,7 +7405,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 608,
+    "sno": 613,
     "name": "NVIDIA Canvas",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7357,7 +7417,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 609,
+    "sno": 614,
     "name": "NVIDIA IndeX",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7369,7 +7429,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 610,
+    "sno": 615,
     "name": "NVIDIA Iray",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7381,7 +7441,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 611,
+    "sno": 616,
     "name": "NVIDIA Omniverse",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7393,7 +7453,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 612,
+    "sno": 617,
     "name": "NVIDIA RTX Remix",
     "type": "App",
     "dlss multi frame generation": "NV, 4X",
@@ -7405,7 +7465,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 613,
+    "sno": 618,
     "name": "OBS",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7417,7 +7477,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 614,
+    "sno": 619,
     "name": "OBS Streamlabs",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7429,7 +7489,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 615,
+    "sno": 620,
     "name": "Observer: System Redux",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7441,7 +7501,7 @@
     "ai": ""
   },
   {
-    "sno": 616,
+    "sno": 621,
     "name": "Oddsparks: An Automation Adventure",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7453,7 +7513,7 @@
     "ai": ""
   },
   {
-    "sno": 617,
+    "sno": 622,
     "name": "Of Ash and Steel",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7465,7 +7525,7 @@
     "ai": ""
   },
   {
-    "sno": 618,
+    "sno": 623,
     "name": "Off The Grid",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7477,7 +7537,7 @@
     "ai": ""
   },
   {
-    "sno": 619,
+    "sno": 624,
     "name": "Ollama",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7489,7 +7549,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 620,
+    "sno": 625,
     "name": "Ominous",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7501,7 +7561,7 @@
     "ai": ""
   },
   {
-    "sno": 621,
+    "sno": 626,
     "name": "ON1 NoNoise AI",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7513,7 +7573,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 622,
+    "sno": 627,
     "name": "ON1 Portrait AI",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7525,7 +7585,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 623,
+    "sno": 628,
     "name": "ON1 Resize AI",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7537,7 +7597,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 624,
+    "sno": 629,
     "name": "Once Alive",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7549,7 +7609,7 @@
     "ai": ""
   },
   {
-    "sno": 625,
+    "sno": 630,
     "name": "Once Human",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -7561,7 +7621,19 @@
     "ai": ""
   },
   {
-    "sno": 626,
+    "sno": 631,
+    "name": "Onimusha: Way of the Sword Demo",
+    "type": "Game",
+    "dlss multi frame generation": "NV, 4X",
+    "dlss frame generation": "NV, U",
+    "dlss super resolution": "NV, T",
+    "dlss ray reconstruction": "",
+    "dlaa": "NV, T",
+    "ray tracing": "Yes",
+    "ai": ""
+  },
+  {
+    "sno": 632,
     "name": "Oobabooga",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7573,7 +7645,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 627,
+    "sno": 633,
     "name": "Opera Web Browser",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7585,7 +7657,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 628,
+    "sno": 634,
     "name": "orbit.industries",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7597,7 +7669,7 @@
     "ai": ""
   },
   {
-    "sno": 629,
+    "sno": 635,
     "name": "Orcs Must Die! Deathtrap",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7609,7 +7681,7 @@
     "ai": ""
   },
   {
-    "sno": 630,
+    "sno": 636,
     "name": "Origament: A Paper Adventure",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7621,7 +7693,7 @@
     "ai": ""
   },
   {
-    "sno": 631,
+    "sno": 637,
     "name": "Otherplane",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7633,7 +7705,7 @@
     "ai": ""
   },
   {
-    "sno": 632,
+    "sno": 638,
     "name": "Otoy OctaneRender",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7645,7 +7717,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 633,
+    "sno": 639,
     "name": "Outbreak: Shades of Horror",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7657,7 +7729,7 @@
     "ai": ""
   },
   {
-    "sno": 634,
+    "sno": 640,
     "name": "Outcast - A New Beginning",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7669,7 +7741,7 @@
     "ai": ""
   },
   {
-    "sno": 635,
+    "sno": 641,
     "name": "Outerverse",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7681,7 +7753,7 @@
     "ai": ""
   },
   {
-    "sno": 636,
+    "sno": 642,
     "name": "Outpost: Infinity Siege",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7693,7 +7765,7 @@
     "ai": ""
   },
   {
-    "sno": 637,
+    "sno": 643,
     "name": "Outriders",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7705,7 +7777,7 @@
     "ai": ""
   },
   {
-    "sno": 638,
+    "sno": 644,
     "name": "Overwatch 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7717,7 +7789,7 @@
     "ai": ""
   },
   {
-    "sno": 639,
+    "sno": 645,
     "name": "Pacific Drive",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7729,7 +7801,7 @@
     "ai": ""
   },
   {
-    "sno": 640,
+    "sno": 646,
     "name": "Palworld",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7741,7 +7813,7 @@
     "ai": ""
   },
   {
-    "sno": 641,
+    "sno": 647,
     "name": "PANICORE",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7753,7 +7825,7 @@
     "ai": ""
   },
   {
-    "sno": 642,
+    "sno": 648,
     "name": "Paradise Killer",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7765,7 +7837,7 @@
     "ai": ""
   },
   {
-    "sno": 643,
+    "sno": 649,
     "name": "Park Studio",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7777,7 +7849,7 @@
     "ai": ""
   },
   {
-    "sno": 644,
+    "sno": 650,
     "name": "Party Animals",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7789,7 +7861,7 @@
     "ai": ""
   },
   {
-    "sno": 645,
+    "sno": 651,
     "name": "Path of Exile 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7801,7 +7873,7 @@
     "ai": ""
   },
   {
-    "sno": 646,
+    "sno": 652,
     "name": "Pax Dei",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7813,7 +7885,7 @@
     "ai": ""
   },
   {
-    "sno": 647,
+    "sno": 653,
     "name": "PAYDAY 3",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7825,7 +7897,7 @@
     "ai": ""
   },
   {
-    "sno": 648,
+    "sno": 654,
     "name": "PC Building Simulator 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7837,7 +7909,7 @@
     "ai": ""
   },
   {
-    "sno": 649,
+    "sno": 655,
     "name": "People of Note",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7849,7 +7921,7 @@
     "ai": ""
   },
   {
-    "sno": 650,
+    "sno": 656,
     "name": "PERISH",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7861,7 +7933,7 @@
     "ai": ""
   },
   {
-    "sno": 651,
+    "sno": 657,
     "name": "PGA TOUR 2K3",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7873,7 +7945,7 @@
     "ai": ""
   },
   {
-    "sno": 652,
+    "sno": 658,
     "name": "PGA TOUR 2K5",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7885,7 +7957,7 @@
     "ai": ""
   },
   {
-    "sno": 653,
+    "sno": 659,
     "name": "Phantasy Star Online 2 New Genesis",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7897,7 +7969,7 @@
     "ai": ""
   },
   {
-    "sno": 654,
+    "sno": 660,
     "name": "Pieces",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7909,7 +7981,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 655,
+    "sno": 661,
     "name": "Pinball FX",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7921,7 +7993,7 @@
     "ai": ""
   },
   {
-    "sno": 656,
+    "sno": 662,
     "name": "Pixar Renderman",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7933,7 +8005,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 657,
+    "sno": 663,
     "name": "Pixar RTP",
     "type": "App",
     "dlss multi frame generation": "",
@@ -7945,7 +8017,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 658,
+    "sno": 664,
     "name": "Pizza Bandit",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -7957,7 +8029,7 @@
     "ai": ""
   },
   {
-    "sno": 659,
+    "sno": 665,
     "name": "Pizzapocalypse",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7969,7 +8041,7 @@
     "ai": ""
   },
   {
-    "sno": 660,
+    "sno": 666,
     "name": "Planet Coaster 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7981,7 +8053,7 @@
     "ai": ""
   },
   {
-    "sno": 661,
+    "sno": 667,
     "name": "PlanetSide 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -7993,7 +8065,7 @@
     "ai": ""
   },
   {
-    "sno": 662,
+    "sno": 668,
     "name": "Pluviophile",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8005,7 +8077,7 @@
     "ai": ""
   },
   {
-    "sno": 663,
+    "sno": 669,
     "name": "Poker Club",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8017,7 +8089,7 @@
     "ai": ""
   },
   {
-    "sno": 664,
+    "sno": 670,
     "name": "Portal with RTX",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -8029,7 +8101,7 @@
     "ai": ""
   },
   {
-    "sno": 665,
+    "sno": 671,
     "name": "Portal: Prelude RTX",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8041,7 +8113,7 @@
     "ai": ""
   },
   {
-    "sno": 666,
+    "sno": 672,
     "name": "Postal 4: No Regerts",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8053,7 +8125,7 @@
     "ai": ""
   },
   {
-    "sno": 667,
+    "sno": 673,
     "name": "Powerslide Legends",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8065,7 +8137,7 @@
     "ai": ""
   },
   {
-    "sno": 668,
+    "sno": 674,
     "name": "PRAGMATA",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -8077,7 +8149,7 @@
     "ai": ""
   },
   {
-    "sno": 669,
+    "sno": 675,
     "name": "Predecessor",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -8089,7 +8161,7 @@
     "ai": ""
   },
   {
-    "sno": 670,
+    "sno": 676,
     "name": "PrivateGPT",
     "type": "App",
     "dlss multi frame generation": "",
@@ -8101,7 +8173,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 671,
+    "sno": 677,
     "name": "Prologue: Go Wayback!",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8113,7 +8185,7 @@
     "ai": ""
   },
   {
-    "sno": 672,
+    "sno": 678,
     "name": "Project Motor Racing",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8125,7 +8197,7 @@
     "ai": ""
   },
   {
-    "sno": 673,
+    "sno": 679,
     "name": "Propnight",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8137,7 +8209,7 @@
     "ai": ""
   },
   {
-    "sno": 674,
+    "sno": 680,
     "name": "Proton",
     "type": "App",
     "dlss multi frame generation": "",
@@ -8149,7 +8221,7 @@
     "ai": ""
   },
   {
-    "sno": 675,
+    "sno": 681,
     "name": "Psycho Fear",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8161,7 +8233,7 @@
     "ai": ""
   },
   {
-    "sno": 676,
+    "sno": 682,
     "name": "Pumpkin Jack",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8173,7 +8245,7 @@
     "ai": ""
   },
   {
-    "sno": 677,
+    "sno": 683,
     "name": "Q.U.B.E. 10th Anniversary",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8185,7 +8257,7 @@
     "ai": ""
   },
   {
-    "sno": 678,
+    "sno": 684,
     "name": "QANGA",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8197,7 +8269,7 @@
     "ai": ""
   },
   {
-    "sno": 679,
+    "sno": 685,
     "name": "Quake II RTX",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8209,7 +8281,7 @@
     "ai": ""
   },
   {
-    "sno": 680,
+    "sno": 686,
     "name": "Raji: An Ancient Epic",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8221,7 +8293,7 @@
     "ai": ""
   },
   {
-    "sno": 681,
+    "sno": 687,
     "name": "Ranch Simulator - Build, Farm, Hunt",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8233,7 +8305,7 @@
     "ai": ""
   },
   {
-    "sno": 682,
+    "sno": 688,
     "name": "Random Control Maverick Render",
     "type": "App",
     "dlss multi frame generation": "",
@@ -8245,7 +8317,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 683,
+    "sno": 689,
     "name": "Ratchet & Clank: Rift Apart",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8257,7 +8329,7 @@
     "ai": ""
   },
   {
-    "sno": 684,
+    "sno": 690,
     "name": "RAZE 2070",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8269,7 +8341,7 @@
     "ai": ""
   },
   {
-    "sno": 685,
+    "sno": 691,
     "name": "Ready or Not",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8281,7 +8353,7 @@
     "ai": ""
   },
   {
-    "sno": 686,
+    "sno": 692,
     "name": "Real Life",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -8293,7 +8365,7 @@
     "ai": ""
   },
   {
-    "sno": 687,
+    "sno": 693,
     "name": "Reallusion iClone",
     "type": "App",
     "dlss multi frame generation": "",
@@ -8305,7 +8377,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 688,
+    "sno": 694,
     "name": "REANIMAL",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8317,7 +8389,7 @@
     "ai": ""
   },
   {
-    "sno": 689,
+    "sno": 695,
     "name": "Reaper Actual",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8329,7 +8401,7 @@
     "ai": ""
   },
   {
-    "sno": 690,
+    "sno": 696,
     "name": "Recall",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8341,7 +8413,7 @@
     "ai": ""
   },
   {
-    "sno": 691,
+    "sno": 697,
     "name": "REDCINE-X Pro",
     "type": "App",
     "dlss multi frame generation": "",
@@ -8353,7 +8425,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 692,
+    "sno": 698,
     "name": "Red Dead Redemption",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8365,7 +8437,7 @@
     "ai": ""
   },
   {
-    "sno": 693,
+    "sno": 699,
     "name": "Red Dead Redemption 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8377,7 +8449,7 @@
     "ai": ""
   },
   {
-    "sno": 694,
+    "sno": 700,
     "name": "Redfall",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8389,7 +8461,7 @@
     "ai": ""
   },
   {
-    "sno": 695,
+    "sno": 701,
     "name": "Redout: Space Assault",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8401,7 +8473,7 @@
     "ai": ""
   },
   {
-    "sno": 696,
+    "sno": 702,
     "name": "REFICUL 666",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8413,7 +8485,7 @@
     "ai": ""
   },
   {
-    "sno": 697,
+    "sno": 703,
     "name": "Reincubate Camo",
     "type": "App",
     "dlss multi frame generation": "",
@@ -8425,7 +8497,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 698,
+    "sno": 704,
     "name": "REMATCH",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8437,7 +8509,7 @@
     "ai": ""
   },
   {
-    "sno": 699,
+    "sno": 705,
     "name": "Remington Graphics D-NOISE",
     "type": "App",
     "dlss multi frame generation": "",
@@ -8449,7 +8521,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 700,
+    "sno": 706,
     "name": "Remnant II",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8461,7 +8533,7 @@
     "ai": ""
   },
   {
-    "sno": 701,
+    "sno": 707,
     "name": "Remnants",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8473,7 +8545,7 @@
     "ai": ""
   },
   {
-    "sno": 702,
+    "sno": 708,
     "name": "Rem Survival",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8485,7 +8557,7 @@
     "ai": ""
   },
   {
-    "sno": 703,
+    "sno": 709,
     "name": "Renovation Simulator",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8497,7 +8569,7 @@
     "ai": ""
   },
   {
-    "sno": 704,
+    "sno": 710,
     "name": "Resident Evil 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8509,7 +8581,7 @@
     "ai": ""
   },
   {
-    "sno": 705,
+    "sno": 711,
     "name": "Resident Evil 3",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8521,7 +8593,7 @@
     "ai": ""
   },
   {
-    "sno": 706,
+    "sno": 712,
     "name": "Resident Evil 7",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8533,7 +8605,7 @@
     "ai": ""
   },
   {
-    "sno": 707,
+    "sno": 713,
     "name": "Resident Evil Requiem",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -8545,7 +8617,7 @@
     "ai": ""
   },
   {
-    "sno": 708,
+    "sno": 714,
     "name": "Resident Evil Village",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8557,7 +8629,7 @@
     "ai": ""
   },
   {
-    "sno": 709,
+    "sno": 715,
     "name": "Returnal",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8569,7 +8641,7 @@
     "ai": ""
   },
   {
-    "sno": 710,
+    "sno": 716,
     "name": "Return to Campus",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8581,7 +8653,7 @@
     "ai": ""
   },
   {
-    "sno": 711,
+    "sno": 717,
     "name": "REVEIL",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8593,7 +8665,7 @@
     "ai": ""
   },
   {
-    "sno": 712,
+    "sno": 718,
     "name": "Revenge of the Mage",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8605,7 +8677,7 @@
     "ai": ""
   },
   {
-    "sno": 713,
+    "sno": 719,
     "name": "Revenge of the Savage Planet",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8617,7 +8689,7 @@
     "ai": ""
   },
   {
-    "sno": 714,
+    "sno": 720,
     "name": "RF Online Next",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8629,7 +8701,7 @@
     "ai": ""
   },
   {
-    "sno": 715,
+    "sno": 721,
     "name": "Ring of Elysium",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8641,7 +8713,7 @@
     "ai": ""
   },
   {
-    "sno": 716,
+    "sno": 722,
     "name": "RIPOUT",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8653,7 +8725,7 @@
     "ai": ""
   },
   {
-    "sno": 717,
+    "sno": 723,
     "name": "Rise of the Ronin",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8665,7 +8737,7 @@
     "ai": ""
   },
   {
-    "sno": 718,
+    "sno": 724,
     "name": "Rise of the Tomb Raider",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8677,7 +8749,7 @@
     "ai": ""
   },
   {
-    "sno": 719,
+    "sno": 725,
     "name": "Riven",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8689,7 +8761,7 @@
     "ai": ""
   },
   {
-    "sno": 720,
+    "sno": 726,
     "name": "RoadCraft",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -8701,7 +8773,7 @@
     "ai": ""
   },
   {
-    "sno": 721,
+    "sno": 727,
     "name": "RoboCop: Rogue City",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8713,7 +8785,7 @@
     "ai": ""
   },
   {
-    "sno": 722,
+    "sno": 728,
     "name": "RoboCop: Rogue City - Unfinished Business",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8725,7 +8797,7 @@
     "ai": ""
   },
   {
-    "sno": 723,
+    "sno": 729,
     "name": "Robo Pocket: 3D Fighter With Rollback",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8737,7 +8809,7 @@
     "ai": ""
   },
   {
-    "sno": 724,
+    "sno": 730,
     "name": "Rocket Squad: Infinity",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8749,7 +8821,7 @@
     "ai": ""
   },
   {
-    "sno": 725,
+    "sno": 731,
     "name": "Romancelvania",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8761,7 +8833,7 @@
     "ai": ""
   },
   {
-    "sno": 726,
+    "sno": 732,
     "name": "Romeo Is A Dead Man",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8773,7 +8845,7 @@
     "ai": ""
   },
   {
-    "sno": 727,
+    "sno": 733,
     "name": "Rune II",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8785,7 +8857,7 @@
     "ai": ""
   },
   {
-    "sno": 728,
+    "sno": 734,
     "name": "Rune Factory: Guardians of Azuma",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8797,7 +8869,7 @@
     "ai": ""
   },
   {
-    "sno": 729,
+    "sno": 735,
     "name": "RuneScape: Dragonwilds",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8809,7 +8881,7 @@
     "ai": ""
   },
   {
-    "sno": 730,
+    "sno": 736,
     "name": "RUNNING TRAIN | 走ル列車！",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8821,7 +8893,7 @@
     "ai": ""
   },
   {
-    "sno": 731,
+    "sno": 737,
     "name": "Rust",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8833,7 +8905,7 @@
     "ai": ""
   },
   {
-    "sno": 732,
+    "sno": 738,
     "name": "Saboteur",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8845,7 +8917,7 @@
     "ai": ""
   },
   {
-    "sno": 733,
+    "sno": 739,
     "name": "Sackboy: A Big Adventure",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8857,7 +8929,7 @@
     "ai": ""
   },
   {
-    "sno": 734,
+    "sno": 740,
     "name": "Saints Row",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8869,7 +8941,7 @@
     "ai": ""
   },
   {
-    "sno": 735,
+    "sno": 741,
     "name": "Samson",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -8881,7 +8953,7 @@
     "ai": ""
   },
   {
-    "sno": 736,
+    "sno": 742,
     "name": "Sanctum",
     "type": "App",
     "dlss multi frame generation": "",
@@ -8893,7 +8965,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 737,
+    "sno": 743,
     "name": "Sands of Aura",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8905,7 +8977,7 @@
     "ai": ""
   },
   {
-    "sno": 738,
+    "sno": 744,
     "name": "Satisfactory",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8917,7 +8989,7 @@
     "ai": ""
   },
   {
-    "sno": 739,
+    "sno": 745,
     "name": "Scathe",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8929,7 +9001,7 @@
     "ai": ""
   },
   {
-    "sno": 740,
+    "sno": 746,
     "name": "Scavengers",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8941,7 +9013,7 @@
     "ai": ""
   },
   {
-    "sno": 741,
+    "sno": 747,
     "name": "SCP: 5K",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8953,7 +9025,7 @@
     "ai": ""
   },
   {
-    "sno": 742,
+    "sno": 748,
     "name": "SCP: Secret Files",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8965,7 +9037,7 @@
     "ai": ""
   },
   {
-    "sno": 743,
+    "sno": 749,
     "name": "Screamer",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -8977,7 +9049,7 @@
     "ai": ""
   },
   {
-    "sno": 744,
+    "sno": 750,
     "name": "SCUM",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -8989,7 +9061,7 @@
     "ai": ""
   },
   {
-    "sno": 745,
+    "sno": 751,
     "name": "Seafarer: The Ship Sim",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9001,7 +9073,7 @@
     "ai": ""
   },
   {
-    "sno": 746,
+    "sno": 752,
     "name": "SEASON: A Letter To The Future",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9013,7 +9085,7 @@
     "ai": ""
   },
   {
-    "sno": 747,
+    "sno": 753,
     "name": "Serum",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9025,7 +9097,7 @@
     "ai": ""
   },
   {
-    "sno": 748,
+    "sno": 754,
     "name": "Severed Steel",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9037,7 +9109,7 @@
     "ai": ""
   },
   {
-    "sno": 749,
+    "sno": 755,
     "name": "Sengoku Dynasty",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9049,7 +9121,7 @@
     "ai": ""
   },
   {
-    "sno": 750,
+    "sno": 756,
     "name": "Shadow of the Tomb Raider",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9061,7 +9133,7 @@
     "ai": ""
   },
   {
-    "sno": 751,
+    "sno": 757,
     "name": "Shadow Warrior 3",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9073,7 +9145,7 @@
     "ai": ""
   },
   {
-    "sno": 752,
+    "sno": 758,
     "name": "Shadows of Doubt",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9085,7 +9157,7 @@
     "ai": ""
   },
   {
-    "sno": 753,
+    "sno": 759,
     "name": "Shatterline",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9097,7 +9169,7 @@
     "ai": ""
   },
   {
-    "sno": 754,
+    "sno": 760,
     "name": "sheencity Mars",
     "type": "App",
     "dlss multi frame generation": "",
@@ -9109,7 +9181,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 755,
+    "sno": 761,
     "name": "Sherlock Holmes The Awakened",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9121,7 +9193,7 @@
     "ai": ""
   },
   {
-    "sno": 756,
+    "sno": 762,
     "name": "Ships At Sea",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9133,7 +9205,7 @@
     "ai": ""
   },
   {
-    "sno": 757,
+    "sno": 763,
     "name": "Showgunners",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9145,7 +9217,7 @@
     "ai": ""
   },
   {
-    "sno": 758,
+    "sno": 764,
     "name": "SideFX Houdini",
     "type": "App",
     "dlss multi frame generation": "",
@@ -9157,7 +9229,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 759,
+    "sno": 765,
     "name": "Siemens Digital Industries - Software NX Ray Traced Studio",
     "type": "App",
     "dlss multi frame generation": "",
@@ -9169,7 +9241,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 760,
+    "sno": 766,
     "name": "Siemens Digital Industries Software Simcenter Prescan",
     "type": "App",
     "dlss multi frame generation": "",
@@ -9181,7 +9253,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 761,
+    "sno": 767,
     "name": "Sifu",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9193,7 +9265,7 @@
     "ai": ""
   },
   {
-    "sno": 762,
+    "sno": 768,
     "name": "SILENT HILL f",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9205,7 +9277,7 @@
     "ai": ""
   },
   {
-    "sno": 763,
+    "sno": 769,
     "name": "SILENT HILL 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9217,7 +9289,7 @@
     "ai": ""
   },
   {
-    "sno": 764,
+    "sno": 770,
     "name": "Silent Rain",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9229,7 +9301,7 @@
     "ai": ""
   },
   {
-    "sno": 765,
+    "sno": 771,
     "name": "SimRail - The Railway Simulator",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9241,7 +9313,7 @@
     "ai": ""
   },
   {
-    "sno": 766,
+    "sno": 772,
     "name": "Simulakros",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9253,7 +9325,7 @@
     "ai": ""
   },
   {
-    "sno": 767,
+    "sno": 773,
     "name": "Six Days in Fallujah",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9265,7 +9337,7 @@
     "ai": ""
   },
   {
-    "sno": 768,
+    "sno": 774,
     "name": "Skull and Bones",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9277,7 +9349,7 @@
     "ai": ""
   },
   {
-    "sno": 769,
+    "sno": 775,
     "name": "Skylum Aurora HDR",
     "type": "App",
     "dlss multi frame generation": "",
@@ -9289,7 +9361,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 770,
+    "sno": 776,
     "name": "SlavicPunk: Oldtimer",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9301,7 +9373,7 @@
     "ai": ""
   },
   {
-    "sno": 771,
+    "sno": 777,
     "name": "skate.",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9313,7 +9385,7 @@
     "ai": ""
   },
   {
-    "sno": 772,
+    "sno": 778,
     "name": "Sker Ritual",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9325,7 +9397,7 @@
     "ai": ""
   },
   {
-    "sno": 773,
+    "sno": 779,
     "name": "Skye: The Misty Isle",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9337,7 +9409,7 @@
     "ai": ""
   },
   {
-    "sno": 774,
+    "sno": 780,
     "name": "Slender: The Arrival",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9349,7 +9421,7 @@
     "ai": ""
   },
   {
-    "sno": 775,
+    "sno": 781,
     "name": "Smalland: Survive the Wilds",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9361,7 +9433,7 @@
     "ai": ""
   },
   {
-    "sno": 776,
+    "sno": 782,
     "name": "Small Spaces",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9373,7 +9445,7 @@
     "ai": ""
   },
   {
-    "sno": 777,
+    "sno": 783,
     "name": "SMITE 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9385,7 +9457,7 @@
     "ai": ""
   },
   {
-    "sno": 778,
+    "sno": 784,
     "name": "Someday You'll Return: Director's Cut",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9397,7 +9469,7 @@
     "ai": ""
   },
   {
-    "sno": 779,
+    "sno": 785,
     "name": "Sons Of The Forest",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9409,7 +9481,7 @@
     "ai": ""
   },
   {
-    "sno": 780,
+    "sno": 786,
     "name": "Sophonce",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9421,7 +9493,7 @@
     "ai": ""
   },
   {
-    "sno": 781,
+    "sno": 787,
     "name": "Soul Dossier",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9433,7 +9505,7 @@
     "ai": ""
   },
   {
-    "sno": 782,
+    "sno": 788,
     "name": "Soulmask",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9445,7 +9517,7 @@
     "ai": ""
   },
   {
-    "sno": 783,
+    "sno": 789,
     "name": "Soulmate",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9457,7 +9529,7 @@
     "ai": ""
   },
   {
-    "sno": 784,
+    "sno": 790,
     "name": "Soulslinger: Envoy of Death",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9469,7 +9541,7 @@
     "ai": ""
   },
   {
-    "sno": 785,
+    "sno": 791,
     "name": "Soulstice",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9481,7 +9553,7 @@
     "ai": ""
   },
   {
-    "sno": 786,
+    "sno": 792,
     "name": "Sourcegraph Cody AI",
     "type": "App",
     "dlss multi frame generation": "",
@@ -9493,7 +9565,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 787,
+    "sno": 793,
     "name": "South of Midnight",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9505,7 +9577,7 @@
     "ai": ""
   },
   {
-    "sno": 788,
+    "sno": 794,
     "name": "Spectre Divide",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9517,7 +9589,7 @@
     "ai": ""
   },
   {
-    "sno": 789,
+    "sno": 795,
     "name": "Spirit of the North 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9529,7 +9601,7 @@
     "ai": ""
   },
   {
-    "sno": 790,
+    "sno": 796,
     "name": "Splitgate: Arena Reloaded",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9541,7 +9613,7 @@
     "ai": ""
   },
   {
-    "sno": 791,
+    "sno": 797,
     "name": "SplitmediaLabs, Ltd. XSplit Broadcaster",
     "type": "App",
     "dlss multi frame generation": "",
@@ -9553,7 +9625,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 792,
+    "sno": 798,
     "name": "SPRAWL",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9565,7 +9637,7 @@
     "ai": ""
   },
   {
-    "sno": 793,
+    "sno": 799,
     "name": "SpongeBob SquarePants: Titans of the Tide",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9577,7 +9649,7 @@
     "ai": ""
   },
   {
-    "sno": 794,
+    "sno": 800,
     "name": "Squad",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9589,7 +9661,7 @@
     "ai": ""
   },
   {
-    "sno": 795,
+    "sno": 801,
     "name": "S.T.A.L.K.E.R.: Call of Prypiat",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9601,7 +9673,7 @@
     "ai": ""
   },
   {
-    "sno": 796,
+    "sno": 802,
     "name": "S.T.A.L.K.E.R.: Clear Sky",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9613,7 +9685,7 @@
     "ai": ""
   },
   {
-    "sno": 797,
+    "sno": 803,
     "name": "S.T.A.L.K.E.R.: Shadow of Chornobyl",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9625,7 +9697,7 @@
     "ai": ""
   },
   {
-    "sno": 798,
+    "sno": 804,
     "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9637,7 +9709,7 @@
     "ai": ""
   },
   {
-    "sno": 799,
+    "sno": 805,
     "name": "Stable Diffusion WebUI",
     "type": "App",
     "dlss multi frame generation": "",
@@ -9649,7 +9721,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 800,
+    "sno": 806,
     "name": "Starfield",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9661,7 +9733,7 @@
     "ai": ""
   },
   {
-    "sno": 801,
+    "sno": 807,
     "name": "Starminer",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9673,7 +9745,7 @@
     "ai": ""
   },
   {
-    "sno": 802,
+    "sno": 808,
     "name": "StarRupture",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9685,7 +9757,7 @@
     "ai": ""
   },
   {
-    "sno": 803,
+    "sno": 809,
     "name": "Starship Troopers: Extermination",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9697,7 +9769,7 @@
     "ai": ""
   },
   {
-    "sno": 804,
+    "sno": 810,
     "name": "Starsiege: Deadzone",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9709,7 +9781,7 @@
     "ai": ""
   },
   {
-    "sno": 805,
+    "sno": 811,
     "name": "Star Trek: Voyager - Across The Unknown",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9721,7 +9793,7 @@
     "ai": ""
   },
   {
-    "sno": 806,
+    "sno": 812,
     "name": "Star Wars Jedi: Survivor",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9733,7 +9805,7 @@
     "ai": ""
   },
   {
-    "sno": 807,
+    "sno": 813,
     "name": "Star Wars Outlaws",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -9745,7 +9817,7 @@
     "ai": ""
   },
   {
-    "sno": 808,
+    "sno": 814,
     "name": "Stay in the Light",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9757,7 +9829,7 @@
     "ai": ""
   },
   {
-    "sno": 809,
+    "sno": 815,
     "name": "Steelrising",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9769,7 +9841,7 @@
     "ai": ""
   },
   {
-    "sno": 810,
+    "sno": 816,
     "name": "Steel Seed",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9781,7 +9853,7 @@
     "ai": ""
   },
   {
-    "sno": 811,
+    "sno": 817,
     "name": "Stellar Blade",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9793,7 +9865,7 @@
     "ai": ""
   },
   {
-    "sno": 812,
+    "sno": 818,
     "name": "Still Wakes The Deep",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9805,7 +9877,7 @@
     "ai": ""
   },
   {
-    "sno": 813,
+    "sno": 819,
     "name": "Storage Hunter Simulator",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9817,7 +9889,7 @@
     "ai": ""
   },
   {
-    "sno": 814,
+    "sno": 820,
     "name": "Stormgate",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9829,7 +9901,7 @@
     "ai": ""
   },
   {
-    "sno": 815,
+    "sno": 821,
     "name": "Stranded: Alien Dawn",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9841,7 +9913,7 @@
     "ai": ""
   },
   {
-    "sno": 816,
+    "sno": 822,
     "name": "Stranger of Paradise Final Fantasy Origin",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9853,7 +9925,7 @@
     "ai": ""
   },
   {
-    "sno": 817,
+    "sno": 823,
     "name": "Star Citizen",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9865,7 +9937,7 @@
     "ai": ""
   },
   {
-    "sno": 818,
+    "sno": 824,
     "name": "Strayed Lights",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9877,7 +9949,7 @@
     "ai": ""
   },
   {
-    "sno": 819,
+    "sno": 825,
     "name": "STORROR Parkour Pro",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9889,7 +9961,7 @@
     "ai": ""
   },
   {
-    "sno": 820,
+    "sno": 826,
     "name": "Strinova",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9901,7 +9973,7 @@
     "ai": ""
   },
   {
-    "sno": 821,
+    "sno": 827,
     "name": "Stygian: Outer Gods",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9913,7 +9985,7 @@
     "ai": ""
   },
   {
-    "sno": 822,
+    "sno": 828,
     "name": "Styx: Blades of Greed",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9925,7 +9997,7 @@
     "ai": ""
   },
   {
-    "sno": 823,
+    "sno": 829,
     "name": "Subliminal",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9937,7 +10009,7 @@
     "ai": ""
   },
   {
-    "sno": 824,
+    "sno": 830,
     "name": "Subnautica 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -9949,7 +10021,7 @@
     "ai": ""
   },
   {
-    "sno": 825,
+    "sno": 831,
     "name": "Sudden Strike 5",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9961,7 +10033,7 @@
     "ai": ""
   },
   {
-    "sno": 826,
+    "sno": 832,
     "name": "Suicide Squad: Kill The Justice League",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9973,7 +10045,7 @@
     "ai": ""
   },
   {
-    "sno": 827,
+    "sno": 833,
     "name": "Suirui",
     "type": "App",
     "dlss multi frame generation": "",
@@ -9985,7 +10057,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 828,
+    "sno": 834,
     "name": "Sumerian Six",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -9997,7 +10069,7 @@
     "ai": ""
   },
   {
-    "sno": 829,
+    "sno": 835,
     "name": "Supermoves: World of Parkour",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10009,7 +10081,7 @@
     "ai": ""
   },
   {
-    "sno": 830,
+    "sno": 836,
     "name": "SUPER PEOPLE 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10021,7 +10093,7 @@
     "ai": ""
   },
   {
-    "sno": 831,
+    "sno": 837,
     "name": "Supraland",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10033,7 +10105,7 @@
     "ai": ""
   },
   {
-    "sno": 832,
+    "sno": 838,
     "name": "Supraland Six Inches Under",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10045,7 +10117,7 @@
     "ai": ""
   },
   {
-    "sno": 833,
+    "sno": 839,
     "name": "Supraworld",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10057,7 +10129,7 @@
     "ai": ""
   },
   {
-    "sno": 834,
+    "sno": 840,
     "name": "Survive The Hill",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10069,7 +10141,7 @@
     "ai": ""
   },
   {
-    "sno": 835,
+    "sno": 841,
     "name": "Sword and Fairy 7",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10081,7 +10153,7 @@
     "ai": ""
   },
   {
-    "sno": 836,
+    "sno": 842,
     "name": "Swords of Legends Online",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10093,7 +10165,7 @@
     "ai": ""
   },
   {
-    "sno": 837,
+    "sno": 843,
     "name": "SYNCED",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10105,7 +10177,7 @@
     "ai": ""
   },
   {
-    "sno": 838,
+    "sno": 844,
     "name": "System Shock (2023)",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10117,7 +10189,7 @@
     "ai": ""
   },
   {
-    "sno": 839,
+    "sno": 845,
     "name": "TabbyML",
     "type": "App",
     "dlss multi frame generation": "",
@@ -10129,7 +10201,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 840,
+    "sno": 846,
     "name": "Tainted Grail: The Fall of Avalon",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10141,7 +10213,7 @@
     "ai": ""
   },
   {
-    "sno": 841,
+    "sno": 847,
     "name": "Tankhead",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10153,7 +10225,7 @@
     "ai": ""
   },
   {
-    "sno": 842,
+    "sno": 848,
     "name": "Tarantula AI Recast.ai",
     "type": "App",
     "dlss multi frame generation": "",
@@ -10165,7 +10237,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 843,
+    "sno": 849,
     "name": "Tchia",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10177,7 +10249,7 @@
     "ai": ""
   },
   {
-    "sno": 844,
+    "sno": 850,
     "name": "TEKKEN 8",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10189,7 +10261,7 @@
     "ai": ""
   },
   {
-    "sno": 845,
+    "sno": 851,
     "name": "Tempest Rising",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10201,7 +10273,7 @@
     "ai": ""
   },
   {
-    "sno": 846,
+    "sno": 852,
     "name": "Testament: The Order of High-Human",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10213,7 +10285,7 @@
     "ai": ""
   },
   {
-    "sno": 847,
+    "sno": 853,
     "name": "Test Drive Unlimited Solar Crown",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10225,7 +10297,7 @@
     "ai": ""
   },
   {
-    "sno": 848,
+    "sno": 854,
     "name": "The Alters",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10237,7 +10309,7 @@
     "ai": ""
   },
   {
-    "sno": 849,
+    "sno": 855,
     "name": "The Anacrusis",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10249,7 +10321,7 @@
     "ai": ""
   },
   {
-    "sno": 850,
+    "sno": 856,
     "name": "The Ascent",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10261,7 +10333,7 @@
     "ai": ""
   },
   {
-    "sno": 851,
+    "sno": 857,
     "name": "The Axis Unseen",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10273,7 +10345,7 @@
     "ai": ""
   },
   {
-    "sno": 852,
+    "sno": 858,
     "name": "The Backrooms: Lost Tape",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10285,7 +10357,7 @@
     "ai": ""
   },
   {
-    "sno": 853,
+    "sno": 859,
     "name": "The Black Pool",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10297,7 +10369,7 @@
     "ai": ""
   },
   {
-    "sno": 854,
+    "sno": 860,
     "name": "The Black Pool: Arena Survivors",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10309,7 +10381,7 @@
     "ai": ""
   },
   {
-    "sno": 855,
+    "sno": 861,
     "name": "The Bus",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10321,7 +10393,7 @@
     "ai": ""
   },
   {
-    "sno": 856,
+    "sno": 862,
     "name": "The Callisto Protocol",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10333,7 +10405,7 @@
     "ai": ""
   },
   {
-    "sno": 857,
+    "sno": 863,
     "name": "The Casting of Frank Stone",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10345,7 +10417,7 @@
     "ai": ""
   },
   {
-    "sno": 858,
+    "sno": 864,
     "name": "The Chant",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10357,7 +10429,7 @@
     "ai": ""
   },
   {
-    "sno": 859,
+    "sno": 865,
     "name": "The Cycle: Frontier",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10369,7 +10441,7 @@
     "ai": ""
   },
   {
-    "sno": 860,
+    "sno": 866,
     "name": "The Dawn: Sniper's Way",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10381,7 +10453,7 @@
     "ai": ""
   },
   {
-    "sno": 861,
+    "sno": 867,
     "name": "The Day Before",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10393,7 +10465,7 @@
     "ai": ""
   },
   {
-    "sno": 862,
+    "sno": 868,
     "name": "The Devourer: Hunted Souls",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10405,7 +10477,7 @@
     "ai": ""
   },
   {
-    "sno": 863,
+    "sno": 869,
     "name": "The Elder Scrolls IV: Oblivion Remastered",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10417,7 +10489,7 @@
     "ai": ""
   },
   {
-    "sno": 864,
+    "sno": 870,
     "name": "The Elder Scrolls Online",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10429,7 +10501,7 @@
     "ai": ""
   },
   {
-    "sno": 865,
+    "sno": 871,
     "name": "The Fabled Woods",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10441,7 +10513,7 @@
     "ai": ""
   },
   {
-    "sno": 866,
+    "sno": 872,
     "name": "THE FINALS",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -10453,7 +10525,7 @@
     "ai": ""
   },
   {
-    "sno": 867,
+    "sno": 873,
     "name": "The Forge",
     "type": "App",
     "dlss multi frame generation": "",
@@ -10465,7 +10537,7 @@
     "ai": ""
   },
   {
-    "sno": 868,
+    "sno": 874,
     "name": "The First Berserker: Khazan",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10477,7 +10549,7 @@
     "ai": ""
   },
   {
-    "sno": 869,
+    "sno": 875,
     "name": "The First Descendant",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10489,7 +10561,7 @@
     "ai": ""
   },
   {
-    "sno": 870,
+    "sno": 876,
     "name": "The Future Group - Pixotope Pixotope",
     "type": "App",
     "dlss multi frame generation": "",
@@ -10501,7 +10573,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 871,
+    "sno": 877,
     "name": "The Gold River Project",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10513,7 +10585,7 @@
     "ai": ""
   },
   {
-    "sno": 872,
+    "sno": 878,
     "name": "The Invincible",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10525,7 +10597,7 @@
     "ai": ""
   },
   {
-    "sno": 873,
+    "sno": 879,
     "name": "The Inquisitor",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10537,7 +10609,7 @@
     "ai": ""
   },
   {
-    "sno": 874,
+    "sno": 880,
     "name": "The Killing Antidote",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10549,7 +10621,7 @@
     "ai": ""
   },
   {
-    "sno": 875,
+    "sno": 881,
     "name": "The Lamplighters League",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10561,7 +10633,7 @@
     "ai": ""
   },
   {
-    "sno": 876,
+    "sno": 882,
     "name": "The Last Caretaker",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10573,7 +10645,7 @@
     "ai": ""
   },
   {
-    "sno": 877,
+    "sno": 883,
     "name": "The Last of Us Part I",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10585,7 +10657,7 @@
     "ai": ""
   },
   {
-    "sno": 878,
+    "sno": 884,
     "name": "The Last of Us Part II Remastered",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -10597,7 +10669,7 @@
     "ai": ""
   },
   {
-    "sno": 879,
+    "sno": 885,
     "name": "The Last Oricru",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10609,7 +10681,7 @@
     "ai": ""
   },
   {
-    "sno": 880,
+    "sno": 886,
     "name": "The Legend of Heroes: Trails Through Daybreak",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10621,7 +10693,7 @@
     "ai": ""
   },
   {
-    "sno": 881,
+    "sno": 887,
     "name": "The Legend of Heroes: Trails Through Daybreak II",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10633,7 +10705,7 @@
     "ai": ""
   },
   {
-    "sno": 882,
+    "sno": 888,
     "name": "The Lord of the Rings: Gollum",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10645,7 +10717,7 @@
     "ai": ""
   },
   {
-    "sno": 883,
+    "sno": 889,
     "name": "The Lord of the Rings: Return to Moria",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10657,7 +10729,7 @@
     "ai": ""
   },
   {
-    "sno": 884,
+    "sno": 890,
     "name": "The Matchless KungFu",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10669,7 +10741,7 @@
     "ai": ""
   },
   {
-    "sno": 885,
+    "sno": 891,
     "name": "The Medium",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10681,7 +10753,7 @@
     "ai": ""
   },
   {
-    "sno": 886,
+    "sno": 892,
     "name": "The Midnight Walk",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10693,7 +10765,7 @@
     "ai": ""
   },
   {
-    "sno": 887,
+    "sno": 893,
     "name": "The Nightmare Catcher",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10705,7 +10777,7 @@
     "ai": ""
   },
   {
-    "sno": 888,
+    "sno": 894,
     "name": "The Occultist",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -10717,7 +10789,7 @@
     "ai": ""
   },
   {
-    "sno": 889,
+    "sno": 895,
     "name": "The Orville Interactive Fan Experience",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10729,7 +10801,7 @@
     "ai": ""
   },
   {
-    "sno": 890,
+    "sno": 896,
     "name": "The Outlast Trials",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10741,7 +10813,7 @@
     "ai": ""
   },
   {
-    "sno": 891,
+    "sno": 897,
     "name": "The Outer Worlds 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -10753,7 +10825,7 @@
     "ai": ""
   },
   {
-    "sno": 892,
+    "sno": 898,
     "name": "The Persistence",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10765,7 +10837,7 @@
     "ai": ""
   },
   {
-    "sno": 893,
+    "sno": 899,
     "name": "The Redress of Mira",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10777,7 +10849,7 @@
     "ai": ""
   },
   {
-    "sno": 894,
+    "sno": 900,
     "name": "The Riftbreaker",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10789,7 +10861,7 @@
     "ai": ""
   },
   {
-    "sno": 895,
+    "sno": 901,
     "name": "The Sinking City Remastered",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10801,7 +10873,7 @@
     "ai": ""
   },
   {
-    "sno": 896,
+    "sno": 902,
     "name": "The Swordsmen X: Survival",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10813,7 +10885,7 @@
     "ai": ""
   },
   {
-    "sno": 897,
+    "sno": 903,
     "name": "The Talos Principle: Reawakened",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -10825,7 +10897,7 @@
     "ai": ""
   },
   {
-    "sno": 898,
+    "sno": 904,
     "name": "The Talos Principle 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10837,7 +10909,7 @@
     "ai": ""
   },
   {
-    "sno": 899,
+    "sno": 905,
     "name": "The Texas Chain Saw Massacre",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10849,7 +10921,7 @@
     "ai": ""
   },
   {
-    "sno": 900,
+    "sno": 906,
     "name": "The Thaumaturge",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10861,7 +10933,7 @@
     "ai": ""
   },
   {
-    "sno": 901,
+    "sno": 907,
     "name": "The Valiant",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10873,7 +10945,7 @@
     "ai": ""
   },
   {
-    "sno": 902,
+    "sno": 908,
     "name": "The Witcher 3: Wild Hunt",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10885,7 +10957,7 @@
     "ai": ""
   },
   {
-    "sno": 903,
+    "sno": 909,
     "name": "Three Alpha One Nine",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -10897,7 +10969,7 @@
     "ai": ""
   },
   {
-    "sno": 904,
+    "sno": 910,
     "name": "THRONE AND LIBERTY",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -10909,80 +10981,8 @@
     "ai": ""
   },
   {
-    "sno": 905,
-    "name": "TIME BREAKER",
-    "type": "Game",
-    "dlss multi frame generation": "",
-    "dlss frame generation": "",
-    "dlss super resolution": "Yes",
-    "dlss ray reconstruction": "",
-    "dlaa": "",
-    "ray tracing": "Yes",
-    "ai": ""
-  },
-  {
-    "sno": 906,
-    "name": "Titan Quest II",
-    "type": "Game",
-    "dlss multi frame generation": "NV, 6X",
-    "dlss frame generation": "Yes",
-    "dlss super resolution": "Yes",
-    "dlss ray reconstruction": "",
-    "dlaa": "Yes",
-    "ray tracing": "",
-    "ai": ""
-  },
-  {
-    "sno": 907,
-    "name": "Titan Station",
-    "type": "Game",
-    "dlss multi frame generation": "",
-    "dlss frame generation": "",
-    "dlss super resolution": "Yes",
-    "dlss ray reconstruction": "",
-    "dlaa": "",
-    "ray tracing": "Yes",
-    "ai": ""
-  },
-  {
-    "sno": 908,
-    "name": "To Hell With It",
-    "type": "Game",
-    "dlss multi frame generation": "",
-    "dlss frame generation": "",
-    "dlss super resolution": "Yes",
-    "dlss ray reconstruction": "",
-    "dlaa": "",
-    "ray tracing": "Yes",
-    "ai": ""
-  },
-  {
-    "sno": 909,
-    "name": "Togges",
-    "type": "Game",
-    "dlss multi frame generation": "",
-    "dlss frame generation": "",
-    "dlss super resolution": "Yes",
-    "dlss ray reconstruction": "",
-    "dlaa": "",
-    "ray tracing": "",
-    "ai": ""
-  },
-  {
-    "sno": 910,
-    "name": "Tokyo Xtreme Racer",
-    "type": "Game",
-    "dlss multi frame generation": "NV, 6X",
-    "dlss frame generation": "NV, U",
-    "dlss super resolution": "NV, T",
-    "dlss ray reconstruction": "",
-    "dlaa": "NV, T",
-    "ray tracing": "",
-    "ai": ""
-  },
-  {
     "sno": 911,
-    "name": "Tom Clancy's Rainbow Six Extraction",
+    "name": "Tides of Tomorrow",
     "type": "Game",
     "dlss multi frame generation": "",
     "dlss frame generation": "",
@@ -10994,6 +10994,90 @@
   },
   {
     "sno": 912,
+    "name": "TIME BREAKER",
+    "type": "Game",
+    "dlss multi frame generation": "",
+    "dlss frame generation": "",
+    "dlss super resolution": "Yes",
+    "dlss ray reconstruction": "",
+    "dlaa": "",
+    "ray tracing": "Yes",
+    "ai": ""
+  },
+  {
+    "sno": 913,
+    "name": "Titan Quest II",
+    "type": "Game",
+    "dlss multi frame generation": "NV, 6X",
+    "dlss frame generation": "Yes",
+    "dlss super resolution": "Yes",
+    "dlss ray reconstruction": "",
+    "dlaa": "Yes",
+    "ray tracing": "",
+    "ai": ""
+  },
+  {
+    "sno": 914,
+    "name": "Titan Station",
+    "type": "Game",
+    "dlss multi frame generation": "",
+    "dlss frame generation": "",
+    "dlss super resolution": "Yes",
+    "dlss ray reconstruction": "",
+    "dlaa": "",
+    "ray tracing": "Yes",
+    "ai": ""
+  },
+  {
+    "sno": 915,
+    "name": "To Hell With It",
+    "type": "Game",
+    "dlss multi frame generation": "",
+    "dlss frame generation": "",
+    "dlss super resolution": "Yes",
+    "dlss ray reconstruction": "",
+    "dlaa": "",
+    "ray tracing": "Yes",
+    "ai": ""
+  },
+  {
+    "sno": 916,
+    "name": "Togges",
+    "type": "Game",
+    "dlss multi frame generation": "",
+    "dlss frame generation": "",
+    "dlss super resolution": "Yes",
+    "dlss ray reconstruction": "",
+    "dlaa": "",
+    "ray tracing": "",
+    "ai": ""
+  },
+  {
+    "sno": 917,
+    "name": "Tokyo Xtreme Racer",
+    "type": "Game",
+    "dlss multi frame generation": "NV, 6X",
+    "dlss frame generation": "NV, U",
+    "dlss super resolution": "NV, T",
+    "dlss ray reconstruction": "",
+    "dlaa": "NV, T",
+    "ray tracing": "",
+    "ai": ""
+  },
+  {
+    "sno": 918,
+    "name": "Tom Clancy's Rainbow Six Extraction",
+    "type": "Game",
+    "dlss multi frame generation": "",
+    "dlss frame generation": "",
+    "dlss super resolution": "Yes",
+    "dlss ray reconstruction": "",
+    "dlaa": "",
+    "ray tracing": "",
+    "ai": ""
+  },
+  {
+    "sno": 919,
     "name": "Tom Clancy's Rainbow Six Siege",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11005,7 +11089,7 @@
     "ai": ""
   },
   {
-    "sno": 913,
+    "sno": 920,
     "name": "Topaz Labs DeNoise AI",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11017,7 +11101,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 914,
+    "sno": 921,
     "name": "Topaz Labs Gigapixel AI",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11029,7 +11113,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 915,
+    "sno": 922,
     "name": "Topaz Labs Photo AI",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11041,7 +11125,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 916,
+    "sno": 923,
     "name": "Topaz Labs Sharpen AI",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11053,7 +11137,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 917,
+    "sno": 924,
     "name": "Topaz Labs Video AI",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11065,7 +11149,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 918,
+    "sno": 925,
     "name": "Torque Drift 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11077,7 +11161,7 @@
     "ai": ""
   },
   {
-    "sno": 919,
+    "sno": 926,
     "name": "Touchcast Inc. Touchcast Virtual Conference",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11089,7 +11173,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 920,
+    "sno": 927,
     "name": "Tower of Fantasy",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11101,7 +11185,7 @@
     "ai": ""
   },
   {
-    "sno": 921,
+    "sno": 928,
     "name": "Towers of Aghasba",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11113,7 +11197,7 @@
     "ai": ""
   },
   {
-    "sno": 922,
+    "sno": 929,
     "name": "TRAIL OUT",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11125,7 +11209,7 @@
     "ai": ""
   },
   {
-    "sno": 923,
+    "sno": 930,
     "name": "Trepang2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11137,7 +11221,7 @@
     "ai": ""
   },
   {
-    "sno": 924,
+    "sno": 931,
     "name": "Trench Tales",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11149,7 +11233,7 @@
     "ai": ""
   },
   {
-    "sno": 925,
+    "sno": 932,
     "name": "TRIBES 3: Rivals",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11161,7 +11245,7 @@
     "ai": ""
   },
   {
-    "sno": 926,
+    "sno": 933,
     "name": "Trimble Sketchup",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11173,7 +11257,7 @@
     "ai": ""
   },
   {
-    "sno": 927,
+    "sno": 934,
     "name": "Truck Mechanic: Dangerous Paths - Prologue",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11185,7 +11269,7 @@
     "ai": ""
   },
   {
-    "sno": 928,
+    "sno": 935,
     "name": "Turbo Sloths",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11197,7 +11281,7 @@
     "ai": ""
   },
   {
-    "sno": 929,
+    "sno": 936,
     "name": "Twin Stones: The Journey of Bukka",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11209,7 +11293,7 @@
     "ai": ""
   },
   {
-    "sno": 930,
+    "sno": 937,
     "name": "UBOAT",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11221,7 +11305,7 @@
     "ai": ""
   },
   {
-    "sno": 931,
+    "sno": 938,
     "name": "Ultra Form Alpha",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11233,7 +11317,7 @@
     "ai": ""
   },
   {
-    "sno": 932,
+    "sno": 939,
     "name": "Uncharted: Legacy of Thieves Collection",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11245,7 +11329,7 @@
     "ai": ""
   },
   {
-    "sno": 933,
+    "sno": 940,
     "name": "Uncrashed : FPV Drone Simulator",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11257,7 +11341,7 @@
     "ai": ""
   },
   {
-    "sno": 934,
+    "sno": 941,
     "name": "United 1944",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11269,7 +11353,7 @@
     "ai": ""
   },
   {
-    "sno": 935,
+    "sno": 942,
     "name": "United Assault - Normandy '44",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11281,7 +11365,7 @@
     "ai": ""
   },
   {
-    "sno": 936,
+    "sno": 943,
     "name": "Unity Technologies' Unity",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11293,7 +11377,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 937,
+    "sno": 944,
     "name": "Unknown Woods",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11305,7 +11389,7 @@
     "ai": ""
   },
   {
-    "sno": 938,
+    "sno": 945,
     "name": "Until Dawn",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11317,7 +11401,7 @@
     "ai": ""
   },
   {
-    "sno": 939,
+    "sno": 946,
     "name": "VALHALL: Harbinger",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11329,7 +11413,7 @@
     "ai": ""
   },
   {
-    "sno": 940,
+    "sno": 947,
     "name": "Valkyrie Elysium",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11341,7 +11425,7 @@
     "ai": ""
   },
   {
-    "sno": 941,
+    "sno": 948,
     "name": "Vampire: The Masquerade - Bloodlines 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11353,7 +11437,7 @@
     "ai": ""
   },
   {
-    "sno": 942,
+    "sno": 949,
     "name": "Vampire: The Masquerade - Swansong",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11365,7 +11449,7 @@
     "ai": ""
   },
   {
-    "sno": 943,
+    "sno": 950,
     "name": "Vampires: Bloodlord Rising",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11377,7 +11461,7 @@
     "ai": ""
   },
   {
-    "sno": 944,
+    "sno": 951,
     "name": "Vector Strike",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11389,7 +11473,7 @@
     "ai": ""
   },
   {
-    "sno": 945,
+    "sno": 952,
     "name": "VEED Video Editor",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11401,7 +11485,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 946,
+    "sno": 953,
     "name": "Video Copilot Element 3D",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11413,7 +11497,7 @@
     "ai": ""
   },
   {
-    "sno": 947,
+    "sno": 954,
     "name": "Viking Rage",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11425,7 +11509,7 @@
     "ai": ""
   },
   {
-    "sno": 948,
+    "sno": 955,
     "name": "Violet",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11437,7 +11521,7 @@
     "ai": ""
   },
   {
-    "sno": 949,
+    "sno": 956,
     "name": "Virtua Fighter 5 R.E.V.O.",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11449,7 +11533,7 @@
     "ai": ""
   },
   {
-    "sno": 950,
+    "sno": 957,
     "name": "Vistandard VRP2020",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11461,7 +11545,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 951,
+    "sno": 958,
     "name": "Visual Components",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11473,7 +11557,7 @@
     "ai": ""
   },
   {
-    "sno": 952,
+    "sno": 959,
     "name": "Void Crew",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11485,7 +11569,7 @@
     "ai": ""
   },
   {
-    "sno": 953,
+    "sno": 960,
     "name": "VLC Media Player (RTX Video Super Resolution)",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11497,7 +11581,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 954,
+    "sno": 961,
     "name": "VLR",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11509,7 +11593,7 @@
     "ai": ""
   },
   {
-    "sno": 955,
+    "sno": 962,
     "name": "Voidtrain",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11521,7 +11605,7 @@
     "ai": ""
   },
   {
-    "sno": 956,
+    "sno": 963,
     "name": "VR Nara Park",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11533,7 +11617,7 @@
     "ai": ""
   },
   {
-    "sno": 957,
+    "sno": 964,
     "name": "vRt",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11545,7 +11629,7 @@
     "ai": ""
   },
   {
-    "sno": 958,
+    "sno": 965,
     "name": "Wacky West",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11557,7 +11641,7 @@
     "ai": ""
   },
   {
-    "sno": 959,
+    "sno": 966,
     "name": "Wakamarina Valley, New Zealand",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11569,7 +11653,7 @@
     "ai": ""
   },
   {
-    "sno": 960,
+    "sno": 967,
     "name": "Wanted: Dead",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11581,7 +11665,7 @@
     "ai": ""
   },
   {
-    "sno": 961,
+    "sno": 968,
     "name": "Warframe",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11593,7 +11677,7 @@
     "ai": ""
   },
   {
-    "sno": 962,
+    "sno": 969,
     "name": "Warhaven",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11605,7 +11689,7 @@
     "ai": ""
   },
   {
-    "sno": 963,
+    "sno": 970,
     "name": "War Thunder",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -11617,7 +11701,7 @@
     "ai": ""
   },
   {
-    "sno": 964,
+    "sno": 971,
     "name": "Warhammer Age of Sigmar: Realms of Ruin",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11629,7 +11713,7 @@
     "ai": ""
   },
   {
-    "sno": 965,
+    "sno": 972,
     "name": "Warhammer 40,000: Darktide",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -11641,7 +11725,7 @@
     "ai": ""
   },
   {
-    "sno": 966,
+    "sno": 973,
     "name": "Warhammer 40,000: Space Marine 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -11653,7 +11737,7 @@
     "ai": ""
   },
   {
-    "sno": 967,
+    "sno": 974,
     "name": "Warhammer 40,000: Speed Freeks",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11665,7 +11749,7 @@
     "ai": ""
   },
   {
-    "sno": 968,
+    "sno": 975,
     "name": "Warhammer: Vermintide 2",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11677,7 +11761,7 @@
     "ai": ""
   },
   {
-    "sno": 969,
+    "sno": 976,
     "name": "Warstride Challenges",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11689,7 +11773,7 @@
     "ai": ""
   },
   {
-    "sno": 970,
+    "sno": 977,
     "name": "Watch Dogs: Legion",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11701,7 +11785,7 @@
     "ai": ""
   },
   {
-    "sno": 971,
+    "sno": 978,
     "name": "Wayfinder",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11713,7 +11797,7 @@
     "ai": ""
   },
   {
-    "sno": 972,
+    "sno": 979,
     "name": "Way of the Hunter",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11725,7 +11809,7 @@
     "ai": ""
   },
   {
-    "sno": 973,
+    "sno": 980,
     "name": "Welcome to ParadiZe",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11737,7 +11821,7 @@
     "ai": ""
   },
   {
-    "sno": 974,
+    "sno": 981,
     "name": "Weta Digital Gazebo",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11749,7 +11833,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 975,
+    "sno": 982,
     "name": "Where Winds Meet",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -11761,7 +11845,7 @@
     "ai": ""
   },
   {
-    "sno": 976,
+    "sno": 983,
     "name": "Whiskerwood",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11773,7 +11857,7 @@
     "ai": ""
   },
   {
-    "sno": 977,
+    "sno": 984,
     "name": "Who Is Abby",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11785,7 +11869,7 @@
     "ai": ""
   },
   {
-    "sno": 978,
+    "sno": 985,
     "name": "Why Don't They Laugh?",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11797,7 +11881,7 @@
     "ai": ""
   },
   {
-    "sno": 979,
+    "sno": 986,
     "name": "Wild Assault",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11809,7 +11893,7 @@
     "ai": ""
   },
   {
-    "sno": 980,
+    "sno": 987,
     "name": "Wildgate",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11821,7 +11905,7 @@
     "ai": ""
   },
   {
-    "sno": 981,
+    "sno": 988,
     "name": "WILD HEARTS",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11833,7 +11917,7 @@
     "ai": ""
   },
   {
-    "sno": 982,
+    "sno": 989,
     "name": "Windrose",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11845,7 +11929,7 @@
     "ai": ""
   },
   {
-    "sno": 983,
+    "sno": 990,
     "name": "Winter Survival",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11857,7 +11941,7 @@
     "ai": ""
   },
   {
-    "sno": 984,
+    "sno": 991,
     "name": "Witchfire",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11869,7 +11953,7 @@
     "ai": ""
   },
   {
-    "sno": 985,
+    "sno": 992,
     "name": "Wo Long: Fallen Dynasty",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11881,7 +11965,7 @@
     "ai": ""
   },
   {
-    "sno": 986,
+    "sno": 993,
     "name": "Wolfenstein: Youngblood",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11893,7 +11977,7 @@
     "ai": ""
   },
   {
-    "sno": 987,
+    "sno": 994,
     "name": "Womp",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11905,7 +11989,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 988,
+    "sno": 995,
     "name": "Wonder Ball",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11917,7 +12001,7 @@
     "ai": ""
   },
   {
-    "sno": 989,
+    "sno": 996,
     "name": "Wondershare Filmora",
     "type": "App",
     "dlss multi frame generation": "",
@@ -11929,7 +12013,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 990,
+    "sno": 997,
     "name": "Workshop Simulator",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11941,7 +12025,7 @@
     "ai": ""
   },
   {
-    "sno": 991,
+    "sno": 998,
     "name": "World of Jade Dynasty",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11953,7 +12037,7 @@
     "ai": ""
   },
   {
-    "sno": 992,
+    "sno": 999,
     "name": "World of Tanks: HEAT",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -11965,7 +12049,7 @@
     "ai": ""
   },
   {
-    "sno": 993,
+    "sno": 1000,
     "name": "World of Warcraft: Shadowlands",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11977,7 +12061,7 @@
     "ai": ""
   },
   {
-    "sno": 994,
+    "sno": 1001,
     "name": "WRC Generations – The FIA WRC Official Game",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -11989,7 +12073,7 @@
     "ai": ""
   },
   {
-    "sno": 995,
+    "sno": 1002,
     "name": "Wreckfest 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -12001,7 +12085,7 @@
     "ai": ""
   },
   {
-    "sno": 996,
+    "sno": 1003,
     "name": "Wreckreation",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -12013,7 +12097,7 @@
     "ai": ""
   },
   {
-    "sno": 997,
+    "sno": 1004,
     "name": "Wrench",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -12025,7 +12109,7 @@
     "ai": ""
   },
   {
-    "sno": 998,
+    "sno": 1005,
     "name": "WUCHANG: Fallen Feathers",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -12037,7 +12121,7 @@
     "ai": ""
   },
   {
-    "sno": 999,
+    "sno": 1006,
     "name": "Wuthering Waves",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -12049,7 +12133,7 @@
     "ai": ""
   },
   {
-    "sno": 1000,
+    "sno": 1007,
     "name": "X4: Foundations",
     "type": "Game",
     "dlss multi frame generation": "NV, 4X",
@@ -12061,7 +12145,7 @@
     "ai": ""
   },
   {
-    "sno": 1001,
+    "sno": 1008,
     "name": "Xaymar StreamFX",
     "type": "App",
     "dlss multi frame generation": "",
@@ -12073,7 +12157,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 1002,
+    "sno": 1009,
     "name": "Xsplit Broadcaster",
     "type": "App",
     "dlss multi frame generation": "",
@@ -12085,7 +12169,7 @@
     "ai": "Yes"
   },
   {
-    "sno": 1003,
+    "sno": 1010,
     "name": "Xuan-Yuan Sword VII",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -12097,7 +12181,7 @@
     "ai": ""
   },
   {
-    "sno": 1004,
+    "sno": 1011,
     "name": "Yag",
     "type": "Game",
     "dlss multi frame generation": "",
@@ -12109,7 +12193,7 @@
     "ai": ""
   },
   {
-    "sno": 1005,
+    "sno": 1012,
     "name": "Yakuza Kiwami 2",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -12121,7 +12205,7 @@
     "ai": ""
   },
   {
-    "sno": 1006,
+    "sno": 1013,
     "name": "Yakuza Kiwami 3 & Dark Ties",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",
@@ -12133,19 +12217,19 @@
     "ai": ""
   },
   {
-    "sno": 1007,
+    "sno": 1014,
     "name": "Zenless Zone Zero",
     "type": "Game",
     "dlss multi frame generation": "",
-    "dlss frame generation": "",
+    "dlss frame generation": "Yes",
     "dlss super resolution": "Yes",
     "dlss ray reconstruction": "",
     "dlaa": "Yes",
-    "ray tracing": "",
+    "ray tracing": "Yes",
     "ai": ""
   },
   {
-    "sno": 1008,
+    "sno": 1015,
     "name": "Zombie City",
     "type": "Game",
     "dlss multi frame generation": "NV, 6X",

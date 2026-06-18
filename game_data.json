@@ -8457,6 +8457,31 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Empulse": {
+    "steam": {
+      "found": true,
+      "appid": 4323990,
+      "release_date": "Jun 24, 2026",
+      "genres": [
+        "Action"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4323990/8870476a72c8cee5a6f5c299f9e8189e24067115/capsule_184x69.jpg?t=1781659522",
+      "updated_at": "2026-06-18"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 186296,
+      "main": 2,
+      "all_styles": 2,
+      "updated_at": "2026-06-18"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "empulse",
+      "source": "metacritic",
+      "updated_at": "2026-06-18"
+    }
+  },
   "Empyreal": {
     "steam": {
       "found": true,
@@ -9959,6 +9984,36 @@
       "fsr_version": "FSR 4",
       "xess_version": "XeSS 3",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Fatekeeper": {
+    "steam": {
+      "found": true,
+      "appid": 2186990,
+      "rating": "Mostly Positive",
+      "pct": 79,
+      "total": 8454,
+      "release_date": "Jun 2, 2026",
+      "genres": [
+        "Action",
+        "RPG",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/ac1ab693d0187ec29cf7b132b7b820f2f51901a4/capsule_184x69_alt_assets_0.jpg?t=1780927614",
+      "updated_at": "2026-06-18"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 171929,
+      "main": 2.02,
+      "all_styles": 2.02,
+      "updated_at": "2026-06-18"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "fatekeeper",
+      "source": "metacritic",
+      "updated_at": "2026-06-18"
     }
   },
   "FBC: Firebreak": {
@@ -11567,6 +11622,37 @@
       "updated_at": "2026-05-01"
     }
   },
+  "GOALS": {
+    "steam": {
+      "found": true,
+      "appid": 2753000,
+      "rating": "Mostly Negative",
+      "pct": 39,
+      "total": 4163,
+      "release_date": "Jun 4, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Simulation",
+        "Sports",
+        "Free To Play"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753000/f923766858c3aa93741df592c7d8e19a1072a623/capsule_184x69.jpg?t=1781277363",
+      "updated_at": "2026-06-18"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 167471,
+      "updated_at": "2026-06-18"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "goals",
+      "source": "metacritic",
+      "updated_at": "2026-06-18"
+    }
+  },
   "Goat Simulator: Remastered": {
     "steam": {
       "found": true,
@@ -11956,6 +12042,38 @@
       "fsr_version": "FSR 2.1",
       "xess_version": "XeSS 1.1",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Gothic 1 Remake": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 92900,
+      "main": 29.36,
+      "extra": 43.81,
+      "complete": 64.79,
+      "all_styles": 42.54,
+      "updated_at": "2026-06-18"
+    },
+    "steam": {
+      "found": true,
+      "appid": 1297900,
+      "rating": "Very Positive",
+      "pct": 88,
+      "total": 23770,
+      "release_date": "Jun 5, 2026",
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/65bac0ffa9e365a6591c984c1dd6273ccf502665/capsule_184x69.jpg?t=1780965412",
+      "updated_at": "2026-06-18"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "gothic-1-remake",
+      "score": 74,
+      "source": "metacritic",
+      "updated_at": "2026-06-18"
     }
   },
   "Grand Emprise: Time Travel Survival": {
@@ -18993,6 +19111,35 @@
       "updated_at": "2026-05-01"
     }
   },
+  "NBA THE RUN": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 154406,
+      "updated_at": "2026-06-18"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2866670,
+      "rating": "Mostly Positive",
+      "pct": 72,
+      "total": 677,
+      "release_date": "Jun 9, 2026",
+      "genres": [
+        "Action",
+        "Casual",
+        "Sports"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2866670/fa10ed4a93b6507e104ac07e7dc45c7be6754107/capsule_184x69.jpg?t=1781120286",
+      "updated_at": "2026-06-18"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "nba-the-run",
+      "score": 72,
+      "source": "metacritic",
+      "updated_at": "2026-06-18"
+    }
+  },
   "Necromunda: Hired Gun": {
     "steam": {
       "found": true,
@@ -20177,6 +20324,26 @@
       "fsr_version": "FSR 2",
       "xess_version": "XeSS 1",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Onimusha: Way of the Sword Demo": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 160598,
+      "updated_at": "2026-06-18"
+    },
+    "steam": {
+      "found": true,
+      "appid": 3974650,
+      "release_date": "Jun 2, 2026",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3974650/ad11cf9150b07e022b28fe84003998655aa822d3/capsule_184x69.jpg?t=1781052877",
+      "updated_at": "2026-06-18"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "onimusha-way-of-the-sword-demo",
+      "source": "metacritic",
+      "updated_at": "2026-06-18"
     }
   },
   "orbit.industries": {
@@ -30428,6 +30595,38 @@
       "fsr_version": "FSR 2",
       "xess_version": "XeSS 1.3",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Tides of Tomorrow": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 151870,
+      "main": 10.31,
+      "extra": 12.44,
+      "complete": 17.55,
+      "all_styles": 12.46,
+      "updated_at": "2026-06-18"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2678080,
+      "rating": "Very Positive",
+      "pct": 87,
+      "total": 581,
+      "release_date": "Apr 22, 2026",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678080/828aade97ed391db6d7406806357f6619c8075f0/capsule_184x69.jpg?t=1778158829",
+      "updated_at": "2026-06-18"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "tides-of-tomorrow",
+      "score": 71,
+      "source": "metacritic",
+      "updated_at": "2026-06-18"
     }
   },
   "TIME BREAKER": {
