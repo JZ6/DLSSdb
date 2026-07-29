@@ -1470,6 +1470,38 @@
       "updated_at": "2026-06-04"
     }
   },
+  "Assassin's Creed Black Flag Resynced": {
+    "steam": {
+      "found": true,
+      "appid": 3751950,
+      "rating": "Mostly Positive",
+      "pct": 79,
+      "total": 24444,
+      "release_date": "Jul 9, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/e38674a3067b5ac028974bbfb42c835d0cf27122/capsule_184x69.jpg?t=1783617053",
+      "updated_at": "2026-07-29"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 185013,
+      "main": 23.47,
+      "extra": 40.09,
+      "complete": 60.95,
+      "all_styles": 42.28,
+      "updated_at": "2026-07-29"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "assassins-creed-black-flag-resynced",
+      "score": 84,
+      "source": "metacritic",
+      "updated_at": "2026-07-29"
+    }
+  },
   "Assassin's Creed Mirage": {
     "steam": {
       "found": true,
@@ -4909,6 +4941,34 @@
       "slug": "cooking-simulator-2-better-together",
       "source": "metacritic",
       "updated_at": "2026-06-04"
+    }
+  },
+  "Corsair Cove": {
+    "steam": {
+      "found": true,
+      "appid": 1368140,
+      "release_date": "Jul 31, 2026",
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/9317363cb16926256a8e15b2dd91eee8203e4f11/capsule_184x69.jpg?t=1785318438",
+      "metacritic_score": 79,
+      "metacritic_url": "https://www.metacritic.com/game/pc/corsair-cove?ftag=MCD-06-10aaa1f",
+      "updated_at": "2026-07-29"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 184741,
+      "updated_at": "2026-07-29"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "corsair-cove",
+      "score": 79,
+      "source": "steam",
+      "appid": 1368140,
+      "updated_at": "2026-07-29"
     }
   },
   "Crime Boss: Rockay City": {
@@ -12731,6 +12791,39 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Halo: Campaign Evolved": {
+    "steam": {
+      "found": true,
+      "appid": 2806050,
+      "rating": "Mixed",
+      "pct": 67,
+      "total": 7262,
+      "release_date": "28 Jul, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/c4569404286b4e8bc5810fbc11282d7b842d4e4a/capsule_184x69.jpg?t=1785260966",
+      "updated_at": "2026-07-29"
+    },
+    "hltb": {
+      "found": true,
+      "hltb_id": 176192,
+      "main": 7.13,
+      "extra": 10.51,
+      "complete": 18.41,
+      "coop": 6.5,
+      "all_styles": 8.83,
+      "updated_at": "2026-07-29"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "halo-campaign-evolved",
+      "score": 81,
+      "source": "metacritic",
+      "updated_at": "2026-07-29"
+    }
+  },
   "Helios": {
     "steam": {
       "found": true,
@@ -18178,6 +18271,30 @@
       "score": 76,
       "source": "metacritic",
       "updated_at": "2026-06-04"
+    }
+  },
+  "Mistfall Hunter": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 158249,
+      "updated_at": "2026-07-29"
+    },
+    "steam": {
+      "found": true,
+      "appid": 3282300,
+      "release_date": "Jul 29, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/8a88577bc075679844df900b9f7e246c6ae37659/capsule_184x69_alt_assets_7.jpg?t=1785328714",
+      "updated_at": "2026-07-29"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "mistfall-hunter",
+      "source": "metacritic",
+      "updated_at": "2026-07-29"
     }
   },
   "MONGIL: STAR DIVE": {
@@ -29836,6 +29953,34 @@
       "page": "The_Midnight_Walk",
       "fsr_version": "FSR 3.1",
       "updated_at": "2026-05-01"
+    }
+  },
+  "The Mound: Omen of Cthulhu": {
+    "hltb": {
+      "found": true,
+      "hltb_id": 164939,
+      "updated_at": "2026-07-29"
+    },
+    "steam": {
+      "found": true,
+      "appid": 2569760,
+      "rating": "Mixed",
+      "pct": 69,
+      "total": 3038,
+      "release_date": "Jul 15, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/cd3170e5e966d284753aab1405541f3ffa07306a/capsule_184x69.jpg?t=1785328343",
+      "updated_at": "2026-07-29"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "the-mound-omen-of-cthulhu",
+      "score": 67,
+      "source": "metacritic",
+      "updated_at": "2026-07-29"
     }
   },
   "The Nightmare Catcher": {
