@@ -134,6 +134,28 @@
       "updated_at": "2026-05-27"
     }
   },
+  "1666: Amsterdam": {
+    "steam": {
+      "found": true,
+      "appid": 3949550,
+      "rating": "Mixed",
+      "pct": 68,
+      "total": 391,
+      "release_date": "Aug 25, 2026",
+      "genres": [
+        "Adventure",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949550/7a4619bcd473bc51b4cad9d18b3624ccac70e96d/capsule_184x69.jpg?t=1787686479",
+      "updated_at": "2026-08-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "1666-amsterdam",
+      "source": "metacritic",
+      "updated_at": "2026-08-27"
+    }
+  },
   "7 Days To Die": {
     "steam": {
       "found": true,
@@ -2637,6 +2659,30 @@
     },
     "pcgw": {
       "found": false
+    }
+  },
+  "Beast of Reincarnation": {
+    "steam": {
+      "found": true,
+      "appid": 2001760,
+      "rating": "Mixed",
+      "pct": 58,
+      "total": 5733,
+      "release_date": "3 Aug, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/8051f36f9874f82c4d998354409343346b5f6b3f/capsule_184x69.jpg?t=1786337922",
+      "updated_at": "2026-08-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "beast-of-reincarnation",
+      "score": 73,
+      "source": "metacritic",
+      "updated_at": "2026-08-27"
     }
   },
   "BEAST: False Prophet": {
@@ -12885,6 +12931,31 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Hell Let Loose: Vietnam": {
+    "steam": {
+      "found": true,
+      "appid": 3079210,
+      "rating": "Mixed",
+      "pct": 61,
+      "total": 10082,
+      "release_date": "Aug 13, 2026",
+      "genres": [
+        "Action",
+        "Massively Multiplayer",
+        "Simulation",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/fafbea801ff2a4945f59cd1fc045cbf3a9f43cd4/capsule_184x69.jpg?t=1787663962",
+      "updated_at": "2026-08-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "hell-let-loose-vietnam",
+      "score": 76,
+      "source": "metacritic",
+      "updated_at": "2026-08-27"
+    }
+  },
   "Hell Pie": {
     "steam": {
       "found": true,
@@ -16986,6 +17057,31 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Luminary": {
+    "steam": {
+      "found": true,
+      "appid": 1648360,
+      "rating": "Mostly Positive",
+      "pct": 74,
+      "total": 341,
+      "release_date": "Aug 11, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1648360/6e525811a177f78a3d23da14fce603c2e7d43c66/capsule_184x69.jpg?t=1787620897",
+      "updated_at": "2026-08-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "luminary",
+      "source": "metacritic",
+      "updated_at": "2026-08-27"
+    }
+  },
   "Lumote: The Mastermote Chronicles": {
     "steam": {
       "found": true,
@@ -18790,6 +18886,29 @@
       "found": true,
       "page": "Mortal_Shell",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Mortal Shell II": {
+    "steam": {
+      "found": true,
+      "appid": 2584270,
+      "rating": "Mostly Positive",
+      "pct": 74,
+      "total": 12033,
+      "release_date": "20 Aug, 2026",
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/be45d87c9974a36f690480bceb01f03987a0c23a/capsule_184x69.jpg?t=1787749756",
+      "updated_at": "2026-08-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "mortal-shell-ii",
+      "score": 83,
+      "source": "metacritic",
+      "updated_at": "2026-08-27"
     }
   },
   "Mother Machine": {
@@ -23239,6 +23358,26 @@
       "page": "Resident_Evil_Village",
       "fsr_version": "FSR 1",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Resonance: A Plague Tale Legacy": {
+    "steam": {
+      "found": true,
+      "appid": 2713000,
+      "release_date": "Aug 27, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2713000/0d06636f2a2c3dcf0b473c91212f36a0b3e2e1a8/capsule_184x69.jpg?t=1787750419",
+      "updated_at": "2026-08-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "resonance-a-plague-tale-legacy",
+      "score": 80,
+      "source": "metacritic",
+      "updated_at": "2026-08-27"
     }
   },
   "Return to Campus": {
@@ -30267,6 +30406,29 @@
       "fsr_version": "FSR 2.1",
       "xess_version": "XeSS 1",
       "updated_at": "2026-05-01"
+    }
+  },
+  "The Sinking City 2": {
+    "steam": {
+      "found": true,
+      "appid": 2825860,
+      "rating": "Very Positive",
+      "pct": 84,
+      "total": 1203,
+      "release_date": "Aug 18, 2026",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/ed82cb1a0bfd2331c5bbcf297dba3e6a5635d56e/capsule_184x69.jpg?t=1787235451",
+      "updated_at": "2026-08-27"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "the-sinking-city-2",
+      "score": 79,
+      "source": "metacritic",
+      "updated_at": "2026-08-27"
     }
   },
   "The Sinking City Remastered": {
