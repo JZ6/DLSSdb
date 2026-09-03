@@ -788,6 +788,28 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Aliens: Fireteam Elite 2": {
+    "steam": {
+      "found": true,
+      "appid": 3448650,
+      "rating": "Mixed",
+      "pct": 63,
+      "total": 3151,
+      "release_date": "Aug 25, 2026",
+      "genres": [
+        "Action"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/ca75b2be4cfcfbbb74518f8bf963f09bbc111bf5/capsule_184x69.jpg?t=1787772466",
+      "updated_at": "2026-09-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "aliens-fireteam-elite-2",
+      "score": 64,
+      "source": "metacritic",
+      "updated_at": "2026-09-03"
+    }
+  },
   "Alone In The Dark": {
     "steam": {
       "found": true,
@@ -3357,6 +3379,30 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Breathedge 2": {
+    "steam": {
+      "found": true,
+      "appid": 2412960,
+      "rating": "Very Positive",
+      "pct": 86,
+      "total": 637,
+      "release_date": "Aug 31, 2026",
+      "genres": [
+        "Action",
+        "RPG",
+        "Simulation",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/cefe019bbfe451516fb65d6efa180910715bd72e/capsule_184x69.jpg?t=1788324312",
+      "updated_at": "2026-09-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "breathedge-2",
+      "source": "metacritic",
+      "updated_at": "2026-09-03"
+    }
+  },
   "Brickadia": {
     "steam": {
       "found": true,
@@ -5117,6 +5163,30 @@
       "fsr_version": "FSR 4.1",
       "xess_version": "XeSS 2.1",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Crimson Moon": {
+    "steam": {
+      "found": true,
+      "appid": 4317690,
+      "rating": "Mixed",
+      "pct": 60,
+      "total": 1862,
+      "release_date": "1 Sep, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4317690/3449fabc6e795e20f0bb7a7a656add8e68f211f8/capsule_184x69.jpg?t=1788309232",
+      "updated_at": "2026-09-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "crimson-moon",
+      "score": 73,
+      "source": "metacritic",
+      "updated_at": "2026-09-03"
     }
   },
   "Cronos: The New Dawn": {
@@ -19256,6 +19326,79 @@
       "updated_at": "2026-05-01"
     }
   },
+  "NBA 2K25": {
+    "steam": {
+      "found": true,
+      "appid": 2878980,
+      "rating": "Mixed",
+      "pct": 59,
+      "total": 42915,
+      "release_date": "Oct 28, 2024",
+      "genres": [
+        "Simulation",
+        "Sports"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2878980/capsule_184x69.jpg?t=1754665445",
+      "tags": [
+        "Sports",
+        "Basketball",
+        "Simulation",
+        "e-sports",
+        "3D"
+      ],
+      "updated_at": "2026-09-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "nba-2k25",
+      "score": 79,
+      "source": "metacritic",
+      "updated_at": "2026-09-03"
+    }
+  },
+  "NBA 2K26": {
+    "steam": {
+      "found": true,
+      "appid": 3472040,
+      "rating": "Mixed",
+      "pct": 64,
+      "total": 33001,
+      "release_date": "Sep 4, 2025",
+      "genres": [
+        "Sports"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3472040/356867a38f3bfef003b091766c4eebcf1f994df6/capsule_184x69.jpg?t=1786115051",
+      "updated_at": "2026-09-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "nba-2k26",
+      "score": 82,
+      "source": "metacritic",
+      "updated_at": "2026-09-03"
+    }
+  },
+  "NBA 2K27": {
+    "steam": {
+      "found": true,
+      "appid": 4356430,
+      "rating": "Mixed",
+      "pct": 51,
+      "total": 876,
+      "release_date": "Sep 3, 2026",
+      "genres": [
+        "Sports"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/92d7aa92bafdd80d200ef25467a3680cf525836a/capsule_184x69.jpg?t=1787958027",
+      "updated_at": "2026-09-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "nba-2k27",
+      "source": "metacritic",
+      "updated_at": "2026-09-03"
+    }
+  },
   "NBA 2K5": {
     "steam": {
       "found": true,
@@ -20541,6 +20684,30 @@
       "fsr_version": "FSR 2",
       "xess_version": "XeSS 1",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Onimusha: Way of the Sword": {
+    "steam": {
+      "found": true,
+      "appid": 2638890,
+      "release_date": "Sep 3, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/4aa8bcfcb20173a0250f03ee15473abece15f6b0/capsule_184x69.jpg?t=1788311809",
+      "metacritic_score": 83,
+      "metacritic_url": "https://www.metacritic.com/game/pc/onimusha-way-of-the-sword?ftag=MCD-06-10aaa1f",
+      "updated_at": "2026-09-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "onimusha-way-of-the-sword",
+      "score": 83,
+      "source": "steam",
+      "appid": 2638890,
+      "updated_at": "2026-09-03"
     }
   },
   "Onimusha: Way of the Sword Demo": {
@@ -26845,6 +27012,32 @@
       "updated_at": "2026-05-01"
     }
   },
+  "STAR WARS Zero Company": {
+    "steam": {
+      "found": true,
+      "appid": 2075800,
+      "rating": "Mostly Positive",
+      "pct": 79,
+      "total": 13028,
+      "release_date": "27 Aug, 2026",
+      "genres": [
+        "Adventure",
+        "RPG",
+        "Simulation",
+        "Sports",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/56484e8832119b4b37b3fa3a6a5ec23209cd835c/capsule_184x69.jpg?t=1788256323",
+      "updated_at": "2026-09-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "star-wars-zero-company",
+      "score": 85,
+      "source": "metacritic",
+      "updated_at": "2026-09-03"
+    }
+  },
   "Starfield": {
     "steam": {
       "found": true,
@@ -28778,6 +28971,30 @@
       "updated_at": "2026-05-05"
     },
     "pcgw": {}
+  },
+  "The Blood of Dawnwalker": {
+    "steam": {
+      "found": true,
+      "appid": 3751260,
+      "rating": "Mixed",
+      "pct": 65,
+      "total": 439,
+      "release_date": "2 Sep, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/512cea7b8d6470681fc081ab933290bf14a8f956/capsule_184x69.jpg?t=1788387095",
+      "updated_at": "2026-09-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "the-blood-of-dawnwalker",
+      "score": 83,
+      "source": "metacritic",
+      "updated_at": "2026-09-03"
+    }
   },
   "The Bus": {
     "steam": {
@@ -34137,6 +34354,37 @@
       "fsr_version": "FSR 3.1",
       "xess_version": "XeSS 2",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Yet Another Zombie Survivors": {
+    "steam": {
+      "found": true,
+      "appid": 2163330,
+      "rating": "Very Positive",
+      "pct": 91,
+      "total": 14963,
+      "release_date": "Aug 20, 2026",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie",
+        "RPG"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2163330/765e6898cbb4faffa34991912775d813be58cc56/capsule_184x69.jpg?t=1787858180",
+      "tags": [
+        "Early Access",
+        "Action Roguelike",
+        "Bullet Hell",
+        "Indie",
+        "Arcade"
+      ],
+      "updated_at": "2026-09-03"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "yet-another-zombie-survivors",
+      "source": "metacritic",
+      "updated_at": "2026-09-03"
     }
   },
   "Zenless Zone Zero": {
