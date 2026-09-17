@@ -436,6 +436,28 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Active Matter": {
+    "steam": {
+      "found": true,
+      "appid": 2887580,
+      "rating": "Mostly Positive",
+      "pct": 78,
+      "total": 932,
+      "release_date": "Sep 15, 2026",
+      "genres": [
+        "Action",
+        "Massively Multiplayer"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/252fece2d2d53e0dea48671c13a9d7e3cc4473b2/capsule_184x69.jpg?t=1789479391",
+      "updated_at": "2026-09-17"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "active-matter",
+      "source": "metacritic",
+      "updated_at": "2026-09-17"
+    }
+  },
   "Ad Infinitum": {
     "steam": {
       "found": true,
@@ -968,6 +990,34 @@
     },
     "pcgw": {
       "found": false
+    }
+  },
+  "Aniimo": {
+    "steam": {
+      "found": true,
+      "appid": 4126040,
+      "rating": "Mixed",
+      "pct": 58,
+      "total": 4254,
+      "release_date": "Sep 15, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer",
+        "RPG",
+        "Simulation",
+        "Strategy",
+        "Free To Play"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/9cd26f736939c12a37f54cd3a49a9c08a318ec03/capsule_184x69.jpg?t=1789562655",
+      "updated_at": "2026-09-17"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "aniimo",
+      "score": 78,
+      "source": "metacritic",
+      "updated_at": "2026-09-17"
     }
   },
   "Animalia Survival": {
@@ -12864,6 +12914,28 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Halloween: The Game": {
+    "steam": {
+      "found": true,
+      "appid": 3219630,
+      "rating": "Mixed",
+      "pct": 68,
+      "total": 13146,
+      "release_date": "Sep 8, 2026",
+      "genres": [
+        "Action"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/e0507a9d9a1fed306c87b3576f608b852658dd1a/capsule_184x69.jpg?t=1789572547",
+      "updated_at": "2026-09-17"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "halloween-the-game",
+      "score": 68,
+      "source": "metacritic",
+      "updated_at": "2026-09-17"
+    }
+  },
   "Halo Infinite": {
     "steam": {
       "found": true,
@@ -22380,6 +22452,28 @@
     },
     "pcgw": {}
   },
+  "PUBG: BATTLEGROUNDS": {
+    "steam": {
+      "found": true,
+      "appid": 578080,
+      "rating": "Mixed",
+      "pct": 61,
+      "total": 2754865,
+      "release_date": "Dec 21, 2017",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer",
+        "Free To Play"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/14f42ab797699a9c9f137fda66582d8776da4330/capsule_184x69.jpg?t=1786493086",
+      "updated_at": "2026-09-17"
+    },
+    "metacritic": {
+      "found": false,
+      "updated_at": "2026-09-17"
+    }
+  },
   "Pumpkin Jack": {
     "steam": {
       "found": true,
@@ -27863,6 +27957,31 @@
     },
     "pcgw": {}
   },
+  "Subliminal ": {
+    "steam": {
+      "found": true,
+      "appid": 2300840,
+      "rating": "Mostly Positive",
+      "pct": 75,
+      "total": 3768,
+      "release_date": "Mar 31, 2026",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2300840/b6328a02feb765d77247344516b9d11b4b5299cd/capsule_184x69.jpg?t=1781229378",
+      "updated_at": "2026-09-17"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "subliminal",
+      "source": "metacritic",
+      "updated_at": "2026-09-17"
+    }
+  },
   "Subnautica 2": {
     "steam": {
       "found": true,
@@ -32810,6 +32929,31 @@
       "fsr_version": "FSR 3.1",
       "xess_version": "XeSS 1.2",
       "updated_at": "2026-05-01"
+    }
+  },
+  "WARDOGS": {
+    "steam": {
+      "found": true,
+      "appid": 1867240,
+      "rating": "Very Positive",
+      "pct": 81,
+      "total": 63262,
+      "release_date": "Sep 10, 2026",
+      "genres": [
+        "Action",
+        "Indie",
+        "Massively Multiplayer",
+        "Simulation",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/11d3bb7607c5568c61108fe70e7c670b4940269e/capsule_184x69.jpg?t=1789503126",
+      "updated_at": "2026-09-17"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "wardogs",
+      "source": "metacritic",
+      "updated_at": "2026-09-17"
     }
   },
   "Warframe": {
