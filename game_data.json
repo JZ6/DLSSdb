@@ -980,6 +980,29 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Among The Trolls": {
+    "steam": {
+      "found": true,
+      "appid": 1675260,
+      "rating": "Mixed",
+      "pct": 48,
+      "total": 23,
+      "release_date": "Oct 14, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675260/c5330f1a59469d521953cf821a9efeebc6fab2f7/capsule_184x69.jpg?t=1791994896",
+      "updated_at": "2026-10-15"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "among-the-trolls",
+      "source": "metacritic",
+      "updated_at": "2026-10-15"
+    }
+  },
   "Anatomy Of Fear": {
     "steam": {
       "found": true,
@@ -3930,6 +3953,24 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Call of Duty: Modern Warfare 4": {
+    "steam": {
+      "found": true,
+      "appid": 4435490,
+      "release_date": "Oct 22, 2026",
+      "genres": [
+        "Action"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/50d218e79ead2650bc6b7360995cc8dd3fbe2c29/capsule_184x69.jpg?t=1791824484",
+      "updated_at": "2026-10-15"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "call-of-duty-modern-warfare-4",
+      "source": "metacritic",
+      "updated_at": "2026-10-15"
+    }
+  },
   "Call of Duty: Modern Warfare II": {
     "steam": {
       "found": true,
@@ -4828,6 +4869,28 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Clive Barker’s Hellraiser: Revival": {
+    "steam": {
+      "found": true,
+      "appid": 1551980,
+      "rating": "Very Positive",
+      "pct": 94,
+      "total": 5814,
+      "release_date": "Oct 8, 2026",
+      "genres": [
+        "Action"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/c8642c8c08272cb8646e851aa464a2e627438d19/capsule_184x69.jpg?t=1791462446",
+      "updated_at": "2026-10-15"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "clive-barkers-hellraiser-revival",
+      "score": 69,
+      "source": "metacritic",
+      "updated_at": "2026-10-15"
+    }
+  },
   "Code Alkonost: Awakening of Evil": {
     "steam": {
       "found": true,
@@ -5347,6 +5410,32 @@
       "page": "Crossout",
       "fsr_version": "FSR 1",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Crossout Remastered": {
+    "steam": {
+      "found": true,
+      "appid": 386180,
+      "rating": "Mostly Positive",
+      "pct": 75,
+      "total": 70134,
+      "release_date": "Jul 26, 2017",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer",
+        "Racing",
+        "Free To Play"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386180/260dc24db400fea0b8d088b1acb82097ecbd06d2/capsule_184x69.jpg?t=1790873569",
+      "updated_at": "2026-10-15"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "crossout",
+      "score": 68,
+      "source": "metacritic",
+      "updated_at": "2026-10-15"
     }
   },
   "Crown Simulator - Royal Life Simulation": {
@@ -8281,6 +8370,30 @@
       "fsr_version": "FSR 2.2",
       "xess_version": "XeSS 2",
       "updated_at": "2026-05-01"
+    }
+  },
+  "DYNASTY WARRIORS 3: Complete Edition Remastered": {
+    "steam": {
+      "found": true,
+      "appid": 3841510,
+      "rating": "Very Positive",
+      "pct": 84,
+      "total": 2132,
+      "release_date": "Sep 30, 2026",
+      "genres": [
+        "Action",
+        "RPG",
+        "Strategy"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841510/138dca4c3b486c7a9449388bb007c9056737d6af/capsule_184x69.jpg?t=1790817204",
+      "updated_at": "2026-10-15"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "dynasty-warriors-3-complete-edition-remastered",
+      "score": 72,
+      "source": "metacritic",
+      "updated_at": "2026-10-15"
     }
   },
   "DYNASTY WARRIORS: ORIGINS": {
@@ -11553,6 +11666,30 @@
       "found": true,
       "page": "Gangs_of_Sherwood",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Gear.Club Unlimited 3": {
+    "steam": {
+      "found": true,
+      "appid": 3659460,
+      "rating": "Mixed",
+      "pct": 42,
+      "total": 65,
+      "release_date": "Oct 8, 2026",
+      "genres": [
+        "Racing",
+        "Simulation",
+        "Sports"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3659460/82573fc7f766d3adc89fb58a5884de00e1e42b21/capsule_184x69.jpg?t=1791537766",
+      "updated_at": "2026-10-15"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "gearclub-unlimited-3",
+      "score": 65,
+      "source": "metacritic",
+      "updated_at": "2026-10-15"
     }
   },
   "Gears of War: E-Day": {
@@ -21592,6 +21729,30 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Pax Autocratica": {
+    "steam": {
+      "found": true,
+      "appid": 1067360,
+      "rating": "Very Positive",
+      "pct": 91,
+      "total": 4179,
+      "release_date": "Aug 10, 2026",
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/0e2383a66d23ea67d7b9618a3a53fa52ca5db032/capsule_184x69.jpg?t=1791531160",
+      "updated_at": "2026-10-15"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "pax-autocratica",
+      "source": "metacritic",
+      "updated_at": "2026-10-15"
+    }
+  },
   "Pax Dei": {
     "steam": {
       "found": true,
@@ -21782,6 +21943,31 @@
       "page": "Perish",
       "fsr_version": "FSR 2",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Permafrost": {
+    "steam": {
+      "found": true,
+      "appid": 2254990,
+      "rating": "Mostly Positive",
+      "pct": 73,
+      "total": 1445,
+      "release_date": "Oct 9, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG",
+        "Simulation",
+        "Early Access"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/024db5584cd87b23dd37229e049378f2d4828bdb/capsule_184x69.jpg?t=1791980722",
+      "updated_at": "2026-10-15"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "permafrost",
+      "source": "metacritic",
+      "updated_at": "2026-10-15"
     }
   },
   "PGA TOUR 2K3": {
@@ -27259,6 +27445,32 @@
       "score": 85,
       "source": "metacritic",
       "updated_at": "2026-09-03"
+    }
+  },
+  "STAR WARS: Galactic Racer": {
+    "steam": {
+      "found": true,
+      "appid": 4078430,
+      "rating": "Very Positive",
+      "pct": 86,
+      "total": 6632,
+      "release_date": "Oct 6, 2026",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Racing",
+        "Simulation",
+        "Sports"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/13ac6002a7cd1c867f8bf2f650101fe9d91ce4f9/capsule_184x69.jpg?t=1791388584",
+      "updated_at": "2026-10-15"
+    },
+    "metacritic": {
+      "found": true,
+      "slug": "star-wars-galactic-racer",
+      "score": 88,
+      "source": "metacritic",
+      "updated_at": "2026-10-15"
     }
   },
   "Starfield": {
