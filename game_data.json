@@ -2594,6 +2594,14 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Battle Teams 2": {
+    "metacritic": {
+      "found": true,
+      "slug": "battle-teams-2",
+      "source": "metacritic",
+      "updated_at": "2026-10-29"
+    }
+  },
   "Battlefield 2042": {
     "steam": {
       "found": true,
@@ -2718,6 +2726,14 @@
       "found": true,
       "page": "Battlefield_V",
       "updated_at": "2026-05-01"
+    }
+  },
+  "BeamNG.drive": {
+    "metacritic": {
+      "found": true,
+      "slug": "beamngdrive",
+      "source": "metacritic",
+      "updated_at": "2026-10-29"
     }
   },
   "Bears In Space": {
@@ -3598,6 +3614,15 @@
       "fsr_version": "FSR 2.2",
       "xess_version": "XeSS 1.1",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Broken Arrow": {
+    "metacritic": {
+      "found": true,
+      "slug": "broken-arrow",
+      "score": 80,
+      "source": "metacritic",
+      "updated_at": "2026-10-29"
     }
   },
   "Broken Pieces": {
@@ -18430,6 +18455,15 @@
       "updated_at": "2026-05-01"
     }
   },
+  "METRO 2033 Redux": {
+    "metacritic": {
+      "found": true,
+      "slug": "metro-2033-redux",
+      "score": 90,
+      "source": "metacritic",
+      "updated_at": "2026-10-29"
+    }
+  },
   "Metro Exodus": {
     "steam": {
       "found": true,
@@ -18517,6 +18551,15 @@
       "found": true,
       "page": "Metro_Exodus",
       "updated_at": "2026-05-01"
+    }
+  },
+  "METRO Last Light Redux": {
+    "metacritic": {
+      "found": true,
+      "slug": "metro-last-light-redux",
+      "score": 76,
+      "source": "metacritic",
+      "updated_at": "2026-10-29"
     }
   },
   "Microsoft Flight Simulator (2020) 40th Anniversary Edition": {
@@ -22085,6 +22128,15 @@
       "updated_at": "2026-05-01"
     }
   },
+  "Phantom Blade Zero": {
+    "metacritic": {
+      "found": true,
+      "slug": "phantom-blade-zero",
+      "score": 88,
+      "source": "metacritic",
+      "updated_at": "2026-10-29"
+    }
+  },
   "Pinball FX": {
     "steam": {
       "found": true,
@@ -22229,6 +22281,15 @@
       "page": "Planet_Coaster_2",
       "fsr_version": "FSR 3",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Planet Zoo 2": {
+    "metacritic": {
+      "found": true,
+      "slug": "planet-zoo-2",
+      "score": 84,
+      "source": "metacritic",
+      "updated_at": "2026-10-29"
     }
   },
   "PlanetSide 2": {
@@ -29472,6 +29533,14 @@
       "score": 83,
       "source": "metacritic",
       "updated_at": "2026-09-03"
+    }
+  },
+  "The Boss Gangster: Criminal Empire": {
+    "metacritic": {
+      "found": true,
+      "slug": "the-boss-gangster-criminal-empire",
+      "source": "metacritic",
+      "updated_at": "2026-10-29"
     }
   },
   "The Bus": {
