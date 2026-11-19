@@ -9409,6 +9409,14 @@
       "updated_at": "2026-05-01"
     }
   },
+  "EVE Vanguard": {
+    "metacritic": {
+      "found": true,
+      "slug": "eve-vanguard",
+      "source": "metacritic",
+      "updated_at": "2026-11-19"
+    }
+  },
   "Everspace 2": {
     "steam": {
       "found": true,
@@ -11772,6 +11780,12 @@
       "updated_at": "2026-05-01"
     }
   },
+  "GeForce 8800 GTX - 20 Years of a Legend": {
+    "metacritic": {
+      "found": false,
+      "updated_at": "2026-11-19"
+    }
+  },
   "Get Stuffed!": {
     "steam": {
       "found": true,
@@ -12737,6 +12751,14 @@
       "found": true,
       "page": "Grand_Theft_Auto:_Vice_City_–_The_Definitive_Edition",
       "updated_at": "2026-05-01"
+    }
+  },
+  "GRAVHOUNDS": {
+    "metacritic": {
+      "found": true,
+      "slug": "gravhounds",
+      "source": "metacritic",
+      "updated_at": "2026-11-19"
     }
   },
   "Gray Zone Warfare": {
@@ -14417,6 +14439,14 @@
       "page": "Hunt:_Showdown_1896",
       "fsr_version": "FSR 3.1",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Hunting Simulator 3": {
+    "metacritic": {
+      "found": true,
+      "slug": "hunting-simulator-3",
+      "source": "metacritic",
+      "updated_at": "2026-11-19"
     }
   },
   "Hydroneer": {
@@ -29058,6 +29088,15 @@
       "found": true,
       "page": "Tchia",
       "updated_at": "2026-05-01"
+    }
+  },
+  "Teardown": {
+    "metacritic": {
+      "found": true,
+      "slug": "teardown",
+      "score": 80,
+      "source": "metacritic",
+      "updated_at": "2026-11-19"
     }
   },
   "TEKKEN 8": {
